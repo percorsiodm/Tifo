@@ -6,8 +6,8 @@
 <title>Tifo</title>
 <meta name="theme-color" content="#111318">
 <link rel="manifest" href="manifest.json">
-<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="icons/icon.svg">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <style>
@@ -61,6 +61,22 @@
   details > summary::-webkit-details-marker { display: none; }
   details > summary::after { content: " ▾"; color: var(--muted); }
   details[open] > summary::after { content: " ▴"; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 4px; }
+  .tile { background: linear-gradient(160deg, color-mix(in srgb, var(--c2) 35%, var(--card)), var(--card) 70%);
+          border: 1px solid var(--line); border-radius: 18px; padding: 16px 10px 14px; color: var(--text);
+          display: grid; justify-items: center; gap: 6px; font: inherit; cursor: pointer; min-height: 190px; align-content: start; }
+  .tile:active { transform: scale(.97); }
+  .tname { font-weight: 800; font-size: 15px; text-align: center; }
+  .tstat { font-size: 12px; color: var(--muted); text-align: center; line-height: 1.35; }
+  .crest { display: inline-grid; place-items: center; flex: none; border-radius: 50%; position: relative;
+           background: linear-gradient(135deg, var(--c1), var(--c2)); overflow: hidden; }
+  .crest:has(img) { background: none; border-radius: 0; overflow: visible; }
+  .crest img { width: 100%; height: 100%; object-fit: contain; }
+  .crest:not(:has(img))::after { content: attr(data-abbr); color: #fff; font-weight: 900; }
+  .crest.big { width: 96px; height: 96px; font-size: 40px; }
+  .crest.mid { width: 52px; height: 52px; font-size: 22px; }
+  nav .crest.ic { width: 28px; height: 28px; font-size: 13px; }
+  nav button.on .crest.ic { transform: scale(1.15); }
   nav { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; display: grid; grid-template-columns: repeat(5, 1fr);
         background: var(--card); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom); }
   nav button { background: none; border: 0; color: var(--muted); padding: 8px 2px 10px; font-size: 11px; display: grid; justify-items: center; gap: 3px; }

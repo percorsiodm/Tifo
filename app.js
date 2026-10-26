@@ -1,16 +1,16 @@
 // ===== Configurazione squadre =====
 // espn: id squadra su ESPN (solo calcio). links: scorciatoie mostrate nella pagina squadra.
 const TEAMS = [
-  { key: "roma", name: "AS Roma", short: "Roma", sport: "Calcio", espn: 104, abbr: "R",
+  { key: "roma", name: "AS Roma", short: "Roma", sport: "Calcio", espn: 104, abbr: "R", img: "AS Roma.png",
     colors: ["#f0bc42", "#8e1f2f"],
     links: [["Sito ufficiale", "https://www.asroma.com/it"], ["Classifica Serie A", "https://www.espn.com/soccer/standings/_/league/ita.1"]] },
-  { key: "boca", name: "Boca Juniors", short: "Boca", sport: "Calcio", espn: 5, abbr: "B",
+  { key: "boca", name: "Boca Juniors", short: "Boca", sport: "Calcio", espn: 5, abbr: "B", img: "BOCA.png",
     colors: ["#ffd100", "#0033a0"],
     links: [["Sito ufficiale", "https://www.bocajuniors.com.ar"], ["Classifica LPF", "https://www.espn.com/soccer/standings/_/league/arg.1"]] },
-  { key: "fortitudo", name: "Fortitudo Bologna", short: "Fortitudo", sport: "Basket", abbr: "F",
+  { key: "fortitudo", name: "Fortitudo Bologna", short: "Fortitudo", sport: "Basket", abbr: "F", img: "Fortitudo Bologna.png",
     colors: ["#9cc3ff", "#1d4f9c"],
     links: [["Diretta LNP", "https://lnppass.legapallacanestro.com/"], ["Lega Nazionale Pallacanestro", "https://www.legapallacanestro.com"]] },
-  { key: "juvecaserta", name: "Juvecaserta", short: "Caserta", sport: "Basket", abbr: "J",
+  { key: "juvecaserta", name: "Juvecaserta", short: "Caserta", sport: "Basket", abbr: "J", img: "Juvecaserta.png",
     colors: ["#dddddd", "#2a2a2a"],
     links: [["Diretta LNP", "https://lnppass.legapallacanestro.com/"], ["Lega Nazionale Pallacanestro", "https://www.legapallacanestro.com"]] },
 ];
@@ -33,6 +33,10 @@ const ago = (d) => {
   return fmt(d, { day: "numeric", month: "short" });
 };
 const teamBy = (k) => TEAMS.find((t) => t.key === k);
+// Stemma della squadra (file caricato nel repo); se manca mostra l'iniziale
+const crest = (t, cls = "") => `<span class="crest ${cls}" data-abbr="${esc(t.abbr)}"
+  style="--c1:${t.colors[0]};--c2:${t.colors[1]}"><img src="${encodeURIComponent(t.img)}" alt="${esc(t.name)}"
+  onerror="this.remove()"></span>`;
 const getJSON = async (url) => {
   const r = await fetch(url, { cache: "no-store" });
   if (!r.ok) throw new Error(r.status);
@@ -220,24 +224,35 @@ function newsList(items, showTeam) {
     <div class="src">${showTeam ? `<span class="tag">${esc(teamBy(n.team).short)}</span> ` : ""}${esc(n.source)} · ${ago(n.date)}${n.lang === "es" ? " · 🇦🇷" : ""}</div></a>`).join("");
 }
 
+function teamStatus(t) {
+  const ms = state.matches[t.key] || [];
+  const now = Date.now();
+  const opp = (m) => m[m.mine === "home" ? "away" : "home"].name;
+  const live = ms.find((m) => m.state === "in" || m.playing);
+  if (live) return `<span class="live-badge">● LIVE</span> ${live.state === "in" ? `<b>${esc(live.home.score)}-${esc(live.away.score)}</b>` : ""} vs ${esc(opp(live))}`;
+  const last = [...ms].reverse().find((m) => m.state === "post");
+  if (last && now - Date.parse(last.date) < 36 * 3600000) {
+    const me = last[last.mine], o = last[last.mine === "home" ? "away" : "home"];
+    const r = +me.score > +o.score ? "V" : +me.score === +o.score ? "N" : "P";
+    return `<span class="res ${r}" style="display:inline-grid;width:18px;height:18px;font-size:11px">${r}</span> <b>${esc(me.score)}-${esc(o.score)}</b> vs ${esc(o.name)}`;
+  }
+  const next = ms.find((m) => m.state === "pre" && Date.parse(m.date) > now - 3 * 3600000);
+  if (next) return `${fmt(next.date, { weekday: "short", day: "numeric", hour: "2-digit", minute: "2-digit" })}<br>vs ${esc(opp(next))}`;
+  return ms.length ? "" : "Caricamento…";
+}
+
 function viewHome() {
   const now = Date.now();
-  const live = [], next = [];
-  for (const t of TEAMS) {
-    const ms = state.matches[t.key] || [];
-    ms.filter((m) => m.state === "in" || m.playing).forEach((m) => live.push([t, m]));
-    const n = ms.find((m) => m.state === "pre" && !m.playing && Date.parse(m.date) > now - 3 * 3600000);
-    if (n) next.push([t, n]);
-    const last = [...ms].reverse().find((m) => m.state === "post");
-    if (last && now - Date.parse(last.date) < 36 * 3600000) live.push([t, last]);
-  }
-  next.sort((a, b) => Date.parse(a[1].date) - Date.parse(b[1].date));
+  const live = [];
+  for (const t of TEAMS)
+    (state.matches[t.key] || []).filter((m) => m.state === "in" || m.playing).forEach((m) => live.push([t, m]));
   const allNews = Object.entries(state.news?.teams || {})
     .flatMap(([team, arr]) => arr.map((n) => ({ ...n, team })))
-    .sort((a, b) => Date.parse(b.date) - Date.parse(a.date)).slice(0, 20);
+    .sort((a, b) => Date.parse(b.date) - Date.parse(a.date)).slice(0, 12);
   return `
-    ${live.length ? `<h2>In corso e appena finite</h2>${live.map(([t, m]) => matchCard(m, t)).join("")}` : ""}
-    <h2>Prossime partite</h2>${next.length ? next.map(([t, m]) => matchCard(m, t)).join("") : `<div class="empty">Caricamento…</div>`}
+    <div class="grid">${TEAMS.map((t) => `<button class="tile" data-view="${t.key}" style="--c1:${t.colors[0]};--c2:${t.colors[1]}">
+      ${crest(t, "big")}<div class="tname">${esc(t.name)}</div><div class="tstat">${teamStatus(t)}</div></button>`).join("")}</div>
+    ${live.length ? `<h2>In diretta</h2>${live.map(([t, m]) => matchCard(m, t)).join("")}` : ""}
     <h2>Ultime notizie</h2>${newsList(allNews, true)}`;
 }
 
@@ -302,12 +317,9 @@ function viewTeam(t) {
   const results = ms.filter((m) => m.state === "post").reverse().slice(0, 10);
   const fixtures = ms.filter((m) => m.state === "pre" && !m.playing).slice(1, 11);
   const bk = state.basket[t.key];
-  const logo = t.espn ? `https://a.espncdn.com/i/teamlogos/soccer/500/${t.espn}.png` : bk?.badge;
-  const head = `<div class="team-head">${logo
-      ? `<img src="${esc(logo)}" alt="" onerror="this.style.visibility='hidden'">`
-      : `<div class="dot">${t.abbr}</div>`}
+  const head = `<div class="team-head">${crest(t, "mid")}
     <div><h3>${esc(t.name)}</h3><p>${t.sport}${bk?.league ? " · " + esc(bk.league) : ""}</p></div></div>
-    <div class="seg"><button data-tab="partite" class="${state.tab === "partite" ? "on" : ""}">Partite</button>
+    <div class="seg"><button data-tab="partite" class="${state.tab === "partite" ? "on" : ""}">Live e partite</button>
     <button data-tab="competizioni" class="${state.tab === "competizioni" ? "on" : ""}">Competizioni</button>
     <button data-tab="notizie" class="${state.tab === "notizie" ? "on" : ""}">Notizie</button></div>`;
   const links = `<h2>Link utili</h2>${t.links.map(([l, u]) => `<a class="btn" href="${u}" target="_blank" rel="noopener">${esc(l)}</a>`).join("")}`;
@@ -330,9 +342,10 @@ function render() {
   document.documentElement.style.setProperty("--accent", c1);
   document.documentElement.style.setProperty("--accent2", c2);
   $("#view").innerHTML = t ? viewTeam(t) : viewHome();
-  $("#nav").innerHTML = [{ key: "home", short: "Oggi", abbr: "★", colors: ["#e8b23a", "#444"] }, ...TEAMS]
-    .map((x) => `<button data-view="${x.key}" class="${state.view === x.key ? "on" : ""}">
-      <span class="ic" style="background:linear-gradient(135deg,${x.colors[0]},${x.colors[1]})">${x.abbr}</span>${esc(x.short)}</button>`).join("");
+  $("#nav").innerHTML = `<button data-view="home" class="${state.view === "home" ? "on" : ""}">
+      <span class="ic" style="background:linear-gradient(135deg,#e8b23a,#444)">⌂</span>Home</button>`
+    + TEAMS.map((x) => `<button data-view="${x.key}" class="${state.view === x.key ? "on" : ""}">
+      ${crest(x, "ic")}${esc(x.short)}</button>`).join("");
 }
 
 // ===== Eventi =====
