@@ -1,5 +1,5 @@
 // Service worker: app installabile e utilizzabile anche offline (ultimi dati visti)
-const CACHE = "tifo-v11";
+const CACHE = "tifo-v12";
 const SHELL = ["./", "index.html", "app.js", "manifest.json", "icon.svg"];
 
 self.addEventListener("install", (e) => {
@@ -27,4 +27,22 @@ self.addEventListener("fetch", (e) => {
       })
       .catch(() => caches.match(e.request.url.split("?")[0]))
   );
+});
+
+// ===== Notifiche push (gol, risultati) inviate dal servizio Cloudflare =====
+self.addEventListener("push", (e) => {
+  let d = {};
+  try { d = e.data.json(); } catch { d = { title: "Tifo", body: e.data?.text() || "" }; }
+  e.waitUntil(self.registration.showNotification(d.title || "Tifo", {
+    body: d.body || "", icon: "icon.svg", badge: "icon.svg", vibrate: [200, 100, 200],
+    tag: `${d.title}-${Date.now()}`, data: { url: d.url || "./" },
+  }));
+});
+
+self.addEventListener("notificationclick", (e) => {
+  e.notification.close();
+  e.waitUntil(clients.matchAll({ type: "window", includeUncontrolled: true }).then((list) => {
+    const open = list.find((c) => c.url.includes("/Tifo/"));
+    return open ? open.focus() : clients.openWindow(e.notification.data?.url || "./");
+  }));
 });

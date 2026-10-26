@@ -33,6 +33,10 @@
   .up b { font-weight: 700; }
   .up.is-live { border-color: var(--live); }
   #upd { display: none; }
+  #bell { order: 4; background: none; border: 1px solid var(--line); border-radius: 8px; padding: 4px 8px; font-size: 16px; cursor: pointer; }
+  #bell.on { border-color: var(--accent); }
+  #toast { position: fixed; left: 16px; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom)); z-index: 20; margin: 0 auto; max-width: 480px;
+           background: #22252d; color: var(--text); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; font-size: 14px; box-shadow: 0 6px 20px #0008; }
   @media (max-width: 760px) {
     header { flex-wrap: wrap; }
     #upcoming { order: 5; width: 100%; padding-top: 4px; }
@@ -120,9 +124,11 @@
   <h1>Tifo</h1>
   <div id="upcoming"></div>
   <span id="upd"></span>
+  <button id="bell" aria-label="Notifiche">🔕</button>
   <button id="refresh" aria-label="Aggiorna">↻</button>
 </header>
 <main id="view"></main>
+<div id="toast" hidden></div>
 <script src="app.js"></script>
 </body>
 </html>

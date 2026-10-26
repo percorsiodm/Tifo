@@ -432,6 +432,54 @@ document.addEventListener("visibilitychange", () => { if (!document.hidden) load
 if (teamBy(location.hash.slice(1))) state.view = location.hash.slice(1);
 history.replaceState({ view: state.view, sub: null }, "");
 
+// ===== Notifiche push: pulsante 🔔 =====
+const PUSH_API = "https://tifo-notifiche.mimmo-asci.workers.dev";
+const keyBytes = (b64) => Uint8Array.from(atob(b64.replace(/-/g, "+").replace(/_/g, "/") + "===".slice((b64.length + 3) % 4)), (c) => c.charCodeAt(0));
+
+async function pushState() {
+  if (!("serviceWorker" in navigator) || !("PushManager" in window)) return "unsupported";
+  if (Notification.permission === "denied") return "denied";
+  const reg = await navigator.serviceWorker.ready;
+  return (await reg.pushManager.getSubscription()) ? "on" : "off";
+}
+
+async function updateBell() {
+  const st = await pushState();
+  const b = $("#bell");
+  b.textContent = st === "on" ? "🔔" : "🔕";
+  b.title = { on: "Notifiche attive (tocca per disattivare)", off: "Attiva le notifiche", denied: "Notifiche bloccate nelle impostazioni del telefono", unsupported: "Notifiche non supportate: aggiungi Tifo alla schermata Home" }[st];
+  b.classList.toggle("on", st === "on");
+}
+
+async function toggleBell() {
+  const st = await pushState();
+  if (st === "unsupported") return alertMsg("Per le notifiche apri Tifo dall'icona sulla schermata Home.");
+  if (st === "denied") return alertMsg("Le notifiche sono bloccate: sbloccale nelle impostazioni del telefono (App → Tifo/Chrome → Notifiche).");
+  const reg = await navigator.serviceWorker.ready;
+  try {
+    if (st === "on") {
+      const sub = await reg.pushManager.getSubscription();
+      await fetch(`${PUSH_API}/subscribe`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ sub, remove: true }) });
+      await sub.unsubscribe();
+      alertMsg("Notifiche disattivate.");
+    } else {
+      if ((await Notification.requestPermission()) !== "granted") return updateBell();
+      const { key } = await getJSON(`${PUSH_API}/vapid`);
+      const sub = await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: keyBytes(key) });
+      await fetch(`${PUSH_API}/subscribe`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ sub: sub.toJSON() }) });
+      alertMsg("Notifiche attivate! Tra pochi secondi arriva una notifica di conferma.");
+    }
+  } catch (e) { alertMsg("Non sono riuscito ad attivare le notifiche: " + e.message); }
+  updateBell();
+}
+
+function alertMsg(t) {
+  const el = $("#toast"); el.textContent = t; el.hidden = false;
+  clearTimeout(alertMsg.t); alertMsg.t = setTimeout(() => (el.hidden = true), 4000);
+}
+
+$("#bell").addEventListener("click", toggleBell);
+
 render();
 loadAll();
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").then(updateBell);
