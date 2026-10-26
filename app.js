@@ -293,8 +293,11 @@ function viewMatch(t, id) {
   let body = "";
   if (m.basket) {
     body += m.stats.length ? `<h2>Statistiche</h2><div class="card">${statRows(m.stats)}</div>` : "";
-    body += `<div class="card empty">Il tabellino completo, giocatore per giocatore, del basket è disponibile sul sito ufficiale della Lega.</div>
-      <a class="btn" href="${LNP_LIVE}" target="_blank" rel="noopener">Tabellino ufficiale LNP ›</a>`;
+    // Link al tabellino: calendario ufficiale Serie A2 (colonna "Tabellino") + ricerca con squadre e data
+    const q = encodeURIComponent(`${m.home.name} ${m.away.name} tabellino ${fmt(m.date, { day: "numeric", month: "long", year: "numeric" })}`);
+    body += `<div class="card empty">Il tabellino giocatore per giocatore lo trovi qui:</div>
+      <a class="btn" href="https://www.legapallacanestro.com/serie/1/calendario" target="_blank" rel="noopener">Calendario ufficiale Serie A2 (Tabellino) ›</a>
+      <a class="btn" href="https://www.google.com/search?q=${q}" target="_blank" rel="noopener">Cerca tabellino ${esc(m.home.name)}–${esc(m.away.name)} ›</a>`;
   } else {
     const d = state.details[m.id];
     if (!d) loadDetail(m);
