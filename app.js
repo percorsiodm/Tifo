@@ -175,10 +175,12 @@ async function loadBasket() {
   } catch {}
 }
 
+let loaded = false;
 async function loadAll() {
   $("#upd").textContent = "aggiorno…";
   state.comps = {};
   await Promise.allSettled([loadNews(), loadBasket(), ...TEAMS.filter((t) => t.espn).map(loadMatches)]);
+  loaded = true;
   $("#upd").textContent = "agg. " + fmt(Date.now(), { hour: "2-digit", minute: "2-digit" });
   scheduleLive();
   render();
@@ -266,7 +268,11 @@ function viewTeam(t) {
   const last = [...ms].reverse().find((m) => m.state === "post");
   const next = ms.find((m) => m.state === "pre" && !m.playing);
   const comps = [...new Set(ms.map((m) => m.comp).filter(Boolean))];
-  if (!ms.length) return head(t) + `<div class="empty">Caricamento…</div>`;
+  if (!ms.length) return head(t) + (loaded
+    ? `<div class="card empty">Calendario e risultati non ancora disponibili: si aggiornano automaticamente ogni 30 minuti.</div>
+       ${t.links.map(([l, u]) => `<a class="btn" href="${u}" target="_blank" rel="noopener">${esc(l)} ›</a>`).join("")}
+       <h2>Notizie</h2>${newsList(state.news?.teams?.[t.key])}`
+    : `<div class="empty">Caricamento…</div>`);
   return head(t)
     + (live.length ? `<h2>Live</h2>${live.map((m) => matchCard(m, t)).join("")}` : "")
     + `<h2>Ultima partita</h2>${last ? matchCard(last, t) : `<div class="empty">Nessuna partita giocata.</div>`}`
