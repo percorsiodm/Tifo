@@ -8,10 +8,10 @@ const TEAMS = [
     colors: ["#ffd100", "#0033a0"],
     links: [["Sito ufficiale", "https://www.bocajuniors.com.ar"], ["Classifica LPF", "https://www.espn.com/soccer/standings/_/league/arg.1"]] },
   { key: "fortitudo", name: "Fortitudo Bologna", short: "Fortitudo", sport: "Basket", abbr: "F", img: "Fortitudo Bologna.png",
-    colors: ["#9cc3ff", "#1d4f9c"],
+    colors: ["#9cc3ff", "#1d4f9c"], bg: ["#ffffff", "#1d4f9c"],
     links: [["Diretta LNP", "https://lnppass.legapallacanestro.com/"], ["Lega Nazionale Pallacanestro", "https://www.legapallacanestro.com"]] },
   { key: "juvecaserta", name: "Juvecaserta", short: "Caserta", sport: "Basket", abbr: "J", img: "Juvecaserta.png",
-    colors: ["#dddddd", "#2a2a2a"],
+    colors: ["#dddddd", "#2a2a2a"], bg: ["#f2f2f2", "#111111"],
     links: [["Diretta LNP", "https://lnppass.legapallacanestro.com/"], ["Lega Nazionale Pallacanestro", "https://www.legapallacanestro.com"]] },
 ];
 
@@ -261,24 +261,25 @@ function viewHome() {
       ${crest(t, "big")}<button class="go" data-view="${t.key}">GO</button></div>`).join("")}</div>`;
 }
 
-// ----- PAGINA SQUADRA: live, ultima, prossima, notizie -----
+// ----- PAGINA SQUADRA: live, ultima partita, notizie, competizioni -----
 function viewTeam(t) {
   const ms = state.matches[t.key] || [];
-  const live = ms.filter((m) => m.state === "in" || m.playing);
-  const last = [...ms].reverse().find((m) => m.state === "post");
-  const next = ms.find((m) => m.state === "pre" && !m.playing);
-  const comps = [...new Set(ms.map((m) => m.comp).filter(Boolean))];
   if (!ms.length) return head(t) + (loaded
     ? `<div class="card empty">Calendario e risultati non ancora disponibili: si aggiornano automaticamente ogni 30 minuti.</div>
        ${t.links.map(([l, u]) => `<a class="btn" href="${u}" target="_blank" rel="noopener">${esc(l)} ›</a>`).join("")}
        <h2>Notizie</h2>${newsList(state.news?.teams?.[t.key])}`
     : `<div class="empty">Caricamento…</div>`);
+  const live = ms.filter((m) => m.state === "in" || m.playing);
+  const last = [...ms].reverse().find((m) => m.state === "post");
+  const next = ms.find((m) => m.state === "pre" && !m.playing);
+  const comps = [...new Set(ms.map((m) => m.comp).filter(Boolean))];
   return head(t)
-    + (live.length ? `<h2>Live</h2>${live.map((m) => matchCard(m, t)).join("")}` : "")
-    + `<h2>Ultima partita</h2>${last ? matchCard(last, t) : `<div class="empty">Nessuna partita giocata.</div>`}`
-    + `<h2>Prossima partita</h2>${next ? matchCard(next, t) : `<div class="empty">Nessuna partita in programma.</div>`}`
-    + (comps.length ? `<h2>Competizioni</h2><div>${comps.map((k) => compChip(ms.find((m) => m.comp === k), t)).join(" ")}</div>` : "")
-    + `<h2>Notizie</h2>${newsList(state.news?.teams?.[t.key])}`;
+    + `<h2>Live</h2>${live.length ? live.map((m) => matchCard(m, t)).join("")
+        : next ? `<div class="hint">Nessuna partita in corso. Prossimo live:</div>${matchCard(next, t)}`
+        : `<div class="card empty">Nessuna partita in corso.</div>`}`
+    + `<h2>Ultima partita</h2>${last ? matchCard(last, t) : `<div class="card empty">Nessuna partita giocata.</div>`}`
+    + `<h2>Notizie</h2>${newsList((state.news?.teams?.[t.key] || []).slice(0, 10))}`
+    + (comps.length ? `<h2>Competizioni</h2><div class="card">${comps.map((k) => compChip(ms.find((m) => m.comp === k), t)).join(" ")}</div>` : "");
 }
 
 function head(t, title) {
@@ -372,18 +373,40 @@ function viewComp(t, k) {
     + (fix.length ? `<details class="card"><summary><b>Calendario</b> · ${fix.length}</summary>${fix.slice(0, 20).map(fixtureRow).join("")}</details>` : "");
 }
 
+// Prossimo impegno (o live) di ogni squadra, in ordine di orario
+function upcomingHtml() {
+  const now = Date.now();
+  const items = TEAMS.map((t) => {
+    const ms = state.matches[t.key] || [];
+    const m = ms.find((x) => x.state === "in" || x.playing)
+      || ms.find((x) => x.state === "pre" && Date.parse(x.date) > now - 3 * 3600000);
+    return m && { t, m };
+  }).filter(Boolean).sort((a, b) => Date.parse(a.m.date) - Date.parse(b.m.date));
+  return items.map(({ t, m }) => {
+    const opp = m[m.mine === "home" ? "away" : "home"].name;
+    const live = m.state === "in" || m.playing;
+    const time = live ? `<span class="live-badge">● LIVE${m.state === "in" ? ` ${esc(m.home.score)}-${esc(m.away.score)}` : ""}</span>`
+      : fmt(m.date, { weekday: "short", day: "numeric", hour: "2-digit", minute: "2-digit" });
+    return `<button class="up ${live ? "is-live" : ""}" data-match="${esc(m.id)}" data-team="${t.key}">
+      ${crest(t, "ic")}<span><b>${time}</b><br>vs ${esc(opp)}</span></button>`;
+  }).join("");
+}
+
 function render() {
   const t = teamBy(state.view);
   const [c1, c2] = t?.colors || ["#e8b23a", "#8e1f2f"];
-  document.documentElement.style.setProperty("--accent", c1);
-  document.documentElement.style.setProperty("--accent2", c2);
+  const [b1, b2] = t?.bg || t?.colors || [];
+  const root = document.documentElement.style;
+  root.setProperty("--accent", c1);
+  root.setProperty("--accent2", c2);
+  document.body.classList.toggle("team-bg", !!t);
+  if (t) { root.setProperty("--bg1", b1); root.setProperty("--bg2", b2); }
   $("#back").hidden = !t;
+  $("#upcoming").innerHTML = upcomingHtml();
   $("#view").innerHTML = !t ? viewHome()
     : state.sub?.type === "match" ? viewMatch(t, state.sub.id)
     : state.sub?.type === "comp" ? viewComp(t, state.sub.key)
     : viewTeam(t);
-  $("#nav").innerHTML = `<button data-view="home" class="${!t ? "on" : ""}"><span class="ic home">⌂</span>Home</button>`
-    + TEAMS.map((x) => `<button data-view="${x.key}" class="${state.view === x.key ? "on" : ""}">${crest(x, "ic")}${esc(x.short)}</button>`).join("");
 }
 
 // ===== Navigazione (con tasto indietro del telefono) =====

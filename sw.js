@@ -1,5 +1,5 @@
 // Service worker: app installabile e utilizzabile anche offline (ultimi dati visti)
-const CACHE = "tifo-v9";
+const CACHE = "tifo-v10";
 const SHELL = ["./", "index.html", "app.js", "manifest.json", "icon.svg"];
 
 self.addEventListener("install", (e) => {
