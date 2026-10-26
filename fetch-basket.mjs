@@ -65,8 +65,17 @@ for (const [key, id] of Object.entries(TEAMS)) {
   events = [...events, ...last, ...next];
 
   const byId = new Map(events.map((e) => [e.idEvent, toMatch(e)]));
-  out.teams[key] = { id, league: team.strLeague || "", badge: team.strBadge || "",
-    matches: [...byId.values()].sort((a, b) => Date.parse(a.date) - Date.parse(b.date)) };
+  const matches = [...byId.values()].sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
+
+  // Statistiche di squadra delle ultime 3 partite giocate (se la fonte le fornisce)
+  for (const m of matches.filter((x) => x.homeScore !== "").slice(-3)) {
+    const st = (await api(`lookupeventstats.php?id=${m.id}`)).eventstats || [];
+    m.stats = st.map((x) => ({ label: x.strStat, home: String(x.intHome ?? ""), away: String(x.intAway ?? "") }))
+      .filter((x) => x.label);
+    await sleep(300);
+  }
+
+  out.teams[key] = { id, league: team.strLeague || "", badge: team.strBadge || "", matches };
   console.log(`${key}: ${out.teams[key].matches.length} partite`);
 
   // 3) Classifica
