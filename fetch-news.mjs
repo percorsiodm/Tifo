@@ -4,18 +4,27 @@ import { writeFile, readFile, mkdir } from "node:fs/promises";
 
 const FEEDS = {
   roma: [
-    { q: '"AS Roma" OR "Roma calcio" OR giallorossi', hl: "it", gl: "IT" },
+    { q: '"AS Roma" OR "Roma calcio" OR "la Roma"', hl: "it", gl: "IT" },
   ],
   boca: [
     { q: '"Boca Juniors"', hl: "it", gl: "IT" },
-    { q: '"Boca Juniors"', hl: "es-419", gl: "AR" },
+    { q: '"Boca Juniors" OR "Boca"', hl: "es-419", gl: "AR" },
   ],
   fortitudo: [
     { q: '"Fortitudo Bologna" OR "Fortitudo basket" OR "Flats Service Fortitudo"', hl: "it", gl: "IT" },
   ],
   juvecaserta: [
-    { q: 'Juvecaserta OR "Juve Caserta" basket', hl: "it", gl: "IT" },
+    { q: 'Juvecaserta OR "Juve Caserta" OR "Paperdi Caserta" basket', hl: "it", gl: "IT" },
   ],
+};
+
+// Filtro sul titolo: la notizia passa solo se nomina davvero la squadra (must)
+// e non riguarda un'altra squadra con nome simile (not).
+const FILTERS = {
+  roma: { must: /\b(roma|giallorossi?)\b/i, not: /benevento|lecce|catanzaro|siracusa|roma city|atletico roma|lupa roma|roma capitale|comune di roma|sindaco|metro|atac|cotral|roma femminile|primavera|rugby|volley|basket|pallanuoto/i, require: /\broma\b/i },
+  boca: { must: /\bboca\b/i, not: /boca raton|basket|básquet|basquet|vóley|voley|futsal|boca unidos/i },
+  fortitudo: { must: /fortitudo/i, not: /agrigento|calcio|pallavolo|volley|baseball/i },
+  juvecaserta: { must: /juvecaserta|juve caserta|caserta/i, not: /casertana|calcio|volley|pallavolo/i },
 };
 
 const MAX_PER_TEAM = 30;
@@ -70,6 +79,11 @@ for (const [team, feeds] of Object.entries(FEEDS)) {
   const seen = new Set();
   out.teams[team] = all
     .filter((n) => n.title && Date.parse(n.date) > cutoff)
+    .filter((n) => {
+      const f = FILTERS[team];
+      if (!f) return true;
+      return f.must.test(n.title) && !f.not.test(n.title) && (!f.require || f.require.test(n.title));
+    })
     .sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
     .filter((n) => !seen.has(norm(n.title)) && seen.add(norm(n.title)))
     .slice(0, MAX_PER_TEAM);
