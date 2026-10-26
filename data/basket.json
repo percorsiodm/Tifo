@@ -1,0 +1,159 @@
+{
+ "updated": "2026-10-26T10:24:38.105Z",
+ "season": "2026-2027",
+ "teams": {
+  "fortitudo": {
+   "id": "137319",
+   "league": "Italian Serie A2",
+   "badge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
+   "matches": [
+    {
+     "id": "2584811",
+     "date": "2026-09-27T15:00:00.000Z",
+     "round": "1",
+     "league": "Italian Serie A2",
+     "status": "FT",
+     "homeId": "137319",
+     "awayId": "154312",
+     "home": "Fortitudo Pallacanestro Bologna",
+     "away": "Pallacanestro Ruvo di Puglia",
+     "homeScore": "92",
+     "awayScore": "70",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/pa0vb61767888111.png"
+    },
+    {
+     "id": "2584824",
+     "date": "2026-10-04T16:00:00.000Z",
+     "round": "2",
+     "league": "Italian Serie A2",
+     "status": "FT",
+     "homeId": "137311",
+     "awayId": "137319",
+     "home": "JuveCaserta Basket",
+     "away": "Fortitudo Pallacanestro Bologna",
+     "homeScore": "81",
+     "awayScore": "83",
+     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png"
+    },
+    {
+     "id": "2584832",
+     "date": "2026-10-11T18:45:00.000Z",
+     "round": "3",
+     "league": "Italian Serie A2",
+     "status": "FT",
+     "homeId": "137319",
+     "awayId": "148282",
+     "home": "Fortitudo Pallacanestro Bologna",
+     "away": "Rimini",
+     "homeScore": "78",
+     "awayScore": "66",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/66421z1719922353.png"
+    },
+    {
+     "id": "2589671",
+     "date": "2026-10-17T18:45:00.000Z",
+     "round": "4",
+     "league": "Italian Serie A2",
+     "status": "FT",
+     "homeId": "137319",
+     "awayId": "156900",
+     "home": "Fortitudo Pallacanestro Bologna",
+     "away": "Montecatini",
+     "homeScore": "91",
+     "awayScore": "69",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
+     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/nv1h9i1792763623.png"
+    },
+    {
+     "id": "2584852",
+     "date": "2026-10-21T18:45:00.000Z",
+     "round": "5",
+     "league": "Italian Serie A2",
+     "status": "FT",
+     "homeId": "148700",
+     "awayId": "137319",
+     "home": "Libertas Livorno",
+     "away": "Fortitudo Pallacanestro Bologna",
+     "homeScore": "85",
+     "awayScore": "59",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/kz9fjq1720344886.png",
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png"
+    },
+    {
+     "id": "2584856",
+     "date": "2026-10-25T17:00:00.000Z",
+     "round": "6",
+     "league": "Italian Serie A2",
+     "status": "FT",
+     "homeId": "137319",
+     "awayId": "147793",
+     "home": "Fortitudo Pallacanestro Bologna",
+     "away": "Vigevano",
+     "homeScore": "85",
+     "awayScore": "93",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/t2y2wk1696608892.png"
+    },
+    {
+     "id": "2584862",
+     "date": "2026-11-01T17:00:00.000Z",
+     "round": "7",
+     "league": "Italian Serie A2",
+     "status": "NS",
+     "homeId": "135385",
+     "awayId": "137319",
+     "home": "Pistoia Basket",
+     "away": "Fortitudo Pallacanestro Bologna",
+     "homeScore": "",
+     "awayScore": "",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/zy7bpu1571681090.png",
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png"
+    },
+    {
+     "id": "2584876",
+     "date": "2026-11-07T19:30:00.000Z",
+     "round": "8",
+     "league": "Italian Serie A2",
+     "status": "NS",
+     "homeId": "137319",
+     "awayId": "147248",
+     "home": "Fortitudo Pallacanestro Bologna",
+     "away": "Urania Milano",
+     "homeScore": "",
+     "awayScore": "",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/ficlhd1677610118.png"
+    },
+    {
+     "id": "2584887",
+     "date": "2026-11-11T19:30:00.000Z",
+     "round": "9",
+     "league": "Italian Serie A2",
+     "status": "NS",
+     "homeId": "147792",
+     "awayId": "137319",
+     "home": "Basket Torino",
+     "away": "Fortitudo Pallacanestro Bologna",
+     "homeScore": "",
+     "awayScore": "",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/i1fu6t1696586345.png",
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png"
+    }
+   ],
+   "leagueId": "5377"
+  },
+  "juvecaserta": {
+   "id": "137311",
+   "league": "",
+   "badge": "",
+   "matches": [],
+   "leagueId": ""
+  }
+ },
+ "tables": {
+  "5377": []
+ }
+}
