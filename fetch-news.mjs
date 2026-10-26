@@ -3,28 +3,38 @@
 import { writeFile, readFile, mkdir } from "node:fs/promises";
 
 const FEEDS = {
+  // Solo la frase esatta "AS Roma": niente "giallorossi" (Lecce, Catanzaro, Benevento…)
   roma: [
-    { q: '"AS Roma" OR "Roma calcio" OR "la Roma"', hl: "it", gl: "IT" },
+    { q: '"AS Roma"', hl: "it", gl: "IT" },
   ],
   boca: [
     { q: '"Boca Juniors"', hl: "it", gl: "IT" },
-    { q: '"Boca Juniors" OR "Boca"', hl: "es-419", gl: "AR" },
+    { q: '"Boca Juniors"', hl: "es-419", gl: "AR" },
   ],
+  // Solo la frase esatta "Fortitudo Bologna" (esistono tante Fortitudo)
   fortitudo: [
-    { q: '"Fortitudo Bologna" OR "Fortitudo basket" OR "Flats Service Fortitudo"', hl: "it", gl: "IT" },
+    { q: '"Fortitudo Bologna" basket', hl: "it", gl: "IT" },
   ],
   juvecaserta: [
-    { q: 'Juvecaserta OR "Juve Caserta" OR "Paperdi Caserta" basket', hl: "it", gl: "IT" },
+    { q: 'Juvecaserta OR "Juve Caserta" basket', hl: "it", gl: "IT" },
   ],
 };
 
-// Filtro sul titolo: la notizia passa solo se nomina davvero la squadra (must)
-// e non riguarda un'altra squadra con nome simile (not).
+// Altri sport e altre squadre da escludere sempre
+const OTHER = "rugby|volley|pallavolo|pallanuoto|baseball|softball|hockey|futsal|calcio a 5|calcio a cinque|femminile|women|primavera|under 1[0-9]|u1[0-9]\\b|giovanili|scherma|ginnastica|atletica|ciclismo|tennis|padel";
+
+// Filtro sul titolo: deve nominare la squadra (must) e non riguardare altro (not)
 const FILTERS = {
-  roma: { must: /\b(roma|giallorossi?)\b/i, not: /benevento|lecce|catanzaro|siracusa|roma city|atletico roma|lupa roma|roma capitale|comune di roma|sindaco|metro|atac|cotral|roma femminile|primavera|rugby|volley|basket|pallanuoto/i, require: /\broma\b/i },
-  boca: { must: /\bboca\b/i, not: /boca raton|basket|básquet|basquet|vóley|voley|futsal|boca unidos/i },
-  fortitudo: { must: /fortitudo/i, not: /agrigento|calcio|pallavolo|volley|baseball/i },
-  juvecaserta: { must: /juvecaserta|juve caserta|caserta/i, not: /casertana|calcio|volley|pallavolo/i },
+  roma: {
+    must: /\b(as roma|roma)\b/i,
+    not: new RegExp(`${OTHER}|basket|lupa roma|atletico roma|roma city|roma capitale|comune di roma|sindaco|campidoglio|metro|atac|cotral|traffico|meteo|giubileo|vaticano|papa`, "i"),
+  },
+  boca: { must: /\bboca\b/i, not: new RegExp(`${OTHER}|basket|básquet|basquet|vóley|voley|boca raton|boca unidos`, "i") },
+  fortitudo: {
+    must: /fortitudo|\bfort\b|\beffe\b/i,
+    not: new RegExp(`${OTHER}|calcio|agrigento|trento|mozzecane|roma|pomezia|messina|moncalieri|reggio|bologna 103`, "i"),
+  },
+  juvecaserta: { must: /juvecaserta|juve caserta|caserta/i, not: new RegExp(`${OTHER}|casertana|calcio`, "i") },
 };
 
 const MAX_PER_TEAM = 30;
@@ -82,7 +92,7 @@ for (const [team, feeds] of Object.entries(FEEDS)) {
     .filter((n) => {
       const f = FILTERS[team];
       if (!f) return true;
-      return f.must.test(n.title) && !f.not.test(n.title) && (!f.require || f.require.test(n.title));
+      return f.must.test(n.title) && !f.not.test(n.title);
     })
     .sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
     .filter((n) => !seen.has(norm(n.title)) && seen.add(norm(n.title)))
