@@ -1,0 +1,31 @@
+name: Aggiorna dati
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: true
+
+jobs:
+  data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node fetch-news.mjs
+      - run: node fetch-basket.mjs
+        continue-on-error: true
+      - name: Salva se ci sono novità
+        run: |
+          git config user.name "tifo-bot"
+          git config user.email "tifo-bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || (git commit -m "Dati aggiornati" && git push)
