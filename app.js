@@ -439,7 +439,7 @@ const keyBytes = (b64) => Uint8Array.from(atob(b64.replace(/-/g, "+").replace(/_
 async function pushState() {
   if (!("serviceWorker" in navigator) || !("PushManager" in window)) return "unsupported";
   if (Notification.permission === "denied") return "denied";
-  const reg = await navigator.serviceWorker.ready;
+  const reg = await swReady();
   return (await reg.pushManager.getSubscription()) ? "on" : "off";
 }
 
@@ -451,12 +451,17 @@ async function updateBell() {
   b.classList.toggle("on", st === "on");
 }
 
+// Aspetta il service worker al massimo 8 secondi
+const swReady = () => Promise.race([navigator.serviceWorker.ready,
+  new Promise((_, rej) => setTimeout(() => rej(new Error("app non pronta: chiudila e riaprila dall'icona")), 8000))]);
+
 async function toggleBell() {
-  const st = await pushState();
+  alertMsg("Un attimo…");
+  const st = await pushState().catch(() => "unsupported");
   if (st === "unsupported") return alertMsg("Per le notifiche apri Tifo dall'icona sulla schermata Home.");
   if (st === "denied") return alertMsg("Le notifiche sono bloccate: sbloccale nelle impostazioni del telefono (App → Tifo/Chrome → Notifiche).");
-  const reg = await navigator.serviceWorker.ready;
   try {
+    const reg = await swReady();
     if (st === "on") {
       const sub = await reg.pushManager.getSubscription();
       await fetch(`${PUSH_API}/subscribe`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ sub, remove: true }) });

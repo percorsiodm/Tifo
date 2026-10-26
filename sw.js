@@ -1,5 +1,5 @@
 // Service worker: app installabile e utilizzabile anche offline (ultimi dati visti)
-const CACHE = "tifo-v12";
+const CACHE = "tifo-v13";
 const SHELL = ["./", "index.html", "app.js", "manifest.json", "icon.svg"];
 
 self.addEventListener("install", (e) => {
@@ -16,7 +16,7 @@ self.addEventListener("activate", (e) => {
 self.addEventListener("fetch", (e) => {
   if (e.request.method !== "GET") return;
   e.respondWith(
-    fetch(e.request)
+    fetch(e.request, { cache: "no-cache" })
       .then((res) => {
         if (res.ok) {
           const copy = res.clone();
