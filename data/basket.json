@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T10:24:38.105Z",
+ "updated": "2026-10-26T11:41:57.243Z",
  "season": "2026-2027",
  "teams": {
   "fortitudo": {
@@ -65,7 +65,8 @@
      "homeScore": "91",
      "awayScore": "69",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/nv1h9i1792763623.png"
+     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/nv1h9i1792763623.png",
+     "stats": []
     },
     {
      "id": "2584852",
@@ -80,7 +81,8 @@
      "homeScore": "85",
      "awayScore": "59",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/kz9fjq1720344886.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
+     "stats": []
     },
     {
      "id": "2584856",
@@ -95,7 +97,8 @@
      "homeScore": "85",
      "awayScore": "93",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/t2y2wk1696608892.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/t2y2wk1696608892.png",
+     "stats": []
     },
     {
      "id": "2584862",
@@ -141,6 +144,21 @@
      "awayScore": "",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/i1fu6t1696586345.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png"
+    },
+    {
+     "id": "2584895",
+     "date": "2026-11-15T17:00:00.000Z",
+     "round": "10",
+     "league": "Italian Serie A2",
+     "status": "NS",
+     "homeId": "137319",
+     "awayId": "147790",
+     "home": "Fortitudo Pallacanestro Bologna",
+     "away": "Real Sebastiani Rieti",
+     "homeScore": "",
+     "awayScore": "",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/h5ks571696585856.png"
     }
    ],
    "leagueId": "5377"
