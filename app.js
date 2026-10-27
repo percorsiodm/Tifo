@@ -256,8 +256,16 @@ function newsList(items) {
 }
 
 // ----- HOME: solo stemmi + GO -----
+// Scritta della Home: "EL CORAZÓN LATE" con la linea del battito nei colori delle 4 squadre
+const BRAND = `<div class="brand"><h1>EL CORAZÓN LATE</h1>
+  <svg viewBox="0 0 350 40" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="beat">
+    <stop offset="0" stop-color="#f0bc42"/><stop offset=".3" stop-color="#8e1f2f"/><stop offset=".55" stop-color="#ffd100"/>
+    <stop offset=".75" stop-color="#1d4f9c"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>
+    <polyline fill="none" stroke="url(#beat)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"
+      points="0,22 120,22 132,22 140,8 150,36 160,2 170,30 178,22 230,22 238,15 246,22 350,22"/></svg></div>`;
+
 function viewHome() {
-  return `<div class="grid">${TEAMS.map((t) => `<div class="tile" style="--c1:${t.colors[0]};--c2:${t.colors[1]}">
+  return BRAND + `<div class="grid">${TEAMS.map((t) => `<div class="tile" style="--c1:${t.colors[0]};--c2:${t.colors[1]}">
       ${crest(t, "big")}<button class="go" data-view="${t.key}">GO</button></div>`).join("")}</div>`;
 }
 
@@ -389,9 +397,9 @@ function upcomingHtml() {
     const opp = m[m.mine === "home" ? "away" : "home"].name;
     const live = m.state === "in" || m.playing;
     const time = live ? `<span class="live-badge">● LIVE${m.state === "in" ? ` ${esc(m.home.score)}-${esc(m.away.score)}` : ""}</span>`
-      : fmt(m.date, { weekday: "short", day: "numeric", hour: "2-digit", minute: "2-digit" });
+      : `<span class="d">${fmt(m.date, { weekday: "short", day: "numeric" })}</span> <span class="h">${fmt(m.date, { hour: "2-digit", minute: "2-digit" })}</span>`;
     return `<button class="up ${live ? "is-live" : ""}" data-match="${esc(m.id)}" data-team="${t.key}">
-      ${crest(t, "ic")}<span><b>${time}</b><br>vs ${esc(opp)}</span></button>`;
+      ${crest(t, "ic")}<span class="up-txt"><b class="up-when">${time}</b><span class="up-opp">vs ${esc(opp)}</span></span></button>`;
   }).join("");
 }
 

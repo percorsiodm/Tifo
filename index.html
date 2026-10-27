@@ -6,6 +6,9 @@
 <title>Tifo</title>
 <meta name="theme-color" content="#111318">
 <link rel="manifest" href="manifest.json">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -26,7 +29,14 @@
     filter: blur(3px) saturate(.55) brightness(.42); }
   @media (min-aspect-ratio: 1/1) { body:not(.team-bg)::before { background-image: url("sfondo-pc.jpg"); } }
   body:not(.team-bg) .tile { background: rgba(17,19,24,.55); backdrop-filter: blur(4px); border-color: rgba(255,255,255,.15); }
-  body:not(.team-bg) header { background: rgba(10,12,16,.55); }
+  /* Home: niente barra nera, solo la scritta sullo sfondo */
+  body:not(.team-bg) header { background: transparent; border-bottom: 0; backdrop-filter: none; position: absolute; left: 0; right: 0; }
+  .brand { text-align: center; margin: 10px 0 18px; }
+  .brand h1 { margin: 0; font: 400 clamp(30px, 9vw, 64px)/1 "Bebas Neue", Impact, "Arial Narrow", sans-serif;
+              letter-spacing: .08em; color: #fff; text-shadow: 0 3px 14px #000; }
+  .brand svg { display: block; width: min(100%, 520px); height: clamp(24px, 6vw, 44px); margin: 6px auto 0; }
+  @media (max-width: 899px) { body:not(.team-bg) .layout { padding-top: 56px; } }
+  @media (min-width: 900px) { body:not(.team-bg) .layout { padding-top: 70px; } body:not(.team-bg) #side { top: 20px; } }
   /* Sfondo con i colori sociali della squadra, scurito per leggere bene i testi */
   body.team-bg { background: linear-gradient(rgba(10,12,16,.45), rgba(10,12,16,.65)),
                  linear-gradient(135deg, var(--bg1) 0%, var(--bg2) 100%) fixed; }
@@ -52,9 +62,29 @@
   .layout { display: flex; flex-direction: column; }
   #side { padding: 10px 16px 0; }
   .side-title { margin: 0 0 8px !important; }
-  @media (max-width: 899px) {
-    #side { order: -1; }                       /* telefono: fila compatta in alto */
+  .up-txt { display: flex; flex-direction: column; }
+  @media (max-width: 899px) {                  /* telefono: colonna stretta a destra */
+    .layout { flex-direction: row; align-items: flex-start; }
+    .layout main { flex: 1; min-width: 0; padding-right: 6px; }
+    #side { width: 74px; flex: none; position: sticky; top: 64px; padding: 14px 8px 0 0; }
     .side-title { display: none; }
+    #upcoming { flex-direction: column; overflow: visible; gap: 6px; }
+    #upcoming .up { flex-direction: column; gap: 4px; padding: 7px 4px; width: 100%; text-align: center; font-size: 10.5px; line-height: 1.2; }
+    #upcoming .up .crest.ic { width: 30px; height: 30px; }
+    #upcoming .up-opp { display: none; }
+    #upcoming .up-when { display: flex; flex-direction: column; font-weight: 700; }
+    #upcoming .up-when .d { text-transform: capitalize; font-weight: 600; color: var(--muted); }
+    #upcoming .live-badge { font-size: 10px; }
+    .grid { gap: 8px; }
+    .tile { padding: 12px 8px 10px; gap: 10px; }
+    .crest.big { width: 80px; height: 80px; font-size: 32px; }
+    .go { font-size: 14px; padding: 8px 0; }
+    .card { padding: 10px 10px; }
+    .match { gap: 4px; }
+    .match .side span { font-size: 12px; white-space: normal; overflow: visible; text-overflow: clip; line-height: 1.15; overflow-wrap: break-word; hyphens: auto; }
+    .match .side { gap: 5px; }
+    .side img { width: 22px; height: 22px; }
+    .score { font-size: 18px; min-width: 52px; }
   }
   @media (min-width: 900px) {
     .layout { flex-direction: row; align-items: flex-start; gap: 20px; max-width: 1200px; margin: 0 auto; padding: 0 16px; }
@@ -154,6 +184,6 @@
   <aside id="side"><h2 class="side-title">Prossime partite</h2><div id="upcoming"></div></aside>
 </div>
 <div id="toast" hidden></div>
-<script src="app.js?v=16"></script>
+<script src="app.js?v=18"></script>
 </body>
 </html>
