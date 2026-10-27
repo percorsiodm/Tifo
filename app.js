@@ -269,25 +269,64 @@ function viewHome() {
       ${crest(t, "big")}<button class="go" data-view="${t.key}">GO</button></div>`).join("")}</div>`;
 }
 
-// ----- PAGINA SQUADRA: live, ultima partita, notizie, competizioni -----
+// ----- PAGINA SQUADRA: tre sezioni ben distinte -> NOTIZIE, LIVE, COMPETIZIONI -----
+// Link esterno ufficiale per ogni competizione
+function compExtLink(k) {
+  if (/serie a2|italian serie a2/i.test(k)) return ["Sito ufficiale LNP", "https://www.legapallacanestro.com/serie/1/calendario"];
+  if (k.includes(".")) return ["Classifica su ESPN", `https://www.espn.com/soccer/standings/_/league/${k}`];
+  return null;
+}
+
+function panel(id, icon, title, body) {
+  return `<section class="panel" id="sec-${id}"><div class="panel-head"><span>${icon}</span>${title}</div><div class="panel-body">${body}</div></section>`;
+}
+
 function viewTeam(t) {
   const ms = state.matches[t.key] || [];
-  if (!ms.length) return head(t) + (loaded
-    ? `<div class="card empty">Calendario e risultati non ancora disponibili: si aggiornano automaticamente ogni 30 minuti.</div>
-       ${t.links.map(([l, u]) => `<a class="btn" href="${u}" target="_blank" rel="noopener">${esc(l)} ›</a>`).join("")}
-       <h2>Notizie</h2>${newsList(state.news?.teams?.[t.key])}`
-    : `<div class="empty">Caricamento…</div>`);
+  const news = state.news?.teams?.[t.key] || [];
+  const showAll = state.newsAll === t.key;
   const live = ms.filter((m) => m.state === "in" || m.playing);
   const last = [...ms].reverse().find((m) => m.state === "post");
   const next = ms.find((m) => m.state === "pre" && !m.playing);
   const comps = [...new Set(ms.map((m) => m.comp).filter(Boolean))];
-  return head(t)
-    + `<h2>Live</h2>${live.length ? live.map((m) => matchCard(m, t)).join("")
-        : next ? `<div class="hint">Nessuna partita in corso. Prossimo live:</div>${matchCard(next, t)}`
-        : `<div class="card empty">Nessuna partita in corso.</div>`}`
-    + `<h2>Ultima partita</h2>${last ? matchCard(last, t) : `<div class="card empty">Nessuna partita giocata.</div>`}`
-    + `<h2>Notizie</h2>${newsList((state.news?.teams?.[t.key] || []).slice(0, 10))}`
-    + (comps.length ? `<h2>Competizioni</h2><div class="card">${comps.map((k) => compChip(ms.find((m) => m.comp === k), t)).join(" ")}</div>` : "");
+
+  const jump = `<nav class="jump"><a href="#sec-notizie" data-jump="notizie">📰 Notizie</a>
+    <a href="#sec-live" data-jump="live">🔴 Live</a><a href="#sec-ultima" data-jump="ultima">⏱️ Ultima</a>
+    <a href="#sec-comp" data-jump="comp">🏆 Competizioni</a></nav>`;
+
+  // NOTIZIE
+  const newsBody = newsList(showAll ? news : news.slice(0, 5))
+    + (news.length > 5 ? `<button class="more" data-newsall="${showAll ? "" : t.key}">${showAll ? "Mostra meno" : `Mostra tutte (${news.length})`}</button>` : "");
+
+  // LIVE
+  let liveBody;
+  if (!ms.length) liveBody = loaded ? `<div class="empty">Calendario non ancora disponibile: si aggiorna ogni 30 minuti.</div>` : `<div class="empty">Caricamento…</div>`;
+  else liveBody = (live.length ? live.map((m) => matchCard(m, t)).join("")
+      : next ? `<div class="hint">Nessuna partita in corso · prossimo live</div>${matchCard(next, t)}`
+      : `<div class="empty">Nessuna partita in programma.</div>`);
+  const lastBody = last ? `<div class="hint">Tocca la partita per il tabellino, la competizione per classifica e calendario</div>${matchCard(last, t)}`
+    : `<div class="empty">${loaded ? "Nessuna partita giocata." : "Caricamento…"}</div>`;
+
+  // COMPETIZIONI
+  const compBody = comps.length ? comps.map((k) => {
+      const mine = ms.filter((m) => m.comp === k);
+      const n = mine.find((m) => m.state === "pre");
+      const ext = compExtLink(k);
+      return `<div class="comp-row">
+        <button class="comp-main" data-comp="${esc(k)}" data-team="${t.key}">
+          <b>${esc(compLabel(k, mine[0].compName))}</b>
+          <small>${mine.filter((m) => m.state === "post").length} giocate${n ? ` · prossima ${fmt(n.date, { day: "numeric", month: "short" })}` : ""}</small>
+          <span class="go-arrow">Classifica e calendario ›</span></button>
+        ${ext ? `<a class="ext" href="${ext[1]}" target="_blank" rel="noopener">${esc(ext[0])} ↗</a>` : ""}</div>`;
+    }).join("")
+    : `<div class="empty">${loaded ? "Nessuna competizione trovata." : "Caricamento…"}</div>`;
+  const links = `<div class="links">${t.links.map(([l, u]) => `<a class="ext" href="${u}" target="_blank" rel="noopener">${esc(l)} ↗</a>`).join("")}</div>`;
+
+  return head(t) + jump
+    + panel("notizie", "📰", "Notizie", newsBody)
+    + panel("live", "🔴", "Live", liveBody)
+    + panel("ultima", "⏱️", "Ultima partita", lastBody)
+    + panel("comp", "🏆", "Competizioni", compBody + links);
 }
 
 function head(t, title) {
@@ -351,6 +390,7 @@ function leadersHtml(title, list, myId) {
       <div class="when"><b>${esc(l.val)}</b></div></div>`).join("")}</details>`;
 }
 
+let compTimer = null;
 function viewComp(t, k) {
   const ms = state.matches[t.key] || [];
   const bk = state.basket[t.key];
@@ -359,29 +399,55 @@ function viewComp(t, k) {
   const name = compLabel(k, mine[0]?.compName);
   const res = mine.filter((m) => m.state === "post").reverse();
   const fix = mine.filter((m) => m.state !== "post");
-  let extra = "";
+  const ext = compExtLink(k);
+  const mark = (id) => String(id) === String(myId) ? ' style="font-weight:800;color:var(--accent)"' : "";
+  let liveBody = "", tableBody = "", leadersBody = "";
+
   if (t.espn) {
     const c = state.comps[k];
     if (!c) loadComp(k);
-    if (!c || c.loading) extra = `<div class="empty">Caricamento classifica…</div>`;
+    if (!c || c.loading) liveBody = tableBody = `<div class="empty">Caricamento…</div>`;
     else {
+      // Live e giornata: tutte le partite della competizione nei giorni vicini
+      const round = [...c.round].sort((x, y) => Date.parse(x.date) - Date.parse(y.date));
+      const anyLive = round.some((m) => m.state === "in");
+      liveBody = round.length ? (anyLive ? `<div class="hint"><span class="live-badge">● LIVE</span> si aggiorna da solo ogni minuto</div>` : "")
+        + round.map((m) => `<div class="row ${m.state === "in" ? "is-live" : ""}">
+            <div class="opp"><span${mark(m.home.id)}>${esc(m.home.name)}</span> – <span${mark(m.away.id)}>${esc(m.away.name)}</span></div>
+            <div class="when">${m.state === "pre" ? when(m.date)
+              : `<b>${esc(m.home.score)}-${esc(m.away.score)}</b> ${m.state === "in" ? `<span class="live-badge">${esc(m.clock || "LIVE")}</span>` : "fin."}`}</div></div>`).join("")
+        : `<div class="empty">Nessuna partita in questi giorni.</div>`;
+      // aggiornamento automatico mentre ci sono partite in corso
+      clearTimeout(compTimer);
+      if (anyLive) compTimer = setTimeout(() => {
+        if (state.sub?.type === "comp" && state.sub.key === k) { delete state.comps[k]; render(); }
+      }, 60000);
       const groups = c.groups.filter((g) => g.rows.some((r) => String(r.id) === String(myId)));
-      extra = groups.map((g) => (c.groups.length > 1 ? `<div class="tag" style="margin:4px 0">${esc(g.name)}</div>` : "") + tableHtml(g.rows, myId)).join("")
-        || (c.groups.length ? "" : `<div class="card empty">Eliminazione diretta: nessuna classifica.</div>`);
-      extra += leadersHtml("Marcatori", c.scorers, myId) + leadersHtml("Assist", c.assists, myId);
-      const others = c.round.filter((m) => !mine.some((x) => x.id === m.id));
-      if (others.length) extra += `<details class="card"><summary><b>Altre partite</b> · ${others.length} in questi giorni</summary>
-        ${others.map((m) => `<div class="row"><div class="opp">${esc(m.home.name)} – ${esc(m.away.name)}</div>
-          <div class="when">${m.state === "pre" ? when(m.date) : `<b>${esc(m.home.score)}-${esc(m.away.score)}</b>${m.state === "in" ? ` <span class="live-badge">${esc(m.clock)}</span>` : ""}`}</div></div>`).join("")}</details>`;
+      tableBody = groups.map((g) => (c.groups.length > 1 ? `<div class="tag" style="margin:4px 0">${esc(g.name)}</div>` : "") + tableHtml(g.rows, myId)).join("")
+        || (c.groups.length ? "" : `<div class="empty">Fase a eliminazione diretta: nessuna classifica.</div>`);
+      leadersBody = leadersHtml("Marcatori", c.scorers, myId) + leadersHtml("Assist", c.assists, myId);
     }
   } else {
     const rows = (state.tables[bk?.leagueId] || []).map((r) => ({ ...r, w: r.win, l: r.loss }));
-    extra = rows.length ? tableHtml(rows, myId, true) : "";
-    extra += `<a class="btn" href="https://www.legapallacanestro.com/serie/1/leaders/regular/5286" target="_blank" rel="noopener">Marcatori e statistiche ›</a>`;
+    const now = Date.now();
+    const near = mine.filter((m) => Math.abs(Date.parse(m.date) - now) < 4 * 86400000);
+    liveBody = (near.length ? near.map((m) => matchCard(m, t)).join("") : `<div class="empty">Nessuna partita in questi giorni.</div>`)
+      + `<a class="ext" href="${LNP_LIVE}" target="_blank" rel="noopener">Diretta ufficiale LNP ↗</a>`;
+    tableBody = rows.length ? tableHtml(rows, myId, true) : `<div class="empty">Classifica non ancora disponibile.</div>`;
+    leadersBody = `<a class="ext" href="https://www.legapallacanestro.com/serie/1/leaders/regular/5286" target="_blank" rel="noopener">Marcatori e statistiche LNP ↗</a>`;
   }
-  return head(t, name) + extra
-    + (res.length ? `<details class="card" open><summary><b>Risultati</b> · ${res.length}</summary>${res.map((m) => resultRow(m, t)).join("")}</details>` : "")
-    + (fix.length ? `<details class="card"><summary><b>Calendario</b> · ${fix.length}</summary>${fix.slice(0, 20).map(fixtureRow).join("")}</details>` : "");
+
+  const calBody = (fix.length ? `<div class="hint">Prossime partite</div><div class="card">${fix.slice(0, 20).map(fixtureRow).join("")}</div>` : "")
+    + (res.length ? `<div class="hint" style="margin-top:10px">Risultati · tocca per il tabellino</div><div class="card">${res.map((m) => resultRow(m, t)).join("")}</div>` : "")
+    || `<div class="empty">Nessuna partita.</div>`;
+
+  return head(t, name)
+    + `<nav class="jump"><a data-jump="clive">🔴 Live</a><a data-jump="ctab">🏆 Classifica</a><a data-jump="ccal">📅 Calendario</a><a data-jump="cmar">⚽ Marcatori</a></nav>`
+    + panel("clive", "🔴", "Live e giornata", liveBody)
+    + panel("ctab", "🏆", "Classifica", tableBody)
+    + panel("ccal", "📅", `Calendario ${esc(t.short)}`, calBody)
+    + panel("cmar", "⚽", "Marcatori e assist", leadersBody || `<div class="empty">Non disponibili.</div>`)
+    + (ext ? `<a class="ext" href="${ext[1]}" target="_blank" rel="noopener">${esc(ext[0])} ↗</a>` : "");
 }
 
 // Prossimo impegno (o live) di ogni squadra, in ordine di orario
@@ -430,6 +496,10 @@ function go(view, sub = null, push = true) {
 window.addEventListener("popstate", (e) => { const s = e.state || { view: "home", sub: null }; go(s.view, s.sub, false); });
 
 document.addEventListener("click", (e) => {
+  const jmp = e.target.closest("[data-jump]");
+  if (jmp) { e.preventDefault(); return document.getElementById(`sec-${jmp.dataset.jump}`)?.scrollIntoView({ behavior: "smooth", block: "start" }); }
+  const more = e.target.closest("[data-newsall]");
+  if (more) { state.newsAll = more.dataset.newsall || null; return render(); }
   const comp = e.target.closest("[data-comp]"), match = e.target.closest("[data-match]"), v = e.target.closest("[data-view]");
   if (comp) return go(comp.dataset.team, { type: "comp", key: comp.dataset.comp });
   if (match) return go(match.dataset.team, { type: "match", id: match.dataset.match });

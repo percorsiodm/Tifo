@@ -38,11 +38,37 @@
   @media (max-width: 899px) { body:not(.team-bg) .layout { padding-top: 56px; } }
   @media (min-width: 900px) { body:not(.team-bg) .layout { padding-top: 70px; } body:not(.team-bg) #side { top: 20px; } }
   /* Sfondo con i colori sociali della squadra, scurito per leggere bene i testi */
-  body.team-bg { background: linear-gradient(rgba(10,12,16,.45), rgba(10,12,16,.65)),
-                 linear-gradient(135deg, var(--bg1) 0%, var(--bg2) 100%) fixed; }
+  body.team-bg { background: var(--bg); }
+  body.team-bg::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+    background: linear-gradient(rgba(10,12,16,.45), rgba(10,12,16,.65)), linear-gradient(135deg, var(--bg1) 0%, var(--bg2) 100%); }
   body.team-bg .card { background: rgba(20,22,28,.82); backdrop-filter: blur(6px); border-color: rgba(255,255,255,.12); }
   body.team-bg h2, body.team-bg .hint, body.team-bg .team-head p { color: #fff; text-shadow: 0 1px 3px #000a; }
   body.team-bg header { background: rgba(10,12,16,.55); }
+  /* Pagina squadra: sezioni ben distinte */
+  .jump { display: flex; gap: 8px; margin: 6px 0 14px; flex-wrap: wrap; }
+  .jump a { flex: 1 1 auto; min-width: 0; white-space: nowrap; text-align: center; padding: 9px 6px; border-radius: 12px; text-decoration: none; color: #fff;
+            font: 700 clamp(11px, 3.2vw, 13px)/1 inherit; background: rgba(20,22,28,.75); cursor: pointer; border: 1px solid rgba(255,255,255,.15); }
+  .panel { margin: 0 0 16px; border-radius: 18px; overflow: hidden; background: rgba(14,16,20,.62);
+           border: 1px solid rgba(255,255,255,.14); scroll-margin-top: 70px; }
+  .panel-head { display: flex; align-items: center; gap: 8px; padding: 12px 14px; font: 400 22px/1 "Bebas Neue", Impact, sans-serif;
+                letter-spacing: .08em; color: #fff; background: linear-gradient(90deg, color-mix(in srgb, var(--accent2) 70%, transparent), transparent);
+                border-bottom: 1px solid rgba(255,255,255,.12); }
+  .panel-head span { font-size: 18px; }
+  .panel-body { padding: 12px; }
+  .panel-body .card:last-child { margin-bottom: 0; }
+  .panel-body details.card { background: rgba(20,22,28,.85); }
+  .row.is-live { background: color-mix(in srgb, var(--live) 12%, transparent); border-radius: 8px; padding-left: 6px; padding-right: 6px; }
+  .more { width: 100%; margin-top: 4px; padding: 10px; border-radius: 12px; border: 1px dashed rgba(255,255,255,.3);
+          background: transparent; color: var(--text); font: 600 13px/1 inherit; cursor: pointer; }
+  .comp-row { display: flex; gap: 8px; align-items: stretch; margin-bottom: 8px; flex-wrap: wrap; }
+  .comp-main { flex: 1; min-width: 180px; text-align: left; display: grid; gap: 3px; padding: 12px 14px; border-radius: 14px; cursor: pointer;
+               background: rgba(20,22,28,.85); border: 1px solid var(--accent); color: var(--text); font: inherit; }
+  .comp-main b { font-size: 15px; }
+  .comp-main small { color: var(--muted); font-size: 12px; }
+  .comp-main .go-arrow { color: var(--accent); font-size: 12px; font-weight: 700; }
+  .ext { display: inline-flex; align-items: center; padding: 8px 12px; border-radius: 12px; text-decoration: none; color: var(--text);
+         font-size: 13px; background: rgba(20,22,28,.85); border: 1px solid rgba(255,255,255,.15); }
+  .links { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
   .hint { font-size: 13px; color: var(--muted); margin: 0 0 6px; }
   #upcoming { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; }
   #upcoming::-webkit-scrollbar { display: none; }
@@ -184,6 +210,6 @@
   <aside id="side"><h2 class="side-title">Prossime partite</h2><div id="upcoming"></div></aside>
 </div>
 <div id="toast" hidden></div>
-<script src="app.js?v=18"></script>
+<script src="app.js?v=20"></script>
 </body>
 </html>
