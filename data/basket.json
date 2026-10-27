@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T12:18:58.914Z",
+ "updated": "2026-10-27T11:36:34.391Z",
  "season": "2026-2027",
  "teams": {
   "fortitudo": {
@@ -555,7 +555,7 @@
      "date": "2027-04-18T16:00:00.000Z",
      "round": "37",
      "league": "Italian Serie A2",
-     "status": "NS",
+     "status": "CANC",
      "homeId": "137319",
      "awayId": "135384",
      "home": "Fortitudo Pallacanestro Bologna",
@@ -570,7 +570,7 @@
      "date": "2027-04-25T16:00:00.000Z",
      "round": "38",
      "league": "Italian Serie A2",
-     "status": "NS",
+     "status": "CANC",
      "homeId": "147251",
      "awayId": "137319",
      "home": "Ju-Vi Cremona",
@@ -1136,7 +1136,7 @@
      "date": "2027-04-17T18:30:00.000Z",
      "round": "37",
      "league": "Italian Serie A2",
-     "status": "NS",
+     "status": "CANC",
      "homeId": "147248",
      "awayId": "137311",
      "home": "Urania Milano",
@@ -1151,7 +1151,7 @@
      "date": "2027-04-25T16:00:00.000Z",
      "round": "38",
      "league": "Italian Serie A2",
-     "status": "NS",
+     "status": "CANC",
      "homeId": "137311",
      "awayId": "135385",
      "home": "JuveCaserta Basket",
