@@ -69,6 +69,18 @@
   .ext { display: inline-flex; align-items: center; padding: 8px 12px; border-radius: 12px; text-decoration: none; color: var(--text);
          font-size: 13px; background: rgba(20,22,28,.85); border: 1px solid rgba(255,255,255,.15); }
   .links { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+  /* Scritta accanto alla campanella */
+  #bell-label { order: 4; background: none; border: 0; color: #fff; font: 600 12px/1.2 inherit; text-align: right; cursor: pointer;
+                max-width: 150px; text-shadow: 0 1px 4px #000; animation: pulse 2s infinite; }
+  #bell-label.on { color: var(--win); animation: none; }
+  @media (max-width: 420px) { #bell-label { font-size: 11px; max-width: 170px; } }
+  /* Dove vederla */
+  .tv { display: grid; gap: 2px; padding: 10px 12px; margin-bottom: 8px; border-radius: 12px; text-decoration: none; color: var(--text);
+        background: rgba(20,22,28,.85); border: 1px solid rgba(255,255,255,.15); border-left: 4px solid var(--accent); }
+  .tv b { font-size: 15px; }
+  .tv span { font-size: 13px; }
+  .tv small { color: var(--muted); font-size: 12px; }
+  .hint a, .empty a { color: var(--accent); }
   .hint { font-size: 13px; color: var(--muted); margin: 0 0 6px; }
   #upcoming { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; }
   #upcoming::-webkit-scrollbar { display: none; }
@@ -202,6 +214,7 @@
   <button id="home" hidden>⌂ Home</button>
   <span class="spacer"></span>
   <span id="upd"></span>
+  <button id="bell-label">Attiva la campanella per il live</button>
   <button id="bell" aria-label="Notifiche">🔕</button>
   <button id="refresh" aria-label="Aggiorna">↻</button>
 </header>
@@ -210,6 +223,6 @@
   <aside id="side"><h2 class="side-title">Prossime partite</h2><div id="upcoming"></div></aside>
 </div>
 <div id="toast" hidden></div>
-<script src="app.js?v=20"></script>
+<script src="app.js?v=21"></script>
 </body>
 </html>

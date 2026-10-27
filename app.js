@@ -269,6 +269,34 @@ function viewHome() {
       ${crest(t, "big")}<button class="go" data-view="${t.key}">GO</button></div>`).join("")}</div>`;
 }
 
+// ----- DOVE VEDERLA (Italia, stagione 2026/27) -----
+// [canale, cosa trasmette, come vederla (TV / app / streaming), link]
+const TV = {
+  "ita.1": [
+    ["DAZN", "Tutte le partite", "App DAZN su smartphone, Smart TV, Fire TV, PC", "https://www.dazn.com/it-IT"],
+    ["Sky Sport", "3 partite per giornata", "Decoder Sky · app Sky Go · NOW", "https://www.nowtv.it"]],
+  "uefa.champions": [
+    ["Sky Sport", "185 partite su 203", "Decoder Sky · app Sky Go · NOW", "https://www.nowtv.it"],
+    ["Prime Video", "La miglior partita del mercoledì", "App Prime Video su smartphone, Smart TV, Fire TV", "https://www.primevideo.com"]],
+  "uefa.europa": [["Sky Sport", "Tutte le partite", "Decoder Sky · app Sky Go · NOW", "https://www.nowtv.it"]],
+  "uefa.europa.conf": [["Sky Sport", "Tutte le partite", "Decoder Sky · app Sky Go · NOW", "https://www.nowtv.it"]],
+  "ita.coppa_italia": [["Mediaset", "In chiaro (Canale 5 / Italia 1)", "TV · app Mediaset Infinity", "https://mediasetinfinity.mediaset.it"]],
+  "ita.super_cup": [["Mediaset", "In chiaro (Canale 5 / Italia 1)", "TV · app Mediaset Infinity", "https://mediasetinfinity.mediaset.it"]],
+  "arg.1": [["Sportitalia", "In chiaro", "Canale 60 del digitale terrestre · streaming su sportitalia.it e app", "https://www.sportitalia.it"]],
+  "Italian Serie A2": [
+    ["LNP Pass", "Tutte le partite in streaming", "Abbonamento su lnppass.legapallacanestro.com", "https://lnppass.legapallacanestro.com/"],
+    ["Rai Sport", "Alcune partite in chiaro", "Rai Sport HD · app RaiPlay", "https://www.legapallacanestro.com/serie-a2/calendario-dirette"]],
+};
+const TV_GUIDE = "https://www.goal.com/it/notizie/guida-tv-dove-vedere-tutto-il-calcio-in-diretta-e-streaming/1674frahvw8qt1nojf0cwjwlzr";
+
+function tvHtml(k) {
+  const list = TV[k];
+  if (!list) return `<div class="empty">Diritti TV in Italia non confermati per questa competizione.
+    <a href="${TV_GUIDE}" target="_blank" rel="noopener">Controlla la guida TV ↗</a></div>`;
+  return list.map(([ch, what, how, url]) => `<a class="tv" href="${url}" target="_blank" rel="noopener">
+    <b>${esc(ch)}</b><span>${esc(what)}</span><small>${esc(how)}</small></a>`).join("");
+}
+
 // ----- PAGINA SQUADRA: tre sezioni ben distinte -> NOTIZIE, LIVE, COMPETIZIONI -----
 // Link esterno ufficiale per ogni competizione
 function compExtLink(k) {
@@ -292,7 +320,7 @@ function viewTeam(t) {
 
   const jump = `<nav class="jump"><a href="#sec-notizie" data-jump="notizie">📰 Notizie</a>
     <a href="#sec-live" data-jump="live">🔴 Live</a><a href="#sec-ultima" data-jump="ultima">⏱️ Ultima</a>
-    <a href="#sec-comp" data-jump="comp">🏆 Competizioni</a></nav>`;
+    <a href="#sec-comp" data-jump="comp">🏆 Competizioni</a><a href="#sec-tv" data-jump="tv">📺 Dove vederla</a></nav>`;
 
   // NOTIZIE
   const newsBody = newsList(showAll ? news : news.slice(0, 5))
@@ -320,13 +348,21 @@ function viewTeam(t) {
         ${ext ? `<a class="ext" href="${ext[1]}" target="_blank" rel="noopener">${esc(ext[0])} ↗</a>` : ""}</div>`;
     }).join("")
     : `<div class="empty">${loaded ? "Nessuna competizione trovata." : "Caricamento…"}</div>`;
+  // DOVE VEDERLA: prima la prossima partita, poi tutte le competizioni della squadra
+  const tvNext = live[0] || next;
+  const tvBody = (tvNext ? `<div class="hint">${live.length ? "In corso" : "Prossima partita"}: <b>${esc(tvNext.home.name)} – ${esc(tvNext.away.name)}</b>
+      · ${esc(compLabel(tvNext.comp, tvNext.compName))}</div>${tvHtml(tvNext.comp)}` : "")
+    + comps.filter((k) => k !== tvNext?.comp).map((k) => `<div class="hint" style="margin-top:12px">${esc(compLabel(k))}</div>${tvHtml(k)}`).join("")
+    + `<div class="hint" style="margin-top:10px">Le partite trasmesse possono cambiare di giornata in giornata:
+       <a href="${TV_GUIDE}" target="_blank" rel="noopener">guida TV completa ↗</a></div>`;
   const links = `<div class="links">${t.links.map(([l, u]) => `<a class="ext" href="${u}" target="_blank" rel="noopener">${esc(l)} ↗</a>`).join("")}</div>`;
 
   return head(t) + jump
     + panel("notizie", "📰", "Notizie", newsBody)
     + panel("live", "🔴", "Live", liveBody)
     + panel("ultima", "⏱️", "Ultima partita", lastBody)
-    + panel("comp", "🏆", "Competizioni", compBody + links);
+    + panel("comp", "🏆", "Competizioni", compBody + links)
+    + panel("tv", "📺", "Dove vederla", tvBody);
 }
 
 function head(t, title) {
@@ -447,6 +483,7 @@ function viewComp(t, k) {
     + panel("ctab", "🏆", "Classifica", tableBody)
     + panel("ccal", "📅", `Calendario ${esc(t.short)}`, calBody)
     + panel("cmar", "⚽", "Marcatori e assist", leadersBody || `<div class="empty">Non disponibili.</div>`)
+    + panel("ctv", "📺", "Dove vederla", tvHtml(k))
     + (ext ? `<a class="ext" href="${ext[1]}" target="_blank" rel="noopener">${esc(ext[0])} ↗</a>` : "");
 }
 
@@ -529,6 +566,9 @@ async function updateBell() {
   b.textContent = st === "on" ? "🔔" : "🔕";
   b.title = { on: "Notifiche attive (tocca per disattivare)", off: "Attiva le notifiche", denied: "Notifiche bloccate nelle impostazioni del telefono", unsupported: "Notifiche non supportate: aggiungi Tifo alla schermata Home" }[st];
   b.classList.toggle("on", st === "on");
+  const lab = $("#bell-label");
+  lab.textContent = st === "on" ? "Live attivo" : "Attiva la campanella per il live";
+  lab.classList.toggle("on", st === "on");
 }
 
 // Aspetta il service worker al massimo 8 secondi
@@ -588,6 +628,7 @@ document.addEventListener("click", (e) => {
 });
 
 $("#bell").addEventListener("click", toggleBell);
+$("#bell-label").addEventListener("click", toggleBell);
 
 render();
 loadAll();
