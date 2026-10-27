@@ -7,7 +7,7 @@
 <meta name="theme-color" content="#111318">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="icon.svg">
+<link rel="apple-touch-icon" href="icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <style>
@@ -19,6 +19,15 @@
   * { box-sizing: border-box; margin: 0; }
   body { background: var(--bg); color: var(--text); font: 15px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
          padding-bottom: calc(24px + env(safe-area-inset-bottom)); -webkit-tap-highlight-color: transparent; min-height: 100vh; }
+  /* Sfondo della Home: le 4 foto mixate (verticale su telefono, orizzontale su PC) */
+  body:not(.team-bg) { background: linear-gradient(rgba(10,12,16,.35), rgba(10,12,16,.6)),
+                       url("sfondo-telefono.jpg") center / cover fixed, var(--bg); }
+  @media (min-aspect-ratio: 1/1) {
+    body:not(.team-bg) { background: linear-gradient(rgba(10,12,16,.35), rgba(10,12,16,.6)),
+                         url("sfondo-pc.jpg") center / cover fixed, var(--bg); }
+  }
+  body:not(.team-bg) .tile { background: rgba(17,19,24,.55); backdrop-filter: blur(4px); border-color: rgba(255,255,255,.15); }
+  body:not(.team-bg) header { background: rgba(10,12,16,.55); }
   /* Sfondo con i colori sociali della squadra, scurito per leggere bene i testi */
   body.team-bg { background: linear-gradient(rgba(10,12,16,.45), rgba(10,12,16,.65)),
                  linear-gradient(135deg, var(--bg1) 0%, var(--bg2) 100%) fixed; }
@@ -129,6 +138,6 @@
 </header>
 <main id="view"></main>
 <div id="toast" hidden></div>
-<script src="app.js?v=13"></script>
+<script src="app.js?v=15"></script>
 </body>
 </html>
