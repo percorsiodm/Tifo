@@ -405,6 +405,7 @@ function render() {
   document.body.classList.toggle("team-bg", !!t);
   if (t) { root.setProperty("--bg1", b1); root.setProperty("--bg2", b2); }
   $("#back").hidden = !t;
+  $("#home").hidden = !t;
   $("#upcoming").innerHTML = upcomingHtml();
   $("#view").innerHTML = !t ? viewHome()
     : state.sub?.type === "match" ? viewMatch(t, state.sub.id)
@@ -427,6 +428,7 @@ document.addEventListener("click", (e) => {
   if (v) return go(v.dataset.view);
 });
 $("#back").addEventListener("click", () => history.length > 1 ? history.back() : go("home"));
+$("#home").addEventListener("click", () => go("home"));
 $("#refresh").addEventListener("click", () => { state.details = {}; loadAll(); });
 document.addEventListener("visibilitychange", () => { if (!document.hidden) loadAll(); });
 if (teamBy(location.hash.slice(1))) state.view = location.hash.slice(1);
@@ -463,11 +465,9 @@ async function toggleBell() {
   try {
     const reg = await swReady();
     if (st === "on") {
-      const sub = await reg.pushManager.getSubscription();
-      await fetch(`${PUSH_API}/subscribe`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ sub, remove: true }) });
-      await sub.unsubscribe();
-      alertMsg("Notifiche disattivate.");
-    } else {
+      return alertMsg(`Notifiche attive. <button class="btn" id="ptest">Prova notifica</button> <button class="btn" id="poff">Disattiva</button>`, 10000, true);
+    }
+    {
       if ((await Notification.requestPermission()) !== "granted") return updateBell();
       const { key } = await getJSON(`${PUSH_API}/vapid`);
       const sub = await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: keyBytes(key) });
@@ -478,10 +478,36 @@ async function toggleBell() {
   updateBell();
 }
 
-function alertMsg(t) {
-  const el = $("#toast"); el.textContent = t; el.hidden = false;
-  clearTimeout(alertMsg.t); alertMsg.t = setTimeout(() => (el.hidden = true), 4000);
+function alertMsg(t, ms = 4000, html = false) {
+  const el = $("#toast"); el[html ? "innerHTML" : "textContent"] = t; el.hidden = false;
+  clearTimeout(alertMsg.t); alertMsg.t = setTimeout(() => (el.hidden = true), ms);
 }
+
+// Prova: 1) notifica locale (senza internet)  2) notifica push dal servizio Cloudflare
+async function testPush() {
+  try {
+    const reg = await swReady();
+    await reg.showNotification("🔔 Prova locale", { body: "Se vedi questa, il telefono mostra le notifiche di Tifo.", icon: "icon-192.png" });
+    const r = await fetch(`${PUSH_API}/test`).then((x) => x.text());
+    alertMsg(`Inviate 2 prove: "Prova locale" subito e "Tifo: prova notifica" entro pochi secondi.<br><small>${esc(r).replace(/\n/g, "<br>")}</small>`, 15000, true);
+  } catch (e) { alertMsg("Prova non riuscita: " + e.message); }
+}
+
+async function disablePush() {
+  const reg = await swReady();
+  const sub = await reg.pushManager.getSubscription();
+  if (sub) {
+    await fetch(`${PUSH_API}/subscribe`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ sub, remove: true }) }).catch(() => {});
+    await sub.unsubscribe();
+  }
+  alertMsg("Notifiche disattivate.");
+  updateBell();
+}
+
+document.addEventListener("click", (e) => {
+  if (e.target.id === "ptest") testPush();
+  if (e.target.id === "poff") disablePush();
+});
 
 $("#bell").addEventListener("click", toggleBell);
 

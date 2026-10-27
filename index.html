@@ -45,9 +45,24 @@
   #bell.on { border-color: var(--accent); }
   #toast { position: fixed; left: 16px; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom)); z-index: 20; margin: 0 auto; max-width: 480px;
            background: #22252d; color: var(--text); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; font-size: 14px; box-shadow: 0 6px 20px #0008; }
-  @media (max-width: 760px) {
-    header { flex-wrap: wrap; }
-    #upcoming { order: 5; width: 100%; padding-top: 4px; }
+  header .spacer { flex: 1; }
+  #home { background: rgba(255,255,255,.08); border: 1px solid var(--line); color: var(--text); border-radius: 10px;
+          padding: 6px 12px; font: 600 14px/1 inherit; cursor: pointer; }
+  /* Layout: contenuto + colonna laterale "Prossime partite" */
+  .layout { display: flex; flex-direction: column; }
+  #side { padding: 10px 16px 0; }
+  .side-title { margin: 0 0 8px !important; }
+  @media (max-width: 899px) {
+    #side { order: -1; }                       /* telefono: fila compatta in alto */
+    .side-title { display: none; }
+  }
+  @media (min-width: 900px) {
+    .layout { flex-direction: row; align-items: flex-start; gap: 20px; max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+    .layout main { flex: 1; min-width: 0; max-width: 760px; margin: 0 auto; }
+    #side { width: 300px; flex: none; position: sticky; top: 70px; padding: 14px 0 0; }
+    #upcoming { flex-direction: column; overflow: visible; }
+    #upcoming .up { width: 100%; padding: 10px 12px; font-size: 13px; }
+    #upcoming .up .crest.ic { width: 34px; height: 34px; }
   }
   header { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 88%, transparent);
            backdrop-filter: blur(10px); padding: calc(12px + env(safe-area-inset-top)) 16px 10px;
@@ -128,15 +143,17 @@
 <body>
 <header>
   <button id="back" aria-label="Indietro" hidden>‹</button>
-  <div class="bar"></div>
-  <h1>Tifo</h1>
-  <div id="upcoming"></div>
+  <button id="home" hidden>⌂ Home</button>
+  <span class="spacer"></span>
   <span id="upd"></span>
   <button id="bell" aria-label="Notifiche">🔕</button>
   <button id="refresh" aria-label="Aggiorna">↻</button>
 </header>
-<main id="view"></main>
+<div class="layout">
+  <main id="view"></main>
+  <aside id="side"><h2 class="side-title">Prossime partite</h2><div id="upcoming"></div></aside>
+</div>
 <div id="toast" hidden></div>
-<script src="app.js?v=15"></script>
+<script src="app.js?v=16"></script>
 </body>
 </html>
