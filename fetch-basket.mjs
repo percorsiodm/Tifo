@@ -49,6 +49,12 @@ const toMatch = (e) => {
 };
 
 const out = { updated: new Date().toISOString(), season, teams: {}, tables: {} };
+// Calendario completo solo una volta al giorno (alle 4 UTC) o se manca: negli altri giri bastano
+// ultime/prossime partite e classifica -> il lavoro passa da ~12 minuti a meno di 1.
+const prevAll = await readFile("data/basket.json", "utf8").then(JSON.parse).catch(() => ({}));
+const FULL = new Date().getUTCHours() === 4 || process.argv.includes("--full")
+  || !Object.values(prevAll.teams || {}).some((t) => (t.matches || []).length > 10);
+console.log(FULL ? "Giro completo (calendario intero)" : "Giro veloce (risultati e prossime partite)");
 const leagueEvents = {};
 
 for (const [key, id] of Object.entries(TEAMS)) {
@@ -57,7 +63,7 @@ for (const [key, id] of Object.entries(TEAMS)) {
   let events = [];
 
   // 1) Tutte le giornate del campionato (calendario completo)
-  if (lid && !leagueEvents[lid]) {
+  if (FULL && lid && !leagueEvents[lid]) {
     const all = [];
     let empty = 0;
     for (let r = 1; r <= 45 && empty < 3; r++) {
@@ -75,7 +81,10 @@ for (const [key, id] of Object.entries(TEAMS)) {
   const next = (await api(`eventsnext.php?id=${id}`)).events || [];
   events = [...events, ...last, ...next];
 
-  const byId = new Map(events.map((e) => [e.idEvent, toMatch(e)]));
+  // nei giri veloci si parte dal calendario già salvato e si aggiornano solo le partite cambiate
+  const base = FULL ? [] : (prevAll.teams?.[key]?.matches || []);
+  const byId = new Map(base.map((m) => [m.id, m]));
+  for (const e of events) byId.set(e.idEvent, { ...(byId.get(e.idEvent) || {}), ...toMatch(e) });
   const matches = [...byId.values()].sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
 
   // Statistiche di squadra delle ultime 3 partite giocate (se la fonte le fornisce)
