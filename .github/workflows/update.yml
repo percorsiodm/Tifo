@@ -23,6 +23,8 @@ jobs:
       - run: node fetch-news.mjs
       - run: node fetch-basket.mjs
         continue-on-error: true
+      - run: node fetch-tv.mjs
+        continue-on-error: true
       - name: Salva se ci sono novità
         run: |
           git config user.name "tifo-bot"
