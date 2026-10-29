@@ -44,37 +44,83 @@ const STOP = /^(as|ac|fc|ssc|us|sc|cf|ca|club|basket|pallacanestro|calcio|atleti
 const keyword = (name) => name.replace(/[()]/g, " ").split(/\s+/).filter((w) => w.length > 2 && !STOP.test(w))
   .sort((a, b) => b.length - a.length)[0] || name;
 
-async function news(q) {
-  const url = `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=it&gl=IT&ceid=IT:it`;
-  const r = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0 (Tifo PWA)" } });
-  if (!r.ok) return [];
-  const xml = await r.text();
-  return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(([, it]) => {
-    const source = tag(it, "source");
-    let title = tag(it, "title");
-    if (source && title.endsWith(` - ${source}`)) title = title.slice(0, -(source.length + 3));
-    return { title, link: tag(it, "link"), source, date: new Date(tag(it, "pubDate")).toISOString() };
-  });
+// --- Ricerca articoli: Bing News (link diretti + anteprima) e Google News (solo titoli) ---
+const UA = { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36", "Accept-Language": "it-IT,it;q=0.9" };
+const withTimeout = (p, ms) => Promise.race([p, new Promise((_, r) => setTimeout(() => r(new Error("timeout")), ms))]);
+
+async function rss(url) {
+  try {
+    const r = await withTimeout(fetch(url, { headers: UA }), 10000);
+    if (!r.ok) return [];
+    const xml = await r.text();
+    return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(([, it]) => {
+      let link = tag(it, "link");
+      const real = link.match(/[?&]url=([^&]+)/);          // Bing: link di reindirizzamento -> link vero
+      if (real) link = decodeURIComponent(real[1]);
+      const source = tag(it, "source") || tag(it, "News:Source");
+      let title = tag(it, "title");
+      if (source && title.endsWith(` - ${source}`)) title = title.slice(0, -(source.length + 3));
+      return { title, link, source: source || new URL(link).hostname.replace(/^www\./, ""),
+               desc: tag(it, "description").replace(/<[^>]+>/g, " "), date: new Date(tag(it, "pubDate")).toISOString() };
+    });
+  } catch { return []; }
+}
+
+const search = async (q) => [
+  ...(await rss(`https://www.bing.com/news/search?q=${encodeURIComponent(q)}&format=rss&setlang=it&cc=IT`)),
+  ...(await rss(`https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=it&gl=IT&ceid=IT:it`)),
+];
+
+// Testo leggibile di un articolo
+async function articleText(url) {
+  if (!/^https?:/.test(url) || /news\.google\.com/.test(url)) return "";
+  try {
+    const r = await withTimeout(fetch(url, { headers: UA, redirect: "follow" }), 12000);
+    if (!r.ok) return "";
+    const html = (await r.text()).slice(0, 800000);
+    return decode(html.replace(/<(script|style|nav|header|footer|aside)[\s\S]*?<\/\1>/gi, " ")
+      .replace(/<[^>]+>/g, " ")).replace(/&[a-z]+;/g, " ").replace(/\s+/g, " ");
+  } catch { return ""; }
+}
+
+// Frasi che dicono DOVE va in onda la partita
+const ONAIR = /(in diretta|in esclusiva|esclusiva|trasmess|visibile|in onda|in streaming|canale \d|sarà su|sara su|live su|su dazn|su sky|su prime|su rai|su sportitalia|disponibile)/i;
+function channelsIn(text) {
+  const found = new Set();
+  for (const sent of text.split(/(?<=[.!?])\s+/)) {
+    if (sent.length > 400 || !ONAIR.test(sent)) continue;
+    if (/\?\s*$/.test(sent)) continue;                    // le domande ("DAZN o Sky?") non contano
+    const hits = CHANNELS.filter(([, re]) => re.test(sent)).map(([name]) => name);
+    // "Zona DAZN" (canale 214 di Sky) è DAZN, non Sky Sport
+    const zona = /zona dazn|canale 214/i.test(sent);
+    hits.filter((h) => !(zona && (h === "Sky Sport" || h === "NOW"))).forEach((h) => found.add(h));
+  }
+  return found;
 }
 
 async function findTv(me, opp, date) {
   const ok = keyword(opp);
   const strip = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
-  const items = await news(`${me} ${ok} (dove vederla OR "diretta tv" OR "in tv" OR streaming)`);
+  const items = await search(`${me} ${ok} dove vederla`);
   const since = Date.parse(date) - 8 * 864e5;
-  const relevant = items.filter((n) => Date.parse(n.date) > since
+  const seen = new Set();
+  const relevant = items.filter((n) => !isNaN(Date.parse(n.date)) && Date.parse(n.date) > since
     && strip(n.title).includes(strip(me)) && strip(n.title).includes(strip(ok))
-    && /dove veder|in tv|diretta|streaming|canale|\btv\b/i.test(n.title));
-  const count = {};
-  const sources = [];
+    && !seen.has(n.link) && seen.add(n.link)).slice(0, 6);
+
+  const count = {}, sources = [];
   for (const n of relevant) {
-    const found = CHANNELS.filter(([, re]) => re.test(n.title)).map(([name]) => name);
-    if (!found.length) continue;
+    const text = `${n.title}. ${n.desc}. ${await articleText(n.link)}`;
+    const found = channelsIn(text);
+    if (!found.size) continue;
     found.forEach((c) => (count[c] = (count[c] || 0) + 1));
-    if (sources.length < 3) sources.push({ title: n.title, link: n.link, source: n.source });
+    if (sources.length < 3) sources.push({ title: n.title, link: n.link, source: n.source, channels: [...found] });
   }
-  const channels = Object.entries(count).sort((a, b) => b[1] - a[1]).map(([name, n]) => ({ name, n }));
-  return { channels, sources, checked: new Date().toISOString() };
+  // tieni i canali confermati da abbastanza articoli (evita citazioni isolate)
+  const nArt = sources.length ? Object.values(count).reduce((a, b) => Math.max(a, b), 0) : 0;
+  const min = nArt >= 3 ? 2 : 1;
+  const channels = Object.entries(count).filter(([, n]) => n >= min).sort((a, b) => b[1] - a[1]).map(([name, n]) => ({ name, n }));
+  return { channels, sources, articles: relevant.length, checked: new Date().toISOString() };
 }
 
 const out = { updated: new Date().toISOString(), matches: [] };
@@ -89,9 +135,9 @@ for (const t of SOCCER) {
       const c = e.competitions[0].competitors;
       const home = c.find((x) => x.homeAway === "home").team, away = c.find((x) => x.homeAway === "away").team;
       const opp = home.id === t.espn ? away : home;
-      const tv = await findTv(t.me, opp.shortDisplayName || opp.displayName, e.date);
+      const tv = await findTv(t.me, opp.displayName || opp.shortDisplayName, e.date);
       out.matches.push({ team: t.key, id: e.id, date: e.date, home: home.shortDisplayName, away: away.shortDisplayName, ...tv });
-      console.log(`${t.key}: ${home.shortDisplayName}-${away.shortDisplayName} -> ${tv.channels.map((x) => x.name).join(", ") || "non annunciato"}`);
+      console.log(`${t.key}: ${home.shortDisplayName}-${away.shortDisplayName} -> ${tv.channels.map((x) => x.name).join(", ") || "non annunciato"} (${tv.articles} articoli)`);
     }
   } catch (e) { console.log(t.key, e.message); }
 }
