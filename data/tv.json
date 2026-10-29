@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T16:20:40.008Z",
+ "updated": "2026-10-29T21:20:10.316Z",
  "matches": [
   {
    "team": "roma",
@@ -11,13 +11,17 @@
     {
      "name": "DAZN",
      "n": 3
-    },
-    {
-     "name": "Sky Sport",
-     "n": 2
     }
    ],
    "sources": [
+    {
+     "title": "Udinese-Roma: dove vedere la partita, probabili formazioni e quote",
+     "link": "https://www.diretta.it/news/calcio-serie-a-udinese-roma-dove-vedere-la-partita-probabili-formazioni-e-quote/rJGpDxFE/",
+     "source": "Diretta.it",
+     "channels": [
+      "DAZN"
+     ]
+    },
     {
      "title": "Udinese-Roma: le probabili formazioni e dove vederla",
      "link": "https://cronachedi.it/udinese-roma-le-probabili-formazioni-e-dove-vederla/",
@@ -27,27 +31,17 @@
      ]
     },
     {
-     "title": "Udinese-Roma: orario e dove vederla in TV e streaming",
-     "link": "https://www.fantacalcio.it/news/calcio-italia/29_10_2026/udinese-roma-orario-dove-vedere-tv-streaming-sky-dazn-data-diretta-499881",
-     "source": "Fantacalcio",
+     "title": "Udinese-Roma - Domani niente conferenza stampa di Gasperini",
+     "link": "https://www.vocegiallorossa.it/altre-notizie/udinese-roma-domani-conferenza-stampa-gasperini-286250",
+     "source": "Voce Giallorossa",
      "channels": [
       "DAZN",
       "Sky Sport"
      ]
-    },
-    {
-     "title": "Udinese-Roma: probabili formazioni, biglietti, dove vederla in tv e streaming",
-     "link": "https://www.ilromanista.eu/news/as-roma/174321/udinese-roma-probabili-formazioni-biglietti-dove-vederla-in-tv-e-streaming-1",
-     "source": "Il Romanista",
-     "channels": [
-      "DAZN",
-      "Sky Sport",
-      "NOW"
-     ]
     }
    ],
    "articles": 6,
-   "checked": "2026-10-29T16:20:45.873Z"
+   "checked": "2026-10-29T21:20:16.323Z"
   },
   {
    "team": "roma",
@@ -58,7 +52,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-29T16:20:47.346Z"
+   "checked": "2026-10-29T21:20:17.717Z"
   },
   {
    "team": "boca",
@@ -68,8 +62,19 @@
    "away": "River Plate",
    "channels": [],
    "sources": [],
-   "articles": 2,
-   "checked": "2026-10-29T16:20:48.710Z"
+   "articles": 1,
+   "checked": "2026-10-29T21:20:18.851Z"
+  },
+  {
+   "team": "boca",
+   "id": "401841669",
+   "date": "2026-11-08T20:00Z",
+   "home": "Boca ",
+   "away": "Def. y Jus.",
+   "channels": [],
+   "sources": [],
+   "articles": 0,
+   "checked": "2026-10-29T21:20:19.814Z"
   },
   {
    "team": "fortitudo",
@@ -86,7 +91,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-29T16:20:49.650Z"
+   "checked": "2026-10-29T21:20:20.863Z"
   },
   {
    "team": "fortitudo",
@@ -103,7 +108,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-29T16:20:50.589Z"
+   "checked": "2026-10-29T21:20:21.873Z"
   },
   {
    "team": "juvecaserta",
@@ -120,7 +125,24 @@
    ],
    "sources": [],
    "articles": 1,
-   "checked": "2026-10-29T16:20:51.681Z"
+   "checked": "2026-10-29T21:20:22.917Z"
+  },
+  {
+   "team": "juvecaserta",
+   "id": "2584878",
+   "date": "2026-11-08T17:00:00.000Z",
+   "home": "JuveCaserta Basket",
+   "away": "Avellino Basket",
+   "channels": [
+    {
+     "name": "LNP Pass",
+     "n": 0,
+     "always": true
+    }
+   ],
+   "sources": [],
+   "articles": 0,
+   "checked": "2026-10-29T21:20:23.917Z"
   }
  ]
 }
