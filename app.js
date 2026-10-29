@@ -175,11 +175,66 @@ async function loadBasket() {
   } catch {}
 }
 
+// ===== LIVE ORA: tutte le partite di oggi nelle competizioni delle mie squadre (ESPN) =====
+// Competizioni sempre seguite (anche quando la squadra non ha ancora partite in calendario)
+const FOLLOW = {
+  roma: ["ita.1", "uefa.champions", "uefa.europa", "uefa.europa.conf", "ita.coppa_italia", "ita.super_cup"],
+  boca: ["arg.1", "arg.copa", "conmebol.libertadores", "conmebol.sudamericana", "arg.supercopa"],
+};
+const followed = (t) => [...new Set([...(FOLLOW[t.key] || []), ...(state.matches[t.key] || []).map((m) => m.comp)
+  .filter((c) => c && c.includes(".") && t.espn)])];
+state.today = {};      // slug -> partite di oggi
+let todayTimer = null;
+
+async function loadToday() {
+  const slugs = [...new Set(TEAMS.filter((t) => t.espn).flatMap(followed))];
+  const now = Date.now();
+  const range = `${ymd(now - 864e5)}-${ymd(now + 864e5)}`;
+  await Promise.allSettled(slugs.map(async (slug) => {
+    const sb = await getJSON(`${ESPN}/${slug}/scoreboard?dates=${range}`);
+    const evs = (sb.events || []).map((e) => parseEvent({ ...e, league: { slug, name: sb.leagues?.[0]?.name, shortName: sb.leagues?.[0]?.abbreviation } }, 0));
+    // tieni: in corso + quelle di oggi (ora italiana) iniziate o in programma
+    const today = fmt(now, { year: "numeric", month: "2-digit", day: "2-digit" });
+    state.today[slug] = evs.filter((m) => m.state === "in" || fmt(m.date, { year: "numeric", month: "2-digit", day: "2-digit" }) === today)
+      .sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
+  }));
+  // anche le partite delle mie squadre si aggiornano da qui
+  for (const t of TEAMS.filter((t) => t.espn))
+    for (const m of state.matches[t.key] || []) {
+      const fresh = (state.today[m.comp] || []).find((x) => x.id === m.id);
+      if (fresh) Object.assign(m, { state: fresh.state, clock: fresh.clock, detail: fresh.detail, goals: fresh.goals,
+        home: { ...m.home, score: fresh.home.score }, away: { ...m.away, score: fresh.away.score } });
+    }
+  clearTimeout(todayTimer);
+  const anyLive = Object.values(state.today).flat().some((m) => m.state === "in");
+  todayTimer = setTimeout(async () => { if (!document.hidden) { await loadToday(); render(); } }, anyLive ? 60000 : 300000);
+}
+
+// Elenco partite di oggi per competizione; evidenzia le mie squadre
+function todayHtml(slugs, myIds, onlyLive) {
+  const blocks = slugs.map((slug) => {
+    const list = (state.today[slug] || []).filter((m) => !onlyLive || m.state === "in");
+    if (!list.length) return "";
+    const isMine = (id) => myIds.includes(String(id));
+    return `<div class="tday"><div class="tday-head">${esc(compLabel(slug))}</div>${list.map((m) => {
+      const mine = isMine(m.home.id) || isMine(m.away.id);
+      const team = TEAMS.find((t) => isMine(m.home.id) && String(t.espn) === String(m.home.id) || isMine(m.away.id) && String(t.espn) === String(m.away.id));
+      const attrs = team ? `data-match="${esc(m.id)}" data-team="${team.key}"` : (m.link ? `data-href="${esc(m.link)}"` : "");
+      return `<div class="row trow ${m.state === "in" ? "is-live" : ""} ${mine ? "mine" : ""}" ${attrs}>
+        <div class="opp">${esc(m.home.name)} – ${esc(m.away.name)}</div>
+        <div class="when">${m.state === "pre" ? fmt(m.date, { hour: "2-digit", minute: "2-digit" })
+          : `<b>${esc(m.home.score)}-${esc(m.away.score)}</b> ${m.state === "in" ? `<span class="live-badge">${esc(m.clock || "LIVE")}</span>` : "fin."}`}</div></div>`;
+    }).join("")}</div>`;
+  }).join("");
+  return blocks;
+}
+
 let loaded = false;
 async function loadAll() {
   $("#upd").textContent = "aggiorno…";
   state.comps = {};
-  await Promise.allSettled([loadNews(), loadBasket(), ...TEAMS.filter((t) => t.espn).map(loadMatches)]);
+  await Promise.allSettled([loadNews(), loadBasket(), loadTv(), ...TEAMS.filter((t) => t.espn).map(loadMatches)]);
+  await loadToday().catch(() => {});
   loaded = true;
   $("#upd").textContent = "agg. " + fmt(Date.now(), { hour: "2-digit", minute: "2-digit" });
   scheduleLive();
@@ -229,7 +284,8 @@ function matchCard(m, t) {
     : done ? "Finale · Tabellino ›" : when(m.date);
   return `<div class="card match-card ${live || m.playing ? "live" : ""}" data-match="${esc(m.id)}" data-team="${t.key}">
     <div class="match">${side(m.home, "home")}<div class="score">${center}</div>${side(m.away, "away")}</div>
-    <div class="meta"><span>${compChip(m, t)} ${m.basket ? esc(m.league) : ""}</span><span>${status}</span></div></div>`;
+    <div class="meta"><span>${compChip(m, t)} ${m.basket ? esc(m.league) : ""}</span><span>${status}</span></div>
+    ${done ? "" : tvLine(m, t)}</div>`;
 }
 
 function resultRow(m, t) {
@@ -265,8 +321,11 @@ const BRAND = `<div class="brand"><h1>EL CORAZÓN LATE</h1>
       points="0,22 120,22 132,22 140,8 150,36 160,2 170,30 178,22 230,22 238,15 246,22 350,22"/></svg></div>`;
 
 function viewHome() {
+  const all = [...new Set(TEAMS.filter((t) => t.espn).flatMap(followed))];
+  const live = todayHtml(all, TEAMS.filter((t) => t.espn).map((t) => String(t.espn)), true);
   return BRAND + `<div class="grid">${TEAMS.map((t) => `<div class="tile" style="--c1:${t.colors[0]};--c2:${t.colors[1]}">
-      ${crest(t, "big")}<button class="go" data-view="${t.key}">GO</button></div>`).join("")}</div>`;
+      ${crest(t, "big")}<button class="go" data-view="${t.key}">GO</button></div>`).join("")}</div>`
+    + (live ? `<div style="margin-top:16px">${panel("liveora", "🔴", "Live ora", `<div class="hint">Si aggiorna da solo ogni minuto</div>${live}`)}</div>` : "");
 }
 
 // ----- DOVE VEDERLA (Italia, stagione 2026/27) -----
@@ -288,6 +347,33 @@ const TV = {
     ["Rai Sport", "Alcune partite in chiaro", "Rai Sport HD · app RaiPlay", "https://www.legapallacanestro.com/serie-a2/calendario-dirette"]],
 };
 const TV_GUIDE = "https://www.goal.com/it/notizie/guida-tv-dove-vedere-tutto-il-calcio-in-diretta-e-streaming/1674frahvw8qt1nojf0cwjwlzr";
+
+// Dove vederla PARTITA PER PARTITA (data/tv.json, dagli articoli "dove vederla")
+state.tv = [];
+async function loadTv() {
+  try { state.tv = (await getJSON(`data/tv.json?t=${Date.now()}`)).matches || []; } catch { state.tv = []; }
+}
+function tvFor(m, t) {
+  return state.tv.find((x) => x.team === t.key && (String(x.id) === String(m.id) || Math.abs(Date.parse(x.date) - Date.parse(m.date)) < 6 * 3600e3));
+}
+function tvMatchHtml(m, t) {
+  const x = tvFor(m, t);
+  const found = (x?.channels || []).filter((c) => !c.always);
+  const always = (x?.channels || []).filter((c) => c.always);
+  let h = `<div class="tvmatch"><div class="tvmatch-title">${esc(m.home.name)} – ${esc(m.away.name)} · ${when(m.date)}</div>`;
+  if (found.length) {
+    h += `<div class="tvchips">${found.map((c) => `<span class="tvchip">📺 ${esc(c.name)}</span>`).join("")}${always.map((c) => `<span class="tvchip soft">${esc(c.name)} (sempre)</span>`).join("")}</div>
+      <div class="hint">Fonti per questa partita:</div>${x.sources.map((n) => `<a class="src-link" href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)} <small>· ${esc(n.source)}</small></a>`).join("")}`;
+  } else {
+    h += `${always.length ? `<div class="tvchips">${always.map((c) => `<span class="tvchip">📺 ${esc(c.name)}</span>`).join("")}</div>` : ""}
+      <div class="hint">⏳ Il canale di questa partita non è ancora stato annunciato. Lo controllo ogni 30 minuti: di solito esce nei giorni prima della gara.</div>`;
+  }
+  return h + `</div>`;
+}
+function tvLine(m, t) {
+  const found = (tvFor(m, t)?.channels || []).filter((c) => !c.always).map((c) => c.name);
+  return found.length ? `<div class="tvline">📺 ${esc(found.join(" · "))}</div>` : "";
+}
 
 function tvHtml(k) {
   const list = TV[k];
@@ -332,6 +418,14 @@ function viewTeam(t) {
   else liveBody = (live.length ? live.map((m) => matchCard(m, t)).join("")
       : next ? `<div class="hint">Nessuna partita in corso · prossimo live</div>${matchCard(next, t)}`
       : `<div class="empty">Nessuna partita in programma.</div>`);
+  if (t.espn) {
+    const others = todayHtml(followed(t), [String(t.espn)], false);
+    liveBody += others ? `<div class="hint" style="margin-top:14px">Oggi nelle competizioni di ${esc(t.short)} · si aggiorna ogni minuto</div>${others}`
+      : `<div class="hint" style="margin-top:14px">Oggi non ci sono altre partite nelle competizioni di ${esc(t.short)}.</div>`;
+  } else {
+    liveBody += `<div class="hint" style="margin-top:14px">Per il basket i punteggi in diretta li trovi su LNP Pass:</div>
+      <a class="ext" href="${LNP_LIVE}" target="_blank" rel="noopener">Diretta ufficiale LNP ↗</a>`;
+  }
   const lastBody = last ? `<div class="hint">Tocca la partita per il tabellino, la competizione per classifica e calendario</div>${matchCard(last, t)}`
     : `<div class="empty">${loaded ? "Nessuna partita giocata." : "Caricamento…"}</div>`;
 
@@ -349,12 +443,11 @@ function viewTeam(t) {
     }).join("")
     : `<div class="empty">${loaded ? "Nessuna competizione trovata." : "Caricamento…"}</div>`;
   // DOVE VEDERLA: prima la prossima partita, poi tutte le competizioni della squadra
-  const tvNext = live[0] || next;
-  const tvBody = (tvNext ? `<div class="hint">${live.length ? "In corso" : "Prossima partita"}: <b>${esc(tvNext.home.name)} – ${esc(tvNext.away.name)}</b>
-      · ${esc(compLabel(tvNext.comp, tvNext.compName))}</div>${tvHtml(tvNext.comp)}` : "")
-    + comps.filter((k) => k !== tvNext?.comp).map((k) => `<div class="hint" style="margin-top:12px">${esc(compLabel(k))}</div>${tvHtml(k)}`).join("")
-    + `<div class="hint" style="margin-top:10px">Le partite trasmesse possono cambiare di giornata in giornata:
-       <a href="${TV_GUIDE}" target="_blank" rel="noopener">guida TV completa ↗</a></div>`;
+  const upcoming = [...live, ...ms.filter((m) => m.state === "pre" && !m.playing)].slice(0, 2);
+  const tvBody = (upcoming.length ? upcoming.map((m) => tvMatchHtml(m, t)).join("") : `<div class="empty">Nessuna partita in programma.</div>`)
+    + `<details class="card" style="margin-top:10px"><summary><b>Chi trasmette le competizioni</b> (in generale)</summary>
+       ${comps.map((k) => `<div class="hint" style="margin-top:10px">${esc(compLabel(k))}</div>${tvHtml(k)}`).join("")}
+       <div class="hint" style="margin-top:10px"><a href="${TV_GUIDE}" target="_blank" rel="noopener">Guida TV completa ↗</a></div></details>`;
   const links = `<div class="links">${t.links.map(([l, u]) => `<a class="ext" href="${u}" target="_blank" rel="noopener">${esc(l)} ↗</a>`).join("")}</div>`;
 
   return head(t) + jump
@@ -445,7 +538,8 @@ function viewComp(t, k) {
     if (!c || c.loading) liveBody = tableBody = `<div class="empty">Caricamento…</div>`;
     else {
       // Live e giornata: tutte le partite della competizione nei giorni vicini
-      const round = [...c.round].sort((x, y) => Date.parse(x.date) - Date.parse(y.date));
+      const fresh = new Map((state.today[k] || []).map((m) => [m.id, m]));
+      const round = [...c.round].map((m) => fresh.get(m.id) || m).sort((x, y) => Date.parse(x.date) - Date.parse(y.date));
       const anyLive = round.some((m) => m.state === "in");
       liveBody = round.length ? (anyLive ? `<div class="hint"><span class="live-badge">● LIVE</span> si aggiorna da solo ogni minuto</div>` : "")
         + round.map((m) => `<div class="row ${m.state === "in" ? "is-live" : ""}">
@@ -533,6 +627,8 @@ function go(view, sub = null, push = true) {
 window.addEventListener("popstate", (e) => { const s = e.state || { view: "home", sub: null }; go(s.view, s.sub, false); });
 
 document.addEventListener("click", (e) => {
+  const ext = e.target.closest("[data-href]");
+  if (ext && !e.target.closest("[data-match]")) return window.open(ext.dataset.href, "_blank", "noopener");
   const jmp = e.target.closest("[data-jump]");
   if (jmp) { e.preventDefault(); return document.getElementById(`sec-${jmp.dataset.jump}`)?.scrollIntoView({ behavior: "smooth", block: "start" }); }
   const more = e.target.closest("[data-newsall]");
