@@ -1,6 +1,6 @@
 // "Dove vederla" partita per partita -> data/tv.json
 // Per le prossime partite di ogni squadra cerca su Google News gli articoli "Squadra-Avversario dove vederla / diretta tv"
-// e ricava dai titoli i canali citati (DAZN, Sky, Prime Video, Rai Sport, LNP Pass, ...).
+// e ricava dal testo degli articoli i canali citati (DAZN, Sky, Prime Video, Rai Sport, LNP Pass, ...).
 // Eseguito da GitHub Actions dopo fetch-basket.mjs. Nessuna dipendenza.
 import { writeFile, readFile, mkdir } from "node:fs/promises";
 
@@ -32,6 +32,9 @@ const CHANNELS = [
   ["LNP Pass", /lnp ?pass/i],
   ["Eurosport", /eurosport/i],
   ["Discovery+", /discovery\+|discovery plus/i],
+  ["ComoTV", /\bcomo ?tv\b/i],
+  ["OneFootball", /onefootball/i],
+  ["Paramount+", /paramount\+|paramount plus/i],
 ];
 
 const decode = (s = "") => s.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
@@ -70,6 +73,8 @@ const search = async (q) => [
   ...(await rss(`https://www.bing.com/news/search?q=${encodeURIComponent(q)}&format=rss&setlang=it&cc=IT`)),
   ...(await rss(`https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=it&gl=IT&ceid=IT:it`)),
 ];
+// due ricerche: "dove vederla" e "dove vedere ... in tv"
+const searchAll = async (me, ok) => [...(await search(`${me} ${ok} dove vederla`)), ...(await search(`${me} ${ok} dove vedere tv streaming`))];
 
 // Testo leggibile di un articolo
 async function articleText(url) {
@@ -101,7 +106,7 @@ function channelsIn(text) {
 async function findTv(me, opp, date) {
   const ok = keyword(opp);
   const strip = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
-  const items = await search(`${me} ${ok} dove vederla`);
+  const items = await searchAll(me, ok);
   const since = Date.parse(date) - 8 * 864e5;
   const seen = new Set();
   const relevant = items.filter((n) => !isNaN(Date.parse(n.date)) && Date.parse(n.date) > since
