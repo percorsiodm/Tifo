@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T12:20:08.890Z",
+ "updated": "2026-10-29T16:20:40.008Z",
  "matches": [
   {
    "team": "roma",
@@ -10,18 +10,22 @@
    "channels": [
     {
      "name": "DAZN",
-     "n": 2
+     "n": 3
     },
     {
      "name": "Sky Sport",
      "n": 2
-    },
-    {
-     "name": "NOW",
-     "n": 1
     }
    ],
    "sources": [
+    {
+     "title": "Udinese-Roma: le probabili formazioni e dove vederla",
+     "link": "https://cronachedi.it/udinese-roma-le-probabili-formazioni-e-dove-vederla/",
+     "source": "Cronachedi",
+     "channels": [
+      "DAZN"
+     ]
+    },
     {
      "title": "Udinese-Roma: orario e dove vederla in TV e streaming",
      "link": "https://www.fantacalcio.it/news/calcio-italia/29_10_2026/udinese-roma-orario-dove-vedere-tv-streaming-sky-dazn-data-diretta-499881",
@@ -43,7 +47,7 @@
     }
    ],
    "articles": 6,
-   "checked": "2026-10-29T12:20:13.018Z"
+   "checked": "2026-10-29T16:20:45.873Z"
   },
   {
    "team": "roma",
@@ -54,7 +58,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-29T12:20:14.285Z"
+   "checked": "2026-10-29T16:20:47.346Z"
   },
   {
    "team": "boca",
@@ -64,8 +68,8 @@
    "away": "River Plate",
    "channels": [],
    "sources": [],
-   "articles": 1,
-   "checked": "2026-10-29T12:20:15.533Z"
+   "articles": 2,
+   "checked": "2026-10-29T16:20:48.710Z"
   },
   {
    "team": "fortitudo",
@@ -82,7 +86,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-29T12:20:16.717Z"
+   "checked": "2026-10-29T16:20:49.650Z"
   },
   {
    "team": "fortitudo",
@@ -99,7 +103,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-29T12:20:17.672Z"
+   "checked": "2026-10-29T16:20:50.589Z"
   },
   {
    "team": "juvecaserta",
@@ -116,7 +120,7 @@
    ],
    "sources": [],
    "articles": 1,
-   "checked": "2026-10-29T12:20:19.252Z"
+   "checked": "2026-10-29T16:20:51.681Z"
   }
  ]
 }
