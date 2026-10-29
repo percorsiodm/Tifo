@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T09:38:01.676Z",
+ "updated": "2026-10-29T11:26:46.611Z",
  "matches": [
   {
    "team": "roma",
@@ -7,9 +7,43 @@
    "date": "2026-10-31T17:00Z",
    "home": "Udinese",
    "away": "AS Roma",
-   "channels": [],
-   "sources": [],
-   "checked": "2026-10-29T09:38:02.169Z"
+   "channels": [
+    {
+     "name": "DAZN",
+     "n": 2
+    },
+    {
+     "name": "Sky Sport",
+     "n": 2
+    },
+    {
+     "name": "NOW",
+     "n": 1
+    }
+   ],
+   "sources": [
+    {
+     "title": "Udinese-Roma: orario e dove vederla in TV e streaming",
+     "link": "https://www.fantacalcio.it/news/calcio-italia/29_10_2026/udinese-roma-orario-dove-vedere-tv-streaming-sky-dazn-data-diretta-499881",
+     "source": "Fantacalcio",
+     "channels": [
+      "DAZN",
+      "Sky Sport"
+     ]
+    },
+    {
+     "title": "Udinese-Roma: probabili formazioni, biglietti, dove vederla in tv e streaming",
+     "link": "https://www.ilromanista.eu/news/as-roma/174321/udinese-roma-probabili-formazioni-biglietti-dove-vederla-in-tv-e-streaming-1",
+     "source": "Il Romanista",
+     "channels": [
+      "DAZN",
+      "Sky Sport",
+      "NOW"
+     ]
+    }
+   ],
+   "articles": 6,
+   "checked": "2026-10-29T11:26:50.373Z"
   },
   {
    "team": "roma",
@@ -19,7 +53,8 @@
    "away": "AS Roma",
    "channels": [],
    "sources": [],
-   "checked": "2026-10-29T09:38:02.439Z"
+   "articles": 0,
+   "checked": "2026-10-29T11:26:50.925Z"
   },
   {
    "team": "boca",
@@ -29,7 +64,8 @@
    "away": "River Plate",
    "channels": [],
    "sources": [],
-   "checked": "2026-10-29T09:38:02.835Z"
+   "articles": 0,
+   "checked": "2026-10-29T11:26:51.555Z"
   },
   {
    "team": "fortitudo",
@@ -45,7 +81,8 @@
     }
    ],
    "sources": [],
-   "checked": "2026-10-29T09:38:03.061Z"
+   "articles": 0,
+   "checked": "2026-10-29T11:26:52.066Z"
   },
   {
    "team": "fortitudo",
@@ -61,7 +98,8 @@
     }
    ],
    "sources": [],
-   "checked": "2026-10-29T09:38:03.408Z"
+   "articles": 0,
+   "checked": "2026-10-29T11:26:52.592Z"
   },
   {
    "team": "juvecaserta",
@@ -77,7 +115,8 @@
     }
    ],
    "sources": [],
-   "checked": "2026-10-29T09:38:03.663Z"
+   "articles": 1,
+   "checked": "2026-10-29T11:26:53.125Z"
   }
  ]
 }
