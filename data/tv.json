@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T07:31:42.180Z",
+ "updated": "2026-10-30T10:12:25.863Z",
  "matches": [
   {
    "team": "roma",
@@ -10,7 +10,11 @@
    "channels": [
     {
      "name": "DAZN",
-     "n": 3
+     "n": 5
+    },
+    {
+     "name": "Sky Sport",
+     "n": 2
     }
    ],
    "sources": [
@@ -39,8 +43,8 @@
      ]
     }
    ],
-   "articles": 6,
-   "checked": "2026-10-30T07:31:47.994Z"
+   "articles": 8,
+   "checked": "2026-10-30T10:12:31.538Z"
   },
   {
    "team": "roma",
@@ -51,7 +55,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-30T07:31:49.217Z"
+   "checked": "2026-10-30T10:12:32.751Z"
   },
   {
    "team": "boca",
@@ -59,10 +63,24 @@
    "date": "2026-11-01T18:00Z",
    "home": "Boca ",
    "away": "River Plate",
-   "channels": [],
-   "sources": [],
-   "articles": 2,
-   "checked": "2026-10-30T07:31:50.466Z"
+   "channels": [
+    {
+     "name": "ComoTV",
+     "n": 1
+    }
+   ],
+   "sources": [
+    {
+     "title": "Febbre da Superclásico in Argentina: dove vedere Boca Juniors-River Plate in tv e in streaming",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcXFIQXo2anJRZTR3T29TTHZ1OFVsNVB6a1ZmS0FtX0M2R3Z4b0I0MnFpcGk1VWJqempNZ1g2enN1c090cFJEZ1NKa2VRV3RLR1BGS2lWOXJucFQwczdMTzJqb1NfTXU4VUYyc3JvMFpva01IdUY3VU9MR3pZZklkLXlhaG5nV0s3Y09RN3BQQjdTaVJmNVdDZHdGRU5NdnFBYzZYamhqTFFhanFLRnlpXzM5RF80ZWdQTWNQVG90ZmZfUVM5REhiVlRGQjBlZWt1MTZrYkdaMWNSV3YyUWc?oc=5",
+     "source": "Chiamarsi Bomber",
+     "channels": [
+      "ComoTV"
+     ]
+    }
+   ],
+   "articles": 3,
+   "checked": "2026-10-30T10:12:36.783Z"
   },
   {
    "team": "boca",
@@ -73,7 +91,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-30T07:31:51.422Z"
+   "checked": "2026-10-30T10:12:37.647Z"
   },
   {
    "team": "fortitudo",
@@ -90,7 +108,7 @@
    ],
    "sources": [],
    "articles": 1,
-   "checked": "2026-10-30T07:31:52.442Z"
+   "checked": "2026-10-30T10:12:41.128Z"
   },
   {
    "team": "fortitudo",
@@ -107,7 +125,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-30T07:31:53.414Z"
+   "checked": "2026-10-30T10:12:41.936Z"
   },
   {
    "team": "juvecaserta",
@@ -124,7 +142,7 @@
    ],
    "sources": [],
    "articles": 1,
-   "checked": "2026-10-30T07:31:54.464Z"
+   "checked": "2026-10-30T10:12:43.993Z"
   },
   {
    "team": "juvecaserta",
@@ -141,7 +159,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-30T07:31:55.421Z"
+   "checked": "2026-10-30T10:12:44.862Z"
   }
  ]
 }
