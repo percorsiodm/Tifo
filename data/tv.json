@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T14:31:11.192Z",
+ "updated": "2026-10-30T19:40:17.464Z",
  "matches": [
   {
    "team": "roma",
@@ -11,11 +11,15 @@
     {
      "name": "DAZN",
      "n": 3
+    },
+    {
+     "name": "Sky Sport",
+     "n": 2
     }
    ],
    "sources": [
     {
-     "title": "Guarda Udinese-Roma su DAZN",
+     "title": "Udinese-Roma, dove vedere la partita in tv e diretta streaming: orario e probabili formazioni",
      "link": "https://www.dazn.com/it-IT/news/calcio/udinese-roma-2026-dove-vedere-streaming-orario-probabili-formazioni/7i5f5z8ft4is12hh40czk94ur",
      "source": "DAZN",
      "channels": [
@@ -33,16 +37,17 @@
      ]
     },
     {
-     "title": "Udinese-Roma: dove vedere la partita, probabili formazioni e quote",
-     "link": "https://www.diretta.it/news/calcio-serie-a-udinese-roma-dove-vedere-la-partita-probabili-formazioni-e-quote/rJGpDxFE/",
-     "source": "Diretta.it",
+     "title": "Probabili formazioni Udinese-Roma: cosa trapela su Solet e Balerdi, inseguono Molina e Mora",
+     "link": "https://www.fantamaster.it/probabili-formazioni-udinese-roma-10-giornata-seriea-2026-2027/",
+     "source": "FantaMaster",
      "channels": [
-      "DAZN"
+      "DAZN",
+      "Sky Sport"
      ]
     }
    ],
    "articles": 8,
-   "checked": "2026-10-30T14:31:17.562Z"
+   "checked": "2026-10-30T19:40:26.680Z"
   },
   {
    "team": "roma",
@@ -53,7 +58,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-30T14:31:18.771Z"
+   "checked": "2026-10-30T19:40:37.709Z"
   },
   {
    "team": "boca",
@@ -78,7 +83,7 @@
     }
    ],
    "articles": 2,
-   "checked": "2026-10-30T14:31:21.765Z"
+   "checked": "2026-10-30T19:40:40.829Z"
   },
   {
    "team": "boca",
@@ -89,7 +94,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-30T14:31:22.386Z"
+   "checked": "2026-10-30T19:40:41.610Z"
   },
   {
    "team": "fortitudo",
@@ -105,8 +110,8 @@
     }
    ],
    "sources": [],
-   "articles": 1,
-   "checked": "2026-10-30T14:31:26.233Z"
+   "articles": 2,
+   "checked": "2026-10-30T19:40:54.956Z"
   },
   {
    "team": "fortitudo",
@@ -123,7 +128,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-30T14:31:26.984Z"
+   "checked": "2026-10-30T19:40:55.999Z"
   },
   {
    "team": "juvecaserta",
@@ -140,7 +145,7 @@
    ],
    "sources": [],
    "articles": 1,
-   "checked": "2026-10-30T14:31:29.742Z"
+   "checked": "2026-10-30T19:40:58.666Z"
   },
   {
    "team": "juvecaserta",
@@ -157,7 +162,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-30T14:31:30.501Z"
+   "checked": "2026-10-30T19:41:04.507Z"
   }
  ]
 }
