@@ -1,12 +1,33 @@
 {
- "updated": "2026-10-30T10:09:39.411Z",
+ "updated": "2026-10-30T14:28:19.788Z",
  "teams": {
   "roma": [
    {
-    "title": "Rassegna Stampa | L'AVVERSARIA UDINESE, Solet punta la Roma",
+    "title": "Roma, le ultime dall'infermeria: dalla decisione su Svilar alle date di rientro di Dybala e Kone",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWTFzMjVsMWIydHlETlp2a0daYlEyUG51OFZuNGhjb1Q4cEgxNWJzLWtUMTY5RmctMlJLblpTWXRQYlNOZWNYbm8xM29LbzhqblI5amhKVlU0Ry12bi0ycThKOVI1NnBoNGJrRGljV0RmcG0tdDZXVk9UQWJZbmZXQkg0NGlfRzdiN3dPSVVMTFhJbndKREJQOHJlSdIBoAFBVV95cUxPZXlHM3Q3M2ZJR1J5ZFNrMm9tREs0S2lDQVhYVDN0M0hoRlJZdkVjN2c2Qjg1bHp0WVY1WGNMMVZHS0N6MmwwNzVzSGFwNmtidkYxb0NJNy1nRFlubDkxdHRMWnJSd2J4d1IyUWZpaDlGVFNKQklGNEtIa0xxVTVFWHJPQ2gtVmY1SFRTTnpfS1g4RDNweFZwOUVKdGtvS0xn?oc=5",
+    "source": "SOS Fanta",
+    "date": "2026-10-30T13:00:42.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Udinese-Roma: le probabili formazioni e dove vedere la partita",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVEg5bWs2QW52WHdvRnduTUpmMGtpLXFIbHVuaEdPR3dYVUo5QkE2Y0QyZDRsQTIwdVgxSTdrejdwZmFqRzY0NHh4SkdTOUNCWGw5SmxtbkxXTExpOGJhNHJFTFlncko2Q05QZ2tCQ2pJN01UX1A1WHByb0szVW5CdVhsd0tBVXcybnVj?oc=5",
+    "source": "RomaToday",
+    "date": "2026-10-30T10:47:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Rassegna Stampa | L'AVVERSARIA UDINESE Solet punta la Roma",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOazVyMTY5THdpMDdhYU9XbDdhbkpxMDJZSkxOSWYxN01XOWlKSlRYTTliaHNncW1zYlQ0UkJNM0RicGZXMjNrT29XRU5nYWxNeVYtWUxJREpmWlFNRGVfYm91dWx3OXdZQnVVYmdWLXNDUTRKN3pNSmVyTWR0NVB5WDBpMVZEZUpIalpKQnV5alhCc0VHbXVQME5aVzBNS2d2ZmtLNg?oc=5",
     "source": "TuttoASRoma.it",
     "date": "2026-10-30T09:19:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Calciomercato Roma, D'Amico a caccia del vice Wesley: occhi su Kaua Pascini",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObGRvdWxLLUUwRk9HeGlidTRPMFpOY1MydlNHdUJnLXJiQkctRGcxemRnMTJ2OFpnbjdtNFdrR3pwTmY2M1B6azB0OVFURGhnNVVBaFJsSTM4YzhMemtPYkctU0NQVkI1YmY3em1nRmtGX0hqOGZ0cW9CQkVxTnBTN1B5ZHNIcFNTb0tvRHRIcks4RHB3Y3JYcnFpa3hLcVFXZTZTcHVfVllIR0s4VE9CTTNUMS1DQW9VdHF6T0tORdIBxAFBVV95cUxPNG5Zay1SN0pPZ0VaU0YycEVjdFFvcW5USWM5ZnRQcWk0aF9ndjlCQjc2Y3Vwb2F6S2RzcE51eUs3MXpvT3JvVUJ5Z1JoLXU3OWRTVllqSTdCOE1sS3lFOHZKSHN1SkwydEFwdGlQTTdEbFZwN3l6cUtVZkEzR2IzVnc5RWFqOG1BQi15SlZoNDUtQXUtYkgxSV9DRjBkVmhHR0phd0d2VDlNVndCdWphY1dPM0FXbzB6a1R2aXFJVkJyMmps?oc=5",
+    "source": "Forzaroma.info",
+    "date": "2026-10-30T08:22:55.000Z",
     "lang": "it"
    },
    {
@@ -66,13 +87,6 @@
     "lang": "it"
    },
    {
-    "title": "Calciomercato Roma, Endrick verso l'addio: chiederà di essere ceduto in prestito",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNmpHeHNuYS1LSkI5Z1ptRlVtRWdMYnlmMC1qTXlqNDFILXlSZWRKeWFocE1nT0RtTU5YSXBibkEzMmNBVEtjVEdaTURBSDB4SFk1Qkx6eWJvTFdZV3BnRWh4SE1pTHprSzhQM01rLU1CRWMwQXdwb3QwY1JyLUN4bG5taWJtNEZhQkNzdUtQR2NFZFcyN2VwZ0dJSnRQMVV0TUF2cWdfNG9xRk9LaS0xRHgzZkFla2cwUmxlc1RJdS1zTHJCSFHSAcsBQVVfeXFMTWtVZGFITlVRMUVJcVcxOWdXZVQwSEdvWTM5Q2x6cHNhbzVPQWIzLVVjVnhzbGxJaTROSVhjMldUaG9aWWp4Y1ZQNTU3YnlpdHVJaWdFeDIzbHhBRHBRSEpWYVozdmowZ3duVk5vNlNiVHJFVldMREhIVm5IUEVYMF9kM1hpY0hlVFhzTWZyMlF6N180ZlhyMjZOenJSRV9SQ2lORmU2NEJaSTY2R1VTZWRaTGVzZnFDZmFVMWFoSDlHam5YTktvYzdfeTA?oc=5",
-    "source": "Forzaroma.info",
-    "date": "2026-10-29T14:16:25.000Z",
-    "lang": "it"
-   },
-   {
     "title": "Infortunati Roma, da Dybala a Svilar: le ultime da Trigoria e i tempi di recupero",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa2FGUDI2dVFaRjFxdXoyVUxaRlQ0eFRwWWg4QVlNYjFSUUIyWTl5eVM1b3Y4U3Vpek1JS09PUTJMdGZjeDYyX3pLYk85ei1BVHNiUThqODNYV3puU2JqZjBHdWpxVURvSUZiOFkxMHZIVzc1ek83bURXd1Y2bmZlU25lU21NMUlJZnEyZVdtRTk?oc=5",
     "source": "RomaToday",
@@ -101,38 +115,10 @@
     "lang": "it"
    },
    {
-    "title": "Rassegna Stampa | Roma, Malen non è più solo",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMEM1T1QxM2hYbXhQSjFnTmtkdGhEQ1JELTdoTjNMMmtKRE4yQklpRFViT05NOUZ3QURHQllsZzhWNUF0a3puY2w5MEFlRUEwN1lGSlU3ZTM4VFJpNGFJMVpMT09zVW5SNkh1cU9ZaUZycG40OWxTS0pNaGxnelJhenZPSFVOTzNwZTZ1VmJTa1V2QQ?oc=5",
-    "source": "TuttoASRoma.it",
-    "date": "2026-10-29T07:58:01.000Z",
-    "lang": "it"
-   },
-   {
     "title": "Chelsea-Roma 2-0: le interviste post match e la gallery",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQS1FFWDdWb2k5bUlSY0JUdzdvUDFzVGFzYXZ1ekVtMnRRakwtay1UZnR2T2RHTnZCZlJUYURLWl9ZOW92OVdYMjBHV0NmcGVDVlg1ZnBrT1V2WGlrNGF4Wmc0Wmh0WXZ0LUVmdzV4dFFyODEyUHpRTzUyQlA5Z3pCZG80d1B5X0I3OGFOU2wxVTRPRFZlVk5LT1B3?oc=5",
     "source": "AS Roma",
     "date": "2026-10-28T21:31:43.000Z",
-    "lang": "it"
-   },
-   {
-    "title": "A Bergamo liti furibonde, si ritrovano a Roma e volano: Gasp e Gollini, retroscena di un amore capitale",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNS243ZzViR0pwX1RwNnd3Y0VfMmMyUHVPdHpxSGIyNDJ2OE5MZWJ3Qm4tZDZtQm52MzdjWm1MVUFEYlh4clczT0k4TjF1RzNESTZqdV9zNU5DT1FwcDNaX1p1RFVibzdMbXdsazcyWFgwbjBFaTRHbmRNekVkMV9Hd3BKTjFuZDVHQzZF0gGQAUFVX3lxTE44SmxLZXNfM2d4bnk2dTZiY2FwdTE3TllOZDVsZ2ZlY240MDI0aXpKeUl4XzlkUlpVbEFtYTA5MFhSWklUbmVIVFVzS29nMmd3dWwtOVl3bFVaNkxfc0ZJaVNyd2NnRFNaNWVHc3hiV3ZLVkJxZjdfZjhEN0ZORU5oVDZSeXJQREtiakg2YTJSWQ?oc=5",
-    "source": "La Gazzetta dello Sport",
-    "date": "2026-10-28T15:50:05.000Z",
-    "lang": "it"
-   },
-   {
-    "title": "Trigoria AS ROMA | TRIGORIA NEWS La squadra, dopo il match di Udine, non ritornerà a Roma: direzione Manchester",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNcjB2RzNwbXdKdU1HNkp0UEZFOXp6b25YOC12Mno5ejBybVowWjNyLUdqTkJqZ0xJQWRfc2U2TlNaOVhybzJMVHVvOGh6NlJldlE5NmxFX3l5TlBENnlYUGJkUmlobjAwSVVPNXVUQmUtU0VTSmNKM2lENFVHX2xVTW55c2NkaktIVmItcjFHUFBzZGFGa3Z5b0xoZndydGxVM2RsZG8xVDNZLWtOS1JDOUFzdkFwZTgwNGRZaGh5SHlWNkJvSmJ6U1lDVTF4VjVUX2lHYmtLMEhTSWFUdjdXVDV2UFVIVGh1?oc=5",
-    "source": "TuttoASRoma.it",
-    "date": "2026-10-28T13:57:27.000Z",
-    "lang": "it"
-   },
-   {
-    "title": "Ex Roma | PAROLA DI EX Sabatini: \"La Roma lotterà per lo scudetto fino all'ultimo con l'Inter\"",
-    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNM05UNnNSajNiQWlRNkJmd2lhcWcxWGxxX1pkaWNmaVd4ZVE0cUhOX0FSNzBjR1p4R3NkYjJEYndrUlhlenEwSWdsNHNLTnpPcXI5eDd2X1Q5NFBwWGVXd1Zxc094ZXdjWnFPX21BVEMyb1Y3M0ZKOHhzZllHNXVDU2hXc2NudXRncDFWTmpHbWpSVEg2V1VsejhKUDRQUXlIRlJGcXIyb1hrWTdxb1FGUHFDMTF4VVotX1ExU0VUeXNBTWZCR2lmN2ZoYTNmVGNfVVFCeGh6b2o3bWpSclgzcnh6QmZJR045WDRkOE1NbVc1M1E?oc=5",
-    "source": "TuttoASRoma.it",
-    "date": "2026-10-28T12:21:00.000Z",
     "lang": "it"
    },
    {
@@ -161,13 +147,6 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQmdpUTFTeVU4Rlh1OFpjSEdhYjZwQ2pxRFJieDRLVzBUYUQ0Z3phOE1jUFZjdmltNWNsTC1uQ2pQVlF0TGFPZlVsNFNUWVZydGdmZmlXV0xmSERUNHRfdWZDa1hpeHJ2OEtoWW9UMVpnVXhqV2VGR3Axdi1JcVozVEU1UmF2cDNkNU0tRzdJOG42QTB1Y0puLWh1QW1FTldzQ0RORUQ5Xzk2dkU?oc=5",
     "source": "AS Roma",
     "date": "2026-10-27T22:31:31.000Z",
-    "lang": "it"
-   },
-   {
-    "title": "Pagelle AS ROMA | ROMA-CAGLIARI Le pagelle (di Marco Terrenato)",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUTdiYjgySVNuMkl0SGdTZUljN05ZTTA2SjB4LTItMWRJbkUyVFdodko2b1FYODdON0FXVUN2cS1yX0pTX0xGLUxUODBqMGd3VVpJYWd4Ujl3U2sydFktR3cyblltOTczMElZWndMa3hxMXJQQmtLZ19GRTA4MnVxcjFnQnNKSElvWVZJR20zN2RGbUJPYkZpM0RwcmI5RVBzcTVpMFBjTHhGMG00NmZtX1lpZzhnZDA?oc=5",
-    "source": "TuttoASRoma.it",
-    "date": "2026-10-27T22:19:00.000Z",
     "lang": "it"
    },
    {
@@ -211,221 +190,249 @@
     "source": "AS Roma",
     "date": "2026-10-26T13:17:44.000Z",
     "lang": "it"
+   },
+   {
+    "title": "Le parole di Gasperini dopo Napoli-Roma",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTEFxYk10T0VJZUhISV9JYmoydml5V3drdTdFeFZsU3p2TjlHQWRJY0kxNHBmS1pRR1B3Ri1saVZ1elAxdmkzZkxyRXdSdmF2a2R6b3hhRnl4QWtWYWhxZ0VCWE1oQzA1REo0YVlhRTRTcGpfUUMwY3hXNGhZTFVkSC1NaWhSQQ?oc=5",
+    "source": "AS Roma",
+    "date": "2026-10-24T18:51:43.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "I convocati giallorossi per Napoli-Roma",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOUd0S056cWEzZ2JRQk9TNE5QN3NILUV2NzJtYWhDZmFyaVJWZl9ZWF9oaW5JSHlBclBvcEUyaWo5Q3hnVTQ5SXBWREJrT3VyZVdHay1fcDkwVWNhOWU5dXdJV295eVFmMHhvZ3RpT2NocF9lUFE3dzVDMU1ITS1nazNJUFdGUQ?oc=5",
+    "source": "AS Roma",
+    "date": "2026-10-23T16:39:16.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Napoli-Roma: le info per il settore ospiti del \"Maradona\"",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSkVwYWd5YTItQWVZcDBxRkxkOFcxLWliWS1FdVhYYTQtczNfSlNMckFRbFJ6bnRIU0tFTzBSYXY5aUFWYlVfU0loUjVJWEt5M1RBbDVsZk04a1k1Uk1rblplalhYaDJGak9XNl9ZWEh6SnZ5b0UydmEzZlRtT1plS0tWSWQzME9lQ05wNGtBY1Y3ZU5saHZXZkVR?oc=5",
+    "source": "AS Roma",
+    "date": "2026-10-21T07:00:00.000Z",
+    "lang": "it"
    }
   ],
   "boca": [
    {
+    "title": "River vs Boca: Las bajas de River para el Superclásico",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbjA2R1VFbzFWRGtxSzU2Ul94ekdDVk1FdzhKWUFZV3lleFVyWTl0a3pOb0xrTVZKLW83R2tISmZkZTVSbVZnTDVFNEhTRUxxVjV2MF9peGRRR3UydnZtejNmaEhlcE85R0s2R1k5RElFSldLSTZxVmxFZXBNeENBeGxtQTlTSUo1ajdwMnZBbjRxbGozT3dTRExDYWo5Znc2UzdsNVpGUGpfUTdleUZtZzJn?oc=5",
+    "source": "LA17",
+    "date": "2026-10-30T14:03:00.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "El pedido de los hinchas de Boca a Riquelme para la final de la Sudamericana: \"Hacelo Román\"",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZkhCWmpOclBMX3ctMVg5VWxBd2h3VG5rVUlPZHpLSWxrellJSF9WQmJOMFJEWHdjeHBEWWpSZjJMSkx1amFDMHdfWER1THBxc053ejM0NjJlLWVCcS1kWm9ZRWhJaXZXQ19QVTdJTnhoUGdaeUhPZ1g4bmozQnFDRHpFNFZtSnBQVTBUUmVvOGxwcVBvZ2VJTU1OWG96ZFZONmVSWWw3dw?oc=5",
+    "source": "El Intransigente",
+    "date": "2026-10-30T13:58:28.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "River llega diezmado ante Boca: tres bajas confirmadas y una duda en el mediocampo",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcF9YaWxxelVQRnFlbmx6eWhqRWdZUUhONGI0bmg1a3FyVkhZbXZsYzU4WjlRNlVBbTFUc1VBV0FhVmc4Tlp6Tmw1ZkVmM25aMUlMVmY0U28zdnBBQUZ6dnU2VnBWa3dKUkROZUhxYjlBSGQyZDRuUjlXN0lNMnhIUTNrcENseFpSQnVnTE5icktUdmhTSHJnTUI5WGNsQmFCTk41blczZC1MZ1ViWFlXMmdGdlMxQ3VEdnZ4aTRMV0VEQi1XaFhCNC1lSWHSAdIBQVVfeXFMT1lQOUhBQkRBWXh4UUR6OXdjcVVZSkZnS1Y5QVBwbm9nRTQyUjBrYkl4dkw5M0x6Wlc1eU9XZWthVUVkWmxJUWtOWW01a2ZvN0M4N0l6cTlNb19BdHppbmN6WHY0VlJnQXpTd0VhcmV0ZFVoMnM1MkR5dVd1ckhlS3pJdkE5MnhzQWZzQlg1ZGFxUm9pQ3Y3WHdfTVNhUkV0WURMU3lrMUw0eDlpamU4Z0pjYlp0NU8yX3Rtd2xoazgwcGh2ZmRMbElRTFdQdmkyUUp3?oc=5",
+    "source": "Cadena 3 Argentina",
+    "date": "2026-10-30T13:53:04.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Todas las bajas confirmadas en River para el Superclásico contra Boca",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZFA4U3RqRXBNQW1WR0h0TGNQUUF1X3B5QjN1bURvZ0hYSllqNk55bHVVa0hKSkVBU013SzVRbVI2M3ZRUEc2WEJtRTIyYTEyb1c1TDcyTFBVdmdXQlRYai1feGtlSU9pTXU0OEhTWDFneXJLUldFUnRMSjBTLTRINGdvbDc1eDdHSzdjOXZSaHU4TTA0Q0duQ3dHQXBfZENn?oc=5",
+    "source": "El Intransigente",
+    "date": "2026-10-30T13:50:31.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "\"Te extraño todos los días\": el emotivo homenaje de Boca Juniors a Diego Maradona en el día en que cumpliría 66 años",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYW9nVVF6YmJBa0NPRUtyRGJEWGNfVjJ6NzZZMzhmOWNNUlhudDM5SU1QazhVYlBMajFRNHNYU1VJVi1Mb3NyN3B2Wm1yZ3V3bVZ6RUJtS1FNUVBnNFA1ekpPSzdybXJsQnN0QkNidjJ1X3N2d0hUNl9FMDduM3B2bWtxWW5KcGFvMndjTXhRRFIxbkUtdUppSkw5UEw2Y0FfNTlEemdHVFJieTRwNWZLUWEtNURudlhHZUoxNWROSVdDOGVnQ21lLUE4SFIwYUFYc0FyRHpFcWN3Mnk3U3hYRk9kcE8zY1ByVHc?oc=5",
+    "source": "ElBonaerense.news",
+    "date": "2026-10-30T13:48:39.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "CONMEBOL advirtió a Boca y Atlético Mineiro por la venta ilegal de entradas para la final de la Sudamericana",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMWtMcEc0ZG1TNDZlaVg3MDRBN054MjJmcVg2VXc5cWxVWTBYMG4yX2x5S2ExbnVVenZOZExvS0hRWXd0dkV2SUlPY0F4cFdMdmNYbDhmRmJ0bkNyMDlZTnluTFRXQmdaOTMxZ1dYZzNMSGw3LUpMUkZRUGVRX0l5VEhiZ0pBM3RBc1VwWE9HZGNFajBzaUdESDNvLVZYd1lBQ1NBSk45Nm1WeXVORGtkZmtkTQ?oc=5",
+    "source": "El Intransigente",
+    "date": "2026-10-30T13:46:02.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "River llega diezmado ante Boca: tres bajas confirmadas y una duda de peso en el medio",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdGE3S3lYcGxPb19jclRmTlJ4a2xNcUx3c0R0LUhkeUtJVVpqbGlGQlRkNlF2NVU4Rmt3V0ZCSnNfaUZoVTdpQUxJc1dOWWFYNmJBMWduR01CcEFscTJXUUt0Yk9XNXk4RTkyRVd3Q3Jva29GLXFIUnMwVDdLcEstelVtbkx5TTlGWVRncFdVSjFUQlNSTDRoVnZCb3RSTEFTWnE3Y3QyN0M0WmdYVjQxV2FZSDlhYWc2U3BRbWFfM3RvQ1RpZU1nLV9tRVZzX2RvM1hVa9IB1AFBVV95cUxPdGE3S3lYcGxPb19jclRmTlJ4a2xNcUx3c0R0LUhkeUtJVVpqbGlGQlRkNlF2NVU4Rmt3V0ZCSnNfaUZoVTdpQUxJc1dOWWFYNmJBMWduR01CcEFscTJXUUt0Yk9XNXk4RTkyRVd3Q3Jva29GLXFIUnMwVDdLcEstelVtbkx5TTlGWVRncFdVSjFUQlNSTDRoVnZCb3RSTEFTWnE3Y3QyN0M0WmdYVjQxV2FZSDlhYWc2U3BRbWFfM3RvQ1RpZU1nLV9tRVZzX2RvM1hVaw?oc=5",
+    "source": "El Chorrillero",
+    "date": "2026-10-30T13:45:44.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "La postura de Boca tras el desplante de River en la conferencia previa al Superclásico",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaWVzNmNIRUQ2TUVrLXhBTm91WnZDcDdCc013SFBsZ3NIWm5LTkx4QVVVNFdCLW9GS1pNQ1VVcnpEeTZfX2J0N0VWclh4eEtsakY4SndhUDlyRlBfNnNVdkFuZk1VY1pRMGZiMHk2NVFTMFFPdjdRaXdlOFZIN0h5ZHZfWFlOM1JIeEJzcVlrRzFxS0U3NnNaaE9WWk9TUS12dGFON2dyRTJFeGlUMXVRbHVuWTU?oc=5",
+    "source": "El Intransigente",
+    "date": "2026-10-30T13:38:43.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Atento, Boca: se lesionaron dos jugadores de Atlético Mineiro y uno de ellos terminó en el hospital",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPTEYzYy0yT3llOVFDUEw1Z1pnMFdoTnF4Y01sRkZ4VkNMY1NxUmVucjg3Z080MlYwSEVOZFBRWlFaYzNYbkY1UFNoWmFWYkstM3NfZHJMSEdGdlRyV1RtYlZGZzByc3Y4Zlk5SVR5X1VjLUFLSkc1NUxyQWNBTGV1X3ZueTdudml2QXFsY1BjNmd5R2R4bi1zZENnOWhVc3p6SWVCTTZUT2QtNm1pOXoxcXluaHA0eTFqTXM3YzhaR2dJXzBGTmVmS2VRNVRBdDRIWmpUenQtM05YUQ?oc=5",
+    "source": "Planeta Boca Juniors",
+    "date": "2026-10-30T13:37:57.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Los emotivos posteos de Boca por el cumpleaños de Maradona",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUFB6dXAyNGJoWXpyVVZjeUxlaU5VeHFuaVh5S3R5WUNtWlRweGNhUHVIeXNKS0I1dDNPUnBzVmhidXljNVBPREhVdldNaWI1QnpNZ1Y3TTd1QXdGLWxrQnQ0TjF6N2JwOEd0ZGNyS2gxemNWamxkeGlKb1JOZWc5aFFHUUpXMzFfRkZDb1JyQUNIN0h1YWNLYjZhd2hqaGlxam9wT2lVYnZqbWVBMWZMWWtLOGM0VHdJ0gG-AUFVX3lxTE9rdWJjQnZlZjFVbGRHa181M3B4RHVrTlUyaGhXem5uSzFhSGFYejhEREtibk9yeGhfOWJGTGFnYUJFV09wWDNfLUs3dVh4RFQ5M2d4d3ZFWTFuSk5sZ3FJMGs5SG5GRlItbnZKZ01XenZMZF9UQ3Y0OG40aF9kSmNrNHdldndpWXBGNkJKVl81UVRmWmxPVll2Y05fT1FkN1VsR3JDU1pGSXVwNi1HSnN5Nm13ZjhXaEx1MGFxYVE?oc=5",
+    "source": "Olé",
+    "date": "2026-10-30T13:20:38.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Con una duda en la ofensiva, Arruabarrena define la formación de Boca para el Superclásico",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaUJoSElFbGx4SWYyaldqakdGRlN6MnBVTEJST0JGRlQ5VEw0WS1VSEt6TnJlNkFCcnpiemlkbm1oQWZIVEdEcVNHS0Q3SlAxWXREUXF4ZFdjRWRhbU0zYlFhTWpxcnQzblUtMFE0bFItVWFsWVM4dUt5bDRHRTRzckFXbkl4ejZVb3Z5RTItZmRFTHFIQmhiNmdDWTdqM1VHbmJVNDV3ZDRkcjRZMHctZlFmbkN2U2lp0gG-AUFVX3lxTFAwd05RcUZtaXN4S1Y0dEVmVHN6Z2FHWS11Ymhxb1BaNXFFUzY3QmFaNXVkbENrRGxoM0FDcUp2VFpnOXU4WWpSNl8tVnVTNUxzWEg0MnRFc1d5UmhHSHg0SmRZNGkxRGxBVFpmVFJ1ak9BYkl5QUY1YUxyYXE3LXBRX3dXTE5ZTGhjbWpDOGhuWVg5SlFsaDRlRUo5TDllMFlJSlNJUF9yQ0YzaHE3aEZBelA2S2dCc25BV1g4SWc?oc=5",
+    "source": "Bolavip Argentina",
+    "date": "2026-10-30T13:17:51.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "El video que publicó Boca Juniors por el cumpleaños de Diego",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSWRBYjdSY2NGcVBfaExKTmdVTUFUZ2dIV1BZMHlqdUFMb0M2d0d3eDhhcVRwOVJvRkNta3VOLUhjS19mZjhmMFNoYlFRTmlxTXJBeVZDbFlJbjJXRkVoaUNsUXBoYXNDRlBpWEVxVUhEYTdfNGMyLTI5Qk96ajJuajBqMFppVmU1aENicExNSjBTaWRua3hnM2VSMA?oc=5",
+    "source": "Yahoo",
+    "date": "2026-10-30T13:15:28.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "El increíble Superclásico en el que la barra de Boca alentó a la de River",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLTk0eXp1aVhuQ1RGaEVGbVI0TWRUak14YjgzYTIwSmxMWjBaSnZuSDVOQU5tTzRRaWw5NWR2VVZpNl9lLVRieGxQTGVEOVRTZk5lbllKZnF0N1pQTldYWS16a0dzOEJNUC16ODVBZ1FHVmlaelh0TlRpZXdSeHFVUzBLWC1sd1Zaa1Fkb0xra0RBVnF3RTVYakJBTEJad0FORjN4VTl6eGxtbTI0b0E?oc=5",
+    "source": "TyC Sports",
+    "date": "2026-10-30T13:06:06.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Cómo cayó en Boca la baja de River de la conferencia de prensa previa al Superclásico",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPN3VHVFN2aThtbHRXcWxTMGVaSzM4Z3A1RWs4S0lrWV9URTNfdXczVjdXWVJSZDZ3anF4VHJ1UFRuVnVqdlBobkxqQThGVEFVRWdMa2VseHI1eFJYbGgydUZlQUNZNlcxeVlyMGQyN21lcXhuOHd6NV8wVS1jaTVjT01MQ2lXWFhHRW9POGpSdmhnNWRzWi1BQUdvNjNWWkpTeFUwYWlGYWFOWnVxeFdORjRhQnUtZHp1YWFrUnBJMVNMYnRuc1hRNG1XclAwaF9zbHhr?oc=5",
+    "source": "TyC Sports",
+    "date": "2026-10-30T13:02:09.000Z",
+    "lang": "es"
+   },
+   {
     "title": "Boca Juniors-River Plate, anteprima del Superclásico: tutto quello che c'è da sapere",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcG5kZGNGQWk0MExvaTVWOHdJX1czM3g3bWZwTk5hb1NNNzgyU2dST0VSeU1oNFZPWkszUmFRQm9Qb1d5Y1ZnZ0hrZmswX2xMemZqVGEzWkt0UWtRa2JXWDh1enplTG5vZ0MzdHIxU1g5UjduN3dNWWM2bjRrUlFabmZJOHVWMXNMeUFtUktjbG1PbVN2MF9FYW1Yd3o1SkhraUVDTDdqV0xGLTRsUHM1d056N1N5Wms1RXR5UzFrWTBnbk9rS2xPYVAtbDRLN1U?oc=5",
     "source": "Goal.com",
-    "date": "2026-10-30T10:06:06.000Z",
+    "date": "2026-10-30T12:59:48.000Z",
     "lang": "it"
    },
    {
-    "title": "Boca, ante la chance de igualar una racha de 1991 en el Superclásico contra River",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOX1FnN1d4LW1PUkZGVlpvWHgyOWFNVC1DRjI5WE1GZF83eXc1TS1URmEzZzlOb3hRMFN0blAwNW5hMnVkdWY3emVwWXZCQU1ubGw5VFctU2xPZHI1R0VZaEFUU3F2Q3d6WXpIdEdLV2hDMXNIMDdvRXFpUVJDTTdjNWJhUkdaMHAyS2E0VGtLUElJck1ObHgtbmVkRzNoRVRYM3JMNVY4VnpKdUhNd2JoYW5FSVdiY1JsWEw4NlZyR2VnOC1JSU82ZWc2ZEI?oc=5",
-    "source": "TyC Sports",
-    "date": "2026-10-30T10:02:13.000Z",
+    "title": "Se viene el Superclásico en La Bombonera: árbitro, formaciones y todo lo que se juegan Boca y River",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOREhXMmM0aG5Xak5VYktXTmx4R2dzWi1CODNwX1RUMWFWaVZsWUhzVEdvZFFRY2MxcmRtcnE4WTExZkExWE9xWDVuTGd6NTBFbnRMdm9WeVNzcXlUN0dMZlZuTEdrMTRzNE45N0E5Q3hlOEpyN2pxSGFMR3dZZVlYeFk0bVdUUHktV0Z2LUxRbmhEVV82VEVpSmhCaHR1RW13Q3p5X2tTV0JEbTcxMjl0cUlTQlY2elc5eVFXV08tRGdoNUV1S0VKNlhfcldwcFFH0gHWAUFVX3lxTE9TZVgwTkhUNjBLZHdWXy1aT21zdDVvd205SThBNzVDOC1tZHcxUXlWSXVuaC15ZENtSjY4akZFLUdtQ0lwUUJ5dVFEbHhWZ0tiMzUtZ3R3Vi1fQnljcnN5UXZOS0lTZ2xob3p3M3U1V3JvLTltRllsNEFCZE9iZDd5c0VUYkp4bmtxTU9NbzNTbGI5T2tldVlGSkpQVE9Za0lsMDM0dzE0dFpnU2Ntb0lybWkwZk5rUE9kVklRV3p4U1pyek9OSTNBMHpabnVucmlKa2FVLXc?oc=5",
+    "source": "La Gaceta",
+    "date": "2026-10-30T12:55:55.000Z",
     "lang": "es"
    },
    {
-    "title": "River Plate se prepara para el Superclásico ante Boca Juniors",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYk05TExNVGJkc3RFUGNOZUkxRTlGZTBubXFveUFuQjI0b1I2WFcwZXNVc1p5UU9FSTZnbEZneU05WVVBUDdaekhoLU5QeHZnTzk1NkhTdThlRi1hWkNjdXNDdlZ5THN5aTAyd2x3a0F2UGhjVEJVaEJLOTUyOTJGRkc3dUlkNnVGS1U2R25HdkI4VjV2TGxGdE5iRjdkclhxMXhPOGd3?oc=5",
-    "source": "OneFootball",
-    "date": "2026-10-30T09:59:57.000Z",
+    "title": "Boca dulce: el impactante saldo de Arruabarrena en los clásicos antes de River",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWGFjdU5JaG9OVzhHQzF1NmhOSG9kQTJOM3kwejNidEhrbV9Xd1FtNmVCV2NwN2VraDhQQ3VXampxT19nVmxpRkZhb2tKdkFkV2puM2Nya3VwODNpNFF2cXJmdERQMkZQbG16R3ZnTnp1Y0JuNjRJNEs3eXFVamR2emVzT2NXWEp1RlVUNWRMX2p5eE1uQmhaZ2xhVWxibm83OGtQc2JhQnUtTW0yRVgySW9zV1JxOXc?oc=5",
+    "source": "El Intransigente",
+    "date": "2026-10-30T12:50:03.000Z",
     "lang": "es"
    },
    {
-    "title": "River Plate prepare for Superclásico showdown against Boca Juniors",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdEhUOEVUMGt4UXBrYTNWRG4zT0RnOE9Ta2tYa2NtZFk5bXV6YkRTckJrRW5WSF9uUFdWeEZBclcxS0VDeTBoX2x4ajdfMVEzVUdUVTR3N0cwRXdUUG1SUlpvUlZ5a0VSbzZxMnlLcFdnQVhha2ZMUDd0eWVSQkotREx6V0F2YjJxZkNJeWRrOG9LdGk3a19SalVBMEFwMDFScWRrVjlHU0hVUlBC?oc=5",
-    "source": "OneFootball",
-    "date": "2026-10-30T09:59:49.000Z",
+    "title": "El cumpleaños 66 de Diego Maradona: el conmovedor video de Boca para recordar al Diez",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUlFIQW9VUWwwYktBWHlLaWlUUU1ObDd0VzdsVVRFOW9lS2xUN1FTOE1nSm40ZzZOZmdhWFRWMWZzMVVBNE1Gc1k3MG5Fa2FBUGNnNnVVMG91cVdLTW4zcVZ0ZExmTGZjYWJpWFdWLUFfaEFuRHIzSVBFZS1mS01RdlJqNjRwdXBQMUdmaXY4MnY1Nm1rU05wSC0ydDNfSVBGM2twNDA3TzVBbnF4dGdaWjBkeVJ3NEZScGp6bDVqbGhfNGxRUXc?oc=5",
+    "source": "Diario Río Negro",
+    "date": "2026-10-30T12:47:04.000Z",
     "lang": "es"
    },
    {
-    "title": "Previa del Superclásico entre Boca Juniors y River Plate: todo lo que necesitas saber",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbUUwSGlEd045QW5hTHBGckp4Z3dfTW54Qlcwc2lpTklKaXBfOFhUOWM2eVYtOW9fbGtBM2RMc3ZtZmloSG1XZzBORkRtV1JBTWpjVVI1SWk5UXpDekxEVGFYTmdZWHo2Wk5JUDViZXN5U0pZVmstOEZ5T1o2X0MzR2RjLW1OR19zZkZDdVJwbEpnU3AyVlhTYW12d2d3RXhILTVtYS1Jaml2OE03aWgxUDBtOWZidXI3dWV4blpXYV9TZ2Njbkc3NDhWV3V1RW11YnhRV3RsZw?oc=5",
-    "source": "Goal.com",
-    "date": "2026-10-30T09:58:20.000Z",
+    "title": "El difícil momento de un ex Boca en el fútbol italiano: sin minutos y entre los últimos de la Serie A",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMGY3a0RqcUxfSW5QR2NwVXJicVNsejJybW9LaHFOajFabVFXVUtOYzlJNDRVQTBaVWtYSVVTUmV0WXhPcXhBRUd4d3MtellfY3NFUXNQbkFNcXRjelBhZUk2UmtWR2Z1aUdHNURvUURfazNNU1VWNkExWHVVXzJWMmFHWlpLRFBnV0V6N01ZSmZ6MkxjMlJpZFI3M3k2MEFsOGE2SDRYR0c4X18xZnk0dDRzSdIBxwFBVV95cUxOd0xEdUR2amRkXzdnTlItcC1YOE5RWjd0NE9fZWVESkhROS1BWWNDLV9LVmwxSWhTcVlMTUJjcW83empMRUp5OWNyLXFIb0F5VG5rZVRQTjk5cHBMb01vdjFpLVdqYVJ0MV9UdVNsRVJMejg4VHJqcmRHVFpOcjlSdkg0RnEwWEZzNGM1OEwwb0R5QlhoLWhRMVVubnAtUVNWTEZWYVZnZW5kN1BmNUo1QzVBSUZsY0thc0hPZkNqQkZxYy11aUVR?oc=5",
+    "source": "El Destape",
+    "date": "2026-10-30T12:43:37.000Z",
     "lang": "es"
    },
    {
-    "title": "Boca Juniors-River Plate: data, orario, probabili formazioni e dove vedere il Superclásico in TV e streaming",
-    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPbURFQ1FhanVVeVlEcHpSUjF1V3oxTDJOLWxhRmIzTUhaSEJnQlUzaDVtUW5meHZmZlp2Z2VLN2NLLWhLLXkwT1RlRTh1NWtGQm9DaFV0b3BRNVExR184YUZmbXlZQVJoUjhCbHhwWF9xdUFCV1h1YlFOaDIwc3ptbmZyN2hiS0JsZi15VzFYMHZpcjZWRm83ZFMzUHBTbUxIbEwwNnhlZUtaSF9rejhVeFpwMlhnQjhEWTZ5alVPVTlkOEdQWFlOVkpwV1dGY3NDVXI3WE9Xc1ZoWVBGb0F5QWMwS1FaSGdJX3hobTVSMXRGTzV3?oc=5",
-    "source": "bet365 - Scommesse sportive online",
-    "date": "2026-10-30T08:45:38.000Z",
-    "lang": "it"
-   },
-   {
-    "title": "Atento Boca Juniors: las dos bajas por lesión que sufrió el Atlético Mineiro, rival en la final de la Copa Sudamericana",
-    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNTjFFMnBsUTc1T1lPWnBJSDRUbG1SWEtOWWt2cGJjZFFmZWh2SFpUYjlZbWJsTi1FZ2lZMWJNalJhUFhtTGZxeWhNWm5EUFdvVVdtTUZfMzUwY0ppMDc0aVRIem94NEZ6LTVHc0wyd0NkeE1sQjZ1OUJrOEpTUEZlaTN0MEp5QWFIZGFMVjRPUGxqcklBSHhQU3FUcG1HOHMxUnhoQmt6RmI4YWxwTElFYUVIYUpRUnR5bUVSQVJ2M2NhYnhGVkVGSGpDZkc4ZF9obnloWV8wTmVFZXpTNXhFV040azZuaktnWENSSjVNc05paklw0gGPAkFVX3lxTFBNMHlaSUdyclk1MVFnSnJ2NmptR1ZCYmVDVnBJZG1jTm5wOGloLUlVWV9lOVZaWXowNGx5STM5c2Z6aVNGeWk3aU55MXZRd0NINlptYXNOWGROYTU3VjdtQzVXRkVFczVrQ014d2xteThlQVpjemlvM0RVWGxpdWtHR0V2QXgzemNJRzlBRVR5LXhlRkJRWDdWaTdRaHE1aFJMelJrUWY3aFdsZlo0V1B2YVlKN2tRTUVLeTdQa0JBQlZrRWctMVI5WlJwbXg2VnotbUxzMmdLNHhkaF9tTFZPUlcyQ1VYaDNnWjh3Wm45YkdzblhyVzdFT3BoWnlGaUhnek4yQ0h1cF9YUjBuN2M?oc=5",
-    "source": "Infobae",
-    "date": "2026-10-30T04:06:00.000Z",
+    "title": "Ander Herrera marcó lo que más le costó de dejar Boca: «Lloré como un bebé»»",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYmcycF9ybjZ4RDMyanozTTNmMVZtZ2lCUVMxUXMxbmhVX0ttWWprOWZMbnpiYUVBR1lpWENXN3c5ZzZJZVlQb3BLdUo5bUFFTDZmMFR5bmlMaDJXa0g1d2Q4SWtFUFV4V0o3Y1pQMXZPSkxkVUZzaVNaQnBhMjNQbHhGVmsxMklyM0lQMVd5Q0ZjR0xjeFNfT3d5d0pKNHFYeDY4?oc=5",
+    "source": "El Intransigente",
+    "date": "2026-10-30T12:34:27.000Z",
     "lang": "es"
    },
    {
-    "title": "Sin Paredes, la lista de convocados de Boca para la semifinal de la Sudamericana",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcmtZMVltWDI4SUE2TWJWZEc0SERxMkwtc2xuX2xYQTdNcDV6Vkh3UXZkSnRWV09kTGVLZER4QW1yZzlrRGE5YWFpclZTcHJqUnI3LVFoSW81b0ljT3hVcUU4YXg4bDdBX0I0T0hUdjVmeFRVamhwZVUxU2VJamc2WTV1VURSdFNfUHFicDNrRWtuQzhkY3l4bVQ4MlZObmpzZG5vVHpBT2YxQdIBrwFBVV95cUxPQjFXUnNaQTQ0eHhvVkpLSGF6SUg4RWFPZWtRWjg5ekdrV0VkXzFqRlVlbW8zeG15akMwd2l2b1ptdmhaTmE5UFdPVWhOb3FnUVBUV2ZFTEJqQUJTcTRhVTQwNDJlc3ZGdEFBWTNUOFg3eW9fdXlSaW5sZERyc1gzaTZtZ1R6YW1oZk1IZmxXYzBaek9qSkFaXzRwUF9fSGxmdENCZEc5TUFFcG9KdE5R?oc=5",
+    "title": "“Siempre te llamaré genio”: el mensaje de un hincha tucumano en el homenaje de Boca a Diego Maradona",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcHJRX1hSaXF4U2VlUlZySUhXMUg0MGdSNy1MQk5QdTgtaERHSzh2SW5GMVJLTU5mQlUyemhic2RDTVlaR0tvVGNKcDFjUnJ3M1BIMElFb0x1ODVfQkVmY1RxNzRWZkgtcWNuSUhDUnVWZUxCSzdzdXBEUEtoc25ST19VeUd4TVVWcTFrVkxUbE5FbGgzSThhdTA2RE1CY0FZSEhxQ3ROV203M25Bc2gzay1FMlRfUXpUR1Q1MDVBYldaVnA1dDItRnFyakvSAdIBQVVfeXFMT2dSQ09sMlR6R2c4d3U4UzZiTEI1NU5qaVl1aU5MY2lnVU56WWdDdmVNQWtlZUtFaGllZHIwR0VNS0tzYnZuUlB4RmthUnRnbGs0ZHJoVFc4eF9nWDBYZHBxbnlWejE3UUZrS3dqUjJ6YjJXUjF2MVRUaVFhNzVBSzJIVXVZTF9XM01XUk5FQlhOcVFkWXNnRnk3dldXNV9EMFJvSGtPcFVRejBiVF9SRk9ZTnJQVUstbHhKSTVEYnh3VVFoTktseFRuQjY1SGhGM3pR?oc=5",
+    "source": "La Gaceta",
+    "date": "2026-10-30T12:32:25.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Boca define el ataque para el Superclásico ante River",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNX2FtXzJncjdJLUdFemdXZVJWM042VGZQYVl1Yi1lRXR1VGw4QnRwcktNWFlfUHc3YXE5dm1fZ1dYRUhmMktkdDVuSkRYSjBnZllneEdDck44RTQ5THRqNDNIaUtwQ2ZSd2tYNlRsV3ZIZDVnUnNOME96cG1GZWY1cS03VU9DS2NQLXZoYjBqQlZTa0VITGtrbmZET2ZNMFNjVGVnSnBxOGY?oc=5",
+    "source": "LA17",
+    "date": "2026-10-30T12:30:00.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "¿Boca ya tiene banda musical y canción para la ceremonia de la final de la Copa Sudamericana?",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQV0NLWGJ6RHc0LTU0NVNmNE1JUVdTN0RrTWQyTXVxOXB1Y3FwYmU2dEkwZDV4RkNtYXh4T0xSYjlkRTBjR1dkS3FMMi03N0dscG9iaThfenlKR0tjT3lPcTNULUN0Y3Nna0w1SEJ1QWM1VFJVVnoxSWZlc3RjNVRhelM3d0ZwNm50RXNxWlJXM1pmeFNtZ29kTEE3d25hTHRrRzZVRkRsUHJpLXZWOGFYUExfOEM4dVNORmY1amRPOGVycVRqZDRKMUU4Ml92YjZfSUMtZGVKblgtdS05ZjBj?oc=5",
+    "source": "MDZ Online",
+    "date": "2026-10-30T12:28:14.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "El guiño de Lionel Scaloni y la Selección Argentina para Boca pensando en la Copa Argentina",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSDNWUzVlS3NKZ2JVYm1CdF9teGJJcmNCWUI5RVRFZHdJYm1ZdUN1dHdwMkpZUDRYY2syNkZPZ1ZBQUNnTDhHc1RBMzZWU19ZVFp6VFNNUXpuczR2NzFLSmxGa3FzUXBPekMycHh0cTBvQlhfVDJEamU1djJJdW84QjJVc2RkYkxwWXlxVlVsLVhabVJtbk1CZ3ZPa3hIWEhWVTRZM296OTJwMFdQOTdWYUpfYnJidDR2MndUbVdR0gHSAUFVX3lxTE55R0ZBV2FzV3pQcnRoT0NjLUdFRGF6dmVqMnotanlpbUk4bjhhclFRWDJtV3FxMVZFdXJlUWpIMXVuN20tQ280cEpnUm5URkpNUUlxRWhDeXdUVjh3N3FJWVhSQk1YT2R2d05Eak9kMkJUWTFxTDZOV200SXBEREpLVjBQZkZUNGlQQlZtUjJQOE11aDA4RURvN3NXN01ZeHR2V0RIaDdBdHFpaEtmSHFEVFI1cVVKZEVzUnBIUFk2dTRuY0NFQ0liZjVyazFOU3dLZw?oc=5",
+    "source": "El Destape",
+    "date": "2026-10-30T12:28:06.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "“Feliz cumpleaños, Pelusa”: Napoli, Boca, Newell’s y los mensajes del fútbol para Diego Maradona",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNM21jdGp0T2hOVjE3X3VndkZYVzZLUjJ2X2MydHdpQTBWTi1zdE12c0duUVJUWl9yV2pfVWg3MEZKWXQwQ0trYU41UHBSOHRnR1FHekJ0WDVwYlRWcGt4bjB5S0FUZWxUNHMyZXRucFEtUENOazV2a3RjbHJucDhvaGpRTzRWX3VBejExZ3lKMGpaMEJld2hqNlJTUmt5aGRuQ0dNRU82aFJ5TFBsby13bXRtRTFIOFlvSGdBbWx2LVEzRWJ5ZlpSeC1YUUpqYUXSAdQBQVVfeXFMTWdrdlVMQ3JMZ2dOZWFjT181WWVOZ1ZGdUF4MHZHeXRQbkd2eXJEcUdIUXpRRmZBWC1QUDROVnYyeUd1dmtDZTFUMFMtRXlOUU02UGlqcnMwU0JzU19WaVVCSGFxMTdQNnNjNHBtbUUtOG5pMENxVHU1VGY5VmhhVmt3N1ZDMFFzUVJudEpnQmt2VnZsaFgzYjZVekxycVhQSzZ6OEtDeTZWeGdjVE5SakNGS0FxYW9wNjE0cTVRR2I0VjVfRGZhb3ZKeGFRcE9BeUkxRGk?oc=5",
+    "source": "La Gaceta",
+    "date": "2026-10-30T12:27:20.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Un clásico, Vasco: la racha de Boca contra los grandes justo antes del cruce contra River",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOGVPQ05Tbk54bmhrdE9YMUJGVHBpaXBjSmVCSzJ1N3pmaDM3Vy13ai1UX2FzSExzX3EwV0R0bFotZFpHS3hULXlna0hLVjVOc1B2WmNlWDRRcTNEdDJueTEyYXZTcll6NGFSMzRLbmJVbGVacS13Q0VUdmJtRGdhdk9uekVfQ0cyTU5BRm9qYW1Wc3JGTzZhajNfVDluNnpNM3VvaDk3UWc5MS1ZVmZjYU9aSzUtZ19vVEstX9IBwgFBVV95cUxQaWJsUkQ4TjlYc0w3a2oxY1c0VklsNS1zVGNnRzJ0dUd5c0JrWkZ0aWhWaWZzVGJGTnJ3NVlnVlMwNkJDcmx5ME9TMlhjVVZkSWY4Q1VDbEExNVNobGlSeGFUZGdyQ0NYU3JJSzZPQkdrUDBMMUxndkg4SVQzaGN0Z0d5WWJQN3VsRFdWVkZESHJ4RVBESXJKTGpfZi1OMW9fcnNoUkVua3RCR3BvYzJSY3h2T3ZaTVpXRWxmdjJVYXZwUQ?oc=5",
     "source": "Olé",
-    "date": "2026-10-30T03:45:57.000Z",
+    "date": "2026-10-30T12:26:31.000Z",
     "lang": "es"
    },
    {
-    "title": "Come acquistare i biglietti per Boca Juniors-River Plate?",
-    "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNd0NxUG9iV1RRV0FHQTZKVG1WbDNWZXRJRjVjamRnWHJZTVVWU08wUlRGNlh2WmlXNndSRVdVY0hmTTBXaWx1OTljX2hRTmYwTkt5c2FlRWRtWFAxSHpkSnNROWF2U0s1Vm4tNTd6bHAtT19pV21kNF9VdkphVXJ2YjFwbmZWQXF1bGpDWE5wMzVJVlhCZDNoRHIzaFB4ZTNmd2Z0VTZhM0ZaZHFka2R1R2d4UXdMX3N6ejhYS181SDY5SldXWHE5QzE3M2hKdUhLS0RDSHl1anVtWHh6aDFqRFBjalFXdVJEaGJ1NTlJcS1ad1lXX01fRmp3alR6SUl2NkRqN3NlMG1KU0ZhRmdDRWRqaElVZGlj?oc=5",
-    "source": "Goal.com",
-    "date": "2026-10-30T02:42:16.000Z",
-    "lang": "it"
-   },
-   {
-    "title": "Atención Boca: Atlético Mineiro perdió como local el clásico de Belo Horizonte con Cruzeiro",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRmtvbEtlNzVxaHdxeW9LdU5VTEtfTF9vN1BnSXRWSkdxZG5HcXV6UWFSVTBGczFZUmVKSHh6RTFpWTZoVHNKVnZjM3hYQWZRUmk3QUswNFlqTTVQQnFYbkxVaHZLYXhjSEYtRHlLM25md0hJQWVMbjdjcnRvTjlxX25nZnk1SUtjajNVZ1d4Mm8wMFgycllFZTN2OG9ycW1SbjF6MUxWV2RCQ1VrekRvdDFmUWp6UQ?oc=5",
-    "source": "DeporTV",
-    "date": "2026-10-30T02:18:00.000Z",
+    "title": "Biguá dio pelea hasta el final, pero perdió con Boca en La Bombonerita",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRzl5M2VidHlBbGxzZXBMWE5HX0dfUXdpX2NReXh6Rm1QWVN4LWRWU2xrZlRGLW1Cc2J6WDduYkVzZXp0NUVCNi1ya3hEQWZhZnhyckd5dTdubTR4U3R0UHBlR2FGaDVGTVNockJJdy1zVDY3WDMwdjMxZVZJck9IV0dlOTF0YjNWVUk1bHBRTlBXNzM5VG4wcVhJczVNU3NGY2hNTjZWdktneGVlSHNJNE9JM0FFd9IBvgFBVV95cUxNRm5jQXktMXJ0MFo1ci1idnNUQzJYVzVCRkkxYTR0Y0dFTWxybEhQWnh2cTR0YUQ4TlFObXpzblBQTFZ0VEZWTTAxWWM2T3lkWmtrb3NaMnE2eVFHeVpCakV3TWY0WWdqZkNMZm1TV3JLWkdQRU4wWEF0NFBwWnhYenJaTlN0VWJQSEdLQlRoQXdUUzd2Z2dUSlprUkdkQjJTODZTYUw0WnE3OHNTTUhEbllJSFIyazYxTVBVZ2hR?oc=5",
+    "source": "Diario Río Negro",
+    "date": "2026-10-30T12:22:32.000Z",
     "lang": "es"
    },
    {
-    "title": "Las dos incógnitas que tiene Ponzio de cara al Superclásico: la posible formación de River Plate para enfrentar a Boca Juniors",
-    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNUHVhNHplRkFKXzF5VUtraU9zX2VwVTkzTzFCd2V1V3V5SFFmaDdxblBvcFczSHJXcmxqaHlka0g5cVp3ZndHRnlCQVhNdGFPaFdfODFqVjVzZ3pKUTBKSE13Slhya25GWEE2T1E2bmxkZ3lickFfa2tkZTdYak0tejJ6X1JnZXB6ZHNRM3pVWEFtaEZGVmsyZk5mQXBIZHByd25xdUQ4UDhFSWpEdTBDc1ZBQ2t2UTIyQWoycnBsQ0xVUk1odkc0VVVaYXk3R3BocUltTy1Fd0JVcDlVVVJjck53MFZLeEprbzR1WWlEU1lNYVdkLVctOFM1OFRpa2_SAZoCQVVfeXFMTV93RnExX3ZrRmpfMkNWUEIzZVhqeXVmOWdQNVhYMDh3bkZsa0xuMFRidmVjRjVhbXR5ZldVc3BleXdaejk3VG10NUstY2xJVmxRRDlGQWRWWVRTOEQ0YTRCRXVXcDItWWY3Tk1ncU9feEpfSUx1aVJ5YUVpMlRJUy03ZGlQR3JtLVBZOVg0WUVsaWxuMmE3UHBSNnh3MnVOYTEzblhkRkk0enFFa2tvVFVjNEM2ajRseDgwSTBpNGg5Yy1tVjA2SHpKcWhTUExnX0ZvTzQwNER4NDYyekVNdFhfaWM4T3ZrZUtjblBpX2ZidmNuRHN0R0xQZHVxS2RBY3hSY0ZhUzVNcXBtd29vM2p6V0FBdFlLTGpn?oc=5",
-    "source": "Infobae",
-    "date": "2026-10-30T02:02:00.000Z",
+    "title": "Maradona rechazó volver a Boca y se arrepintió: «Va quedando más lejano»",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZXBPcnp1cnJBSWZNZ0Z3QUVrcFN0NGgtdXFrSml2dGRSTWJfbE5xRHo0QkZNWFRlQUh1V2dmbUJjUGJSaVlxaFBwQnB6VDhlVzRpNXRzUVZ1cXUxOExDZlUyLXI0RHJCbkNrYzh3ZWY1OWI4QllUVDItd0NCOUhOVUdjV3JGZ0FrNElDaUVCbmtKUE1Zd244b2txRnkzTlE?oc=5",
+    "source": "El Intransigente",
+    "date": "2026-10-30T12:10:30.000Z",
     "lang": "es"
    },
    {
-    "title": "Fabián Vargas reveló que no pudo comprar entradas para la final de Boca en la Sudamericana: \"Intenté\"",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVDhGYzN3UXhMd0RiS3FLYmNFWUhYUy0wekVzcDJPV016X1ZKUGVTc3dZcThzdWNyNmFYd2hGV0N5LXRzbm9wMDI1Y1JtbVY2N0RxX2NiblpKNVJWZHJ4cDBnQktSeERaWXpUNmNic0psS2xjUkNjaWVTaEQyODNNbm01cVpLTWFpdDB4ejFfV1VDYjZtWFhyQWpIbWdUZE5KSS1jTW1DV2JXR1U2ZEtkQ2Q4al82MG9KWUNITlMtNUtraFVlUzZwMUhPSjdkaTlxLUlIOVRNaUtMcWM?oc=5",
+    "title": "Di Carlo y su insólito reclamo arbitral en la previa del Boca-River: \"Hace diez años ya\"",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNU2UzeUYyRkdvTzlFQ2I2bXpNbVlxenE0bDh3andKOFBmWUFTM3BkQllpeXd0X0s4UFRmd295LUhXSmZ1QW94dW01MGp1STBBSWdTV1VtX09LYk5PMDd2MVVJbktnZDRTN0luaDE0UUNUTWVoUW1NQzd6ZDFDZS1zMWRBNkNReF9YMldLSjJuTGdGY1NEN3R0Y1FCQTBFamU2UktlVVp2VVNXMFEydUhPVWROREJXaktOOTh5Yk9nTU9YanlyazNQLUt3?oc=5",
     "source": "Planeta Boca Juniors",
-    "date": "2026-10-30T02:01:09.000Z",
+    "date": "2026-10-30T12:02:50.000Z",
     "lang": "es"
    },
    {
-    "title": "La sorpresiva decisión de Arruabarrena con el equipo de Boca Juniors a menos de 72 horas para el Superclásico ante River Plate",
-    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMmMyeDdSOEVneFNVdXdVQTJzZURRcDJvWXlVdnF6OTRSYXp3RVJqZ29NbU80ejB5R3N5ZmJVaHFlY3dVWnhYUGpVazVsdjVEcFlwVlprUXpMSHA0RzE5M05hNU9jQ3lOZkdHZXY3V2ZFVHFscXJpWlZfZFRkX2RBQnN2ckxVMno0aXJGZnJSZ2NEeU9IN3NnUW92UFFTT0k4U2xmSF9nYVdwOVh2bWljdGVkTHBsUmtuM1lBYW9zYzNGWkhmcEwzZl9XdEZad2lhNEJrRUowU1JSd29xRUVkVHUtaTRwZDkxWXcybGFQZXNuODNGaVhKNVYweHMwc3hG0gGbAkFVX3lxTFBEUGhuR1hPY09JVHc1TkUwck5kdUJaZE1HOU1xS2owMXdOeTV6ZE5aMTgtd05wVS1mc1pOMVRwSUg5YUtJLW1sdy1OUnVVanlOanJfMHdTN3h0VUY3UHg3UDdjODJIY2N0eEJFekY3SmY4MFdzWFFKOFVqd2ZMVnoweWUxWmpqbmFvT3RUam43VFJxTWxEcnExaVFMR0VTMnUzdWZOVHhQZTFiU0pydzd2RG5fRndNR0FSbUY5akdLa3Z1ekxQTTFmeE5mcHZXajFiQTVZY2R2djMxQXNQdE5kZlhMZ0VQeWZEdkM1V095cFVXVDhDbDJia2xOM25IM1hDeFMxN0RMMlJ0SFptTDV3MG5oRnRwTmpteHM?oc=5",
-    "source": "Infobae",
-    "date": "2026-10-30T01:51:00.000Z",
-    "lang": "es"
-   },
-   {
-    "title": "Enzo Fernández dio su pronóstico para el Boca-River: \"Voy a apostar con Davo\"",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORTZKS0tVNFhLT3JtMEk3RWFVMVRqNm8wZlFmeVU2MURNanNUUGRiV1JKeC15QkMweHlmQVdkOWJFeWJ5UzFKVTBSbWFvX3Q3UlYwbEp1aGRBSEVOb2pHeTJvbTYzMHEySnY2V3V4bU1MVU5BTTd2X2ZTQ1NvUnFsTHk1VFZjRlRwYTFpT25wWkF3U0M4T2NHcFF1aHVoQmZYR1VsWEotYWp4eVNtaE5ZWFltSEdjdDRNd3lj?oc=5",
-    "source": "Planeta Boca Juniors",
-    "date": "2026-10-30T01:17:32.000Z",
-    "lang": "es"
-   },
-   {
-    "title": "El guiño para Boca de los Palmeras, la banda que podría tocar en la final de la Copa Sudamericana",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOQ253R3dYWElnc0s3c3FWaV9pRDI5RFh2Z0ZfQzRkQWdoWjRDZi11NHRVNnBab0FxSlFyTURVZ0psNTRWSmluc1VYUWpmU0o1a3V1TGF1OW14Y2xBVHJMLXJzTGZFNHp2WWRJaEhSamM5RTlHWFRYMXlCWkxkVGdvVTRsNlJ6OXhsX3NjZFROeFVOMVA2bDhPSnJaY3NScnU1cDZxU1B3OWk4blBIZW1tTWplNDF5SVBMcHVCVUZXNmtjcFFIYXUtRjNmYkVJRVVoeFJlRDhXZC12UGNzWGRRcmxjUmp4V3ZqWWt5S3V3?oc=5",
+    "title": "Así será el operativo de seguridad para el Superclásico entre Boca y River",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbmpkRHNUNGQ0cHRjeEtNeWdmUFI3UzA3Zk44UVR4Y0hKc1Fab2xtcVZvZEUwd19EX0FJRmJ2U0UtMlRfX3djY250ajFaWF9Sd2hjZEVId25fX1V5cGFZUzRJSC0tS0pVcXl1dnpkZ3JKdkVOcHBETHA0ZlV2c2t4Q1JvejR0bTc3dWZnbTlTQTVodVduWThoZFRZak9JOVl5X3BOQlNkdGF4bkFSQmMzdlJqbkYxdTFMTEJKbWVYNW9KTTg0?oc=5",
     "source": "TyC Sports",
-    "date": "2026-10-30T00:39:00.000Z",
-    "lang": "es"
-   },
-   {
-    "title": "Armá tu 11 de Boca para el Súper",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeU1ZQXUtaHl5UUxlelZQVG0zdDR2V2NZRVB0SWRkVWMxWUFleVhnY1RzR2JSTXB6RThvSFpxQm5rc2Y1cy1WZGhiT1NCZkE4YUotc2JIWmx0amxsRGh0azhvX0ZsTDFDT2c5WXNsNlczazhVSDU0U1FBazB5LV9MM3ZteF8tSHRiTUhzekt0S01kQTUwVUhNSktyNlZmMjQ5UkRoQmU2LUdzenFNeGZJa2lxZHVMbXdqeWlhLXdB0gHDAUFVX3lxTE1VQ2EyV3UtWU5ReXVMVEJyVlJITHR6WG5tamtncWVVajRaN2tiRTM4ZTFLWHRGcnh4WFFDbmRlN3ZzVnpZSThULUVvRjJVaGJaOHRfWU1tLTVwLW1KWWpxNzlFdEl4eFM3dGlDRE5qc2xWZDhlSGY1LWJ3RmFxVThqUWN4TTY2NkFxY2l3TXdkOWF2Mk0xYzdPUXlVQ01MNUNENDZXdzc3WWtXaWxPT2tPeGs3d3c0d0pHWE5DS3BHTXc3NA?oc=5",
-    "source": "Olé",
-    "date": "2026-10-29T23:47:21.000Z",
-    "lang": "es"
-   },
-   {
-    "title": "Superclasico contro il Boca, la LPF si scaglia sul River: \"Si è sfilato dalla conferenza\"",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZ2t1YUpRcmhQYjl4UFV1bmRCN0I2ckJkU09jbXVfcmdLRlNvNDdEZDNCZ1o0Vllsak1oZkRBSEJlVnEtczBtWGJ5TkVaVzk0aGxqYUxvNUd3ZFVpYWdwc0lyVVpzVXYyU09tSjBDVV93RmowZHNQUHRuYUZKUFhnTHdIYkNWeF96UVo3YlBVMUxqMEluRzJhTGdMTnBIYWFIdUpNSHc4WE40V181aVNOM2xOdzVfU3Nkd1I1RmxUVlljR2Jr?oc=5",
-    "source": "TUTTOmercatoWEB",
-    "date": "2026-10-29T23:26:12.000Z",
-    "lang": "it"
-   },
-   {
-    "title": "Los cinco debutantes que tendrá Boca para el Superclásico y sus antecedentes que ilusionan",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVXNrNUV0bWItU3BDbllTQm56eHR3dzBkWTF5SnAyRE8ybko5bElRdTN3SWwyckh0R2EtTi1McFlNY1VsRm02OVJwU2F4R0VBcXlGclpaUzVfdE1qVWVNeHAyOEEwbTVKeDlqNk50WHFQanlFWk5RU2dnN2d6ODBuT0E3aFVwMkpFdVNpT1dBNGIyWklSQnJBbDFwZDVsSzEtSHZ3M0l3aUQ?oc=5",
-    "source": "Olé",
-    "date": "2026-10-29T22:21:01.000Z",
-    "lang": "es"
-   },
-   {
-    "title": "Boca cerró su balance con ganancias millonarias y prepara una fuerte inversión en la Bombonera",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcE1rZGMtbXBVTGZZamhzV2d3cTNQOVZiTjZ0X3o1LUJ0b0pvaklVZ3duMEFBNHlLNDZYdGRsZU1rOVBsX0FsTlcyTy1fZEZCNW5QWnVXRW91aDVxQjRrOXRnMFhNdWpCektVeEdGeHZ0dnhHVHdmaFE0QnVic0lqaGh2Tmo1SWlJUWhWMUVKLWQ2bXZGbW5ONExlWnR3Vi05cWpfUm5rQk93RUxhUm1INUE1YkZibmVDOTdHMGVsMjBzeHFPVHRn0gHMAUFVX3lxTE9Pd2hnU0l1bXFGNUt5Y3BMa08wT19JclZQSUZNMWtsendGNFVLQnFGaHlwX3lCdU5WZVNueVIwWkZNd21OUTY4Rk91Z1FtTmdUT1hMek1QdzhtSWhlVUg4cmR2cmRUMjNOT1FfcXlGdDZ3RTRPQ1dJREk0XzZfWFhmaC1DcEM2aC1JVDUtdlQ3Q0w5ZnY1Q2NVVkJ0RDd5aEdPTnZWZmpQaS1UaENzaDE1LUNUQzdVQm80RjJCaGlVUTM4RHljVlExSW1MOQ?oc=5",
-    "source": "Ambito",
-    "date": "2026-10-29T21:18:00.000Z",
-    "lang": "es"
-   },
-   {
-    "title": "Boca campeón Copa Nicolás Leoz 1993",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSjJzRVV1blg4N0REUkxmTkktc3k2anpGZEVSTERuNE13WDlHUjB4cE0xcWtINFBfRWFUUzkzUDhCTmRYWE9ZSGFyTHJELUJhQmFqQ3ZTNTd6WjZ1NGQ4OW9acUV1Q1VkZjdQNDNYU0RvZHczUlJZZnI2VnFBVlFfQTd4YU93ZENrQXRUWU1YUF9Ddm8?oc=5",
-    "source": "Olé",
-    "date": "2026-10-29T21:13:00.000Z",
-    "lang": "es"
-   },
-   {
-    "title": "Boca Juniors campeón de la Recopa 1990",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONGc2aXNKUEFvR1A2dVk5dV84YnRVTDk0bjNucWVUZUlwVW40UVlSVjRmd2ZkTjd2RHgzSGVJay0wVXg2WEVMQWRtbUJiY3BWUVVZZzFvYzBsZmlyWEV0d2c3eDlEV0dCbzBCRWphNWF4TlpIOEI2MnkySWZHOFk0cHE2TUxlZ29yY0ZwMktSaw?oc=5",
-    "source": "Olé",
-    "date": "2026-10-29T21:07:00.000Z",
-    "lang": "es"
-   },
-   {
-    "title": "Los goles de Boca en la final Intercontinental 1977",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObno2R0NlVjlWNGQxZVY3V3Zlek9xZlR5MExJOGE2cXdJVERuRnRRaUd5NkxSSlJCQ3JNaXZFN0lRbTZ2elVGXzZ2TjgtYmZxUnBwZGJPdUtkSkVrZlp2N0JFZUNtczlXb01vY01yUzV6bmVDNDUzZUhpMThnUEhyd1ZxNDZhem5aRUFiSDFfd25qUTRPUU5v?oc=5",
-    "source": "Olé",
-    "date": "2026-10-29T21:03:00.000Z",
-    "lang": "es"
-   },
-   {
-    "title": "Boca Juniors vs. River Plate: Los escándalos del Superclásico en los últimos años",
-    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSHROWTFSRkRXQko3VTdJamtublY0MURRSGRSclV1V0cwU3hhcWVMUUROaE9zem5rQmZBTC1zbEtfY2R6ZFNsQkY5SEFfVHUwLWRlWXM3U1RfR29sMXJVYnV1TmZwLXhzekNsanFQSlFScDdPZkxlVzQzV0hEOVo1dmRQTEVYcFNrdUtHbm5FOGJyMndJRkFFdkRIeW1tSEFVQmhnT1J0MUxEQ01PWklqaDFab2hnWHNHREtydFVRV0VEOHM0RDJaUG0tOEFFUkMwNUhuN0xXTDF0WTE5bjR0VmdJU0VsXzg3TWc?oc=5",
-    "source": "TUDN",
-    "date": "2026-10-29T20:39:23.000Z",
-    "lang": "es"
-   },
-   {
-    "title": "Riquelme, junto a los entrenadores de inferiores, siguiendo de cerca a Boca ante Estudiantes de Río Cuarto.",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPY0hLdGo3a2Zid3p5ZGxQdEs2dml5aFA3SE53VlBBdjJ0NEs1bURHMXVTUXA1bjFIeVFvUFZGV0RwcGtzWWtPSFkwdExoUHJiRGFFMThGemhMTVFOMDlTTnpoekhyRUhlcTBYUUlKcUhDYkpaNW40Sm5hQS1yWXZCa2t1akFwTFBJeUpPalJ1X2RfZnBSdzU5SFk3eEZ0bHdndy1lTWZGb3otWFExNTlBVUFSY0NlRm5RU2hmUkZQX2t1UmRha0hQQ1hLUmM3Q3JkdHc?oc=5",
-    "source": "Olé",
-    "date": "2026-10-29T20:37:37.000Z",
-    "lang": "es"
-   },
-   {
-    "title": "Bacidalupe marcó por duplicado y Boca le ganó 2-0 a Estudiantes (RC).",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZXlXXzZXWUNEa2NEbVJOU0tmNVJFbUVWRG1zdUFxWUpiRVg4YWlOeGtBc1ZSY1FmMWdsbjJLTGJtSVFIQndsR051aVFUZ1V6Q2dkekxxMFJaR25IUTh3eHJXazdCZlpuSlppWVpON2owLVBmSWhFMENyeDl5M0hiQkpxR2NNb0w2eENJWERPQ0RIV3JsOEQxU2F1VFlIUnNaT1ZzWHpTSWUxWWR6d2c?oc=5",
-    "source": "Olé",
-    "date": "2026-10-29T20:29:32.000Z",
-    "lang": "es"
-   },
-   {
-    "title": "Ander Herrera: \"Para mí, como hincha de Boca, Paredes ya es ídolo\"",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVjNKdXBkOEIycEN5cHM5UnVodXRiWmc0ZHBXRVZwaDJHVVlxOFlxSVppbE5PUEp1LVhvb09MUGFkSkdlZGhmN1ZOTDlhamNOQjVueFo1cnpVRGUxalp1QllnRm9ONmhBWjJjRWs5U0hteTN4Vlo3b0lvaUVfYVcyclVxdElYUDZTMjhEblZJUkFyZXFoOGJHYm5vRThfei1taW9lOWxPU3RCaWxCcGFwc0dlNm1SSW50UHVidVJn?oc=5",
-    "source": "TyC Sports",
-    "date": "2026-10-29T20:07:03.000Z",
-    "lang": "es"
-   },
-   {
-    "title": "Atentos Boca y Estudiantes: la advertencia de Conmebol para los hinchas de los finalistas",
-    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQcVNka3VKYVJuRVh6NVU4NzMteUFVeHVSS1VieWR5aE5OTTlSM3p4d1hRVEVDWnNybVd2UThRXzVaUUpLQS13bVM0UXJtUV96UjhzZUl5aWRlcUY1TFhwWTFGVlZBN1JjYWNwZVg5WUxwakM5MFE0T3lWNXRXVEY3VmFkc3ZQT3lVUE5WZ0hpd2RGaDdYdnFEdFV5VlQ5ZjJKbS0wOVg3YnhRMlprSjdYRVBJVVRaZ1loNWkyQ2pCWWpmWGpYNUF5S1BJRm9PaVJkaHo0RGRqWnZtWWVPdDJJSHVMTUdyamFxSnNBWTF0bVBQdkQwOTh6cXJSUWFheTNLSGc?oc=5",
-    "source": "TyC Sports",
-    "date": "2026-10-29T19:41:49.000Z",
-    "lang": "es"
-   },
-   {
-    "title": "Boca Juniors vs. River Plate: Cuándo y a qué hora es el Clásico de Argentina",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQLUJfOXEwbDdaRGVMYklFME5mRWtIZ2pMV1FUUWVuTjZPWG1na3JiUHhXemlmXy1WOGpmMDZwQW56UzFZU2IwenJVeXdlSW9jSUNESnhPYVdoTzFhYmpQTFkyblJkbzRkbVlOUVJwYlNDdFlSYUFlVjNtTTh5ZGFWTHBEMDRobmZfRnh0eVU4MDFSVXhiZXdrNTI5VFlyU0phSWs3ODViN3dnMEx1MjFIbjhRNlgydVFpZ3N6TS05cDFuVkRlYkVhX1JzblhpN0NvZFptWWZMSHZtR2RMVGfSAeMBQVVfeXFMTzFKdWFNMGtKeHMwR2EyXzdNcGt1b19LVDRJQWlBdTdkeDg4clA0RW5nN3h1YjZBb3hXanFMMzl4ODBzT3pVWS1odEJBZElONkpiSzhJRTFVc3N1eERELXJ3bzRPYU1SUGRKaVlFVjA1Y2hSYm1LS1JrTUIyNTl6Z1pHYmZLdDBZLWE1YkZ0aVQ0cldzOWhibzNEMDRjc1JyM3hQMEcyaVpCclZWZElrNHh5ZDBvcHY3R1VwVlNuN0JVekNTTllPX3B2UXhvaVlFR1dDMGxleTFXSHlvbjNSTWIweUU?oc=5",
-    "source": "TNT Sports",
-    "date": "2026-10-29T19:32:00.000Z",
-    "lang": "es"
-   },
-   {
-    "title": "Tevez confirmó a Messi y Riquelme para su despedida: la reacción de Ferdinand que causó furor en Boca",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPS1pMTW9VelFzbU54Zk5tSGluNGFzeXh4amE3Zmh1dVVabVNyM0ZiTXlQdXY0SC05NDhKVU9lY3JGdzhVam0zYXNDd2NEU3VKeEhHSW1vOHpheVNwNjZXVXlBeGllOGxlanAwcW1CcHBlVFQ4SEJQTzRZdDJEZk1UeHUwRjAtRnlUbXl1OXdpTW9HMEQtOTFyQjRuUFUxd05CV2tvZHo3LUgyLUZuU3hGUGxWNU1QSmlRUjlfemI1UV9NQVRkdy1CeC1UQzJPMnk3MHR0a3hfQUQ3WExYbGcxTDAyRmNuWU1VQ2VNUHV3?oc=5",
-    "source": "TyC Sports",
-    "date": "2026-10-29T19:29:17.000Z",
-    "lang": "es"
-   },
-   {
-    "title": "Boca hizo un golazo de chilena, pero aún así fue eliminado por Ajax en la Messi Cup",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYUVjRzd5U1VqTDhfckNxc190aU52S2RKeGdRMHNxZ1Z1bTliaDY2ZFJJTjR1Z0k1a1BEbXROb3E3Rk40ZEpnYzFqc2RwOExWTjJvQWVxM0EwcDlRLUE4RkFkdUhRSWdhNmdwY09EcXh1eHRpUXM5T2JoR19iWHNMMUhldXo5OHhOY3B6SE4tck9VUGNqNGthSHY1SGZNTm9TMklsVzh4aUJjbDVESVpaaGdLXzhLd1RiOGtDSXJLR0x1NHdMTGc?oc=5",
-    "source": "Planeta Boca Juniors",
-    "date": "2026-10-29T19:21:41.000Z",
+    "date": "2026-10-30T11:55:35.000Z",
     "lang": "es"
    }
   ],
   "fortitudo": [
+   {
+    "title": "Fortitudo - Urania Milano, la prevendita",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNTVNS1FlaXEwTlljZ196NEZZbUk0dXZtSzdzd0ktbThqVFVxS2FNMGtmOEJILW40dXo4YUhIOHVEV2kxMUlmU3dOaVVYSjBVbHhRd0gtNkY5VkJXVHBxRG96aTAtRzRWaExiaEE5VWN6eDlTeVB6RXA1VHNzUmFnRU1QYjZzcmlfNVh3blJn?oc=5",
+    "source": "Bologna Basket",
+    "date": "2026-10-30T13:59:32.000Z",
+    "lang": "it"
+   },
    {
     "title": "Lumos Pistoia - Flats Service Fortitudo Bologna, il prepartita",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeDhyWlZEQURxcnd4MUFSLURmRXc4MTQtRGtRNEswb2pFUjNzY3NxcjFsN0NySFhBcmplaWt6X3doM2pYbG1Tb1BTME5BUGJUSzhsd0x6Q1R4Tl9iX3ZVaUpES1U3a1NtZE00MVJ5RldqXzc5azdzSkh1TG9hVnAzMnFnZmJJQkhMLVNIUGdVTGNRRTM0bFZ0MVR3MGp0SEFBYzdvbUlUeldHUQ?oc=5",
@@ -438,20 +445,6 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWDVTOWpfTFptUzJpQ2ZJenZYSlZZUjNWZDJXaHhvMTJVVFE3WXBnRnRTWFItYWZ3Nk95ZzdhWmhjVHZkWXlxaW1Pd1VVTENhZFEzenlycEdyRkx3bE42SE1IQXRoOUcyeDBfOXhPWVdwTUQybEpINE00d1E5aTNORkplbzhHa09zS2pTR2pJbkswS2RWczRNZ0Z4dmlaSVhoRmtYUg?oc=5",
     "source": "Bologna Basket",
     "date": "2026-10-29T11:19:08.000Z",
-    "lang": "it"
-   },
-   {
-    "title": "Lumos Pistoia-Fortitudo Bologna: le informazioni per i biglietti",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMlJMODVSQ1BMU194ZE5pdkdjeVRpT0lkZ1FDUldyYl8xeXE0QU9BUGdZUlh3RGhVSTdZOWVueHFxcmlVY1RlaE1DbUtBakJvOTFzY21nOXJBZHEzLVVEeGJVV291OUVFMHF1R1pHZ3Zoc2hOeVZQV094aG5kenNQMEJDNzFJQmlla2had2FmUEFOb0U?oc=5",
-    "source": "Pistoia Sport",
-    "date": "2026-10-26T16:15:30.000Z",
-    "lang": "it"
-   },
-   {
-    "title": "Pistoia Basket, domani inizia la prevendita dei biglietti per la sfida contro la Fortitudo",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRlpqOGdGN2Y3SUdVanoxa0g5UGNndnUybUpvQnFndUducGhiX2pVVVA5cVdSU1JobjloM3phbTB0SUJLeWxXOTNhUjI0Zm1Pak1MMU84aWduaTBHN0tla0NHUXkxSi1LcF9CcWdORHZWNDl0ekFXQ1hYUklabUVKekNQdkxPWXVjUTNmTWtGSk1OT3B2bXpSQzE0dmR3emNkaFN3UUxPOFUySTd2aG4zUjJDTGFUbFFkdnZnM09IZHpzcFI1VF9BVkpfaUFYUQ?oc=5",
-    "source": "Corriere Pistoiese",
-    "date": "2026-10-26T15:56:37.000Z",
     "lang": "it"
    },
    {
@@ -469,31 +462,10 @@
     "lang": "it"
    },
    {
-    "title": "Fortitudo Bologna, Cavina dopo il ko con Vigevano: «56 punti subiti nel secondo tempo non sono tollerabili»",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSDRyZnV6d0Nzd3JVZnpKNTVIVnlHRGduaHp2R000U2dSQlJFek1ZY00yRWUtSmNMRHBvZlI1NlJGNkZZVFd1WVdpWkxYMERvb1NIOU9PcXlQZVlYWk9mVTFZLUJ5UHBocHVCR1Z3ejQxMFN4bXNhX2d5cHc0eWl4YTRuUWIwWmJmZGU2SV8wM3I0QTJIZjZQQURDUVZCV3RDU1dXU3RnT1VfMDFSTXFodm5TZ2Fkelp1dHRVcDJoWU5QS1RVUGFTamd5UE1LUk9nYlNaeEJYdEowZw?oc=5",
-    "source": "Pianeta Basket",
-    "date": "2026-10-26T10:30:00.000Z",
-    "lang": "it"
-   },
-   {
     "title": "Fortitudo-Vigevano 85-93, Cavina amaro: «Difesa molle». Le pagelle del match al PalaDozza",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOc0ktaW9UcVkxbUFKRlE3RGhCaDlLR1Q2MHhIQjQyakNWSnBZOG1TN21lY3h3dGdFTUk3UWJqMTZVZnBiM2xaVThTMldXY1VXakNVVDZtUlNZdXFiTGZaN0J3MmRYclVocHBVb1I3aVRGNEdkMW8wSWJGNl8tYzd0UUlmcGlzYXluZXJRSWNwXzZKRHo5c1llOW5ubkt0LTVzbEduQTlrUFQwRGFvcnVIazlsTzk2X2ZyVXJyV1ZJdFVmVk9fY3VkWlRaWkFOdVU?oc=5",
     "source": "BolognaToday",
     "date": "2026-10-25T20:30:31.000Z",
-    "lang": "it"
-   },
-   {
-    "title": "Fortitudo Bologna, seconda sconfitta consecutiva: Vigevano espugna il PalaDozza",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYXRHWDFOeGpjeVZmM01janpETGwwM1hvV0RWYkpBS2NRYmkwanFhb1lPVHFqZmlQbFJJQ3RJRVEySFQ4cG55X01IOFBVZThMU1dYcGlrRkRSQnUyUHhwRmhZTFB5M1AwcmM2SHBRQTJMbWdLdDJheFBlRElQSXJRcTU0ZXVKNzlLWU9iQ204WFd3SWFfeEIzeFo2WkNhMFhxUFEzbXM3Nlk0R1Q4M1pzbEdwR2hCVm8?oc=5",
-    "source": "Pianeta Basket",
-    "date": "2026-10-25T20:01:00.000Z",
-    "lang": "it"
-   },
-   {
-    "title": "La Pallacanestro Vigevano firma il colpaccio sul campo della Fortitudo Bologna",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTnpFdmpoMXV5ekJOWVUzTmRTWlFVQkRBek5TZmtqMlNoYUx6eTdfcTZEVXo0ejBJcVE5Mk1acGdiV1o1anl1aks1dXZidlJPVmhlbFVEWmZlVU41UlJlNmNtd2NzdjFUMmNzYUpXajFubTFHdktoSGVOTDd4cVdwSWp0Z1d2M3JDa1pvWkotTTJWcmNfT3pYaXVadFgtSTZkcHJaQ3NhWXpHTlh2RGdzdzVZSjNLNlBHWFV4dG9fRkFuelREaVE?oc=5",
-    "source": "basketmarche.it",
-    "date": "2026-10-25T19:49:00.000Z",
     "lang": "it"
    },
    {
@@ -518,20 +490,6 @@
     "lang": "it"
    },
    {
-    "title": "Impresa Vigevano al PalaDozza, Fortitudo Bologna k.o",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWE9HQ2pQaVV2bHJYRmFOVjFEdm1sdTN4S1hfRHNGcFRjZEpxc0FDMVF4ZUlhUkFUeHpNeHk2bF9icV9PQmVEck0zdndDYVJNeHI0SkM3UldZdGRxVFp0UmNFZWQwNFl2b25WS1pSQzRKOWhvZ1dKdHRUVVVpN1FHalhsZ2pmV2xzalpocVJwRVhuYUlTNTZBem1PcjlTQ0JuSFVEWlRpQ2oyY3JDTjVB?oc=5",
-    "source": "Basketinside.com",
-    "date": "2026-10-25T19:03:54.000Z",
-    "lang": "it"
-   },
-   {
-    "title": "Vigevano gela il PalaDozza: Fortitudo sconfitta 85-93",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalhXLTd4THJJdUN0ZDd6UEpNUEVidkd6a3NDUnhwQ0p5bDVkUk9nSXZnaXFFNHRiZUpwNnNWcmtWeDA3bUNsMEdrNHNaVlhXZ3VXSkd4YTRvdkhPYTE3Snd4UzNHTlZJNGZ1Um0xbnhXQjZOdXg5d3dnclBZbnpUQThQZ1VZMnhJYm0xVEVacjh4Q0NPS2x2eW5nOGJQbVhOY0c5b1B0Y3o5WVNWNl93Qg?oc=5",
-    "source": "1000 Cuori Rossoblu",
-    "date": "2026-10-25T19:00:31.000Z",
-    "lang": "it"
-   },
-   {
     "title": "Flats Service Fortitudo Bologna - Elachem Vigevano, pagelle e interviste",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSG44RjdCS2ktRVFBYjI1cUJ0dVdGTW55eEVtemVXcFRUd0JQREZGaFN1MmY5VmZING9wX0Q4ckZ1Y0lSQ21LQjVIVlpNMW8tUjV4bTcwVHlpT1RqclVhaG95d1I2WHV2Y1lGYld1dURDTmJ0U1BkTlZ4Q09WLWpYUWRmQjJHMGZmMzVxZlhqTVdhcGZKQ3pCS240XzBwR3NTYjVGc1RfYXlrUktWZVREdFU0OUw0TjNB?oc=5",
     "source": "Bologna Basket",
@@ -553,16 +511,23 @@
     "lang": "it"
    },
    {
-    "title": "Fortitudo Bologna-Nuova Pallacanestro Vigevano: dove vedere la partita in tv e streaming | LNP Serie A2 2026/27",
-    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWWVMb1ZhRVZwWHI0aUJhWWNlb1hjY2F3bzZjMjlrc0NqMGt6NDdBUGV1bzJQMUg5cmUySnEwM0JfMGY0QUdvVllPSTlLRFRxdTAwaTBCZHV0bEh0azB2Sjg2NUF0QWRuWUNFR0p1Y3VqbzhsMlBFV1RUYldyY3RJTXlZWmxCcUgxSEtidjg5TGZ5NURpamF4QjFDSHdzTlFUWHFkNTZjTG14dEpraFBkaTYxVW40aU5MLThtNDdRNlZPN3lrWnowSTUzcks2THViTXN6QzB1THFpdWliSloxdmdwMkllNEc1RDZOUEhBZ1laVUU?oc=5",
-    "source": "Vu Nere Bologna",
-    "date": "2026-10-25T14:01:00.000Z",
+    "title": "Fortitudo Bologna - Vigevano Serie A2",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYWszdFViSC04XzZQbTlwaXNydUgycFpVa1hKM1R3dzl1WkFoTzdJSnhEeFNTUWNkSThXM0puWnI2NlpLTFlRV2lVS2NfNVB3MGZUSWxwUUlaMmROWkMtWEFMWjBFRjBNS1ZCcWwzeHpWLUI4cENqd0pnQ1VraGxDa1FJMFl6dk9EOG11LTZBSXJUamRRR1FJS01DSkVsWlZYNGNpVklSNTFvUFhCdUFrbEFiZmlIa1JVVHc2N0Mybw?oc=5",
+    "source": "la Repubblica",
+    "date": "2026-10-25T16:00:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "SG Fortitudo Bologna 76 Aviators Basket Lugo 56",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBiUXpNX0JfTHkzVzgxa2xfWXBqR1BBRmh6MklLbmEtSzBrOElkTkk1ZUdqdjlNMDNmUzg4amswZkJvdmdXd0hlZ3pKeHNPVVFlanRYNDg0U0JXRDFOQklZNDJ6djVkMUoteDk4?oc=5",
+    "source": "Emilia Romagna Sport",
+    "date": "2026-10-25T07:57:05.000Z",
     "lang": "it"
    },
    {
     "title": "Gli Aviators Lugo crollano a Bologna: la SG Fortitudo vince 76-56. Coach Baroncini: \"Serve un esame di coscienza\"",
-    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNY2RaM09lOWhZWW00OFNXMUhYWE9wWWxPUlcwSHQ2dUJqRFRtV2JNSzJuRlZFdnhqTVlEQThJLUtlcUlXbDhIbGxILWM3TG90NmZXWF9aR3JMY3BuVXFzU0tEVHVlUVpQcjg1RmgzSG9tZkU0XzRablhpdGxGSEllMTFFSG1Ia0xpbFo5NnZqc0JoX1U1OFdHQ1IxbkJ0WFdjOGZQZ0dKcUxISDgwdWh4YVlOZWllbE9wYWl6emxQb2F4cHk1V01zejN0REs3MUVVeXk2UkJDYTJuc3Vzb0JhRlJwQUdnb2NmR1RfVWxvYw?oc=5",
-    "source": "RomagnaNotizie",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNRHNxLXZnZ1ZCRmFzeW80ajZlck54RUpYa3NpMml4ODFrVTVod05MY2s5SkJodVRGdG5vMkVXUExmY1BOVjI5T01ha2ZJRGJtczJZWHctV0JORTROenZVdFFLX3NDQldtOU9RYkN5UEVpRE5RbkRtRUpPaDJBZjN3VFhmbkVyV1JsN3M5Y1VJZjNnSUpSaFNfbmhNUm53QlVlWktPdkNMVUNjYWRERU9mSEVlRWNNWFhHc1k3X05NRFM1RVU4LVh1OGdsVlBnVGFsZmdGWlF6VjRzMzVkYS1LRWRhS2JENzBoeTN5dHJB?oc=5",
+    "source": "Ravenna Notizie",
     "date": "2026-10-25T07:56:00.000Z",
     "lang": "it"
    },
@@ -574,6 +539,13 @@
     "lang": "it"
    },
    {
+    "title": "Live Fortitudo Bologna - Vigevano - Serie A2: Punteggi & Highlights Basket - 25/10/2026",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZWtRT09tS1FZSjB6S291VlFoUkdGQ0YwZmNNZzU2TmVpUDhBb2xCNjhlbktHd3QyMGxXaFdsNzRYX01GYmQ3ZVZBNjAybFp3VU9RbWktbVFuc3B0TEV5eERtX29kM1pXUmtPcWJWSDEzaXJNYUtwX24wLTI0MEVkWHpCWVZrek5WMFpSR3NFVW5MbDMxWnV5V09POUYzWDlCbGx3eWNicWo?oc=5",
+    "source": "www.eurosport.it",
+    "date": "2026-10-24T21:05:28.000Z",
+    "lang": "it"
+   },
+   {
     "title": "Basket, serie A2: domani la Elachem Vigevano nella tana della Fortitudo Bologna",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdEdzc1l3dWdEWkFCWmZGNGFEUHN4amZSMTJPV2VOUi1QTVBtaC14djA5TlBqQVlOZEdjd0h5M2VqVmtpQ0x6T2t2bWVPWllIZjVkb1I3eW1NNVVmMUdSMWVBeFZVakhJNHB0MmJPQ2xNVFd4ZUlxc0M0cV9xWHYzTjVvaUZWYTQwbVJKYkJEUjlHVENyTkMyVk96ZG5jSndDbkN2ejBfV09UeENCOU1DbWd6SnRWclRxQ2tOWjVLVWFPZjdlUDVuU0tfSDUweVV5VmxMcmFCNVdfcmRZaWc?oc=5",
     "source": "Informatore Vigevanese",
@@ -581,31 +553,10 @@
     "lang": "it"
    },
    {
-    "title": "Fortitudo Bologna, termina lo sciopero della Fossa dei Leoni: domenica il ritorno contro Vigevano",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQalZ6dG5UOHZTR2VWT09OVUxLUEgtQWZOZllGd3VGYmRYOVNUZ1JidlkzMjlVMzBEeTk3YzBxMUY2SzFUSUlOQ1l6ejdSNFppb0ZnVXVjVEx4M0pOeXp3Ty1TOUxjQVVkcllUM2N6b09SQ0xMWkhwMGFiQklLQ3c3Z2N2aTNtZnhVWDk3cVpadlRfWV9welRJMzNQcXc1eWZHcjUtOTZUWFNYamE0cHNxRkZYU3hobXdvRVNGTUYzTTFuR3c?oc=5",
-    "source": "Sportando",
-    "date": "2026-10-24T14:16:00.000Z",
-    "lang": "it"
-   },
-   {
     "title": "Il pre partita : Pallacanestro Fortitudo Bologna - Elachem Vigevano",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQjZTekNNcE5Zb0N2TEdMM3l6M1IzM2tnNGpicXZJVmFVc1d0Rk1QRFlMUF91NXFlVzJhanlVWUVkell4MlNtcVFEME0zaUhaZFFucmpNQlFPbU1IN2NfWHV2TkRCWmdwMWEwb2hXMkN0ci1lclBGSlAyOFhTTllNVjJNckhuWW9ZZjJDbHExYUlaMWtaTnllaXhEOWtLUQ?oc=5",
-    "source": "Romagna Sport",
-    "date": "2026-10-24T14:06:32.000Z",
-    "lang": "it"
-   },
-   {
-    "title": "Fortitudo Bologna-Vigevano, sfida al PalaDozza: due dubbi per la Effe",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUnczZk1hdktpTUZlSTExYjRpUDdxb053TmdZbDFyS3R3azE5TmxUS0JJWHNudjU3NEtRT0pkZ2RBTFlFaV9uYnh4WkpqTnp3VkxhZXh5SFBHTmI0V28tMmtKWlFUSW42Y2dNWTBXX1MzNW1kTXBFNHJhWGx6YU1JYmVFNHJad0Y4RzRCU0dQaWVvN3VmUlF5cUE2M3B4QTJMNVpmRnUxcmZvdw?oc=5",
-    "source": "Pianeta Basket",
-    "date": "2026-10-24T13:54:00.000Z",
-    "lang": "it"
-   },
-   {
-    "title": "Fortitudo Bologna, Fantinelli e Zanelli al momento non sono utilizzabili. Domani la decisione definitiva",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdWRlaXJLVjMycHRXaTJ6TW11N3lIY3gyQXpJN2pyWFpXSFpCVVRsU0hrOXNYNGhwQWl0SFNUcWU3RUV4dWYyLUdldDhYaUlhbWJINVJsdU5GbGE0bGItX3NVdHdsRlNOTzBqaVBRaDFkSFpKcUpTTUk5QnltU2lkeDFWQlpkcFdPNi1hU0FUcThkTjYta0x5YldpRzlCdzUxbG9pdVUzUkxXMXRJYmN3b2ZveVIxUUxmYjhfZUxYdkItajA1RW55cWR5RFg?oc=5",
-    "source": "Sportando",
-    "date": "2026-10-24T12:40:00.000Z",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaXo0WmhqaG1DdHp4ZHYzTU1PTWYwYUpUVEhLT05Ta0NUUktFV2RLNU9oeWFPemVKdF9QSkF3aU9uM2RHX2N5WlczbTdpZi1wMGxvM19yVTdfMXc3eHNHTFczazYxbVVkOGd0aGVXU0M5NC0xaVl4M1l5Z0Z2a05BM2xOcEJaVDRmYWJoOUREZlVGOXF6bU5YMTVuLTN5MEV6WWhLUFdB?oc=5",
+    "source": "Emilia Romagna Sport",
+    "date": "2026-10-24T14:19:32.000Z",
     "lang": "it"
    },
    {
@@ -630,10 +581,52 @@
     "lang": "it"
    },
    {
+    "title": "La Libertas Livorno è perfetta e spazza via la Fortitudo Bologna 85-59",
+    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOV3g0V284djlCc0YtWHBGNm93MENtbjlxQ2luSl9ZcU5Sa3RweV9TOGx2YVh3V3dlbUpSVUxKQ3lVNXZQSmg0bS1HczBvLUJieDlwVmRYbm9JN0ktVHh5cGJkT2x4WkE1NmNsaDJSeDZFTko5bmZuU3BNSHpDZGRxR0dndnlBbEItY1I2Qm5QRGY3dnh4NmxCcDlxWTdNOVMxNlhvZGVsTnU0MFl3WUlDYlNfVHN5SGtJZnRwaGtJREpBX2lXTHBiSWQ1ejhiVUY3UHVVYjRpWm5DTUJqSXZrTW91THM1MzJGY1M0a280UXpoMnYyWnY0?oc=5",
+    "source": "Basket World Life",
+    "date": "2026-10-22T05:29:16.000Z",
+    "lang": "it"
+   },
+   {
     "title": "Libertas Livorno - Flats Service Fortitudo Bologna, pagelle e interviste",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcHFEcDdQVnNqeHQzR05RS2RDclJMUmloTFpaRHl2VFN4NVM1amZDLWt0SXh4ajB2dWRuVTUycTZmMG1MU0wyU1VPWnJzSGJOcFBYNHk5WE8wRTUxY1ZITk1yN2VubVJfS0RrTXNTc0FkM18wS1RvZmFXQk9WdUpzNDJyc1VqRmp3cnFJTDFBLWN6aWVYazhUQVRtVUlLVTBaQ1lqakZJVmVpeW91Y0laakt6dlgwS2c?oc=5",
     "source": "Bologna Basket",
     "date": "2026-10-21T20:30:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Libertas Livorno-Fortitudo Bologna in diretta alle 20.45. LIVE",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQXzF4a1duNDRwUExab3ZKZmxTVTdQLWctZ05uNDhySXNXeUZYZTNnQkU5M21ra3kwOW5aWG9ZU09JZUJ1YVctbFpOcWstSm9BdVVYcHhyWW9mc3ZGRUFnSnFMeXhHMVNwakFEOHVxZnJ4T0x1NXZrenoxTXU2NTdvY3ZZTzJJdWtfd01QWERJNGdlMkU4eUpGdzVnYk1vaWRJY3FablFB?oc=5",
+    "source": "LivornoToday",
+    "date": "2026-10-21T17:12:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Gameday: questa sera Libertas Livorno - Flats Service Fortitudo Bologna alle 20.45",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMWpFSWdtMVA2UVF1Z2FUcklHM0VobG03bXdpTHlPZHQ1dTZvdHk2ZHZ4WV9xa3o3ZWZ1aUhhVkNqUERVR0pIMFNUQTFCcDQ0QXlHTGhwUElLdHpHRjBFZEFLbFRGNXNBdk9WR05BQzVra0hRaWdpMV9paG1RcXo4SW80YWtuNklMcXEtWEtMdHlUSHR5dER0NVI4dWt5Y0RJc3ZnX1B0d2twYVNySGdWbmZZeHZkcnd1MVVJTi1Sd0F6bjA?oc=5",
+    "source": "Bologna Basket",
+    "date": "2026-10-21T07:00:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Libertas Livorno - Flats Service Fortitudo Bologna, halftime",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT2lub2xLWjdqTUtfVVcyejhuWi10LTlaTjQwdHJ3M0lzczBfeTMzYnNMUHU5RThtZUNDSGFMVEhtN290Z2FpLW5SbFQzVEhWemx0T3BuWTJVTWhHdzFITS00R1Vjd3hmaE1rVlM1cktPX1ZwQ2NxZGVBV2E0VkkzN3JaRDZ3QWJMZ3ZhSEJGOHBZak5YNFpEY0pRR1lkd1ZyaWNQWTR1Snk?oc=5",
+    "source": "Bologna Basket",
+    "date": "2026-10-21T07:00:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Libertas Livorno - Flats Service Fortitudo Bologna, cronaca",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR05uRk5JS1BUdWppbHlBdmpxTnc4YjJZT3FYdEQ2LXFVYVVwLTdKQ1pZOGkxcnNZcG1FQmIyZ2dWcUZwMDJRSnMtcHlqaUZtTTZLMkpPY3lQSHMtLTBWNlMwQnNVbzJaVWxFRWIxQmJ2ODZRMWNBRmVvUVJYZVIyYkhVZVpjb243X1pGbTZ0MGlsa25MajVxNUg1RUtfc25BREtuRzZLMA?oc=5",
+    "source": "Bologna Basket",
+    "date": "2026-10-21T07:00:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Live Libertas Livorno 1947 - Fortitudo Bologna - Serie A2: Punteggi & Highlights Basket - 21/10/2026",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeldfYTFlNl9CT1dGbjZlTUFFQ3Vtd3NOcU1CenBtZkh6LW9FcGFlMzVzd1EtMWRuNEQ4dkJoNnhZM21HYUVMTkozM1JKeDNsWHNwRWgwR1QtT05fVXVURVNPMDdmc19aMHpEbm0wMmFpVWozQm9XbHNkbXNRd2x5dlNOWnVkYnlmVGZKeDJTUm9mc2dOZ0pSUlkwcUtfY1NpLW45N0d6aTNkU3k0NHNiRkJUa0FIUTRyM2c?oc=5",
+    "source": "www.eurosport.it",
+    "date": "2026-10-20T19:54:28.000Z",
     "lang": "it"
    }
   ],
