@@ -21,6 +21,7 @@ jobs:
         with:
           node-version: 22
       - run: node fetch-news.mjs
+        continue-on-error: true
       - run: node fetch-basket.mjs
         continue-on-error: true
       - run: node fetch-tv.mjs
@@ -30,4 +31,10 @@ jobs:
           git config user.name "tifo-bot"
           git config user.email "tifo-bot@users.noreply.github.com"
           git add data/
-          git diff --cached --quiet || (git commit -m "Dati aggiornati" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "Dati aggiornati"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs && git push && exit 0
+            sleep 5
+          done
+          exit 1
