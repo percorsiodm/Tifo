@@ -205,10 +205,33 @@ async function loadToday() {
       if (fresh) Object.assign(m, { state: fresh.state, clock: fresh.clock, detail: fresh.detail, goals: fresh.goals,
         home: { ...m.home, score: fresh.home.score }, away: { ...m.away, score: fresh.away.score } });
     }
+  lastRefresh = Date.now();
   clearTimeout(todayTimer);
   const anyLive = Object.values(state.today).flat().some((m) => m.state === "in");
-  todayTimer = setTimeout(async () => { if (!document.hidden) { await loadToday(); render(); } }, anyLive ? 60000 : 300000);
+  // se c'è un live o una partita che inizia entro 15 minuti: ogni minuto, altrimenti ogni 5
+  const soon = Object.values(state.today).flat().some((m) => m.state === "pre" && Date.parse(m.date) - Date.now() < 15 * 60000);
+  todayTimer = setTimeout(tickToday, anyLive || soon ? 60000 : 300000);
 }
+// Il giro di aggiornamento non si ferma mai: con l'app in background aspetta e riprova
+async function tickToday() {
+  if (document.hidden) { clearTimeout(todayTimer); todayTimer = setTimeout(tickToday, 60000); return; }
+  await loadToday().catch(() => {});
+  render();
+}
+let lastRefresh = 0;
+// Quando riapri l'app (era in background) aggiorna subito tutto
+async function refreshNow() {
+  if (document.hidden || Date.now() - lastRefresh < 30000) return;
+  lastRefresh = Date.now();
+  await Promise.allSettled([loadTv(), ...TEAMS.filter((t) => t.espn).map(loadMatches)]);
+  await loadToday().catch(() => {});
+  $("#upd").textContent = "agg. " + fmt(Date.now(), { hour: "2-digit", minute: "2-digit" });
+  scheduleLive();
+  render();
+}
+document.addEventListener("visibilitychange", refreshNow);
+window.addEventListener("focus", refreshNow);
+window.addEventListener("pageshow", refreshNow);
 
 // Elenco partite di oggi per competizione; evidenzia le mie squadre
 function todayHtml(slugs, myIds, onlyLive) {
@@ -322,10 +345,14 @@ const BRAND = `<div class="brand"><h1>EL CORAZÓN LATE</h1>
 
 function viewHome() {
   const all = [...new Set(TEAMS.filter((t) => t.espn).flatMap(followed))];
-  const live = todayHtml(all, TEAMS.filter((t) => t.espn).map((t) => String(t.espn)), true);
+  const ids = TEAMS.filter((t) => t.espn).map((t) => String(t.espn));
+  const anyLive = all.some((slug) => (state.today[slug] || []).some((m) => m.state === "in"));
+  const live = todayHtml(all, ids, false);
   return BRAND + `<div class="grid">${TEAMS.map((t) => `<div class="tile" style="--c1:${t.colors[0]};--c2:${t.colors[1]}">
       ${crest(t, "big")}<button class="go" data-view="${t.key}">GO</button></div>`).join("")}</div>`
-    + (live ? `<div style="margin-top:16px">${panel("liveora", "🔴", "Live ora", `<div class="hint">Si aggiorna da solo ogni minuto</div>${live}`)}</div>` : "");
+    + `<div style="margin-top:16px">${panel("liveora", anyLive ? "🔴" : "📅", anyLive ? "Live ora" : "Oggi nelle tue competizioni",
+        live ? `<div class="hint">Le partite in corso sono evidenziate · si aggiorna da solo</div>${live}`
+             : `<div class="empty">${loaded ? "Oggi nessuna partita nelle competizioni di Roma e Boca." : "Caricamento…"}</div>`)}</div>`;
 }
 
 // ----- DOVE VEDERLA (Italia, stagione 2026/27) -----

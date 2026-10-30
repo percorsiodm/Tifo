@@ -76,9 +76,27 @@ const search = async (q) => [
 // due ricerche: "dove vederla" e "dove vedere ... in tv"
 const searchAll = async (me, ok) => [...(await search(`${me} ${ok} dove vederla`)), ...(await search(`${me} ${ok} dove vedere tv streaming`))];
 
+// I link di Google News sono codificati: ricava l'indirizzo vero dell'articolo
+async function googleReal(url) {
+  const id = url.match(/\/articles\/([^?/]+)/)?.[1];
+  if (!id) return "";
+  try {
+    const page = await withTimeout(fetch(`https://news.google.com/rss/articles/${id}`, { headers: UA }).then((r) => r.text()), 10000);
+    const sg = page.match(/data-n-a-sg="([^"]+)"/)?.[1], ts = page.match(/data-n-a-ts="([^"]+)"/)?.[1];
+    if (!sg || !ts) return "";
+    const req = ["Fbv4je", `["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],"${id}",${ts},"${sg}"]`];
+    const r = await withTimeout(fetch("https://news.google.com/_/DotsSplashUi/data/batchexecute", {
+      method: "POST", headers: { ...UA, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8" },
+      body: "f.req=" + encodeURIComponent(JSON.stringify([[req]])),
+    }).then((x) => x.text()), 10000);
+    return r.match(/garturlres\\",\\"(https?:[^\\"]+)/)?.[1] || "";
+  } catch { return ""; }
+}
+
 // Testo leggibile di un articolo
 async function articleText(url) {
-  if (!/^https?:/.test(url) || /news\.google\.com/.test(url)) return "";
+  if (/news\.google\.com/.test(url)) url = await googleReal(url);
+  if (!/^https?:/.test(url)) return "";
   try {
     const r = await withTimeout(fetch(url, { headers: UA, redirect: "follow" }), 12000);
     if (!r.ok) return "";
@@ -111,12 +129,13 @@ async function findTv(me, opp, date) {
   const seen = new Set();
   const relevant = items.filter((n) => !isNaN(Date.parse(n.date)) && Date.parse(n.date) > since
     && strip(n.title).includes(strip(me)) && strip(n.title).includes(strip(ok))
-    && !seen.has(n.link) && seen.add(n.link)).slice(0, 6);
+    && !seen.has(n.title) && seen.add(n.title)).slice(0, 8);
 
   const count = {}, sources = [];
   for (const n of relevant) {
-    const text = `${n.title}. ${n.desc}. ${await articleText(n.link)}`;
-    const found = channelsIn(text);
+    const body = await articleText(n.link);
+    const found = channelsIn(`${n.title}. ${n.desc}. ${body}`);
+    console.log(`   · ${n.source}: ${body ? body.length + " caratteri letti" : "testo non leggibile"} -> ${[...found].join(", ") || "nessun canale"}`);
     if (!found.size) continue;
     found.forEach((c) => (count[c] = (count[c] || 0) + 1));
     if (sources.length < 3) sources.push({ title: n.title, link: n.link, source: n.source, channels: [...found] });
