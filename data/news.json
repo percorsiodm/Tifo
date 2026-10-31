@@ -1,9 +1,692 @@
 {
- "updated": "2026-10-31T19:27:32.337Z",
+ "updated": "2026-10-31T22:42:57.673Z",
  "teams": {
-  "roma": [],
-  "boca": [],
-  "fortitudo": [],
-  "juvecaserta": []
+  "roma": [
+   {
+    "title": "Questa Roma fa paura, manita all'Udinese con un super Cristante. Ora Runjaic trema",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUm1FS3pVUjlMaHc5eXZ3OGthNUV5by1iYV85TXQ2cmhWbkEwSWZDdFdVWmlMRUI2QUdlSnd6a2VjUnBKQTlUQ3RQZlI5ZTRqV29PMzh6MzVRWUJmakE2U3ZHVzltdVgwZ1pweUVDNWc0eHlMZWRoU0NBMmhKUHZLNVFkQ2FhaHN2WXhXSmZ1dWdLazZpSXhJRS10UDNKUWtOMFA4RTRCTGdfNjFPbXg1R2JsTUF0Q2PSAbwBQVVfeXFMTl9oSnAxY29wdGxzaTBWOEg5NXY3eXcwSFlkX2NXc2VpN1ZpeVh4RzEwTnBESTJUQkdTOWR0aXl3OExXd3Z5eU84cnROR2xHemxaRmg4clZoWDN3TU9tUTBzbWtqZ3JiaXRGNlg2UXE3SjV6UllFTGYtcVc4OU1wVUF3LWFiSGhLYTVOUmdJbzJhVVJnRkNyclBqNXAzOWwyRld0cVVlSWNRLTRaNmozVnRsamFPckRRUWNHV24?oc=5",
+    "source": "La Gazzetta dello Sport",
+    "date": "2026-10-31T20:26:46.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Roma, Gasperini: «Fare gol con tanti giocatori è sintomo di fiducia. Spero di recuperare qualcuno prima della sosta»",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTDREMDFDbVZVTzlJa3RUZVdjZDVXU2M1UlhuZFoyMWNwS0xCcHZ2WlEtUlUyRDdvWU9jc20zMFJYZkEzcUdHdjlEZDhJWGxoRS1LUzF1WnhhU0drczVOT0dCSDlkbFFoeVNLLTdVQ0hTVmRHZzBjT0hTTHFTbklsaVFEa9IBfkFVX3lxTE9nNTFCcEZ3a0FKRnhtSVhQc090Z3l1dmRDbWZlVGsyMFM4c2luUENDaHdSS0hxREN6U0lpUU5IUjFWeFFpcHREdi11LVBWMm5rME9lZHYtZXZHMlBwb1V4bXduWXRUQzFpTUJqUGlNUGRkNk1xNHphY1BnY205dw?oc=5",
+    "source": "Il Messaggero",
+    "date": "2026-10-31T19:52:27.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Serie A: La Roma travolgente fa cinque gol all'Udinese, Runjaic al capolinea  - Calcio",
+    "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPbURWc1NwRFNVM2hobDFhUmVKUDRZVnNUVTNJY1BuaWJhZjlZX29EQzJSNHJ6Z05JQzhVRER6N2g5R1RWV0R6RzRRVEJ1TkZuYW9CZHZpQW4xaThzT09zQ0hackVqTk1YR2JydmpaMUpWczJoTjFQTVVlSzkxb21xN1oxYmhacG9ZS0JSa0hVeGc2cG1MazRwNEpPMUxmaW01Z29wdjdEVmFzdGwzVVR6QmJfaXI0dWtVVTZ3TUZjV0llNmt0dWtVYmwzR0lpZVJJY3hraDhXa0tjRkxwRUN6R1RlS0ZIemVlc2U1RFU5QkVSekVoYVJBdEdwd1RsZw?oc=5",
+    "source": "ANSA",
+    "date": "2026-10-31T19:43:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Eventi | UDINESE-ROMA Cristante è il \"Player of the Match\"",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPR3RCYmJJUlhfZDV1TXlueWpQaENsaWQySXJQckhETzg4UFFxUzJXUXhCNGM4LUhHN01FRjhwR2RVc2VTdVlMQVN1QllEV1JiVUtUdWJzN3pBSHpaN1RVZHJWZE85dlVzTTNvTkxFdWRTUjFpWXZMUkU4M2xwcnA0Z19mUFNtTGRPYVRvZmx0YnVvdG15RTNYbU9YWnk2R2J3N0lF?oc=5",
+    "source": "TuttoASRoma.it",
+    "date": "2026-10-31T19:40:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "POST UDINESE-ROMA N’Dicka: “Nella ripresa abbiamo abbassato un po’ il ritmo” (TESTO)(VIDEO)",
+    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQTVRfNnVrYmlPVExtMEpaMDFYSTdNd2poc0h4NDVCd0dQZE5Sa0xVRVJ2VXJJY2VMLXVTa0c1akRwb1NvR0M2ZkpSU01BZlZEdXNfNEx3SzRNQVVmRk1fcm9vdkxNYXFYcWE0OTFCNWlQZkg2czlTUUdBV2tMU1RkSG9nWUVPUmVrNXhwdlZUWUhxWDBNZXhUR0I1OXUtMFhqblpmb2ljb3VfNnN0aWNhQ0hEMFZKSVgybjB1aHRmQ2F1bE9FeDlVRTRBekVRb0tpcnI1OFBwRTNiQWNLeURfM2JMdlNzZ29kUHU2aFVRQ1Z0M182?oc=5",
+    "source": "TuttoASRoma.it",
+    "date": "2026-10-31T19:25:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "POST UDINESE-ROMA Cristante: “Dobbiamo competere per restare in alto il più a lungo possibile” (TESTO)(VIDEO)",
+    "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOVDB6WmhEaHZ0V013QUFjSXJTaWwxLXdGdEJpRDVLVDlMOF9uVTV6ZEx3QjRLcDdqSkRSVERYZFUwSUdfYTlVYUZLQkVvV0dHNm5pMnA1MTFlNmVaOUxzTGNkdFJDamhfbHR2bXRwY18tMUtqb0tjU2hRdjlSenUyZm1CZFR0V1VDVkY2bGVyTkRaSURGczZHSWR4VVRHRnZCQU1YSmZTVm0wN2tuTGlwT0syT2hRNTI1UFhWTHowbGRvcDF2NGMzWjlOalJLV1Z4TThma2tiUlZHWDczbEc0NGtmMXFiM2tqWjBHYTYzSUxfQl9hcWZJMEhOaGxlX0tuMUF6MTA5M2ZHQ0ZlSWpV?oc=5",
+    "source": "TuttoASRoma.it",
+    "date": "2026-10-31T19:23:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Pagelle AS ROMA | UDINESE-ROMA Le pagelle (di Marco Terrenato)",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPempuMkEwaWZiQWJnZndqUHZMTEF2d1NXSzFva3A1RHVzUlNkRXNWdVl5TlpwZXhFNWowb0VnMFN4VEdVVWNkWWYtaXBZeVNDd0VaUXVMYUtsVktjRWtic3M3TXk1b3pmTkV2YUp3TEtNcEs3ZDZWRG9hV3lnVW9wQ08tZERsdFJ4MHZ2a2RWeHdSdW5hc1N1cGFXYkpnb2pfY09XeWx6bl9saFBUWTBUNkUxdw?oc=5",
+    "source": "TuttoASRoma.it",
+    "date": "2026-10-31T19:21:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Mixed zone AS ROMA | POST UDINESE-ROMA Ghilardi: \"Son contento per il primo gol in Serie A\" (TESTO)(VIDEO)",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPTGhwS3M3WlQxWGllX2hHekIza0kwa2k1WWd4clhsVy1OTXQ0M3VtdG9VWkVGV2Q3YWxVT244b2s0dVhDdzJvWk5TSEF4cTMzc2E0LWNtdHF0YWkyOFFJcXc4NjJzbVNoeU9XZWdoYUFXUERfakVDdm9tVWo5VkltWUJ1WkVjZ001WmZDYWdlczBieVpydDFkTnRuU29jWDJjUjJpUC1iNE1vT19wY3loY19KRW9XYUlNdTgwTEhibjdWV0tXOEN1ZFIwV0lzWl9pLTQ2VFZVdzIwY2FtYlh3bW5TeTQ2dTg3blZfUGZ2dw?oc=5",
+    "source": "TuttoASRoma.it",
+    "date": "2026-10-31T19:10:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Roma straripante, basta un tempo perfetto per travolgere l’Udinese 5-2",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFdfRGpFZDZrbS1sQ0lUWTlUTXlORXNGOUR3aW1MbkV0S0tZbXFNUlZOeWpjMXJXLW9TMXFCWmkwRmJ4RDZNT29YYVpyVTBYUzIwMGVmZTJqNjQtM0ZVR2o3YldhdnpoWDRkR2ljZkx5bndYNVpUVzM0SjFnTFhrVnk1bXJXYXFiSm8yZzhreHJxTjduMjFWVXdrUdIBoAFBVV95cUxQY2oyd2Y0V1RZNWx6QnBwellyMXVMdEZ5X01peFF1V2hqbzlQLVBOTVh3S1BETE5hczJZaXpzUEhjWURERzRGTmFkdURobXMwUE44RGFPVEQ5QXRzelRTX2JXZFNENFlPRmxMeWd0Q2ItVlZ5QzFxdmFkQVdNaHE1UkhpeXhwSkJfTk94bk5ZTUxYY1ZLNF9MdXJTY29jOGlp?oc=5",
+    "source": "la Repubblica",
+    "date": "2026-10-31T19:06:45.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Udinese-Roma 2-5: i giallorossi dilagano. L'ex Zaniolo e Palma accorciano, ma la rimonta sfuma",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdy02SlF4a292X2NQc2hZNTQtMnlrdEVPM2pmd21ZTjJycEh0ekJDZTVzOHpLMmtLMVY2LVlNYVBzSkNmdE52Q3Z3MTJuc0psWm96M3IwRkpoelJsVFo4dzZrZkVnUEpCdWV1WEpJMUlzeE9zTUcwV1FybVE2N19iMGhfMFM2NlB3Y0VhV1NXblE1QmlUNzl3X0JNazdjTjdneHdGSzB6RHRTZ29FOVVwWGNCQWZUYUl6ZlBwbHlOaHFyZ9IBxwFBVV95cUxOSnFGc3JNcklLdU9IOHNqbHdRcjFUX2cxbHVqejBKdFVVMXBKVS0zMUo5Z08xTXZMTTJCLUZhVng2dWNoV1dnU085aEhBY1puM2NueXBhZjNmZ3NWQkRFeUMzODdJWlN6R2N0U2hvaXRTV0pWdWpRS3ZEcFhfQUU1U0tVZFJXRERBQ0J2aDJyUFlXSGFJcU1PZ1djd1ZuNWVzY3lla052b2dOYzlwYWpDSU5GaXphMWRPSV9UQVhaaUZIQ2toaF80?oc=5",
+    "source": "Corriere della Sera",
+    "date": "2026-10-31T19:02:43.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Udinese 2-5 AS Roma: Cristante guida uno show da cinque gol",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNWlYd0FNUU1hNmZHWlR3QjBVTW9QYlZydm5PLWpIQnVucWhGR1FYUEdNa1FBM3lwUU5qVHBISmxNWE5LQ2o1OUxzYXNqVkJmREdVSGdhTE8yazN1bzFBNFpUeWJ5anlWZWJTRnN4S0Vyd3VvRUFIMUpzcU4xV3FCX1ZpV1JBX2VYelpYRHk2YkM0TVhCRy1Z?oc=5",
+    "source": "Sofascore",
+    "date": "2026-10-31T18:59:11.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Udinese-Roma moviola: tutti gli episodi arbitrali del match di Serie A. Cosa è successo",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUV9MTzMwVDJHM2NEYUV3X0U0X2N6b2Q2UUd5dHJFY0VoZTZ2M2VKR3NkcDhLLWszeGcwRWltMExESHZtcDhWSUZZRnFEUldUZWhLSFd4QTBSZW1mTVBUQkhVYmJULXlFZ3FDUFFWSV9XcEF4eDFZSFZoaUJQTDg2XzVIQWRqYU1SeFJlUlhhT0F0a1BpejdhVkJKZWF5SS1vOU5rdkFyRU9QZ9IBpgFBVV95cUxQZ2VmYXNWT0drYnJYcjI2Q0Zxa0oxTEd0MXBSTkszd24zbUhtYzlNSmp5Y1ZvRzhtTUpya1VyNzZYdldFc0F4alZHQVNUdWxuSWhTQVFXX0hyQVkzdzBhaGUtbzlBR0pBbEY0akJBS0kyVHQ1Nk5DbEJlUDVuSlZPRkZHTlloZmM1c3Nyd0YweGV4UmhNOU0zUTgxaGVveGxPWnpTSEdn?oc=5",
+    "source": "Il Messaggero",
+    "date": "2026-10-31T18:56:30.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Roma, poker ad Arezzo! Ferretti show e giallorossi ancora in vetta",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQjlCcnFZeGxYcGVnTWFJRW5RanR0M0pycTVBdmZxVV9hUU0tRlpDc0N6RmpOTkZTRWdEOWdXQTBpZ2owTk1xbkRSc0JyUW9hcUFtUE9aZGY3ZS10U1ZNaTRQeUs4NmtVbTQzSTd3QlVfM0dtenlZTkNIOVZiVlhac2xBcXlmdmlRTEx4cXJ2cTlVZC1aRnVmQVd5ajVxRzVGT3lMdEYyQ3Qza3NwMFM3LXhFVkpKNjVQdWE5MFltd2l0RmNqb1dJUmJR?oc=5",
+    "source": "Gazzetta Regionale",
+    "date": "2026-10-31T18:37:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "[ＤＩＲＥＴＴＡ@TV!!] AS Roma Udinese in streaming 31 ottobre 2026",
+    "link": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxOYUthMTdQWlVxYVVGTVgxTk82cDczcHpqRjBVRmJfRDJsc0dkUzdIQmJHVXprMXFQblJFdGVaVmVGVVZPMlpGSE5tUWdncTJSUjlaRER4dWltd0JiTVZxV1A4a0g2Z3RFZFg5dDU5Rm9BeV9mSHA5TlRCc1l1blgxbDBjQ2RySHdNSFpHMndyNkxBbUdzeE9zUVFYbENmQ0tYT2NieHpmdW4wYXZSOGZWREJzTDhzQVdCdFZ2YWM5WDl2a2FDM2pJQnk0akVtNWVwZ1MwQ0ItR3hBZWRBRnlHTFFMM2xRRlAwMVcxTWpiQ0VOTXlXazgzR3dtZGpWclhRek1ubE5nN3hKTFFXR3hNeUNtTG5FX18wY0wzcVZNZnFrbGFfWHRpcS1mX1R0ck1ITFo2bGVRMzlhV0d6YlF5ZDhQb0RMUmtfZ1lmZzZZdmVCNTI0QjFJMDhxRTZqM2pNdTk1UlBRMjFQbUJ0YXdCTW0yal8?oc=5",
+    "source": "Muzeul Național al Literaturii Române",
+    "date": "2026-10-31T17:22:26.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "+[!STREAMING@TV] Diretta AS Roma-Udinese oggi in tv 31 ottobre 2026",
+    "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxPV1pPakgyT1VNNm1IRHR2RzQxUnFYSmVLTmVjeE14X3NQUGJHWHM2a1o1ZWxySklkZzlrRzdoX0hiTFRmQW5JRjdNc3ExcDZlMlFpVXN1U3NFNlphaTRqUDg5eHc4UE5IQUd1VlU4cXV2cHlzc0xkbWJHWnZJbGdyODJBenFSZk5wVlNacS1yb2hKVUFqS2VZZHhJdUhtV0JBdkJjcmUxZzk4U1R3YnlYaUxCTFlOWkp3NkRGQ2kxbnBwM0VoRXp6TW9QcWNUa2FTZ0o3Q2lXVnkxRENMVFhpb1pDTXVtanljRnhXNnozZGNnaDBYX3JncWhFZGhmTE9jYmx3Ti1qdk55WnVxQnpZTzNDRXFvUTU3VldtaWVnSjl3cXVqREFQelJ2dVltemdQa25GQmxIMEk0YUkxS0gxMUVwVWNyMFVPMTZuMWt2MmpuaVJIeW5MM1pMOGFZLTZUZzIyN3FHbV9HanR2SUlnTUNQaG9jemE5Zk41NHNkRHZWaE9QMHRB?oc=5",
+    "source": "Muzeul Național al Literaturii Române",
+    "date": "2026-10-31T17:22:24.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "[CALCIO-LIVE] AS Roma-Udinese in Diretta Streaming 31 ottobre 2026",
+    "link": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxPREdSdXhiaGgyLWhza05ua3dDVl9KSzhLa2g3d2Rpb1RzcWZlVmZEU2sxVTFKMjY2bU9TTTVPWm1SdnZHalhTbTNMTThHQ3VLSDM0VF82TTh5Rms5b3EyVFhxcW9ydEEyYnVLSWkwT29KVHhOVFl6aUxwNldhNzZubFNPS0RCMDE1bTZpbl9LM2thcGVVQlZNdWVzRFN6X3BtTnBpNFZ3YzEtUnM3QklBdVlwOHdBQnpkTVlodUY0U2ppS3NvUm5mNlNhZGd1RktVcFg4Qi1BdFNIWmdPbjFMU2FGTkN6RDFrYW5ZVHBjSlR2cWo5ZHdZVnlISERscjRYN1BSeVlQVnlrWWNCNmoyUC1rMzlDazhia1pxbTFSUnFjNllZTmY4V25rS1dBWTFHRWJVTUhVY0h4azJnTnhPTVJ4cTFGcHJaMGlLamM1V0E2MUpxZmJUUUh2U0t4djFtSGpsR1J6NG1nanNvOVdHYzJCRDVwT2dmMXZ0aA?oc=5",
+    "source": "Muzeul Național al Literaturii Române",
+    "date": "2026-10-31T17:22:20.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "[Diretta]sTREAMING!] AS Roma-Udinese in diretta streaming dove vederla la partita in 31 ottobre 2026",
+    "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxOaWxFdEtVZ2Z6b3N5QnJFLW9rSXVKSTZCMk15VFZpUjZxdkZyM1VocDlfQUpGMXpUcFViQXJxSFg5cW9mbG1pSk1NcHBjdUFQU1dRXzhqTGV5bmdXOTh3UHVfY0UyUElmTE1fb2F4UFlidzVRNU8yTlFXLTJzVVlMNUlsRzhjd3pLTnhkcVdYUWhfY3FNbFg2UzBibFJvQXNhNHJoNVdJbEIwNnBNY256WG5xZkpvdmtlOFY0WjQ2ODVCazNlNW9tUW1TWDYySmFwTHM3QkhtX0xDck1obzZESzIxY1ZfTC0wU1FtVnk0WXBPaVhnaVNpd19PZl9iVlFEaVdrTzNHdjJDMTVSTEpEeVBwam1MOWRISzJRTlFQSHMxanZzbi05alJPTlZIWVlORDk5Rmk5d2o2MzlkUjNxZVctNENYUGcwUUpKZWd3TGJ6ckVWVzFxakExcUFrOXhvRDAxbjFiMldqc3RvMHcxRFpNa29Bb0FhX1hZZHZwOFAxMlNGYUpN?oc=5",
+    "source": "Muzeul Național al Literaturii Române",
+    "date": "2026-10-31T17:22:07.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "‍[ＤＩＲＥＴＴＡ@TV!!] AS Roma - Udinese in diretta gratis tv e streaming 31 ottobre 2026 Stream",
+    "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQZkdzYXBhazlDR25HOHlZcXRmQzhCV0hadTJjajFpdVBBVFRXREtLN0JoVXdvTHloN3phUnQxVWNIbXA4VmRNUGlESFpzOTNQSWNZS1FvODBRMXhCeXE0VTdBYS1zdXdYaXV1aWUtZzNxLWdoM0EzYk05UHFER2lqSk8zOFBMT2EzbnBmblhBZ0l0N0xNeXpad1UzdjA1V0luOV9LWEhQUWFOaFRJbTAtamQ5aTRkUEllWnhNNy1renFpQ0d3ZlZIRG5QQ0ZSUUdKcXJ2dVM4XzFhak14MlM2aVM2YklHVFBvbU5WaUU1S2ZqMnFkdnNfQ055TzN3SG0tU2hFQTYzaXVVenRLUmgzTTVMdEUyY0xTYmFScHVQOC13ZmI3SWhQRllxUjJ4UQ?oc=5",
+    "source": "Muzeul Național al Literaturii Române",
+    "date": "2026-10-31T17:20:26.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "‍[+[!TV_STREAMING!]+] AS Roma - Udinese IN DIRETTA Streaming Gratis Serie A 31 ottobre 2026",
+    "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNLUJ0aVl3WDA2a29Cck94U2lqR01Od3dQOGJGeVp0Tl9xdHdnQWJmNDhNaDJGb213al95V1hlRTJ4TElNbE55a3I1MzRwbXFqcUhlZnJyVzJVS2dvS3hrVFVabkxkeWx6T0lBQXJvMllxQTJ4TURZcTFFTnoxU1NMWHVOYnVqXzZnaXhxay1ocS1tVEN5dzZlR3ltVHJ2RHNpWldxdXpSeDFXSTNOU1FPUHRpajRwSmNtSUZWa1p1QXU0X0ZhcVdwNmp4SHgxR191YnZ5UnM1azdZOUdUeS1wckdCVERhUmFJR1J1YUtnUzd0T3hFcjBZWFlOLUY3Xzk0MlFlVWxFdmFVY3YydW1GSGdtQlV3SnVZbXBZOENTOTJ3TjRIQk8wbmtPT3Nodw?oc=5",
+    "source": "Muzeul Național al Literaturii Române",
+    "date": "2026-10-31T17:20:24.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Interviste | PRE UDINESE-ROMA D'Amico: \"Dybala ha bisogno di qualche giorno in più\"",
+    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOYm5FLUJucU9maHhJWmpDWlQ3ZjVRZDQyOExiaXRWZEwwRFNoQjZrT3ZNR0hIZktBT2QwSFRPZ1lvYWluaGlxNWl4bUVIOFp2NHl1MjI3RHlSMGZoMW9HNGcwVTl5ZG9RdnNWVXRrUV9lNE9Ra0NISEF3SkFXbWlJazd5UmhIT3FocUQ3cnVHZWlsa0xFN0gzZ1BZRHlXTmZWTnVXTERRQmtndm1FQkZVOHR4THRwcEFha2RzSmlndGZES2xwOHNWaWhLbEdVbDFWWmlzVV8wZXhjekI3Y1dXeFUwRVdlZw?oc=5",
+    "source": "TuttoASRoma.it",
+    "date": "2026-10-31T16:33:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "++[DIRETTA]CALCIO!]Udinese - AS Roma In Diretta Streaming Tv",
+    "link": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQSFdOVzg5U2VsbVBIMFJZQXJXLU5mRi1DZzhzTnkzaFk4M1pMMXl4X1lxWlhvSGM4X3dJMWw5MDV1dzUwWjluNzZhMTkyRmR1eFFsdDBkZ3FzQ0phLUx2QVFuX2laWHZyQTRmODZBekRndFd5QnJnRm44TVdIakN3MFI2NmFmbHVFVkkyNHU1b1ZEU21MRTkwRE53bHdRNjRsYWJidTFTcmNQUzlDNVNQY2o3R2tyY2FJNk1hZF9YMVZ2LTNCdTRycG1oaThSakVQRWdyZWFkQmhIWmttV01TdTRnLVFJQkpKbGUxUTNHa21TeFZIa2VKY0FmdmJGUmNGOG5hOGM5ZXlqMXdrZnFZMjlLLWkxN1NWY0tHdDkzeE1oaWxQR3BveF9Ea0xjM0poWUV1cmNqTDY1b01mbDdLbUg5aEQ1c2dWeExENXhLN3ZBbE9JNjc0Zi1HTjRhdjNETG0wMk9KSjhPNXhycGdhR2dOQUVMRF9kUW1ycUpB?oc=5",
+    "source": "Port of Rotterdam",
+    "date": "2026-10-31T16:16:52.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Udinese-Roma, le formazioni ufficiali: Runjaic con Zaniolo, Gasperini punta su Mora",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORWkxaDZ2d0dtcU5INEx0S0FjYS1nZERTbHRxLWVoMWRrVHN0NDNrQm9uUmhKeXRBLVpRRmIyV0NqaklzZW9ZRDdOQ3hLWGJNM3ZKUWMzXy12Vk8wNnpKb2FUZThZYkJ6a2hsVGljN3FKb096NDdERnVFYXdNLXVMMWZLcW9PWVlhN2ZILTI4R1h4eU1sOTk3TmhRRElXcWx6UWp4RkV2UU1zUFF6NXfSAbMBQVVfeXFMUHl4RjJJRmdibU84ZTdQWlNPTjZqUlNJdW4yeERXOFhOMU0wbVVhV1lBZVZISGdmQWZ6LUNaOXN6eVRpN0pmcEw1V0pIbEtEeElsVzd0Y21SeG1QRVR0RDZFeXY1R1pMWUJKelNMNDM0VDFlWVd6RGRaZXVjZ0x3YTVhdnpVRFJqN3lmalZZNEZlRFJ6ckIxMUk0X1MyR1VzSTJ6S09aOUwtMEN3enI2WFk1RTA?oc=5",
+    "source": "La Gazzetta dello Sport",
+    "date": "2026-10-31T16:09:43.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "[Diretta]sTREAMING!] AS Roma - Udinese Calcio in streaming 31 ottobre 2026",
+    "link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNTkJrZkRNa3kwMmhYdzlLTzNKODdyT1VrZTBTdTRQYURub1l0RFB4ZjlFUmRPb0VLYjR4N2Jnbm1hTS1ycXdDc1BvQ0s5a0RKT3h4QTRNS2hGQmtJemN0T1dRRW85Y3FrdkJ6UmlxVjJZNTZZX3lIN0ZmR0JNVURuUFdhWXlKdUpHZk1DVEQwNkpEX1pJZWxCdHJWVFRHdFB5b0JsV2Y3Y0dpQ0FtUGRpUVlNX3BOdWRrQlVLUnFLbTY0bjJXQ1VsUVBDMTltLVhNZUlyUXZLaFdOUEFYZV9sSzdMTldwMW1sN2ZaWjJ3UnhMdTVTRU1wVHctdXJzT0VwR0dBRXFNaWxGQ0IwdWVmTUxyaVE5d0RtMXhtNmhONlkzT21yNXN5QVBSY0VuNEVodFVLRTNVX3Y4ekgwUWtfOFdPcXNabjFIT3RHTEVzd1h0QlRtaVZKckpSazUtbTNVNXhKVTJoSXgwaWFKZm8yNU9IYmlaT1Ja?oc=5",
+    "source": "Port of Rotterdam",
+    "date": "2026-10-31T14:53:21.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "+[!STREAMING@TV] AS Roma - Udinese In Ｄｉｒｅｔｔａ Ｓｔｒｅａｍｉｎｇ Ｇｒａｔｉｓ 31 ottobre 2026",
+    "link": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNYVV6OGRsc1lMSjc3ODZ0QUZWZ0FnWUpYMk9NeV9yelNqQkdNbWFoV3d2SlE3b01wVGhZTjVmRHNqQzZSc3VMWDZuUl80ZktiejZNZHNSd2VLRmVEaUNKNGxlemV5TW5wcHFXb2JnSk5XSjhRc290WldITzZvMnVzUDZ4VmlIRXl1M09jSGE5S00wczJqeWdsRDdIdDZzTjcxWEpSOC10MmJoNDV3NEZkM1dFRURPR3pRUDlNM1VQbDlEWHk5R3BudS1kNXhFRk0zMGFvWC04WGg0U1V0UW8zY0l3MWJSYmFyZC1pWDVLdTVsZmtFa0g3dEdlSmNBNGVjaTlDOW9FTVZlZ0d4UGNhRTdoWnlqSmR1am1XY2h6NW9nUjd0Z0RoU0dyeXliN3lfVDlEOTk4Z1U3SG43Qk1EM1lVVHV4Uzlkb3lvSzNMOXZVS01IOHFaZWJpUVlIZDd1MFFTY1MtTjFXOHRFczhMQzBfTQ?oc=5",
+    "source": "Port of Rotterdam",
+    "date": "2026-10-31T14:43:06.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "+[!STREAMING@TV] AS Roma contro Udinese oggi in tv 31 ottobre 2026",
+    "link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxPc1pLVzc1VGdwZVBoeE1nWVNJdHZ5eW1jbGtMakROaURDMHpCanZKWVU2ZFpvM2owNkVoNzk5SFFKVFBNRTlid2gtdmdwUnJRYmw3aWtkWWRQZXJwaGE0X3BIOTh0SndEdXpNd3czZzdGbFZrbzViSldLam9semIxOC0xcXlWOGJ2WmctLVo3c19HLWRQWkdEdXNDQjYya1pXRFppOGlwQ05sWVZWYlZ3bmZ4MnhoaHVINWlNenN3UlFEakhQSHgtbm5MSlhIWWxXNnR6RVFIQUk3aHQzN1BHeXp5c3BDQkM1SWs1ZE5MOWJkZ1FkeFNqX05EblQtMTVJUVRlTkZ1Wk0wWUdJWnpFLUFaWUxOVjZxQjhEX3VsbThZc1czdWR2TVJoYXBfMS1kY1NiTDRqMWc2bVZzRkdPYjZZSHd2MHlpYTdPSC1RZ3drbVZEZlhkQ09URzF1MktMcnpIdFRMVWM0N1VCM0NvdHdQNmlRV2Vw?oc=5",
+    "source": "Port of Rotterdam",
+    "date": "2026-10-31T14:42:16.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Udinese-Roma, dove vedere la partita in tv: gli orari",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQd1QzTU1CODhIZUh2bnk1TTRsZFNkOWZOWWJyXzBVVm9wbUtWcHFMYXVFZ2R2bzVOVDNscEFseGlsc0Y3b2RKb1pzZVpsWmYxNzBhNktzLWktMHlnODlxLWxzeDlzVENQWEhud29yUktXd3poTGw1d3hJQkREQm1xbmNCN3k1THFxeDRhYQ?oc=5",
+    "source": "Sky Sport",
+    "date": "2026-10-31T13:00:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Oggi a Udine, con un occhio a martedì a Manchester. Le sfide della Roma",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONHVleV9jNWZqa1YycWNtOVI3eFRzRktuSmY4b0RwTGgzbW5acGItVHVBMHpmT1VBSWZaMk1RYndLa2NmVnhUN1h5V3pSZ0xEamFSZkMtSmwyVDkwYUZpdmRaQ0VsSGhsVlFVbUJ5ak5YZFJEcFljTFZSeF9DNFRueUt5OVRaTWNoX3NwTGNidG5ZSU9JQTlqMmVCZXJ4YmZZbzByeWFxSVFfeVIwcmFlRTViMDhValNzVXdnNFh3NTNMTGdXSWhjZVBmN0VnSkZUdndVN1VTdDZjTVFfMkh4ejUwcFd1VFhfdE1TUlJwYW9lUdIB9wFBVV95cUxQS2llTy1wX0h4TjVFbXhHMzUzZmU3UmtFamdUNEpCc09mLXgtSE5acUI0d3lTVDV6cml4MS05cHBjYmhsZW5xOEtrbXNVWWhscFpuWkk0LWd0cXU3VENFYm1uaGp4V00yXy1wekw1LW9pa1JsM2hHS2pPQ1Zla1JtS2lNaFdsWUtQQW50Ul9RMkttdGE5YUtVclk0Z3BZQTNrTUFvTzNYblduMEdZMVNqcTlMdmJ2dUVxVGoxaE9XNmJqeklaVW03UkhTcmE2U3lCbXlhVlc4NGpIYTJGMWtRQVhoSXVmcURCZjlCcXUxSjk3QVpRaEQ4?oc=5",
+    "source": "RaiNews",
+    "date": "2026-10-31T11:29:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Social AS ROMA | AS ROMA Ricorda la nascita di Giorgio Rossi: \"Esempio di lealtà...\" (SOCIAL)",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVUwxdUlESjZYV2V1R2FKY2h1S01DNldzTGtQUW8wV1NVQVRFakFyenlOMmNhOFRoUFE5ekREQWpzMFYxX1dqY3R2RENUZUtoT0RSdnZlTzhwWXFHdXZFVGxRYnd5S1RlU2tnMkJNcTJLaU9OTTg3MVR1emhUMzRMRXVTQmZiSWQ5NmdVYmRhYUhPUXN6dVdjb0ZEUW1HNXI4eFVvbUV6bjBZZk5KT2xsVFI0WF9nTXFmN2QtX2dNSE9PcXE1SmNzbFpUOGpBRkNkU3RHMTFSNDJ5UklyLVE?oc=5",
+    "source": "TuttoASRoma.it",
+    "date": "2026-10-31T10:33:08.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "La Roma vince 2-0 in casa dell'Inter. Le parole di mister Scala e Basile",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeGRqZVZsN2phLWRjZ243YU4zWjFIUDV0cGhDRnJJMmM3amFwakFjSkRCYy1oOFVoZWQ0MUh3dnpKb3YyVHp2dklrYTBIdVY0VUFUVEprWEo4bk1fQkJjWF8wTUdOb04xWVozVGtTRmROT0VTT0xfekgzVGxZbkdVLWh3djNPdzF4N0pUMU4taFJwcXJBeGltNGt3azZiVnpmMHVKcDBGZE5IaU41eXhXRQ?oc=5",
+    "source": "AS Roma",
+    "date": "2026-10-31T09:39:05.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "10. Giornata: Udinese Calcio - AS Roma - Tana dei Lupi - Forum | Page 1",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWWhlaE50N0tfZ3pDZHg1M0NfWk9GNURzY2x0MHR0SHl2VlZ4eEF2akdyTmNUaGRLN1d5QkVhbEphZXpPTzBOQ3djSEZMSkdROUM4OVV6VkZpc1FlS2ZSNkFyOTRrcC0xQXhJUDNIYjd0cUxFaXI4T1V3anJhSnhFdzdVR3I1QlRFZE94R1l4Y1ZQQ2pobThCYWFWNA?oc=5",
+    "source": "Transfermarkt",
+    "date": "2026-10-31T09:28:00.000Z",
+    "lang": "it"
+   }
+  ],
+  "boca": [
+   {
+    "title": "Boca y River se enfrentan en un superclásico clave para la tabla anual y la Copa Libertadores",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUlBycHhsME1BcU9NS25jTDFYRFlHeV83ZXlvMlJRQUlLYmJoVkxrWXBjNTBKVHNxaGdwMGloaHJLbFVwd0FGaUNCYlo0V3hWRElMWVpBNmpMaWFzT0xkRTQ1ZGVFTzI4SG1xbmVmM3BTZS1HQXNKekZfNHh5cV9INkRMaW1wNGFwclRibGdDOF9udm1sRWZYcEdtMnJUWEVGNy1ZUi03OEdCaXBual9YUnRHQ2kyZkFrWVBSc285VU14dXhIQjd1Z1A3Q0LSAdIBQVVfeXFMTkJyY2hUNVZSVDU5bElFd25sQ0lnbGxrb2dkRmhWLUEzbXB6OE9aTi0wMnBhMVhCNVRxQjQ0UHdraERETG1Yd0dqNUgzSUZOb2tfajBNaTNGVW1oTUw5eEhmY2Vtc2hyYXVIb0tqb3VyR2pOcjNKWS1UMDE4cjlvTGlaT1ZnUThUc1ZBNDV3eTBadE5Vd2RranZ4SmdBMEt1M0JUWnVVd2xXYm1BM3JPQTRhdHQ4aHozZ1p5N3hQQXlJMG1xVXdCaEY1ODlsX29sM1ZR?oc=5",
+    "source": "La Gaceta",
+    "date": "2026-10-31T22:26:12.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "El elogio a Leonel Flores de un ex Boca a horas del Superclásico: “Va a meter un gol, hay ilusión con él”",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNLVJJb3IxX1ZnWmNUVEdCTlhHcjdhclFCbVZZOUlpZzF4V0xFajRaeDRUekNFOGk5Wk9qdHhyREQtTW1iOFdMUDVfNlYtM1YzTWE4el9OUVhWRkhSMjlMQktLanhaVFdOZG5hVDhYaHN3R2FTZUdsNDBjVlktVUozMzlyWDR1QUhyWVFRSU8zZXNEVjhzYmVjMDNVNFlKcEZNOXFadndoZlNMX0VBQl9BWU45N181dVpod3FYOU5JR2xLbkhlQ1lubHRmTEJNVDdG0gHWAUFVX3lxTE94TllkY25xR2loVU9HTkRMMXVVOVRWcnlsVXBjTTlRcUxNal9nUFJuWU11VExNMnhPb2JnM0J1RlJTRXQ2YW9jN3U2Sy1FRjg1MW9BUkZqWEMxd0V4eGxUNURJSkU4Y2E1X0Y5dEd4TWhVSk4tV2pWWkh4ZjdEN2ZHMHl4LUtZUFFJQmtFS19kQmhNSUhJLTFFeDFlNG1CYklnQ0k2a2RoWkdBRjYxZDlsc0Z5QTVINEVGN1VnV3ZhU01HcVhHdkV1Qk9wYkxjQ1oxSXhESnc?oc=5",
+    "source": "Bolavip Argentina",
+    "date": "2026-10-31T22:14:53.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Así juega el River de Ponzio y las claves para ganarle a Boca en el Superclásico",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORnBxTDNXLVlWSTBaOG1BWmRiLXNfbldhUGIybkVFU2NQbHAyOFQxdzl3OUFhVmlrR3FjaHBfMDIyVm5nOXVyOTl6YlNVQXRydTJweUVXcEhKcUJBcDlxdEVTcGxwakFZNWRFTjloLVowaVJCZkxDNHJTUFV3OWNPX3hqU2xnaVdrdWhkV2UxUld5ZUhIZUhlVzdYLXFDZWlEQW80cWJjdlVjTElJdGFXUC1QTDZQZENWMWVPTmkta2oxU210MlE?oc=5",
+    "source": "TyC Sports",
+    "date": "2026-10-31T21:31:47.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Conmebol confirma horario para la final de la Copa Sudamericana entre Boca y Mineiro",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPY1p6WjBCM0FQSDlhTEFnUGQ1ZUI2ZkFZOHFwdjNWdnJsdlVoQnlMYlNUbXpOUTBSd24yQklwamRPbF81NEJHbWtkbnpZeUNvRDExTGF3bEVNM3FJTHJkZlE5MGhoRFJFX19YSGtQQTAwV1VZTENjNzIxTVZqRFdSVkdjdV94dlQ2TDVHaEEtWHlBWkZycEF5VHdFNjIwU255cno4OHhQQ2gtVHBJVkJrUnVXREh3LXE2dGdUS2otSXFfSXZFdVFtUE5NcWgybndvd2xF0gHuAUFVX3lxTFBBbUgxQjZMa1JsUDRaaVV0SFZHQU01RkE2WmJIcWhseGdUOHJjM1lZVktJY1lYNmZ2S3hxZ3lLV0l6YTVrNlNYTUt5MjRYTVFSNXpWWi1tTmV4ZnlQYWNvUS1GUS15UmVhVHZSLXgxcXRFWk9OZDZwSVE3ZzJhUTZEQ0tkRXFjUWlOZDFNLU13QS1oNUhUeGE5Rlo3bGZwRUFYbVJFUEJYUDVSNFNmSU45S3pYSl9EWVhrU1VnNTBudzg2cldFeno5bW5DSTVBSnlnb1BGQ3BWZlhmTzFHOGEzQjMzMFkxY2FqbWYzR1E?oc=5",
+    "source": "Infobae",
+    "date": "2026-10-31T21:31:00.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "«Chispa de explosión»: Alerta máxima antes del Superclásico entre Boca y River",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRW9pYXQ5RzA5UzJ6NUlUamVlNFNMRmYyMjY1Z3BLOFNxY1ZOX3F2bU9adjNndDJiR2dqSDNibDFyT0hDTjBVejd4YzB4T1B6MzdfM1RTTEF3X2RNOVhYZGZBT2VFUVRJRTAxaWxXMzV5WmVtU211TS1RcF9lTlJTSzN0ZHdIZjlDN3cyWFFQVXkzLUVTc3ozS2ZtUjhPRUU?oc=5",
+    "source": "El Intransigente",
+    "date": "2026-10-31T21:30:19.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Boca vs. River, EN VIVO: las últimas noticias del superclásico por el Torneo Clausura 2026",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQR3dmd0JlNVFmelpfa3BjVTNWYXg5MV81SEh2Q3RVV0ZKUjg0UUMtVzV5UXgtUTFtb2dWR2o1ejNOM2NqZWhLSmFNbHhyT2ZwZlI1TFRjMjNwVXpLdVlhZlpPX1h6RE5wRnBNYk83Xy1VeU1OUzBqekJkOTNnbzN2TTNxNC0zVWk4cFdHc0tyV0pYN2JuWERUcW5HSHR6am9ic3BZd3FkcVVtZHB1S0FEWHZ0MnFMWVB5c09CSUFtVkx1cTY5cGNV0gHMAUFVX3lxTE5obE1lNnpLR3AxaldqXzNiQWlJekVZUFdTVzhxOFp3V2JsZFNET3BOY19sREw5Ql9hMGsxYUFzckl5dlVhSFdsQXpLTnE0ZHZqWUFSc0ZwU0toS0tZOHc0ZGJ5Rl9HMldRSzNsd1BmdXEyQUVKQlpHaWN1aDMzWk1BaUQ5LWZPZlcyaGRxRzNlRHNVVXA5bnVybnBEeS1hOW9LNElYRUpBMG1ZYl9iTEhFNzNlYUZlNVJtUDVZVi1pZmJ1dU1kbFp3UXg3UQ?oc=5",
+    "source": "Olé",
+    "date": "2026-10-31T21:11:30.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Un hincha de Boca se tatuó la cara de Jagger Herrera antes del superclásico",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdGF1NlhjWU5WMURkZDJkRnNJTEtmWnM0OFU0Rk1SN0tCNjctcTRuamNsU1pkZkpjdmdrS3ZodWVKX2dUR0J5czk3bjFYZ2NWWkFBbkhKT3hhOU12VjhEYlVSdXhYMDNPM015VmJ4VW92bTZMNWNCUWNOYU5XMUJNcjV6OXZ3X2thT1hGMWxUUmZBX29Vb01KRDl3TjZmaVp4djQ3aDNRbw?oc=5",
+    "source": "Olé",
+    "date": "2026-10-31T20:41:09.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "A qué hora juega Boca vs River por el Clausura 2026, formaciones y TV",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1veTloOXlZekVJSy1naFZUNXVIdXl4OGQ1aVlrazRRMjZfdXltTkZKV1ItZVI2NHJPbjhaVEE0QlRtU0NPN0VuUy1VSGx0TmR0bHdzdzJ6X21kTnVvTXBIdldMbHZtY1J5RktxTmtwMGxDSVJoeHVpeVRMWQ?oc=5",
+    "source": "La Número 12",
+    "date": "2026-10-31T20:30:00.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "La formación de Boca vs. River, por el Torneo Clausura",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQWhVMXpLYjltLXhwbFROSERoX3ZEUDVUbnhTemYzWURwVXpTUnRZaWc3MHJoWDV1cV8wRENxUzZoLURLQjRrQ0NZLXVGSjJEcjVBcGJnZnZlTEZCVDNPcXVIUndwV0dWLWZuRHVMZzBNUi1WUGtJQ2ZwV0x0ODNzakdJU1o3eDZrUHo2Tno2YnIycEgybUFzLXpRRXBqS1haNFVGcE05eWlyU0VLOS1MR2pmb1NmN0VLZ3FvTy00NA?oc=5",
+    "source": "TyC Sports",
+    "date": "2026-10-31T20:26:13.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "La formación de River vs. Boca, por el Torneo Clausura",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOelVpLW0yQ2pLb2tHcVpsSi1kWl9rZW5VVGVfZ0RZNE42SnlRUDl0dk1VRlRjR0hDaFFySmQtaGNRTXZDQ2NKT2R3TThxcjJjQzdWTjhwNllOSXdwVTV5U0wtTUlXb1VYMzhwcnpsZFowNzdFbjN3TU5MOGdTcXZtcHBZYmtERVMzTTluTHpZLW1ONVFpb2F0RWRrYlAwanFGZGJZ?oc=5",
+    "source": "TyC Sports",
+    "date": "2026-10-31T20:26:02.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Boca vs. River, por el Torneo Clausura: hora, TV, formaciones y más",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQUp1c0ZCcVFrclpCRF9DOFJKc1lNcllWeHloc0NyXzYzaGpSVUk2YndYSjlQOHNSLXNmOURqZkJuZVdiMEJuTWVnaDdTWHREY1F2aDByd1k3aXo4LVJLNGJ5UndGek5JZ3plSGt3dFJGV19uZkctSkNvdWFBMTRlSTBmRWRheTVuSjNoWTBLM2R4WXZlcEJoc2RIT0V4Rmd0anpnV1gtaHEwWU5WQXc0S0VIUmU5NHU1VmlvT0dmb194Znh0a0JfV0FJUHFJLVE?oc=5",
+    "source": "TyC Sports",
+    "date": "2026-10-31T20:23:35.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "¡Insólito! Un club europeo sorprendió con una bandera de Boca en la previa del Superclásico",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNT1hWelRvc3hZOEtVdzZnR3NkQ3ptbVUtUThWSWI2S1dyVTJiOGZ6MjNiMEthR3JRaXB6cF9WczNWWDVnSnZkN2psYjFRaUpWcWdEZXBQSlhwZHYyZWd6WHBKNzlBRzExbktnYk1YQlNVa2ZHeWkzTjI2X0JfcTJuaFN0ZWdjWjZNbWthQXJBMnItN2NmamJsaExHLXdkTW44ZFd4azZIV0Q2RXFHZ242QzVfSUFBS19nZjJrM1EyZ1pHMGd3WmR0cm0wVmd5eGZqM2NyWFpBZXh3ZHZy?oc=5",
+    "source": "MDZ Online",
+    "date": "2026-10-31T20:20:26.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Qué canal transmite a Boca vs. River EN VIVO, por el Torneo Clausura",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ3N4WmluRHlKazlVd1o0bGg5TzNIVGt1NW83eEhXbVNTQ2w5Y3pmeXkyNjJmSG5oODVBdVA5dEdBMVpWazQ5dlZRbVR2d3B5T3FjcHpROFB6MWJfY1B4ZVZPVVBzd1lEQkNwVnU3V2dON1ZwVVp3bnl2REsyNC1yb1lhNnBVNlk4WExNODZkT1BHSkloSkd3bFBPTE9uYU9HdXlodTZXWnNJUGwtU0treFA4b0dxYzZPa3RrWUttS3Mzdw?oc=5",
+    "source": "TyC Sports",
+    "date": "2026-10-31T20:16:15.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "TNT Sports, EN VIVO: cómo ver Boca vs. River por TV y online",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVGFsdl93Qjl3NTc4amd2SkRuV2pvblRmNXF4cmF5dWdkbEZ5U1BSMUVtdnBXZXNKYWM0ZTExU09JdzI1TlZMOGhNM0NJX3RTeFpZY1lzbk1ZQzZpbHZybzR6ZWhiUjRYQ0tIWTFoWGlYT0FaTHlWbXEwdVpNREItelhqMDdRSzg3WXNMaDBLVzhLd2tkNkVTMk1ZeXhfbXNIVDlMWVZmTEVCQ1Jwb0E?oc=5",
+    "source": "TyC Sports",
+    "date": "2026-10-31T20:15:10.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "ESPN Premium, EN VIVO: cómo ver Boca vs. River por TV y online",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWnVLb3hnUmsxNWN6bXZhNlZWTzgwRHJkSXEtVDJIZ3EwZHJTZ1B0dkN5ZjZXTXlreDZ1TXpXNTB5cmxTcDVDTl9VQzZJNHZYaTJZMHJCeFlYWmk1N2tmOExyVWR1bnBGYnJyc2NGVTJsbVdpZ1JKWGo1NnRxZGRjeUF6UkRvRlA0RWtSWDFVUk5xaUJETDFJVGI5cmw5UkcxdzU0Y3lMa2pwNDI3akR3STJ3c2w1YjNnOHNz?oc=5",
+    "source": "TyC Sports",
+    "date": "2026-10-31T20:14:08.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Ver Boca vs. River: seguí EN VIVO por TV el Superclásico",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdXprUGhZd2pxaVFRZ3lIOUUtMTFFMGpPZFN0ak9pUW5QNFhJRHV1RkxmS0JqWk1fcXM1dE1HNXNSczlCRk5QMWFlRlpfdF9JaW54aWZraG1iUGlyTmpBZWRNaDlDNjF0ZEtrR3JRMmFPUndLZDk0cnNyMV9GSGY2NW1OdmI1ZUhqUHUybmhFa1BTRUplQ1NnV05tQWs4MGdxNmJqb05IRXNYQQ?oc=5",
+    "source": "TyC Sports",
+    "date": "2026-10-31T20:12:04.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "En qué radio pasan el Superclásico entre Boca y River EN VIVO, por el Torneo Clausura",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMmtYTUUyU2VUYl9sUGMwN0J3cHRDTE9UNHFBcVlfSDduVkhKVmxqcDVUNGF4d25PdE9xSzljUTJoYklITk5mc3RURkFUb3FOWHhyMmFkVUtfazNRcEgzUlZsSGplUHR3TXlhUUFZS3dkcElvSzVUZmNmYkp3cWhyQjBQM08yQXE4MjYyQXBva1VMWDZGOTc0MUFJdjhkV3hSMzFNcWw4Tmcyd3BlcE9aSWJpenNLbC1qVGo3bVU3cVJjbTc0NDg5T2pwSmZYbWQ0dktTSW53?oc=5",
+    "source": "TyC Sports",
+    "date": "2026-10-31T20:08:23.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "A qué hora juegan Boca vs. River el domingo",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSGtPSEdPWjViUzk5ZmV3UV93d0RsQnpEeUJ1a2QyeXBWTWJLekd1LUR6VldJb0hZTEZkbi1abjA1dUJTX2FfcWxCVjZxUnhUN3JiMlM3WS1QdnV6d2pjWjcyZlBIQUJxM3Z2bHdfMzBMZUJFMFF1WjBIR2RlYXRrdjZDZ0NVVmpjbDNrUUFMMUNVb25iVzdmV1V1TEtQdEFsY3QtazB3TQ?oc=5",
+    "source": "TyC Sports",
+    "date": "2026-10-31T20:07:21.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Arruabarrena y un Superclásico para afianzar a Boca en lo más alto del fútbol argentino",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOFpiamlUU0FTb3VyRzcyRF9kdWZNOGtlX0VjQkdLazRGVUVCWGdtQS1xZ2FyWkg4QXZLZVRHMHhic3lrRmNFQWM0OURaVlpqbFdmbHlHczZqa1ZMTURRNmM1QUItVXBEUlNQc25CZkZtRUJubmliQjRqaUpqMlJrYTQzMzhQMURtcUxFNWJYV1Q5ZHBWTUYzU3NZSXJ5N3NiMElDb200ZFdMSUo2YlZIX01BR3NCNHAwRmNLUWdXRmJVNTlOeHB0RFRoS0tiOHRqbGs1dkR6TmPSAdgBQVVfeXFMTThaYmppVFNBU291ckc3MkRfZHVmTThrZV9FY0JHS2s0RlVFQlhnbUEtcWdhclpIOEF2S2VURzB4YnN5a0ZjRUFjNDlEWlZaamxXZmx5R3M2amtWTE1EUTZjNUFCLVVwRFJTUHNuQmZGbUVCbm5pYkI0amlKajJSa2E0MzM4UDFEbXFMRTViWFdUOWRwVk1GM1NzWUlyeTdzYjBJQ29tNGRXTElKNmJWSF9NQUdzQjRwMEZjS1FnV0ZiVTU5TnhwdERUaEtLYjh0amxrNXZEek5j?oc=5",
+    "source": "El Chorrillero",
+    "date": "2026-10-31T19:48:48.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Cómo está Boca en la tabla anual y qué necesita para clasificar a la Copa Libertadores 2027",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOG1LRzMxWjM4VnFBZ3QxSllzZ2dRdDI3eWdwdmJ1SXhuR1BESFdqR3hOMkNDNGJ4Y3hxRlZGU3BaamptbTlGUFZUdGU3REJTT0RuRW1pT2FlSW9pRWRkdi1KcUZHeG9hOTdZdmFDZi1vQ3FXLW9GU2xVWVpfNDh1MVNPejJDSlVpWC14U1NVa2hHeWhibE9jeXpCZ3N1MGhvbm1vbXhaOS1aWlVBM1JVakFyZHhORjNLbFp3LVJ1Q1NUX2tJYmdzTUpMalUwZWY4b3VaMjhkdDlfSXJs?oc=5",
+    "source": "TyC Sports",
+    "date": "2026-10-31T19:30:37.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Antes del Súperclásico, Boca Juniors sabe a qué hora va a jugar la final contra Mineiro",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaG81eVBQaURQeFF4aUx0UjhxckNSRWZIa2N3Zkp4b0FXRUt3dDNHbXRSaWljaTNrS2g2WnJxbnR6bDJkVHJPVGVmV0htV3dyekVFSUNkZXNiVElQX0gwa0t1cWtyMlNCamlrQ3FSRV9YWGlSNkNFdW5HUXlVTkdfTTMxdUtKR2s4NThYR0ZHaFpZaGlKU08zZUs3NHlIWmV4X0VHVVkyRkNBZndqRVdSQ0hzYTBIV2hSeUhCaHVseExfQmwtWTFLMVZ4bC3SAdIBQVVfeXFMTm9JYkpCWkp6NUZTS05OTnh6WU5ZOUlPWmRlWk1aVGlCUGRfQXRJYVM3Mno2ZlBKT21zTlY4emN3ZWlhUlZUaEstWGZwZTI0cEp6RXlYY3FnaGl3NHFRZUdRcG5hMDlDLXRWMExLMlY2SlI5d3lGQzhxWDB3cWVlZk1qQ2xCekljM1U2WFFiNkdENXRMOEhUZGZURDA5ME9HNjFYNE5uX0VCdG8xWmMxaUtyMzJwUW5idktRNGE5TEVQbWJMVk1SSjJuUlBZdi1HSG1R?oc=5",
+    "source": "Tiempo Sur",
+    "date": "2026-10-31T18:57:00.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Un hincha de Boca se tatuó a ¡Jagger Herrera! a horas del superclásico",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVEVHZy1wcGtyRW1XNzZIRDVaaDhEUERWc1o0c1p4QzEzZTctUUFFRGFISG0za0JKb256dlFPLXNhQTJleXI1Ym1WdGxyZmpEM2xkM1Z2Q2lyeV9QNGd5T3ZuOW9ORTEybk5Yb0w1RGN3VmNrNVh0U1dxeFMwZEsxanBxbG5kOVpNcU1qbW4wWFpWRTFsNHpkU19qXzNJNElXcEFWVjZYVHI4UTl5RE9Valoxc9IBuAFBVV95cUxOSkI5bnBFYjMxS3plX2lsU2RwRlY5RGFoQzhTa19IZ3BIQzB4Q0lWXzNadG9LM1pXQ1lGQnNmbk9WQUJTQkRjUzNEYjhYS29yREVTQnB0N1VDSEFFR0FabU4ySmVsaHFHR0t5QllENE81TVk2aFBmVmxmSk5RQXpHWFRsLURONktpYXlncDhjcE5DWG1Iek16MThkVFd0VXZjZXc0R0JuMDJUSDdCck40VEtlSTZIT0Jz?oc=5",
+    "source": "Olé",
+    "date": "2026-10-31T18:29:35.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Leandro Paredes afronta ante River su tercer Superclásico desde que volvió a Boca",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcnJWLTlWU0NwcG0wOUJtdWE3XzlHSld3Z3UzMm9rWi16UlZJYjNLY0h1d21Kb3l5YlVXeGdETG55Y0xrSTFfTkdhRUtnX0VucEhpcTlRMmI2aEFaMU54c3dJczhfS0hHemsyUFMyMDNfdzFPVnhxRVZkOVZaNjZZNmFCY1lDUzU0MTJ3UGRVRUZ6b2dqVFl1cklTMno2QXRRdEZBMUx2VzREVHVuNTduRXFNSTg?oc=5",
+    "source": "El Intransigente",
+    "date": "2026-10-31T18:22:23.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Copa Sudamericana: así llegan Boca y Atlético Mineiro a la final de Barranquilla",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVWV6N1FrMFdkWXNoSERDcmZvbkVCS3dpUDZkengtUEM0Unk0VzZFYXNJelhuc1AtN21TR1dWRTEwb2FQeHFsVFZXYUVjU2JXbkVSdGdGSHUyVUhYZElhWl9BZzZKLXItUUlMVGhVN3ZtbVVKYTdKRm1td2dLOUV5N3JlZ3hJX2JEV0V3TlVTekh6dzhwT2txRmJha01yNVJxWGpYTUR5a0VkWGFudEhpeUdjcWJaZw?oc=5",
+    "source": "El Intransigente",
+    "date": "2026-10-31T18:21:58.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "La recomendación de Carlos Sánchez para ganarle a Boca en La Bombonera",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSENZNkpBU3NOTE5jY1BWdHFaS0ZwZWc2SEp5MzhkejV2aGlKMkdWX0NPNDBLcm5KakszUUwxc0ZNeC0tV2dJYnpRUTZxdUw1Vm9lcGFxcVlfNUNZVUVGalpsZzZfd2I4NE11bGtleUhzNEhKMHQxWU1xM21xRXczSXo2WXJqUDRYb0Joakt2Y0xZTUQ2d0R0UXRHN2E4RUI5a2dhOXJicFUzU28?oc=5",
+    "source": "Aire de Santa Fe",
+    "date": "2026-10-31T18:20:00.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Un hincha de Boca se tatuó el rostro de Jagger Herrera a horas del Súper con River",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOWg0ajlDMnVlUWJiQTktUmRSY2s4cDROcnF6SmZweGkycnNtVW1aM2V3eTJKSWprWGhUbEc3dlhJZy1JdWJTYV9lRUZVVXhwd1dZT0d0SktNSVlSaXpnTkd3aXJNRlZmWFBsV05xT1dQOEJCTlZUdWJWRGtYT2NFYzYxRVFTaFp0N3VYZTY2ZmxrTWFxdmhhTUYtNnZ1aEV0azVUa21OLWZkOGhxMzdCVw?oc=5",
+    "source": "Olé",
+    "date": "2026-10-31T18:18:50.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Superclásico del fútbol argentino: quiénes son los jugadores de Boca que debutarán ante River",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYzN4RThUN01QeHpSbngzSVdMQUZVOE5MaFJreDEtS3V6QkhHZlRMeVFtM3lDNGcyNUtxeVY1czgzb3ZFUDRQWDhLeElINTYtLXpJLXBTNlZfaktrUWpHM3Atd3lIdHhPTUdXQUszbm4ycC1LWl9HX0VrZ0xFTkYtc3hyeVhpVC1PX1QzeHlOZjZkRm9SQzI4WA?oc=5",
+    "source": "Vía País",
+    "date": "2026-10-31T18:08:54.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "De las sociedades por afuera a la pelota parada: las claves tácticas de Boca para dominar a River",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQTmptOEVXSk5CMGpiYzBGYkpYc3NhQTM4SklvZnlxUkMycWQ5eEM5MVZEbzBRaERxUXJYQnd4OGQ2X3M1SVhJNkhRdm5fRmk3NE80cm1qTDFxVkJfSHQxZkdPNEppU3Y5c1k3WGdWVUFXSzM2RGQ5bTQ5ekczSFpaVWJQNDQ5SXVUd3R4Z1Z5dEhOZTNfX201WDhLb0tVbGl0cUtBQWlna2VTZFJESnVNXzVBd2FJclZEMENMTkhibW96WERPODZhNFFBaTEwZXAybVd2cDNSR1ZLZzNzMzhlVnZJNA?oc=5",
+    "source": "TyC Sports",
+    "date": "2026-10-31T18:01:51.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Boca Juniors vs. River Plate, EN VIVO: dónde ver por TV y ONLINE",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcW9mZ2J0ekxEeFZNcDBrVXp3aGNGNzJISEJuZ0NWa1hhQUM0OHNuX012M0JPN1RGWGc1TUhrWmlWZWdNTUtDOFlXNklMR191WXhzYVlFQmRnOWlpNTRGTWd1S0pwdlNtcTl5YXo0by1lSmtHZ08wN01nUHNpT0FCTEwxWVpfX0xCOXE5SUJ0c3RiRUEyVDBaNTFyWkVjRWgtakRBVmNRbmx5NU5kZUVTY19oWl8zblRZWTNfWnl2UlFyLXh6VlRv?oc=5",
+    "source": "TyC Sports",
+    "date": "2026-10-31T18:00:06.000Z",
+    "lang": "es"
+   },
+   {
+    "title": "Pronósticos Boca Juniors vs. River Plate: la Bombonera vibra con una nueva edición del Superclásico",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdFZYT2l4eHp1SDUwX1UwQUZzMkhqR3RhQTduWWxKM1hRa0hwMWZMekpDOXFISUdtOTl6emdDYllGYUh0MmxMSWlYb2Z5OUNYdjU5Um9KYUp4MURXanBGSGF4VkhTZGhDS3JuV0lZaWhrZkRnTXMyZHlJUjIyZ0czSFI1LW1IM2JnN0E?oc=5",
+    "source": "Bolavip",
+    "date": "2026-10-31T18:00:00.000Z",
+    "lang": "es"
+   }
+  ],
+  "fortitudo": [
+   {
+    "title": "Luca Zani, è morto lo storico tifoso della Fortitudo: aveva 52 anni. “Fai una buona trasferta”",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVzU4SzFpRlBRRGlZUWdjY0N3VVhlb2VkaHB5NkgzelQ3V3JfMWJtUWlWRjY0ajRTazQ0dTdaaFQ0cVpSSVdRcHJSWXBFZjFjXzNjbDhnY0xSUlRVRHhzMFJCYWtIWG44NWstbGhyVkhmaGVxSS1EVWQ3VzNVMnR4cWc1MmFrczE2Q1FhUkFJOVpza013RUlvNEJUbw?oc=5",
+    "source": "la Repubblica",
+    "date": "2026-10-31T16:46:50.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Lumos Pistoia - Pallacanestro Fortitudo Bologna Flats Service Bologna il pre partita",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNT1VMNWdKXzhwSGlaMk1sOVdrSUoxQnBJRGRCUDFIT0hjV1BaeUVQZlpoaTRwTXV4X242ODc4d0JBdjFwQVFCQjVUZ291WkdNX2o4eUNwdlJEOWNEZFUtY3MtcVY5Y3FkdURNajNiWE5zeVZ5TVhJeWhyS09ST0VuN2FVblNxc2VEcHgtSEp6WFpsRkg4aWJ5VE5MSl9rbDFaOVNYSGI4ZXVDMkl2Mm5qY0VUclRHRUhEMERUOGJwcw?oc=5",
+    "source": "Emilia Romagna Sport",
+    "date": "2026-10-31T15:21:30.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Basket A2 – Lumos Pistoia all’esame Fortitudo",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBVNlQwSGNzTjFkTHkycDVPSVBzTnRBN2JnNHVSWXc4RVlMU19sS2l3TVFXY0JtdGRPZXdhMVpUc3RXUFRfaUZtZFRBUzFOS3NOSjN1TG4tdUM4b3Zmb2x1cUtKaE9iTC1UUVd5eDZkeFp2TEVOam5ycVZrVno?oc=5",
+    "source": "TVL - TV Libera",
+    "date": "2026-10-31T12:30:46.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Lumos Pistoia e Fortitudo Bologna per il derby d’ Appennino",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSHhtZzA4a1haNUFSY2hSY1g3NFJ3LVhyRVdmazBqUkwxMHkyelg5eGVRMXgtb0JUSVNWY1Z3X2J2UE9wQVF1bWYwQWpJNkdGRVpYbXk4RkU0TmZrMC00bVZFekRxS2l6UEVJVzhITjh2M1dOdTZsOXJ0RnNlWU8yS2hoRnBkZ0hOd0hRMm9DNVQwUWxJUzNYelZuRFgyQQ?oc=5",
+    "source": "Pianeta Basket",
+    "date": "2026-10-31T12:29:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Verso Pistoia-Fortitudo, Cavina: «Abbiamo esaurito il bonus».",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ0s3ai04TjdHbjdCZ3d5a2hpakYtRWw0NWp5MWdvX0pyM0JLd2ZBZ3NsRjZ6d0NKRFlIakhfR3Z5RS1MZ2h0dVE3YzRLZ1I4d3Nza0JQNlo2RnpOd3FrbkdfYWhFemh0ZlY2WUlteFFlNXBLR2laNk1TRk1FU3FuQkZLd2NsTk4zUnZoQl83ZFU2eEVlNDBDWFkzNkRPQQ?oc=5",
+    "source": "1000 Cuori Rossoblu",
+    "date": "2026-10-31T11:43:19.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Fortitudo - Urania Milano, la prevendita",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNTVNS1FlaXEwTlljZ196NEZZbUk0dXZtSzdzd0ktbThqVFVxS2FNMGtmOEJILW40dXo4YUhIOHVEV2kxMUlmU3dOaVVYSjBVbHhRd0gtNkY5VkJXVHBxRG96aTAtRzRWaExiaEE5VWN6eDlTeVB6RXA1VHNzUmFnRU1QYjZzcmlfNVh3blJn?oc=5",
+    "source": "Bologna Basket",
+    "date": "2026-10-30T13:59:32.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Lumos Pistoia - Flats Service Fortitudo Bologna, il prepartita",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeDhyWlZEQURxcnd4MUFSLURmRXc4MTQtRGtRNEswb2pFUjNzY3NxcjFsN0NySFhBcmplaWt6X3doM2pYbG1Tb1BTME5BUGJUSzhsd0x6Q1R4Tl9iX3ZVaUpES1U3a1NtZE00MVJ5RldqXzc5azdzSkh1TG9hVnAzMnFnZmJJQkhMLVNIUGdVTGNRRTM0bFZ0MVR3MGp0SEFBYzdvbUlUeldHUQ?oc=5",
+    "source": "Bologna Basket",
+    "date": "2026-10-30T06:50:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Pistoia - Fortitudo, disponibili 194 posti per gli ospiti",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWDVTOWpfTFptUzJpQ2ZJenZYSlZZUjNWZDJXaHhvMTJVVFE3WXBnRnRTWFItYWZ3Nk95ZzdhWmhjVHZkWXlxaW1Pd1VVTENhZFEzenlycEdyRkx3bE42SE1IQXRoOUcyeDBfOXhPWVdwTUQybEpINE00d1E5aTNORkplbzhHa09zS2pTR2pJbkswS2RWczRNZ0Z4dmlaSVhoRmtYUg?oc=5",
+    "source": "Bologna Basket",
+    "date": "2026-10-29T11:19:08.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Lumos Pistoia-Fortitudo Bologna: le informazioni per i biglietti",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMlJMODVSQ1BMU194ZE5pdkdjeVRpT0lkZ1FDUldyYl8xeXE0QU9BUGdZUlh3RGhVSTdZOWVueHFxcmlVY1RlaE1DbUtBakJvOTFzY21nOXJBZHEzLVVEeGJVV291OUVFMHF1R1pHZ3Zoc2hOeVZQV094aG5kenNQMEJDNzFJQmlla2had2FmUEFOb0U?oc=5",
+    "source": "Pistoia Sport",
+    "date": "2026-10-26T16:15:30.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Pistoia Basket, domani inizia la prevendita dei biglietti per la sfida contro la Fortitudo",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRlpqOGdGN2Y3SUdVanoxa0g5UGNndnUybUpvQnFndUducGhiX2pVVVA5cVdSU1JobjloM3phbTB0SUJLeWxXOTNhUjI0Zm1Pak1MMU84aWduaTBHN0tla0NHUXkxSi1LcF9CcWdORHZWNDl0ekFXQ1hYUklabUVKekNQdkxPWXVjUTNmTWtGSk1OT3B2bXpSQzE0dmR3emNkaFN3UUxPOFUySTd2aG4zUjJDTGFUbFFkdnZnM09IZHpzcFI1VF9BVkpfaUFYUQ?oc=5",
+    "source": "Corriere Pistoiese",
+    "date": "2026-10-26T15:56:37.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Flats Service Fortitudo Bologna - Elachem Vigevano, il dopopartita",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMWV6U19qNVJld0pRb2hzOUhrcGJndFBKR08xWEtKVmpEMnhfei1OT0hVb1BQQUc3dXVKWE1ZdHFXN2dqdkNrY0V3c3pQZEtKblBXcE9iOGVVSzhWdjAwbHhHMXhvOF9TSVVGMlJ1b3l6YlF1STE4dkpRYjdhWWxGVm1LVFNLQm52MjhjUWdzZnVKVl9XNmdGZnlrWHNZVl9jeEp1QmIyOUlOcDhSbnVB?oc=5",
+    "source": "Bologna Basket",
+    "date": "2026-10-26T11:01:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Fortitudo Bologna, Cavina dopo il ko con Vigevano: «56 punti subiti nel secondo tempo non sono tollerabili»",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSDRyZnV6d0Nzd3JVZnpKNTVIVnlHRGduaHp2R000U2dSQlJFek1ZY00yRWUtSmNMRHBvZlI1NlJGNkZZVFd1WVdpWkxYMERvb1NIOU9PcXlQZVlYWk9mVTFZLUJ5UHBocHVCR1Z3ejQxMFN4bXNhX2d5cHc0eWl4YTRuUWIwWmJmZGU2SV8wM3I0QTJIZjZQQURDUVZCV3RDU1dXU3RnT1VfMDFSTXFodm5TZ2Fkelp1dHRVcDJoWU5QS1RVUGFTamd5UE1LUk9nYlNaeEJYdEowZw?oc=5",
+    "source": "Pianeta Basket",
+    "date": "2026-10-26T10:30:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Fortitudo-Vigevano 85-93, Cavina amaro: «Difesa molle». Le pagelle del match al PalaDozza",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOc0ktaW9UcVkxbUFKRlE3RGhCaDlLR1Q2MHhIQjQyakNWSnBZOG1TN21lY3h3dGdFTUk3UWJqMTZVZnBiM2xaVThTMldXY1VXakNVVDZtUlNZdXFiTGZaN0J3MmRYclVocHBVb1I3aVRGNEdkMW8wSWJGNl8tYzd0UUlmcGlzYXluZXJRSWNwXzZKRHo5c1llOW5ubkt0LTVzbEduQTlrUFQwRGFvcnVIazlsTzk2X2ZyVXJyV1ZJdFVmVk9fY3VkWlRaWkFOdVU?oc=5",
+    "source": "BolognaToday",
+    "date": "2026-10-25T20:30:31.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Fortitudo Bologna, seconda sconfitta consecutiva: Vigevano espugna il PalaDozza",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYXRHWDFOeGpjeVZmM01janpETGwwM1hvV0RWYkpBS2NRYmkwanFhb1lPVHFqZmlQbFJJQ3RJRVEySFQ4cG55X01IOFBVZThMU1dYcGlrRkRSQnUyUHhwRmhZTFB5M1AwcmM2SHBRQTJMbWdLdDJheFBlRElQSXJRcTU0ZXVKNzlLWU9iQ204WFd3SWFfeEIzeFo2WkNhMFhxUFEzbXM3Nlk0R1Q4M1pzbEdwR2hCVm8?oc=5",
+    "source": "Pianeta Basket",
+    "date": "2026-10-25T20:01:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "La Pallacanestro Vigevano firma il colpaccio sul campo della Fortitudo Bologna",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTnpFdmpoMXV5ekJOWVUzTmRTWlFVQkRBek5TZmtqMlNoYUx6eTdfcTZEVXo0ejBJcVE5Mk1acGdiV1o1anl1aks1dXZidlJPVmhlbFVEWmZlVU41UlJlNmNtd2NzdjFUMmNzYUpXajFubTFHdktoSGVOTDd4cVdwSWp0Z1d2M3JDa1pvWkotTTJWcmNfT3pYaXVadFgtSTZkcHJaQ3NhWXpHTlh2RGdzdzVZSjNLNlBHWFV4dG9fRkFuelREaVE?oc=5",
+    "source": "basketmarche.it",
+    "date": "2026-10-25T19:49:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "La Fortitudo crolla in difesa e non regge l’urto, Vigevano espugna il PalaDozza: le pagelle",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYXpFTUc0bUdNQnVRSXNTcnpZcDJSRWN2RkhXam9NVGUydlhGQmxaWkhYLUlXZWhoTHhCQlJKQ3VjQ3JuTjgxaER4azJVV3VRMnBZUVZ2Q2prNUlDRUxJX1ZqckJLMEtUMEhSYUxXOXcyNWI4RW9NMjJpT0EweVV4M2dQY3ByS0tUZ3luaEI1U2tISjhJNEhLMEJFYV9Zb1NhY1NkTDVKUS0yZ2oxckRuZHNFX2pWTk5Z?oc=5",
+    "source": "Backdoorpodcast.com",
+    "date": "2026-10-25T19:23:14.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Basket, serie A2, Elachem Vigevano da sogno: sbancato il campo della Fortitudo Bologna (85-93)",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQS3FXRktjU0Zjbkdyc0FMTjd6TzFZWkxLbkNDVGl4WDdzQS1sZFc5MG5SanJOcDFjT1hzS3RtUnRoSHlFRDZsbWpyMW9CM0txQjl5NVpHSkJiaGoxR25mTGxUWFhnU241ODFmY1RYUUZqQXZmdlZneV8xdnVvRlFQM0tKc05Qbmx4LVBFWGNQZGpEcjZaLUVvRXJWdWtQOGNSRllyZnJUazJub1JvVms4YVBJRTBSMVlCVHFiVzV2MEtqRjFVMXBxaEx5c1RTb3g4N1V5aV9Lc2dza2ZDNi1Rc1A1MHdISU0?oc=5",
+    "source": "Informatore Vigevanese",
+    "date": "2026-10-25T19:23:09.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Basket, Serie A2 – Davide batte Golia: Elachem Vigevano viola il campo della Fortitudo Bologna (85-93)",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZDRmei1la0RscV9NMWtlaGc1ODk2RDFRRDFMX2dTamtudXFkMDJqdWdlc1BXcF9sNnRMVEVuWFZ3bmRETGVWU3MzVl9uU1JVdFo4VFQ2RWtha2pyZ3NaSEl1VDBUUENNcFJ6S2tnS3B0OEU3RFhKMnhRbmEtM0FPZnkyMUlJOC1yQjBVajF2OVAyQUNkQndXZXZqeFhON2tnRmpMcUI4NDF4ZjhrRjJydzkzaFJ3MHp0a3Q5YWR3?oc=5",
+    "source": "Il Punto Pavese",
+    "date": "2026-10-25T19:18:14.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Impresa Vigevano al PalaDozza, Fortitudo Bologna k.o",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWE9HQ2pQaVV2bHJYRmFOVjFEdm1sdTN4S1hfRHNGcFRjZEpxc0FDMVF4ZUlhUkFUeHpNeHk2bF9icV9PQmVEck0zdndDYVJNeHI0SkM3UldZdGRxVFp0UmNFZWQwNFl2b25WS1pSQzRKOWhvZ1dKdHRUVVVpN1FHalhsZ2pmV2xzalpocVJwRVhuYUlTNTZBem1PcjlTQ0JuSFVEWlRpQ2oyY3JDTjVB?oc=5",
+    "source": "Basketinside.com",
+    "date": "2026-10-25T19:03:54.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Vigevano gela il PalaDozza: Fortitudo sconfitta 85-93",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalhXLTd4THJJdUN0ZDd6UEpNUEVidkd6a3NDUnhwQ0p5bDVkUk9nSXZnaXFFNHRiZUpwNnNWcmtWeDA3bUNsMEdrNHNaVlhXZ3VXSkd4YTRvdkhPYTE3Snd4UzNHTlZJNGZ1Um0xbnhXQjZOdXg5d3dnclBZbnpUQThQZ1VZMnhJYm0xVEVacjh4Q0NPS2x2eW5nOGJQbVhOY0c5b1B0Y3o5WVNWNl93Qg?oc=5",
+    "source": "1000 Cuori Rossoblu",
+    "date": "2026-10-25T19:00:31.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Flats Service Fortitudo Bologna - Elachem Vigevano, pagelle e interviste",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSG44RjdCS2ktRVFBYjI1cUJ0dVdGTW55eEVtemVXcFRUd0JQREZGaFN1MmY5VmZING9wX0Q4ckZ1Y0lSQ21LQjVIVlpNMW8tUjV4bTcwVHlpT1RqclVhaG95d1I2WHV2Y1lGYld1dURDTmJ0U1BkTlZ4Q09WLWpYUWRmQjJHMGZmMzVxZlhqTVdhcGZKQ3pCS240XzBwR3NTYjVGc1RfYXlrUktWZVREdFU0OUw0TjNB?oc=5",
+    "source": "Bologna Basket",
+    "date": "2026-10-25T18:45:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Flats Service Fortitudo Bologna - Elachem Vigevano, cronaca",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUVNvVU9PMnFOSEpmY3djeDBUVnQtUjJwTmZIYW1QX1F1U2ZfQmVPX09JMnNJZU9LQW1rU0tEZHJTZXhXLTBaVVBQRVlvZ3FmX0VaWmZjdWZPazhpNXRSbG9ubFVja2c5RzhIclVDSEF0cEs5S1R5Ry1vTmRiOXdTd21kLVpPRV9IS0ZrRzdoRlYwbzFEVkhEWkxDem5OSjdLMkcyUDZPbw?oc=5",
+    "source": "Bologna Basket",
+    "date": "2026-10-25T18:35:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Flats Service Fortitudo Bologna - Elachem Vigevano, halftime",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbENSRE0tRVBhUHdORTlxS2REdjBveVY2REFRQmhXUmNuVVE0ay1yTGZva2xFVlh6TDRjTkZpNkkxaElvSlJhU1RyYU1uaFhDUElrSHU0RUVCdFNoZnlXTmQyS1ZGb0pXaFlaamV6eFpjeEtoSVhYeUpoVWNzUTl2UjhsSmN3eS1IREgzTWdpWkJSWnpGVW9rNFQ0V01yakJMVk83QUVFSQ?oc=5",
+    "source": "Bologna Basket",
+    "date": "2026-10-25T17:40:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Gameday: oggi Flats Service Fortitudo Bologna - Elachem Vigevano alle 18",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVXFhYjlOZXl0QkMtVlM1Qk81el90dUM2Sk5Ud0FaUUxBaWloQnJLeV9oRjB2TGNKVTZtYlRBWWxHYkF1aS1rWmZSUDFXNi1rakZnY2xQYkFraGJRalF5VzRkRzRLeDFnX3A2ZkhMU1R4VEpveVk3QWszSkVTelc2aFJmTk1PY3B1djRkeks5MDNHUno1NFFzM1Z4eWp3aXJfUWRGQ29mLW5nS3lFbFloZE1DQmt0VEM5?oc=5",
+    "source": "Bologna Basket",
+    "date": "2026-10-25T07:36:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Basket, serie A2: domani la Elachem Vigevano nella tana della Fortitudo Bologna",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdEdzc1l3dWdEWkFCWmZGNGFEUHN4amZSMTJPV2VOUi1QTVBtaC14djA5TlBqQVlOZEdjd0h5M2VqVmtpQ0x6T2t2bWVPWllIZjVkb1I3eW1NNVVmMUdSMWVBeFZVakhJNHB0MmJPQ2xNVFd4ZUlxc0M0cV9xWHYzTjVvaUZWYTQwbVJKYkJEUjlHVENyTkMyVk96ZG5jSndDbkN2ejBfV09UeENCOU1DbWd6SnRWclRxQ2tOWjVLVWFPZjdlUDVuU0tfSDUweVV5VmxMcmFCNVdfcmRZaWc?oc=5",
+    "source": "Informatore Vigevanese",
+    "date": "2026-10-24T15:05:13.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Fortitudo Bologna, termina lo sciopero della Fossa dei Leoni: domenica il ritorno contro Vigevano",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQalZ6dG5UOHZTR2VWT09OVUxLUEgtQWZOZllGd3VGYmRYOVNUZ1JidlkzMjlVMzBEeTk3YzBxMUY2SzFUSUlOQ1l6ejdSNFppb0ZnVXVjVEx4M0pOeXp3Ty1TOUxjQVVkcllUM2N6b09SQ0xMWkhwMGFiQklLQ3c3Z2N2aTNtZnhVWDk3cVpadlRfWV9welRJMzNQcXc1eWZHcjUtOTZUWFNYamE0cHNxRkZYU3hobXdvRVNGTUYzTTFuR3c?oc=5",
+    "source": "Sportando",
+    "date": "2026-10-24T14:16:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Il pre partita : Pallacanestro Fortitudo Bologna - Elachem Vigevano",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQjZTekNNcE5Zb0N2TEdMM3l6M1IzM2tnNGpicXZJVmFVc1d0Rk1QRFlMUF91NXFlVzJhanlVWUVkell4MlNtcVFEME0zaUhaZFFucmpNQlFPbU1IN2NfWHV2TkRCWmdwMWEwb2hXMkN0ci1lclBGSlAyOFhTTllNVjJNckhuWW9ZZjJDbHExYUlaMWtaTnllaXhEOWtLUQ?oc=5",
+    "source": "Romagna Sport",
+    "date": "2026-10-24T14:06:32.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Fortitudo Bologna-Vigevano, sfida al PalaDozza: due dubbi per la Effe",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUnczZk1hdktpTUZlSTExYjRpUDdxb053TmdZbDFyS3R3azE5TmxUS0JJWHNudjU3NEtRT0pkZ2RBTFlFaV9uYnh4WkpqTnp3VkxhZXh5SFBHTmI0V28tMmtKWlFUSW42Y2dNWTBXX1MzNW1kTXBFNHJhWGx6YU1JYmVFNHJad0Y4RzRCU0dQaWVvN3VmUlF5cUE2M3B4QTJMNVpmRnUxcmZvdw?oc=5",
+    "source": "Pianeta Basket",
+    "date": "2026-10-24T13:54:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Flats Service Fortitudo Bologna - Elachem Vigevano, il prepartita",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObGRXc2huYTc3N2M5MTVvbkxpNk5MdTlGTnRDa0h0MGdTR0ZNeVRSN00tb09iMjFXaE04SWp0VjNOSG1Ia2ViMWxGenRablZ0b1B5WkwzXzdLWTlzcTYyTzZYeGRpd0hFU2tpSGpXcjh1TDh0WFNWYXgwRkFOZ0VmM1JBQVZYNjN0Z282ak0zVnNTSWI0Y0RQNmxBWnlCcEptVkJfanpXQk1PazBpMTBn?oc=5",
+    "source": "Bologna Basket",
+    "date": "2026-10-23T11:11:31.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Amarcord Fortitudo allo Store: domani alle 17 Cavina, Fantinelli e Sorokas in visita Al 'Museo' Biancoblu",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTHVkaDBzRm5Xc2RPTnMtWWFOQjlkZ2NqWGFxWlJYamtQRmVTcERha3Y3QjFVZ21hekxSNDhKaTFyRVZuTFVEVXlVaVY0RmY0RmJ4N00yYldHNmRMOHJLdHQ5TVJOOXJMeFAwc3BCMDFwaUFwVzkwTUtjNGNNVzdwWHlfVE4zME9VY295QTFEOTZpdWtDTTYxcmcwMTl1Rm9LVU4wSU9FcTRvbTBfeDMzSUtIWEgwUnpxRF9uRmtGQ1dvTUk2NGhoN2pYSFN0Y1YxSElQUkI1ZjYzUmtQaGtMaHR4SQ?oc=5",
+    "source": "Bologna Basket",
+    "date": "2026-10-22T07:00:00.000Z",
+    "lang": "it"
+   }
+  ],
+  "juvecaserta": [
+   {
+    "title": "La sfida statistica tra Dinamo Sassari e Juvecaserta",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZTI1eDQzM3BKWUcyQ2JSZ1dEbUpwb29pOWROUHZrWTVYMDM2RjA0U3I3SGY0Qmx4WUJvZjBla3N6Wmp5ME44MFJnWnhlZzRBYWFqVHpWRnFJaDFkb0xSNTA5OVVORjQ0WFc2ZnktaGtGWF9Kbml6OFFXNGs0RF9JTzJaaEdDcjQ5VUp6c3F3?oc=5",
+    "source": "baskettiamo.com",
+    "date": "2026-10-31T16:06:22.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Juvecaserta a caccia della prima vittoria in trasferta nella difficile sfida a Sassari",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcXdRNUZwZV8xeVV0RF9haU5fUjQ2RWJ1SmtHTTBueC15Nl9kRk4yODNndWItanBIM0RQbGtmT01CNW9XMVlrNVVrWUxUM2xpUUUwU3d1WDE2SXVacWRmTVVIOGR3U1pjNEZlQ09CTFhndnJrV3F4U3kxay1pZTd5V0d5QVNSZ3BDdEtjNEh3ZzhfMzZzS0ttUVVRVFc5NXU2Mi03bW92OVY?oc=5",
+    "source": "CasertaNews",
+    "date": "2026-10-31T10:20:22.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Basket Mestre, rimonta incompiuta a Caserta: la Juvecaserta vince 77-70",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVGRsZ3cwY2ZhdjFJZ1lGeE1BSG5wRXhrZEcwY0dxZ3ktck1KMzdqRkVxVkFjWk4zRlhESDhRbFhvVFJaUEtCVHVRZy1fWXBxMF9tSFhodWNHaHZnbXJ6eWx6ZWNtRGl0T1FVMlp3TjlZY1ctaFZaOWQzdExQU3Iza0hkMUJ6clI1dnUzdzRXOGlvYnhkUEZnc9IBngFBVV95cUxNWmJYOV9ySkNIbk9maVhIVy1sM284UmhiVGhMdVN4S3FqcE5kaGxYZmxXbFViZWRrcnJLSEpOSGU3OG5KSTEtS3lCelRVM2hEYkVmaFUyclV5ZjNHR2NLeFVfQ2xYS21QWHBHRDlXTDFvX2NBSEhEWXhXa3FRTmdjMGFwRnUxNWl5clBrQ2d4YzFxVXJWZVA5U0VWbXVkZw?oc=5",
+    "source": "Notizie Plus",
+    "date": "2026-10-26T16:25:53.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Live Juvecaserta - Gemini Mestre - Serie A2: Punteggi & Highlights Basket - 25/10/2026",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbmVJTnIzSVowNzlmdGRySXlqc2p3NXRCVzFwV21naE1YeEJzOUh1QTNzcll0SEoxZUIwSTQyZWZ5OGljSkZZejdQZHZGTGVMaEJ0a19lalB4TjI5N1BZN1dZczVaNzg0SVJEYXZkNjJnM3JEalMtR0FuNXM0d0ptbm5zcTF0TlkyNVptYzRERjdMREM5QVFBVEItSFJXRndscjEtV29Hdw?oc=5",
+    "source": "www.eurosport.it",
+    "date": "2026-10-24T18:32:19.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Basket, serie A2: Juvecaserta al PalaPiccolo per affrontare Mestre",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObU9JV3RVTkhNdnNJMEZjdWxWWi1JclJvckl1WTZBdlF1bmdCN3EyMzJLeE9FOUwzeVdFdVEyRWJjX01fOGt1ZlMyWkJianZGb2lFV0dPMGZJZUx3b0FHN2t5QVctTDJqQ2M4cUgxX25uZ1ZhQVdwY3hHOGxIdk1xcHdTREdfcHNvVjZKTWloc3U3LW5iTWVYczFtbm1lNTQz?oc=5",
+    "source": "StileTV",
+    "date": "2026-10-24T08:53:00.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Basket - serie A2, Avellino batte anche Montecatini: Juvecaserta ai box",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcVFjUkNLUksxdHFuSU0yMVdUbGtyYzd4a2pla0FoZER2OFZnUk9pN3JYMElkQ1VMel95SGlNRlZvWi01dHJlNG91WUNjVWFudlhOZF9VMWRzNmRCZEg2UXNGX2JOTFlTT2xLT3g0c1BGWnk5S19oODJXaXY1cUpVSDZwZnQ1c1dhWG5VTTE0RkZKMjJzSi1Td3hTVngwcHYtWTFtWFpxcEY?oc=5",
+    "source": "StileTV",
+    "date": "2026-10-22T13:03:25.000Z",
+    "lang": "it"
+   },
+   {
+    "title": "Basket, serie A2: Avellino vince anche contro Montecatini. Rinviata gara della Juvecaserta",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOFpzXzdpYUlFbEgzRC1lVUYtWDgxV19DWUo0cFo2NjR6LTRYcmo4eEhVTE1KQTFzSmlNMHUxNlRkd2dDVlZxZGI4cFF5S3p4Y3p1ZDNYVmZZNTJhOEpLbUI2N3BYZFpNZTFZSDFqOVNXaDI3eEIzSjg1QlV4Y0lnSGo3emVFemFOZXhraG1ua2lvQ1JOUWVwT29pVVBsWEpzc0p1NlZNRlViVUZobjJwVERBbmhmbXVnZ2hwdnRyOA?oc=5",
+    "source": "StileTV",
+    "date": "2026-10-22T07:23:00.000Z",
+    "lang": "it"
+   }
+  ]
  }
 }

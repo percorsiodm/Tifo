@@ -1,47 +1,6 @@
 {
- "updated": "2026-10-31T19:30:59.119Z",
+ "updated": "2026-10-31T22:45:44.425Z",
  "matches": [
-  {
-   "team": "roma",
-   "id": "401874990",
-   "date": "2026-10-31T17:00Z",
-   "home": "Udinese",
-   "away": "AS Roma",
-   "channels": [
-    {
-     "name": "DAZN",
-     "n": 3
-    }
-   ],
-   "sources": [
-    {
-     "title": "Serie A 2026-2027: Udinese-Roma, le probabili formazioni e dove vederla in Tv",
-     "link": "https://www.sportal.it/calcio/serie-a/serie-a-2026-2027-udinese-roma-le-probabili-formazioni-e-dove-vederla-in-tv.html",
-     "source": "Sportal.it",
-     "channels": [
-      "DAZN"
-     ]
-    },
-    {
-     "title": "Udinese-Roma come e dove vederla: Sky o DAZN? Canale tv, diretta streaming e orario",
-     "link": "https://www.virgilio.it/sport/dove-vedere-udinese-roma-sky-o-dazn-2638221",
-     "source": "Virgilio",
-     "channels": [
-      "DAZN"
-     ]
-    },
-    {
-     "title": "Udinese-Roma: orario, probabili formazioni e dove vedere la partita",
-     "link": "https://www.lidentita.it/udinese-roma-orario-formazioni-diretta-tv/",
-     "source": "L'Identit&#224;",
-     "channels": [
-      "DAZN"
-     ]
-    }
-   ],
-   "articles": 8,
-   "checked": "2026-10-31T19:31:19.083Z"
-  },
   {
    "team": "roma",
    "id": "401915308",
@@ -50,8 +9,19 @@
    "away": "AS Roma",
    "channels": [],
    "sources": [],
+   "articles": 1,
+   "checked": "2026-10-31T22:45:48.584Z"
+  },
+  {
+   "team": "roma",
+   "id": "401874803",
+   "date": "2026-11-07T19:45Z",
+   "home": "AS Roma",
+   "away": "Sassuolo",
+   "channels": [],
+   "sources": [],
    "articles": 0,
-   "checked": "2026-10-31T19:31:35.730Z"
+   "checked": "2026-10-31T22:45:50.042Z"
   },
   {
    "team": "boca",
@@ -59,10 +29,24 @@
    "date": "2026-11-01T18:00Z",
    "home": "Boca ",
    "away": "River Plate",
-   "channels": [],
-   "sources": [],
-   "articles": 0,
-   "checked": "2026-10-31T19:31:52.230Z"
+   "channels": [
+    {
+     "name": "ComoTV",
+     "n": 1
+    }
+   ],
+   "sources": [
+    {
+     "title": "Febbre da Superclásico in Argentina: dove vedere Boca Juniors-River Plate in tv e in streaming",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcXFIQXo2anJRZTR3T29TTHZ1OFVsNVB6a1ZmS0FtX0M2R3Z4b0I0MnFpcGk1VWJqempNZ1g2enN1c090cFJEZ1NKa2VRV3RLR1BGS2lWOXJucFQwczdMTzJqb1NfTXU4VUYyc3JvMFpva01IdUY3VU9MR3pZZklkLXlhaG5nV0s3Y09RN3BQQjdTaVJmNVdDZHdGRU5NdnFBYzZYamhqTFFhanFLRnlpXzM5RF80ZWdQTWNQVG90ZmZfUVM5REhiVlRGQjBlZWt1MTZrYkdaMWNSV3YyUWc?oc=5",
+     "source": "Chiamarsi Bomber",
+     "channels": [
+      "ComoTV"
+     ]
+    }
+   ],
+   "articles": 2,
+   "checked": "2026-10-31T22:45:53.392Z"
   },
   {
    "team": "boca",
@@ -73,7 +57,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-31T19:32:05.309Z"
+   "checked": "2026-10-31T22:45:54.392Z"
   },
   {
    "team": "fortitudo",
@@ -89,8 +73,8 @@
     }
    ],
    "sources": [],
-   "articles": 0,
-   "checked": "2026-10-31T19:32:19.221Z"
+   "articles": 1,
+   "checked": "2026-10-31T22:46:02.030Z"
   },
   {
    "team": "fortitudo",
@@ -107,7 +91,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-31T19:32:34.196Z"
+   "checked": "2026-10-31T22:46:03.159Z"
   },
   {
    "team": "juvecaserta",
@@ -118,13 +102,21 @@
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 0,
-     "always": true
+     "n": 1
     }
    ],
-   "sources": [],
-   "articles": 0,
-   "checked": "2026-10-31T19:32:46.639Z"
+   "sources": [
+    {
+     "title": "ProValue Juvecaserta in trasferta a Sassari, caccia al tris contro il Banco Sardegna |",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVkVmUGJPN0JsNGtGUGVzbEF5SUgwMGt3bkhVWjRqQjVxMTVTV0hZYm5wVnVreEsyZHBDaWdTM1ZJVjRoVkNJWW80OC10SDg3M2lyUFVxRUY2SWNxTVpVTVBBZjJxTXpBaVJyUTdxOUx5NFpDOG0tODUyUW9aQjJCalZuVC1jMHZOZi1HbEZYeDRtVVdHMmZ4dVl2MlozSTlOQVE?oc=5",
+     "source": "Caserta Web",
+     "channels": [
+      "LNP Pass"
+     ]
+    }
+   ],
+   "articles": 4,
+   "checked": "2026-10-31T22:46:09.766Z"
   },
   {
    "team": "juvecaserta",
@@ -141,7 +133,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-31T19:32:59.600Z"
+   "checked": "2026-10-31T22:46:10.885Z"
   }
  ]
 }
