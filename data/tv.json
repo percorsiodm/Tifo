@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T23:29:14.228Z",
+ "updated": "2026-10-31T02:40:56.785Z",
  "matches": [
   {
    "team": "roma",
@@ -10,39 +10,48 @@
    "channels": [
     {
      "name": "DAZN",
-     "n": 4
+     "n": 5
+    },
+    {
+     "name": "Sky Sport",
+     "n": 3
+    },
+    {
+     "name": "NOW",
+     "n": 2
     }
    ],
    "sources": [
     {
-     "title": "Udinese-Roma, dove vedere la partita in tv e diretta streaming: orario e probabili formazioni",
-     "link": "https://www.dazn.com/it-IT/news/calcio/udinese-roma-2026-dove-vedere-streaming-orario-probabili-formazioni/7i5f5z8ft4is12hh40czk94ur",
-     "source": "DAZN",
-     "channels": [
-      "DAZN"
-     ]
-    },
-    {
-     "title": "UDINESE-ROMA | Le ultime sulle formazioni, il probabile risultato e dove vederla in TV",
-     "link": "https://www.giallorossi.net/udinese-roma-le-ultime-sulle-formazioni-il-probabile-risultato-e-dove-vederla-in-tv-2/",
-     "source": "Giallorossi.net",
-     "channels": [
-      "DAZN"
-     ]
-    },
-    {
      "title": "Formazioni Udinese-Roma: le ultime sulla partita e dove vederla in tv e streaming",
-     "link": "https://www.goal.com/it/notizie/formazioni-udinese-roma-le-ultime-sulla-partita-e-dove-vederla-in-tv-e-streaming/blta5f875f23908c8a7",
-     "source": "GOAL",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaXlvZS1fRUEwekZkSE9feE83SFlxRXRmbW1xOTlnbjJLWldnRXAxeTVCOWJhal96LVNtRVVkRmFpUVp3aUFsZkx2TU9uemNTbDNTMXlRMXlnNlJ4elpZZG9Ma1RaeXNsNWl0Q3p4Q3ZFaXFzbF9LNm5oUVpRakN1RHpaQTNNNmtrMGlEc2xaUHB0MVpVTnFCb1g1dEtkT3Jzd2xvVlJZekV1RGVoME5jTFAyVUxlMDg5Q3doVGU2ZFFQa0FqMllWXzlIcjc?oc=5",
+     "source": "Goal.com",
      "channels": [
+      "DAZN",
       "Sky Sport",
-      "NOW",
+      "NOW"
+     ]
+    },
+    {
+     "title": "Udinese-Roma: orario e dove vederla in TV e streaming",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTTZ3TUV1QWZtQW5JTHpwTlQ5bEhEVU1QdWtaR0RQR1JDa01ZUEo1YjFDWExKcmNnekpYVVhRQjdxZHVXbXJ2Y2RSMFh3bG9lNXBwUkxwNFNhOW5mZXRlR0dCUVFUSVp4RTVKaFVqVlVJbl9JR0NsVVk5LVl0dFRNV201b2NvZTdTQ2VvUVJ6MGJ1cGRiTFBtd2FkZEItY0c1NVNnUnFJdE1QZTRsUVFqVjZ6ZzVRb3FXUFZSZDhiSGlSM2hIQzNpWTNB0gHPAUFVX3lxTE1HUEs4Y082OTFucUJIVF9aV0pRLUg2NUhzYkh2cnotMmJmNXh0WXlwWkN4UWNIbzdNSXg0REtjTHQxOFl0dWtQd1FFMGhQYmFRR0xNN09BMjBBYzlWWmkxNGVqSFBkT0hhVHZfYUp4RGlla1d2MHpTTlhQbFhEZWdUU2tjUlJqd0owS2tfZWhDWTZoS283ZXEtWl9ET3VUM3hIOGhTVEFJWGVkYldXZ0VKdFFJZUYwYjdNWUhka3liWXVWTGpKRk9oRTgxa3dPNA?oc=5",
+     "source": "Fantacalcio",
+     "channels": [
+      "DAZN",
+      "Sky Sport"
+     ]
+    },
+    {
+     "title": "Segui Udinese-Roma, Serie A: dove vederla, formazioni, quote",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc1J0WkVaZXV4SHZUczd0RV9PNnFhWHBDVjZwVjA5TUcxS3U2ZU1ZQ1RLZXBDcnNGOGRqZkVJSEVMVmpZNHVsMi1EbTVWWV9lZDllN21SWDF2VUszdi1ISWxRQndpVzdMazlmalZsYXUySXpETF94cW5NV0xwYnpQSm41NXFfamxGb0RVMXRUTk9rQnVqc0FNeDFaX1o5OE00MVY3Y0xfOTNDdHBaOHFYRkVETi1SazVN?oc=5",
+     "source": "Diretta",
+     "channels": [
       "DAZN"
      ]
     }
    ],
    "articles": 8,
-   "checked": "2026-10-30T23:29:23.662Z"
+   "checked": "2026-10-31T02:41:05.428Z"
   },
   {
    "team": "roma",
@@ -53,7 +62,7 @@
    "channels": [],
    "sources": [],
    "articles": 1,
-   "checked": "2026-10-30T23:29:26.744Z"
+   "checked": "2026-10-31T02:41:08.080Z"
   },
   {
    "team": "boca",
@@ -77,8 +86,8 @@
      ]
     }
    ],
-   "articles": 3,
-   "checked": "2026-10-30T23:29:31.386Z"
+   "articles": 2,
+   "checked": "2026-10-31T02:41:10.403Z"
   },
   {
    "team": "boca",
@@ -89,7 +98,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-30T23:29:32.407Z"
+   "checked": "2026-10-31T02:41:11.113Z"
   },
   {
    "team": "fortitudo",
@@ -105,8 +114,8 @@
     }
    ],
    "sources": [],
-   "articles": 2,
-   "checked": "2026-10-30T23:29:38.777Z"
+   "articles": 1,
+   "checked": "2026-10-31T02:41:14.628Z"
   },
   {
    "team": "fortitudo",
@@ -123,7 +132,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-30T23:29:39.812Z"
+   "checked": "2026-10-31T02:41:15.612Z"
   },
   {
    "team": "juvecaserta",
@@ -140,7 +149,7 @@
    ],
    "sources": [],
    "articles": 1,
-   "checked": "2026-10-30T23:29:42.672Z"
+   "checked": "2026-10-31T02:41:18.775Z"
   },
   {
    "team": "juvecaserta",
@@ -157,7 +166,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-30T23:29:43.666Z"
+   "checked": "2026-10-31T02:41:19.537Z"
   }
  ]
 }
