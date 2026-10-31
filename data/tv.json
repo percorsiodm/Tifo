@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T15:29:33.060Z",
+ "updated": "2026-10-31T19:30:59.119Z",
  "matches": [
   {
    "team": "roma",
@@ -10,39 +10,37 @@
    "channels": [
     {
      "name": "DAZN",
-     "n": 5
+     "n": 3
     }
    ],
    "sources": [
     {
-     "title": "Dove vedere Udinese-Roma in tv? Dazn o Sky, orario",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUE4xbklyMFVweE81VmhoUXVKV0E5Y0hubjVhWmozMWNiWk03WXFuYnRBdUladV95SHV0aXNkYkZsTmwyelJJMDJtZ01ONi02MGIwUkQ1NlRpZjlwbTZYbjBURWJ2TEVOLUNSejFaSHN6OV8zZ3pYWFJLOWZZcHdVZ3Z5b3Rma204czQ2REhTeDZaQTQ4aVJDWXNLelNIOVo3blAweG55dVJuLTZHa0lrMkpkMkRHUk9WQTFQRWR6UkHSAcMBQVVfeXFMTzlwTmVRalFvb3RCQjVtRmhfNXZSZm1PZ3pfbGxycGhaRkl2Yl9GWFlmYkNuVGhLcDRicnlucTQxYVRlLVVlOVk3MUZRNjZPcDRnOUJSNUttSmhSTVROekpDMnpoTDZ5SVR0YWZLY3JxbC1ucVQyanFrN25GdkVkV3JITHdUeC1CQ2YwOHhSWW5XWUtEbzRSZTNBU1d1cTdUUVgyS2VKRHZLY2psM005SVVFcVlER1pEMW5VbGY3UWJMdVJr?oc=5",
-     "source": "Corriere dello Sport",
+     "title": "Serie A 2026-2027: Udinese-Roma, le probabili formazioni e dove vederla in Tv",
+     "link": "https://www.sportal.it/calcio/serie-a/serie-a-2026-2027-udinese-roma-le-probabili-formazioni-e-dove-vederla-in-tv.html",
+     "source": "Sportal.it",
      "channels": [
       "DAZN"
      ]
     },
     {
-     "title": "Formazioni Udinese-Roma: le ultime sulla partita e dove vederla in tv e streaming",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaXlvZS1fRUEwekZkSE9feE83SFlxRXRmbW1xOTlnbjJLWldnRXAxeTVCOWJhal96LVNtRVVkRmFpUVp3aUFsZkx2TU9uemNTbDNTMXlRMXlnNlJ4elpZZG9Ma1RaeXNsNWl0Q3p4Q3ZFaXFzbF9LNm5oUVpRakN1RHpaQTNNNmtrMGlEc2xaUHB0MVpVTnFCb1g1dEtkT3Jzd2xvVlJZekV1RGVoME5jTFAyVUxlMDg5Q3doVGU2ZFFQa0FqMllWXzlIcjc?oc=5",
-     "source": "Goal.com",
+     "title": "Udinese-Roma come e dove vederla: Sky o DAZN? Canale tv, diretta streaming e orario",
+     "link": "https://www.virgilio.it/sport/dove-vedere-udinese-roma-sky-o-dazn-2638221",
+     "source": "Virgilio",
      "channels": [
-      "Sky Sport",
-      "NOW",
       "DAZN"
      ]
     },
     {
-     "title": "Serie A, oggi Udinese-Roma: orario, probabili formazioni e dove vederla",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObGJ1YjB1a2tBUDZLTEVEcldZWE1uODBuSUlaYUZrQXE3b3UzNnp1c25pcjlTTDh3SXpQdUxzaGRadEg0N1ZBZHVBVGJOUV80Mlp4dmZxQUdHY3BvRS0yUUtKcjUyOWhIbjVuYlN6WHRMNW5IcS0zVnV4T3FWTC0zWU9Zb1daR01VdUNXMldpNWF6TzhZYkpSampoMWg2NUFGRGNIdERvOHU1cHNBT2JudA?oc=5",
-     "source": "Adnkronos",
+     "title": "Udinese-Roma: orario, probabili formazioni e dove vedere la partita",
+     "link": "https://www.lidentita.it/udinese-roma-orario-formazioni-diretta-tv/",
+     "source": "L'Identit&#224;",
      "channels": [
       "DAZN"
      ]
     }
    ],
    "articles": 8,
-   "checked": "2026-10-31T15:29:40.714Z"
+   "checked": "2026-10-31T19:31:19.083Z"
   },
   {
    "team": "roma",
@@ -52,8 +50,8 @@
    "away": "AS Roma",
    "channels": [],
    "sources": [],
-   "articles": 1,
-   "checked": "2026-10-31T15:29:43.569Z"
+   "articles": 0,
+   "checked": "2026-10-31T19:31:35.730Z"
   },
   {
    "team": "boca",
@@ -61,24 +59,10 @@
    "date": "2026-11-01T18:00Z",
    "home": "Boca ",
    "away": "River Plate",
-   "channels": [
-    {
-     "name": "ComoTV",
-     "n": 1
-    }
-   ],
-   "sources": [
-    {
-     "title": "Febbre da Superclásico in Argentina: dove vedere Boca Juniors-River Plate in tv e in streaming",
-     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcXFIQXo2anJRZTR3T29TTHZ1OFVsNVB6a1ZmS0FtX0M2R3Z4b0I0MnFpcGk1VWJqempNZ1g2enN1c090cFJEZ1NKa2VRV3RLR1BGS2lWOXJucFQwczdMTzJqb1NfTXU4VUYyc3JvMFpva01IdUY3VU9MR3pZZklkLXlhaG5nV0s3Y09RN3BQQjdTaVJmNVdDZHdGRU5NdnFBYzZYamhqTFFhanFLRnlpXzM5RF80ZWdQTWNQVG90ZmZfUVM5REhiVlRGQjBlZWt1MTZrYkdaMWNSV3YyUWc?oc=5",
-     "source": "Chiamarsi Bomber",
-     "channels": [
-      "ComoTV"
-     ]
-    }
-   ],
-   "articles": 2,
-   "checked": "2026-10-31T15:29:46.671Z"
+   "channels": [],
+   "sources": [],
+   "articles": 0,
+   "checked": "2026-10-31T19:31:52.230Z"
   },
   {
    "team": "boca",
@@ -89,7 +73,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-31T15:29:47.558Z"
+   "checked": "2026-10-31T19:32:05.309Z"
   },
   {
    "team": "fortitudo",
@@ -105,8 +89,8 @@
     }
    ],
    "sources": [],
-   "articles": 1,
-   "checked": "2026-10-31T15:29:51.346Z"
+   "articles": 0,
+   "checked": "2026-10-31T19:32:19.221Z"
   },
   {
    "team": "fortitudo",
@@ -123,7 +107,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-31T15:29:52.153Z"
+   "checked": "2026-10-31T19:32:34.196Z"
   },
   {
    "team": "juvecaserta",
@@ -134,21 +118,13 @@
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 1
+     "n": 0,
+     "always": true
     }
    ],
-   "sources": [
-    {
-     "title": "Juvecaserta, prova di maturità in trasferta contro Sassari",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeVRxbG5ERTRVdW05RDBGVnd5elRRZVJHZUc3bldXN2NScEhJaWhNM01pcmYtd2s5YmRBbXRwRlMxT1ZtY2F4VGYtZmN3QjNVX2VIWUtIcVUwLXJtSVZqOEFkWm5DNTN4WUhHbjY2MEJ4SWo4OVp0Mk8tZWI3T2hkRnFrWFBuaDZBZVBuWmtFMk5VcGxBM1k4S0hNOXk?oc=5",
-     "source": "Pianeta Basket",
-     "channels": [
-      "LNP Pass"
-     ]
-    }
-   ],
-   "articles": 3,
-   "checked": "2026-10-31T15:29:55.527Z"
+   "sources": [],
+   "articles": 0,
+   "checked": "2026-10-31T19:32:46.639Z"
   },
   {
    "team": "juvecaserta",
@@ -165,7 +141,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-31T15:29:56.453Z"
+   "checked": "2026-10-31T19:32:59.600Z"
   }
  ]
 }
