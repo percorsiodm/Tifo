@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T20:09:10.394Z",
+ "updated": "2026-11-01T23:47:04.873Z",
  "matches": [
   {
    "team": "roma",
@@ -10,34 +10,44 @@
    "channels": [
     {
      "name": "Sky Sport",
-     "n": 2
+     "n": 5
     },
     {
      "name": "NOW",
-     "n": 1
+     "n": 4
     }
    ],
    "sources": [
     {
-     "title": "Dove vedere Manchester United-Roma in diretta TV e in streaming",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQem5feU5STzFlT2x5T1RpYmZKdGI5RjdWVmI3NzVWbEtyaS1XNVh2a2RTUHZobUR4aVFSeHBlT040b3RFYkw4ZnBkRE9HZm9lZUtwWlpSNnhVaC1zaXUtS1pyRHhpY2lwT1oyXzk1dVlDdVNmZWh3Q00yRUV2VHRIRVFQWTM2WjRmQTdVZW00Y1VMQm52YWZlMXlJRTc0MG5ZVEE?oc=5",
-     "source": "Voce Giallorossa",
+     "title": "Manchester United-Roma: probabili formazioni, biglietti, dove vederla in tv e streaming",
+     "link": "https://www.ilromanista.eu/news/as-roma/174375/manchester-united-roma-probabili-formazioni-biglietti-dove-vederla-in-tv-e-streaming",
+     "source": "Il Romanista",
      "channels": [
       "Sky Sport",
       "NOW"
      ]
     },
     {
-     "title": "Manchester United-Roma: dove seguire la partita in TV e streaming",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUHNSazVXc09HbWxvSTRZLW9sQVpHUHU5TjlRQjlfaUlxa1NfanhYMEFoOTFKQVJ1emZaSFVnVnp2U1BsVnVRdmplbV8wTGZLbUQ3RmxTQTBsOE9sbHZ5ZWU0cGZJV2Z3MXdZM3B3YXJWZDVtWnhZMWRCT3BkZ21oUXJtVGMwWlJyQXJTaW1Qbm1nV1Atd01QbkdlMUZQUm9LLUdKUi1n?oc=5",
-     "source": "RomaForever",
+     "title": "Manchester United-Roma, notte Champions a Old Trafford: dove vederla e probabili formazioni",
+     "link": "https://www.rivistalaroma.it/2026/11/manchester-united-roma-notte-champions-a-old-trafford-dove-vederla-e-probabili-formazioni/",
+     "source": "rivistalaroma",
      "channels": [
-      "Sky Sport"
+      "Sky Sport",
+      "NOW"
+     ]
+    },
+    {
+     "title": "Manchester United-Roma, le probabili formazioni e dove vederla - Roma news",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNb1ZaSFBfdlV2VUZVYlhLWXdoMFk3RkEzMmhCYUdyVF9UcDRUdkJpM3ZoeUxDQ0N2a1ZSZkpwWlctaTJ1aElWc3JObFVPNThBTGxObFFEeUgwTGdjeWxRR2RZRUxkVjl2bTVxVGFtWkFBVGFHUjU3V3UzNHpUeEJMNHVibWhYV2lvek1rRlFOMA?oc=5",
+     "source": "Romanews.eu",
+     "channels": [
+      "Sky Sport",
+      "NOW"
      ]
     }
    ],
-   "articles": 5,
-   "checked": "2026-11-01T20:09:16.681Z"
+   "articles": 8,
+   "checked": "2026-11-01T23:47:21.960Z"
   },
   {
    "team": "roma",
@@ -48,32 +58,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T20:09:17.827Z"
-  },
-  {
-   "team": "boca",
-   "id": "401841658",
-   "date": "2026-11-01T18:00Z",
-   "home": "Boca ",
-   "away": "River Plate",
-   "channels": [
-    {
-     "name": "TV8",
-     "n": 1
-    }
-   ],
-   "sources": [
-    {
-     "title": "Boca Juniors-River Plate 1-0 | Di Lollo segna il vantaggio espulso Martinez Quarta Dove vederla gratis in tv e streaming",
-     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPclBKV0c1ZGJ2UnhZbWRwRENBTTJCbmVKbFdhc1RwMzA4X2hRRHJKNXJXOHI3dUcydFJ1Q19vakNGVGJNckVBWmNWX0Y5N0NwbFNHZm54ZE1Scmc5VmtmZ1RGOGNyb1Z3UmhxVlIzc1N2eE5CVFowR0lFOFRncnBCcGN3Q3FteWc0LTNlbDltSVpmYlVHRzIyMllkck1yck5zRWdfbXdST1ctcEhsSDY3bDduUW5uTmFaLUZHNTdCc1lNNzMyS2RJWV8zY2tDQW93SEViZUpGeHNFXzQ2T1JwWVpmVjdLNmpBWTlxZjRxUV9oQlU?oc=5",
-     "source": "Zazoom Social News",
-     "channels": [
-      "TV8"
-     ]
-    }
-   ],
-   "articles": 8,
-   "checked": "2026-11-01T20:09:24.170Z"
+   "checked": "2026-11-01T23:47:23.202Z"
   },
   {
    "team": "boca",
@@ -84,7 +69,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T20:09:25.223Z"
+   "checked": "2026-11-01T23:47:24.076Z"
   },
   {
    "team": "fortitudo",
@@ -101,7 +86,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T20:09:26.225Z"
+   "checked": "2026-11-01T23:47:24.971Z"
   },
   {
    "team": "fortitudo",
@@ -118,7 +103,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T20:09:27.233Z"
+   "checked": "2026-11-01T23:47:26.031Z"
   },
   {
    "team": "juvecaserta",
@@ -135,7 +120,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T20:09:28.187Z"
+   "checked": "2026-11-01T23:47:27.067Z"
   },
   {
    "team": "juvecaserta",
@@ -152,7 +137,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T20:09:29.222Z"
+   "checked": "2026-11-01T23:47:28.083Z"
   }
  ]
 }
