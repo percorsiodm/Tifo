@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T01:50:51.690Z",
+ "updated": "2026-11-01T08:41:11.050Z",
  "matches": [
   {
    "team": "roma",
@@ -7,10 +7,29 @@
    "date": "2026-11-03T20:00Z",
    "home": "Man Utd",
    "away": "AS Roma",
-   "channels": [],
-   "sources": [],
-   "articles": 1,
-   "checked": "2026-11-01T01:50:55.264Z"
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "n": 1
+    },
+    {
+     "name": "NOW",
+     "n": 1
+    }
+   ],
+   "sources": [
+    {
+     "title": "Dove vedere Manchester United-Roma in diretta TV e in streaming",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQem5feU5STzFlT2x5T1RpYmZKdGI5RjdWVmI3NzVWbEtyaS1XNVh2a2RTUHZobUR4aVFSeHBlT040b3RFYkw4ZnBkRE9HZm9lZUtwWlpSNnhVaC1zaXUtS1pyRHhpY2lwT1oyXzk1dVlDdVNmZWh3Q00yRUV2VHRIRVFQWTM2WjRmQTdVZW00Y1VMQm52YWZlMXlJRTc0MG5ZVEE?oc=5",
+     "source": "Voce Giallorossa",
+     "channels": [
+      "Sky Sport",
+      "NOW"
+     ]
+    }
+   ],
+   "articles": 2,
+   "checked": "2026-11-01T08:41:15.784Z"
   },
   {
    "team": "roma",
@@ -21,7 +40,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T01:50:56.591Z"
+   "checked": "2026-11-01T08:41:16.822Z"
   },
   {
    "team": "boca",
@@ -45,8 +64,8 @@
      ]
     }
    ],
-   "articles": 2,
-   "checked": "2026-11-01T01:50:59.624Z"
+   "articles": 3,
+   "checked": "2026-11-01T08:41:20.963Z"
   },
   {
    "team": "boca",
@@ -57,7 +76,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T01:51:00.487Z"
+   "checked": "2026-11-01T08:41:21.750Z"
   },
   {
    "team": "fortitudo",
@@ -73,8 +92,8 @@
     }
    ],
    "sources": [],
-   "articles": 3,
-   "checked": "2026-11-01T01:51:09.255Z"
+   "articles": 1,
+   "checked": "2026-11-01T08:41:25.696Z"
   },
   {
    "team": "fortitudo",
@@ -91,7 +110,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T01:51:10.704Z"
+   "checked": "2026-11-01T08:41:26.666Z"
   },
   {
    "team": "juvecaserta",
@@ -116,7 +135,7 @@
     }
    ],
    "articles": 3,
-   "checked": "2026-11-01T01:51:15.035Z"
+   "checked": "2026-11-01T08:41:30.840Z"
   },
   {
    "team": "juvecaserta",
@@ -133,7 +152,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T01:51:16.399Z"
+   "checked": "2026-11-01T08:41:31.630Z"
   }
  ]
 }
