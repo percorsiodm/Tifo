@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T11:36:34.391Z",
+ "updated": "2026-11-01T20:06:26.271Z",
  "season": "2026-2027",
  "teams": {
   "fortitudo": {
@@ -105,15 +105,16 @@
      "date": "2026-11-01T17:00:00.000Z",
      "round": "7",
      "league": "Italian Serie A2",
-     "status": "NS",
+     "status": "FT",
      "homeId": "135385",
      "awayId": "137319",
      "home": "Pistoia Basket",
      "away": "Fortitudo Pallacanestro Bologna",
-     "homeScore": "",
-     "awayScore": "",
+     "homeScore": "64",
+     "awayScore": "66",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/zy7bpu1571681090.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
+     "stats": []
     },
     {
      "id": "2584876",
@@ -671,15 +672,16 @@
      "date": "2026-11-01T17:00:00.000Z",
      "round": "7",
      "league": "Italian Serie A2",
-     "status": "NS",
+     "status": "FT",
      "homeId": "135380",
      "awayId": "137311",
      "home": "Dinamo Basket Sassari",
      "away": "JuveCaserta Basket",
-     "homeScore": "",
-     "awayScore": "",
+     "homeScore": "95",
+     "awayScore": "75",
      "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/cdk0231792763546.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "stats": []
     },
     {
      "id": "2584878",

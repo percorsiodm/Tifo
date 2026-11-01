@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T15:45:42.690Z",
+ "updated": "2026-11-01T20:09:10.394Z",
  "matches": [
   {
    "team": "roma",
@@ -10,7 +10,7 @@
    "channels": [
     {
      "name": "Sky Sport",
-     "n": 1
+     "n": 2
     },
     {
      "name": "NOW",
@@ -26,10 +26,18 @@
       "Sky Sport",
       "NOW"
      ]
+    },
+    {
+     "title": "Manchester United-Roma: dove seguire la partita in TV e streaming",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUHNSazVXc09HbWxvSTRZLW9sQVpHUHU5TjlRQjlfaUlxa1NfanhYMEFoOTFKQVJ1emZaSFVnVnp2U1BsVnVRdmplbV8wTGZLbUQ3RmxTQTBsOE9sbHZ5ZWU0cGZJV2Z3MXdZM3B3YXJWZDVtWnhZMWRCT3BkZ21oUXJtVGMwWlJyQXJTaW1Qbm1nV1Atd01QbkdlMUZQUm9LLUdKUi1n?oc=5",
+     "source": "RomaForever",
+     "channels": [
+      "Sky Sport"
+     ]
     }
    ],
-   "articles": 2,
-   "checked": "2026-11-01T15:45:48.612Z"
+   "articles": 5,
+   "checked": "2026-11-01T20:09:16.681Z"
   },
   {
    "team": "roma",
@@ -40,7 +48,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T15:45:50.100Z"
+   "checked": "2026-11-01T20:09:17.827Z"
   },
   {
    "team": "boca",
@@ -50,40 +58,22 @@
    "away": "River Plate",
    "channels": [
     {
-     "name": "ComoTV",
-     "n": 2
-    },
-    {
-     "name": "Sportitalia",
-     "n": 1
-    },
-    {
-     "name": "DAZN",
+     "name": "TV8",
      "n": 1
     }
    ],
    "sources": [
     {
-     "title": "Dove vedere Boca Juniors River Plate tv streaming: guarda la partita in diretta",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObWtKN3NBTUh4Sk5KbngzVm9vaTZEdUVVVm94YXVuNGlERTdiQWNfeHIzZEFhX3FFNzNnYVZ6UVpidE85Z0NpMDFoT3FlSDBibmZPS2Y5Vk96dnV5bTZPVXIydVkzM3ptSHNZTkJNMi1GanJFRng3V1ZBS3RCVlp3WW5YY2ltenV2QzBUWksyUmRrUXg1X2c?oc=5",
-     "source": "Calcio e Finanza",
+     "title": "Boca Juniors-River Plate 1-0 | Di Lollo segna il vantaggio espulso Martinez Quarta Dove vederla gratis in tv e streaming",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPclBKV0c1ZGJ2UnhZbWRwRENBTTJCbmVKbFdhc1RwMzA4X2hRRHJKNXJXOHI3dUcydFJ1Q19vakNGVGJNckVBWmNWX0Y5N0NwbFNHZm54ZE1Scmc5VmtmZ1RGOGNyb1Z3UmhxVlIzc1N2eE5CVFowR0lFOFRncnBCcGN3Q3FteWc0LTNlbDltSVpmYlVHRzIyMllkck1yck5zRWdfbXdST1ctcEhsSDY3bDduUW5uTmFaLUZHNTdCc1lNNzMyS2RJWV8zY2tDQW93SEViZUpGeHNFXzQ2T1JwWVpmVjdLNmpBWTlxZjRxUV9oQlU?oc=5",
+     "source": "Zazoom Social News",
      "channels": [
-      "Sportitalia",
-      "ComoTV",
-      "DAZN"
-     ]
-    },
-    {
-     "title": "Febbre da Superclásico in Argentina: dove vedere Boca Juniors-River Plate in tv e in streaming",
-     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcXFIQXo2anJRZTR3T29TTHZ1OFVsNVB6a1ZmS0FtX0M2R3Z4b0I0MnFpcGk1VWJqempNZ1g2enN1c090cFJEZ1NKa2VRV3RLR1BGS2lWOXJucFQwczdMTzJqb1NfTXU4VUYyc3JvMFpva01IdUY3VU9MR3pZZklkLXlhaG5nV0s3Y09RN3BQQjdTaVJmNVdDZHdGRU5NdnFBYzZYamhqTFFhanFLRnlpXzM5RF80ZWdQTWNQVG90ZmZfUVM5REhiVlRGQjBlZWt1MTZrYkdaMWNSV3YyUWc?oc=5",
-     "source": "Chiamarsi Bomber",
-     "channels": [
-      "ComoTV"
+      "TV8"
      ]
     }
    ],
-   "articles": 6,
-   "checked": "2026-11-01T15:45:57.403Z"
+   "articles": 8,
+   "checked": "2026-11-01T20:09:24.170Z"
   },
   {
    "team": "boca",
@@ -94,32 +84,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T15:45:58.437Z"
-  },
-  {
-   "team": "fortitudo",
-   "id": "2584862",
-   "date": "2026-11-01T17:00:00.000Z",
-   "home": "Pistoia Basket",
-   "away": "Fortitudo Pallacanestro Bologna",
-   "channels": [
-    {
-     "name": "LNP Pass",
-     "n": 1
-    }
-   ],
-   "sources": [
-    {
-     "title": "Pistoia Basket-Fortitudo Bologna: dove vedere la partita in tv e streaming | LNP Serie A2 2026/27",
-     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOV0c2QUU3T3VVSUdTb2dnUF9KckU0Tk5kS3F6OVhHZnFDc3FiaG5aMDljS2dOeldDZXUwb0JrZzRRYmxzaGJjR0NnS2lKbi1NNTVqNEZLX2pzUUw5QzlDSTJGQy02ZWY0alZmMUUxSjRiVW9vV1I1SG1sVmxBYUdXbWJ2MVVWZDV3bGlHV3I1OUxfMGhOcDVZWHRETDBrUXJNWER5cnNoVnVEWkQtcE96SXlaRVo1dmlYZHExdERDU3BkRUZsc0puMktrRmdQZVhrWFJPbFlLaW9xbDhMcllMTQ?oc=5",
-     "source": "Vu Nere Bologna",
-     "channels": [
-      "LNP Pass"
-     ]
-    }
-   ],
-   "articles": 3,
-   "checked": "2026-11-01T15:46:05.051Z"
+   "checked": "2026-11-01T20:09:25.223Z"
   },
   {
    "team": "fortitudo",
@@ -136,32 +101,24 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T15:46:06.195Z"
+   "checked": "2026-11-01T20:09:26.225Z"
   },
   {
-   "team": "juvecaserta",
-   "id": "2584865",
-   "date": "2026-11-01T17:00:00.000Z",
-   "home": "Dinamo Basket Sassari",
-   "away": "JuveCaserta Basket",
+   "team": "fortitudo",
+   "id": "2584887",
+   "date": "2026-11-11T19:30:00.000Z",
+   "home": "Basket Torino",
+   "away": "Fortitudo Pallacanestro Bologna",
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 1
+     "n": 0,
+     "always": true
     }
    ],
-   "sources": [
-    {
-     "title": "Dinamo Sassari-Juvecaserta: dove vedere la partita in tv e streaming | Basket Serie A2",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNlZhazViaTFoTi1FWnZ0R0prZGxOQ0o0eDVQVWNhdjd0MnU0UHlMenJuMkpjLXBCVEFmbWlCbmtVb2w3VzZLcWNPOXpPYm8zWlIzdlliWUxGZFc0RlRyRnlXMWtPVExpa0JCR1RtVzhDdGdZZkRDU213Z0I5Qjh4eVhnQ04weHFYeWNtU3hwelQ4dVNvYmxQSkZuV3l5YXoyeEhmWExiN0FvR2NSaUJxUkVMZHQxdGllR1hlVzV2WDR3ek82aWNuRS0yaVVuclZxcV9uR2ZaUEY?oc=5",
-     "source": "Vu Nere Bologna",
-     "channels": [
-      "LNP Pass"
-     ]
-    }
-   ],
-   "articles": 2,
-   "checked": "2026-11-01T15:46:12.576Z"
+   "sources": [],
+   "articles": 0,
+   "checked": "2026-11-01T20:09:27.233Z"
   },
   {
    "team": "juvecaserta",
@@ -178,7 +135,24 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T15:46:13.749Z"
+   "checked": "2026-11-01T20:09:28.187Z"
+  },
+  {
+   "team": "juvecaserta",
+   "id": "2584882",
+   "date": "2026-11-11T19:30:00.000Z",
+   "home": "Pistoia Basket",
+   "away": "JuveCaserta Basket",
+   "channels": [
+    {
+     "name": "LNP Pass",
+     "n": 0,
+     "always": true
+    }
+   ],
+   "sources": [],
+   "articles": 0,
+   "checked": "2026-11-01T20:09:29.222Z"
   }
  ]
 }
