@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T08:41:11.050Z",
+ "updated": "2026-11-01T15:45:42.690Z",
  "matches": [
   {
    "team": "roma",
@@ -29,7 +29,7 @@
     }
    ],
    "articles": 2,
-   "checked": "2026-11-01T08:41:15.784Z"
+   "checked": "2026-11-01T15:45:48.612Z"
   },
   {
    "team": "roma",
@@ -40,7 +40,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T08:41:16.822Z"
+   "checked": "2026-11-01T15:45:50.100Z"
   },
   {
    "team": "boca",
@@ -51,10 +51,28 @@
    "channels": [
     {
      "name": "ComoTV",
+     "n": 2
+    },
+    {
+     "name": "Sportitalia",
+     "n": 1
+    },
+    {
+     "name": "DAZN",
      "n": 1
     }
    ],
    "sources": [
+    {
+     "title": "Dove vedere Boca Juniors River Plate tv streaming: guarda la partita in diretta",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObWtKN3NBTUh4Sk5KbngzVm9vaTZEdUVVVm94YXVuNGlERTdiQWNfeHIzZEFhX3FFNzNnYVZ6UVpidE85Z0NpMDFoT3FlSDBibmZPS2Y5Vk96dnV5bTZPVXIydVkzM3ptSHNZTkJNMi1GanJFRng3V1ZBS3RCVlp3WW5YY2ltenV2QzBUWksyUmRrUXg1X2c?oc=5",
+     "source": "Calcio e Finanza",
+     "channels": [
+      "Sportitalia",
+      "ComoTV",
+      "DAZN"
+     ]
+    },
     {
      "title": "Febbre da Superclásico in Argentina: dove vedere Boca Juniors-River Plate in tv e in streaming",
      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcXFIQXo2anJRZTR3T29TTHZ1OFVsNVB6a1ZmS0FtX0M2R3Z4b0I0MnFpcGk1VWJqempNZ1g2enN1c090cFJEZ1NKa2VRV3RLR1BGS2lWOXJucFQwczdMTzJqb1NfTXU4VUYyc3JvMFpva01IdUY3VU9MR3pZZklkLXlhaG5nV0s3Y09RN3BQQjdTaVJmNVdDZHdGRU5NdnFBYzZYamhqTFFhanFLRnlpXzM5RF80ZWdQTWNQVG90ZmZfUVM5REhiVlRGQjBlZWt1MTZrYkdaMWNSV3YyUWc?oc=5",
@@ -64,8 +82,8 @@
      ]
     }
    ],
-   "articles": 3,
-   "checked": "2026-11-01T08:41:20.963Z"
+   "articles": 6,
+   "checked": "2026-11-01T15:45:57.403Z"
   },
   {
    "team": "boca",
@@ -76,7 +94,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T08:41:21.750Z"
+   "checked": "2026-11-01T15:45:58.437Z"
   },
   {
    "team": "fortitudo",
@@ -87,13 +105,21 @@
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 0,
-     "always": true
+     "n": 1
     }
    ],
-   "sources": [],
-   "articles": 1,
-   "checked": "2026-11-01T08:41:25.696Z"
+   "sources": [
+    {
+     "title": "Pistoia Basket-Fortitudo Bologna: dove vedere la partita in tv e streaming | LNP Serie A2 2026/27",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOV0c2QUU3T3VVSUdTb2dnUF9KckU0Tk5kS3F6OVhHZnFDc3FiaG5aMDljS2dOeldDZXUwb0JrZzRRYmxzaGJjR0NnS2lKbi1NNTVqNEZLX2pzUUw5QzlDSTJGQy02ZWY0alZmMUUxSjRiVW9vV1I1SG1sVmxBYUdXbWJ2MVVWZDV3bGlHV3I1OUxfMGhOcDVZWHRETDBrUXJNWER5cnNoVnVEWkQtcE96SXlaRVo1dmlYZHExdERDU3BkRUZsc0puMktrRmdQZVhrWFJPbFlLaW9xbDhMcllMTQ?oc=5",
+     "source": "Vu Nere Bologna",
+     "channels": [
+      "LNP Pass"
+     ]
+    }
+   ],
+   "articles": 3,
+   "checked": "2026-11-01T15:46:05.051Z"
   },
   {
    "team": "fortitudo",
@@ -110,7 +136,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T08:41:26.666Z"
+   "checked": "2026-11-01T15:46:06.195Z"
   },
   {
    "team": "juvecaserta",
@@ -126,16 +152,16 @@
    ],
    "sources": [
     {
-     "title": "Juvecaserta, prova di maturità in trasferta contro Sassari",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeVRxbG5ERTRVdW05RDBGVnd5elRRZVJHZUc3bldXN2NScEhJaWhNM01pcmYtd2s5YmRBbXRwRlMxT1ZtY2F4VGYtZmN3QjNVX2VIWUtIcVUwLXJtSVZqOEFkWm5DNTN4WUhHbjY2MEJ4SWo4OVp0Mk8tZWI3T2hkRnFrWFBuaDZBZVBuWmtFMk5VcGxBM1k4S0hNOXk?oc=5",
-     "source": "Pianeta Basket",
+     "title": "Dinamo Sassari-Juvecaserta: dove vedere la partita in tv e streaming | Basket Serie A2",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNlZhazViaTFoTi1FWnZ0R0prZGxOQ0o0eDVQVWNhdjd0MnU0UHlMenJuMkpjLXBCVEFmbWlCbmtVb2w3VzZLcWNPOXpPYm8zWlIzdlliWUxGZFc0RlRyRnlXMWtPVExpa0JCR1RtVzhDdGdZZkRDU213Z0I5Qjh4eVhnQ04weHFYeWNtU3hwelQ4dVNvYmxQSkZuV3l5YXoyeEhmWExiN0FvR2NSaUJxUkVMZHQxdGllR1hlVzV2WDR3ek82aWNuRS0yaVVuclZxcV9uR2ZaUEY?oc=5",
+     "source": "Vu Nere Bologna",
      "channels": [
       "LNP Pass"
      ]
     }
    ],
-   "articles": 3,
-   "checked": "2026-11-01T08:41:30.840Z"
+   "articles": 2,
+   "checked": "2026-11-01T15:46:12.576Z"
   },
   {
    "team": "juvecaserta",
@@ -152,7 +178,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T08:41:31.630Z"
+   "checked": "2026-11-01T15:46:13.749Z"
   }
  ]
 }
