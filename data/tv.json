@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T22:45:44.425Z",
+ "updated": "2026-11-01T01:50:51.690Z",
  "matches": [
   {
    "team": "roma",
@@ -10,7 +10,7 @@
    "channels": [],
    "sources": [],
    "articles": 1,
-   "checked": "2026-10-31T22:45:48.584Z"
+   "checked": "2026-11-01T01:50:55.264Z"
   },
   {
    "team": "roma",
@@ -21,7 +21,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-31T22:45:50.042Z"
+   "checked": "2026-11-01T01:50:56.591Z"
   },
   {
    "team": "boca",
@@ -46,7 +46,7 @@
     }
    ],
    "articles": 2,
-   "checked": "2026-10-31T22:45:53.392Z"
+   "checked": "2026-11-01T01:50:59.624Z"
   },
   {
    "team": "boca",
@@ -57,7 +57,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-31T22:45:54.392Z"
+   "checked": "2026-11-01T01:51:00.487Z"
   },
   {
    "team": "fortitudo",
@@ -73,8 +73,8 @@
     }
    ],
    "sources": [],
-   "articles": 1,
-   "checked": "2026-10-31T22:46:02.030Z"
+   "articles": 3,
+   "checked": "2026-11-01T01:51:09.255Z"
   },
   {
    "team": "fortitudo",
@@ -91,7 +91,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-31T22:46:03.159Z"
+   "checked": "2026-11-01T01:51:10.704Z"
   },
   {
    "team": "juvecaserta",
@@ -107,16 +107,16 @@
    ],
    "sources": [
     {
-     "title": "ProValue Juvecaserta in trasferta a Sassari, caccia al tris contro il Banco Sardegna |",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVkVmUGJPN0JsNGtGUGVzbEF5SUgwMGt3bkhVWjRqQjVxMTVTV0hZYm5wVnVreEsyZHBDaWdTM1ZJVjRoVkNJWW80OC10SDg3M2lyUFVxRUY2SWNxTVpVTVBBZjJxTXpBaVJyUTdxOUx5NFpDOG0tODUyUW9aQjJCalZuVC1jMHZOZi1HbEZYeDRtVVdHMmZ4dVl2MlozSTlOQVE?oc=5",
-     "source": "Caserta Web",
+     "title": "Juvecaserta, prova di maturità in trasferta contro Sassari",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeVRxbG5ERTRVdW05RDBGVnd5elRRZVJHZUc3bldXN2NScEhJaWhNM01pcmYtd2s5YmRBbXRwRlMxT1ZtY2F4VGYtZmN3QjNVX2VIWUtIcVUwLXJtSVZqOEFkWm5DNTN4WUhHbjY2MEJ4SWo4OVp0Mk8tZWI3T2hkRnFrWFBuaDZBZVBuWmtFMk5VcGxBM1k4S0hNOXk?oc=5",
+     "source": "Pianeta Basket",
      "channels": [
       "LNP Pass"
      ]
     }
    ],
-   "articles": 4,
-   "checked": "2026-10-31T22:46:09.766Z"
+   "articles": 3,
+   "checked": "2026-11-01T01:51:15.035Z"
   },
   {
    "team": "juvecaserta",
@@ -133,7 +133,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-10-31T22:46:10.885Z"
+   "checked": "2026-11-01T01:51:16.399Z"
   }
  ]
 }
