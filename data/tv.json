@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T12:47:10.173Z",
+ "updated": "2026-11-02T22:07:52.754Z",
  "matches": [
   {
    "team": "roma",
@@ -10,23 +10,14 @@
    "channels": [
     {
      "name": "Sky Sport",
-     "n": 3
+     "n": 2
     },
     {
      "name": "NOW",
-     "n": 3
+     "n": 2
     }
    ],
    "sources": [
-    {
-     "title": "Manchester United-Roma: probabili formazioni, biglietti, dove vederla in tv e streaming",
-     "link": "https://www.ilromanista.eu/news/as-roma/174375/manchester-united-roma-probabili-formazioni-biglietti-dove-vederla-in-tv-e-streaming",
-     "source": "Il Romanista",
-     "channels": [
-      "Sky Sport",
-      "NOW"
-     ]
-    },
     {
      "title": "Manchester United-Roma: le probabili formazioni e dove vedere la partita di Champions League",
      "link": "https://www.romatoday.it/sport/calcio/manchester-united-roma-dove-vedere-3-novembre-2026.html",
@@ -37,9 +28,9 @@
      ]
     },
     {
-     "title": "Manchester United-Roma, notte Champions a Old Trafford: dove vederla e probabili formazioni",
-     "link": "https://www.rivistalaroma.it/2026/11/manchester-united-roma-notte-champions-a-old-trafford-dove-vederla-e-probabili-formazioni/",
-     "source": "rivistalaroma",
+     "title": "Manchester United-Roma: probabili formazioni, biglietti, dove vederla in tv e streaming",
+     "link": "https://www.ilromanista.eu/news/as-roma/174375/manchester-united-roma-probabili-formazioni-biglietti-dove-vederla-in-tv-e-streaming",
+     "source": "Il Romanista",
      "channels": [
       "Sky Sport",
       "NOW"
@@ -47,7 +38,7 @@
     }
    ],
    "articles": 8,
-   "checked": "2026-11-02T12:47:17.455Z"
+   "checked": "2026-11-02T22:07:59.674Z"
   },
   {
    "team": "roma",
@@ -58,7 +49,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-02T12:47:18.659Z"
+   "checked": "2026-11-02T22:08:00.833Z"
   },
   {
    "team": "boca",
@@ -69,7 +60,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-02T12:47:19.626Z"
+   "checked": "2026-11-02T22:08:01.829Z"
   },
   {
    "team": "fortitudo",
@@ -86,7 +77,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-02T12:47:20.548Z"
+   "checked": "2026-11-02T22:08:02.574Z"
   },
   {
    "team": "fortitudo",
@@ -103,7 +94,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-02T12:47:21.467Z"
+   "checked": "2026-11-02T22:08:04.136Z"
   },
   {
    "team": "juvecaserta",
@@ -120,7 +111,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-02T12:47:22.296Z"
+   "checked": "2026-11-02T22:08:04.937Z"
   },
   {
    "team": "juvecaserta",
@@ -137,7 +128,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-02T12:47:23.352Z"
+   "checked": "2026-11-02T22:08:05.863Z"
   }
  ]
 }
