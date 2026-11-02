@@ -119,12 +119,17 @@ async function loadComp(slug) {
   if (state.comps[slug]) return;
   state.comps[slug] = { loading: true };
   const base = `https://site.api.espn.com/apis`;
-  const range = `${ymd(Date.now() - 3 * 864e5)}-${ymd(Date.now() + 4 * 864e5)}`;
-  const [st, stats, sb] = await Promise.allSettled([
+  // giornata: una richiesta per ogni giorno, da 3 giorni fa a 4 giorni avanti
+  const days = [-3, -2, -1, 0, 1, 2, 3, 4].map((n) => ymd(Date.now() + n * 864e5));
+  const [st, stats, ...sbs] = await Promise.allSettled([
     getJSON(`${base}/v2/sports/soccer/${slug}/standings`),
     getJSON(`${base}/site/v2/sports/soccer/${slug}/statistics`),
-    getJSON(`${base}/site/v2/sports/soccer/${slug}/scoreboard?dates=${range}`),
+    ...days.map((d) => getJSON(`${base}/site/v2/sports/soccer/${slug}/scoreboard?dates=${d}`)),
   ]);
+  const roundById = new Map();
+  for (const r of sbs) for (const e of r.value?.events || []) {
+    try { roundById.set(e.id, parseEvent({ ...e, league: { slug } }, 0)); } catch {}
+  }
   const stat = (e, n) => e.stats?.find((x) => x.name === n)?.displayValue ?? "";
   const groups = (st.value?.children || [st.value || {}])
     .map((g) => ({ name: g.name || "", rows: (g.standings?.entries || []).map((e) => ({
@@ -138,7 +143,7 @@ async function loadComp(slug) {
                    teamId: l.athlete?.team?.id, val: l.value }));
   state.comps[slug] = {
     groups, scorers: leaders("goalsLeaders"), assists: leaders("assistsLeaders"),
-    round: (sb.value?.events || []).map((e) => parseEvent({ ...e, league: { slug } }, 0)),
+    round: [...roundById.values()],
   };
   render();
 }
@@ -588,13 +593,22 @@ function viewComp(t, k) {
     else {
       // Live e giornata: tutte le partite della competizione nei giorni vicini
       const fresh = new Map((state.today[k] || []).map((m) => [m.id, m]));
-      const round = [...c.round].map((m) => fresh.get(m.id) || m).sort((x, y) => Date.parse(x.date) - Date.parse(y.date));
+      // + le partite della mia squadra in questi giorni, anche se ESPN non le ha date nella giornata
+      const near = mine.filter((m) => Date.parse(m.date) > Date.now() - 3.5 * 864e5 && Date.parse(m.date) < Date.now() + 4.5 * 864e5 && !c.round.some((x) => x.id === m.id));
+      const round = [...c.round, ...near].map((m) => fresh.get(m.id) || m).sort((x, y) => Date.parse(x.date) - Date.parse(y.date));
       const anyLive = round.some((m) => m.state === "in");
+      // raggruppate giorno per giorno (Ieri, Oggi, Domani, …)
+      const dayOf = (d) => fmt(d, { year: "numeric", month: "2-digit", day: "2-digit" });
+      const dayName = (d) => { const x = dayOf(d);
+        return x === dayOf(Date.now()) ? "Oggi" : x === dayOf(Date.now() - 864e5) ? "Ieri" : x === dayOf(Date.now() + 864e5) ? "Domani"
+          : fmt(d, { weekday: "long", day: "numeric", month: "long" }); };
+      const byDay = [];
+      for (const m of round) { const n = dayName(m.date); const g = byDay.find((x) => x.n === n); g ? g.ms.push(m) : byDay.push({ n, ms: [m] }); }
       liveBody = round.length ? (anyLive ? `<div class="hint"><span class="live-badge">● LIVE</span> si aggiorna da solo ogni minuto</div>` : "")
-        + round.map((m) => `<div class="row ${m.state === "in" ? "is-live" : ""}">
+        + byDay.map((g) => `<div class="tday"><div class="tday-head">${esc(g.n)}</div>${g.ms.map((m) => `<div class="row trow ${m.state === "in" ? "is-live" : ""}">
             <div class="opp"><span${mark(m.home.id)}>${esc(m.home.name)}</span> – <span${mark(m.away.id)}>${esc(m.away.name)}</span></div>
-            <div class="when">${m.state === "pre" ? when(m.date)
-              : `<b>${esc(m.home.score)}-${esc(m.away.score)}</b> ${m.state === "in" ? `<span class="live-badge">${esc(m.clock || "LIVE")}</span>` : "fin."}`}</div></div>`).join("")
+            <div class="when">${m.state === "pre" ? fmt(m.date, { hour: "2-digit", minute: "2-digit" })
+              : `<b>${esc(m.home.score)}-${esc(m.away.score)}</b> ${m.state === "in" ? `<span class="live-badge">${esc(m.clock || "LIVE")}</span>` : "fin."}`}</div></div>`).join("")}</div>`).join("")
         : `<div class="empty">Nessuna partita in questi giorni.</div>`;
       // aggiornamento automatico mentre ci sono partite in corso
       clearTimeout(compTimer);
