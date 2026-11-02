@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T23:47:04.873Z",
+ "updated": "2026-11-02T12:47:10.173Z",
  "matches": [
   {
    "team": "roma",
@@ -10,11 +10,11 @@
    "channels": [
     {
      "name": "Sky Sport",
-     "n": 5
+     "n": 3
     },
     {
      "name": "NOW",
-     "n": 4
+     "n": 3
     }
    ],
    "sources": [
@@ -28,6 +28,15 @@
      ]
     },
     {
+     "title": "Manchester United-Roma: le probabili formazioni e dove vedere la partita di Champions League",
+     "link": "https://www.romatoday.it/sport/calcio/manchester-united-roma-dove-vedere-3-novembre-2026.html",
+     "source": "RomaToday",
+     "channels": [
+      "Sky Sport",
+      "NOW"
+     ]
+    },
+    {
      "title": "Manchester United-Roma, notte Champions a Old Trafford: dove vederla e probabili formazioni",
      "link": "https://www.rivistalaroma.it/2026/11/manchester-united-roma-notte-champions-a-old-trafford-dove-vederla-e-probabili-formazioni/",
      "source": "rivistalaroma",
@@ -35,19 +44,10 @@
       "Sky Sport",
       "NOW"
      ]
-    },
-    {
-     "title": "Manchester United-Roma, le probabili formazioni e dove vederla - Roma news",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNb1ZaSFBfdlV2VUZVYlhLWXdoMFk3RkEzMmhCYUdyVF9UcDRUdkJpM3ZoeUxDQ0N2a1ZSZkpwWlctaTJ1aElWc3JObFVPNThBTGxObFFEeUgwTGdjeWxRR2RZRUxkVjl2bTVxVGFtWkFBVGFHUjU3V3UzNHpUeEJMNHVibWhYV2lvek1rRlFOMA?oc=5",
-     "source": "Romanews.eu",
-     "channels": [
-      "Sky Sport",
-      "NOW"
-     ]
     }
    ],
    "articles": 8,
-   "checked": "2026-11-01T23:47:21.960Z"
+   "checked": "2026-11-02T12:47:17.455Z"
   },
   {
    "team": "roma",
@@ -58,7 +58,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T23:47:23.202Z"
+   "checked": "2026-11-02T12:47:18.659Z"
   },
   {
    "team": "boca",
@@ -69,7 +69,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T23:47:24.076Z"
+   "checked": "2026-11-02T12:47:19.626Z"
   },
   {
    "team": "fortitudo",
@@ -86,7 +86,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T23:47:24.971Z"
+   "checked": "2026-11-02T12:47:20.548Z"
   },
   {
    "team": "fortitudo",
@@ -103,7 +103,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T23:47:26.031Z"
+   "checked": "2026-11-02T12:47:21.467Z"
   },
   {
    "team": "juvecaserta",
@@ -120,7 +120,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T23:47:27.067Z"
+   "checked": "2026-11-02T12:47:22.296Z"
   },
   {
    "team": "juvecaserta",
@@ -137,7 +137,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-01T23:47:28.083Z"
+   "checked": "2026-11-02T12:47:23.352Z"
   }
  ]
 }
