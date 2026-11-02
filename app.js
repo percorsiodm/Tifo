@@ -263,7 +263,8 @@ function todayHtml(slugs, myIds, onlyLive) {
     return `<div class="tday"><div class="tday-head">${esc(compLabel(slug))}</div>${list.map((m) => {
       const mine = isMine(m.home.id) || isMine(m.away.id);
       const team = TEAMS.find((t) => isMine(m.home.id) && String(t.espn) === String(m.home.id) || isMine(m.away.id) && String(t.espn) === String(m.away.id));
-      const attrs = team ? `data-match="${esc(m.id)}" data-team="${team.key}"` : (m.link ? `data-href="${esc(m.link)}"` : "");
+      const owner = team || TEAMS.find((t) => t.espn && followed(t).includes(slug)) || TEAMS[0];
+      const attrs = `data-match="${esc(m.id)}" data-team="${owner.key}"`;
       return `<div class="row trow ${m.state === "in" ? "is-live" : ""} ${mine ? "mine" : ""}" ${attrs}>
         <div class="opp">${esc(m.home.name)} – ${esc(m.away.name)}</div>
         <div class="when">${m.state === "pre" ? fmt(m.date, { hour: "2-digit", minute: "2-digit" })
@@ -286,9 +287,10 @@ async function loadAll() {
 }
 
 // ===== Tabellino calcio (ESPN, scaricato quando apri la partita) =====
-async function loadDetail(m) {
-  if (state.details[m.id] || !m.slug) return;
-  state.details[m.id] = { loading: true };
+async function loadDetail(m, force = false) {
+  if ((state.details[m.id] && !force) || !m.slug) return;
+  if (!force) state.details[m.id] = { loading: true };
+  else state.details[m.id].refreshing = true;
   try {
     const d = await getJSON(`${ESPN}/${m.slug}/summary?event=${m.id}`);
     const name = (id) => [m.home, m.away].find((x) => String(x.id) === String(id));
@@ -309,8 +311,8 @@ async function loadDetail(m) {
       home: String(r.team?.id) === String(m.home.id), team: name(r.team?.id)?.name || r.team?.displayName, formation: r.formation || "",
       starters: (r.roster || []).filter((p) => p.starter), bench: (r.roster || []).filter((p) => !p.starter && p.subbedIn),
     }));
-    state.details[m.id] = { events, stats, lineups };
-  } catch { state.details[m.id] = { error: true }; }
+    state.details[m.id] = { events, stats, lineups, at: Date.now() };
+  } catch { if (!force) state.details[m.id] = { error: true }; else state.details[m.id].refreshing = false; }
   render();
 }
 
@@ -517,8 +519,16 @@ function head(t, title) {
 }
 
 // ----- TABELLINO -----
+// Cerca la partita: mie squadre, partite di oggi, giornate delle competizioni
+function findMatch(t, id) {
+  const same = (x) => String(x.id) === String(id);
+  return (state.matches[t.key] || []).find(same)
+    || Object.values(state.today).flat().find(same)
+    || Object.values(state.comps).flatMap((c) => c.round || []).find(same);
+}
+let matchTimer = null;
 function viewMatch(t, id) {
-  const m = (state.matches[t.key] || []).find((x) => String(x.id) === String(id));
+  const m = findMatch(t, id);
   if (!m) return head(t) + `<div class="empty">Partita non trovata.</div>`;
   let body = "";
   if (m.basket) {
@@ -531,6 +541,10 @@ function viewMatch(t, id) {
   } else {
     const d = state.details[m.id];
     if (!d) loadDetail(m);
+    // partita in corso: cronaca e statistiche si aggiornano ogni minuto
+    else if (m.state === "in" && !d.loading && !d.refreshing && Date.now() - (d.at || 0) > 55000) loadDetail(m, true);
+    clearTimeout(matchTimer);
+    if (m.state === "in") matchTimer = setTimeout(() => { if (state.sub?.type === "match" && state.sub.id === String(id)) render(); }, 60000);
     if (!d || d.loading) body = `<div class="empty">Caricamento tabellino…</div>`;
     else if (d.error) body = `<div class="empty">Tabellino non disponibile.</div>`;
     else {
@@ -545,7 +559,8 @@ function viewMatch(t, id) {
     }
     if (m.link) body += `<a class="btn" href="${esc(m.link)}" target="_blank" rel="noopener">Apri su ESPN ›</a>`;
   }
-  return head(t) + matchCard(m, t).replace("Finale · Tabellino ›", "Finale") + body;
+  const isMine = [m.home.id, m.away.id].map(String).includes(String(t.espn || ""));
+  return (isMine || m.basket ? head(t) : head(t, compLabel(m.comp, m.compName))) + matchCard(m, t).replace("Finale · Tabellino ›", "Finale") + body;
 }
 
 function statRows(stats) {
@@ -605,7 +620,7 @@ function viewComp(t, k) {
       const byDay = [];
       for (const m of round) { const n = dayName(m.date); const g = byDay.find((x) => x.n === n); g ? g.ms.push(m) : byDay.push({ n, ms: [m] }); }
       liveBody = round.length ? (anyLive ? `<div class="hint"><span class="live-badge">● LIVE</span> si aggiorna da solo ogni minuto</div>` : "")
-        + byDay.map((g) => `<div class="tday"><div class="tday-head">${esc(g.n)}</div>${g.ms.map((m) => `<div class="row trow ${m.state === "in" ? "is-live" : ""}">
+        + byDay.map((g) => `<div class="tday"><div class="tday-head">${esc(g.n)}</div>${g.ms.map((m) => `<div class="row trow click ${m.state === "in" ? "is-live" : ""}" data-match="${esc(m.id)}" data-team="${t.key}">
             <div class="opp"><span${mark(m.home.id)}>${esc(m.home.name)}</span> – <span${mark(m.away.id)}>${esc(m.away.name)}</span></div>
             <div class="when">${m.state === "pre" ? fmt(m.date, { hour: "2-digit", minute: "2-digit" })
               : `<b>${esc(m.home.score)}-${esc(m.away.score)}</b> ${m.state === "in" ? `<span class="live-badge">${esc(m.clock || "LIVE")}</span>` : "fin."}`}</div></div>`).join("")}</div>`).join("")
