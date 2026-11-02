@@ -105,7 +105,7 @@ function scheduleLive() {
 }
 
 // ===== Dati: competizioni (classifica, marcatori, giornata) =====
-const COMP_NAMES = {
+const COMP_NAMES = { mie: "Le mie squadre",
   "ita.1": "Serie A", "ita.coppa_italia": "Coppa Italia", "ita.super_cup": "Supercoppa Italiana",
   "uefa.champions": "Champions League", "uefa.europa": "Europa League", "uefa.europa.conf": "Conference League",
   "arg.1": "Liga Profesional (Argentina)", "arg.copa": "Copa Argentina", "arg.supercopa": "Supercopa Argentina",
@@ -189,15 +189,31 @@ let todayTimer = null;
 async function loadToday() {
   const slugs = [...new Set(TEAMS.filter((t) => t.espn).flatMap(followed))];
   const now = Date.now();
-  const range = `${ymd(now - 864e5)}-${ymd(now + 864e5)}`;
+  const dayOf = (d) => fmt(d, { year: "numeric", month: "2-digit", day: "2-digit" });
+  const today = dayOf(now);
+  // giorno per giorno: ieri, oggi e domani (ESPN ragiona con l'ora americana)
+  const days = [now - 864e5, now, now + 864e5].map(ymd);
+  state.todayErr = [];
   await Promise.allSettled(slugs.map(async (slug) => {
-    const sb = await getJSON(`${ESPN}/${slug}/scoreboard?dates=${range}`);
-    const evs = (sb.events || []).map((e) => parseEvent({ ...e, league: { slug, name: sb.leagues?.[0]?.name, shortName: sb.leagues?.[0]?.abbreviation } }, 0));
-    // tieni: in corso + quelle di oggi (ora italiana) iniziate o in programma
-    const today = fmt(now, { year: "numeric", month: "2-digit", day: "2-digit" });
-    state.today[slug] = evs.filter((m) => m.state === "in" || fmt(m.date, { year: "numeric", month: "2-digit", day: "2-digit" }) === today)
+    const res = await Promise.allSettled(days.map((d) => getJSON(`${ESPN}/${slug}/scoreboard?dates=${d}`)));
+    const ok = res.filter((r) => r.status === "fulfilled").map((r) => r.value);
+    if (!ok.length) { state.todayErr.push(`${compLabel(slug)}: ${res[0].reason?.message || "errore"}`); return; }
+    const byId = new Map();
+    for (const sb of ok) for (const e of sb.events || []) {
+      try { byId.set(e.id, parseEvent({ ...e, league: { slug, name: sb.leagues?.[0]?.name, shortName: sb.leagues?.[0]?.abbreviation } }, 0)); } catch {}
+    }
+    // tieni: in corso + tutte quelle di oggi (ora italiana), giocate o in programma
+    state.today[slug] = [...byId.values()].filter((m) => m.state === "in" || dayOf(m.date) === today)
       .sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
   }));
+  // le partite di oggi delle mie squadre ci sono sempre, anche se lo scoreboard non risponde
+  for (const t of TEAMS.filter((t) => t.espn))
+    for (const m of state.matches[t.key] || []) {
+      if (!(m.state === "in" || dayOf(m.date) === today)) continue;
+      const list = (state.today[m.comp && m.comp.includes(".") ? m.comp : "mie"] ||= []);
+      if (!list.some((x) => x.id === m.id)) { list.push(m); list.sort((a, b) => Date.parse(a.date) - Date.parse(b.date)); }
+    }
+  state.todayChecked = { at: now, n: slugs.length };
   // anche le partite delle mie squadre si aggiornano da qui
   for (const t of TEAMS.filter((t) => t.espn))
     for (const m of state.matches[t.key] || []) {
@@ -343,16 +359,22 @@ const BRAND = `<div class="brand"><h1>EL CORAZÓN LATE</h1>
     <polyline fill="none" stroke="url(#beat)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"
       points="0,22 120,22 132,22 140,8 150,36 160,2 170,30 178,22 230,22 238,15 246,22 350,22"/></svg></div>`;
 
+// riga di controllo: quando ho verificato e se qualche competizione non ha risposto
+function todayDiag() {
+  const c = state.todayChecked; if (!c) return "";
+  const err = [...new Set(state.todayErr || [])];
+  return `<div class="hint" style="margin-top:10px;font-size:11px;opacity:.7">Controllate ${c.n} competizioni alle ${fmt(c.at, { hour: "2-digit", minute: "2-digit" })}${err.length ? ` · non rispondono: ${esc(err.join(" · "))}` : ""}</div>`;
+}
 function viewHome() {
-  const all = [...new Set(TEAMS.filter((t) => t.espn).flatMap(followed))];
+  const all = [...new Set([...TEAMS.filter((t) => t.espn).flatMap(followed), "mie"])];
   const ids = TEAMS.filter((t) => t.espn).map((t) => String(t.espn));
   const anyLive = all.some((slug) => (state.today[slug] || []).some((m) => m.state === "in"));
   const live = todayHtml(all, ids, false);
   return BRAND + `<div class="grid">${TEAMS.map((t) => `<div class="tile" style="--c1:${t.colors[0]};--c2:${t.colors[1]}">
       ${crest(t, "big")}<button class="go" data-view="${t.key}">GO</button></div>`).join("")}</div>`
     + `<div style="margin-top:16px">${panel("liveora", anyLive ? "🔴" : "📅", anyLive ? "Live ora" : "Oggi nelle tue competizioni",
-        live ? `<div class="hint">Le partite in corso sono evidenziate · si aggiorna da solo</div>${live}`
-             : `<div class="empty">${loaded ? "Oggi nessuna partita nelle competizioni di Roma e Boca." : "Caricamento…"}</div>`)}</div>`;
+        (live ? `<div class="hint">Tutte le partite di oggi · quelle in corso sono evidenziate · si aggiorna da solo</div>${live}`
+             : `<div class="empty">${loaded ? "Oggi nessuna partita nelle competizioni di Roma e Boca." : "Caricamento…"}</div>`) + todayDiag())}</div>`;
 }
 
 // ----- DOVE VEDERLA (Italia, stagione 2026/27) -----
