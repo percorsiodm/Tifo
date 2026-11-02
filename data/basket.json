@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T20:06:26.271Z",
+ "updated": "2026-11-02T04:03:23.834Z",
  "season": "2026-2027",
  "teams": {
   "fortitudo": {
@@ -65,8 +65,7 @@
      "homeScore": "91",
      "awayScore": "69",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/nv1h9i1792763623.png",
-     "stats": []
+     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/nv1h9i1792763623.png"
     },
     {
      "id": "2584852",
@@ -632,8 +631,7 @@
      "homeScore": "83",
      "awayScore": "77",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/2kz5wc1696582653.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
-     "stats": []
+     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2584842",
@@ -1138,7 +1136,7 @@
      "date": "2027-04-17T18:30:00.000Z",
      "round": "37",
      "league": "Italian Serie A2",
-     "status": "CANC",
+     "status": "NS",
      "homeId": "147248",
      "awayId": "137311",
      "home": "Urania Milano",
