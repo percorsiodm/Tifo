@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T03:36:49.908Z",
+ "updated": "2026-11-03T11:36:54.610Z",
  "matches": [
   {
    "team": "roma",
@@ -19,6 +19,15 @@
    ],
    "sources": [
     {
+     "title": "Manchester United-Roma: probabili formazioni aggiornate, orario e dove vedere in tv e streaming la Champions League",
+     "link": "https://www.tuttosport.com/news/calcio/champions-league/2026/11/03-152317188/manchester_united-roma_probabili_formazioni_aggiornate_orario_e_dove_vedere_in_tv_e_streaming_la_champions_league",
+     "source": "Tuttosport",
+     "channels": [
+      "Sky Sport",
+      "NOW"
+     ]
+    },
+    {
      "title": "Manchester United-Roma: dove vederla in diretta tv e streaming, probabili formazioni",
      "link": "https://www.repubblica.it/sport/calcio/champions/2026/11/03/news/manchester_united_roma_dove_vedere_tv_probabili_formazioni-425694689/",
      "source": "la Repubblica",
@@ -28,18 +37,9 @@
      ]
     },
     {
-     "title": "Manchester United-Roma: probabili formazioni, biglietti, dove vederla in tv e streaming",
-     "link": "https://www.ilromanista.eu/news/as-roma/174375/manchester-united-roma-probabili-formazioni-biglietti-dove-vederla-in-tv-e-streaming",
-     "source": "Il Romanista",
-     "channels": [
-      "Sky Sport",
-      "NOW"
-     ]
-    },
-    {
-     "title": "Manchester United-Roma: le probabili formazioni e dove vedere la partita di Champions League",
-     "link": "https://www.romatoday.it/sport/calcio/manchester-united-roma-dove-vedere-3-novembre-2026.html",
-     "source": "RomaToday",
+     "title": "Champions League, Manchester United – Roma: pronostico, formazioni e dove vederla",
+     "link": "https://sportnews.snai.it/calcio/champions-league-manchester-united-roma-pronostico-formazioni-e-dove-vederla",
+     "source": "sportnews.snai",
      "channels": [
       "Sky Sport",
       "NOW"
@@ -47,7 +47,7 @@
     }
    ],
    "articles": 8,
-   "checked": "2026-11-03T03:36:55.036Z"
+   "checked": "2026-11-03T11:37:00.378Z"
   },
   {
    "team": "roma",
@@ -58,18 +58,18 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-03T03:36:56.509Z"
+   "checked": "2026-11-03T11:37:01.733Z"
   },
   {
    "team": "boca",
    "id": "401841669",
-   "date": "2026-11-08T20:00Z",
+   "date": "2026-11-07T20:30Z",
    "home": "Boca ",
    "away": "Def. y Jus.",
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-03T03:36:57.762Z"
+   "checked": "2026-11-03T11:37:02.701Z"
   },
   {
    "team": "fortitudo",
@@ -86,7 +86,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-03T03:36:58.659Z"
+   "checked": "2026-11-03T11:37:03.681Z"
   },
   {
    "team": "fortitudo",
@@ -103,7 +103,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-03T03:36:59.471Z"
+   "checked": "2026-11-03T11:37:04.922Z"
   },
   {
    "team": "juvecaserta",
@@ -120,7 +120,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-03T03:37:00.505Z"
+   "checked": "2026-11-03T11:37:05.891Z"
   },
   {
    "team": "juvecaserta",
@@ -137,7 +137,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-03T03:37:01.411Z"
+   "checked": "2026-11-03T11:37:06.863Z"
   }
  ]
 }
