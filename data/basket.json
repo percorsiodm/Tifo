@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T04:03:23.834Z",
+ "updated": "2026-11-04T04:37:00.565Z",
  "season": "2026-2027",
  "teams": {
   "fortitudo": {
@@ -555,7 +555,7 @@
      "date": "2027-04-18T16:00:00.000Z",
      "round": "37",
      "league": "Italian Serie A2",
-     "status": "CANC",
+     "status": "NS",
      "homeId": "137319",
      "awayId": "135384",
      "home": "Fortitudo Pallacanestro Bologna",
