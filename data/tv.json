@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T23:56:48.139Z",
+ "updated": "2026-11-04T12:48:02.955Z",
  "matches": [
   {
    "team": "roma",
@@ -7,10 +7,44 @@
    "date": "2026-11-07T19:45Z",
    "home": "AS Roma",
    "away": "Sassuolo",
-   "channels": [],
-   "sources": [],
-   "articles": 0,
-   "checked": "2026-11-03T23:56:49.506Z"
+   "channels": [
+    {
+     "name": "DAZN",
+     "n": 2
+    },
+    {
+     "name": "Sky Sport",
+     "n": 2
+    },
+    {
+     "name": "NOW",
+     "n": 2
+    }
+   ],
+   "sources": [
+    {
+     "title": "Roma-Sassuolo: probabili formazioni, biglietti, dove vederla in tv e streaming",
+     "link": "https://www.ilromanista.eu/news/as-roma/174430/roma-sassuolo-probabili-formazioni-biglietti-dove-vederla-in-tv-e-streaming",
+     "source": "Il Romanista",
+     "channels": [
+      "DAZN",
+      "Sky Sport",
+      "NOW"
+     ]
+    },
+    {
+     "title": "Dove vedere Roma-Sassuolo in diretta TV e in streaming",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRUJnTzNtRjZ4NHdsQ1BDN2VaUlk4Smp3YndqdnFHS0FSLWFaem4wdjUwcEJvU2UwZlQyRmpkQnN4eUFFU2RSQTZOVDBTLWhlT21xUnlEaHFPMTBxOXdGcFRMSThzdGNxaXR5azhZaG1vU0gtdVo3dk9pY2tPT0pqNnIzcEpZSGRaZmJOZzIyUDlxQ0pycmc?oc=5",
+     "source": "Voce Giallorossa",
+     "channels": [
+      "DAZN",
+      "Sky Sport",
+      "NOW"
+     ]
+    }
+   ],
+   "articles": 4,
+   "checked": "2026-11-04T12:48:07.794Z"
   },
   {
    "team": "boca",
@@ -21,7 +55,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-03T23:56:50.454Z"
+   "checked": "2026-11-04T12:48:08.631Z"
   },
   {
    "team": "fortitudo",
@@ -38,7 +72,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-03T23:56:51.393Z"
+   "checked": "2026-11-04T12:48:09.457Z"
   },
   {
    "team": "fortitudo",
@@ -55,7 +89,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-03T23:56:52.286Z"
+   "checked": "2026-11-04T12:48:10.195Z"
   },
   {
    "team": "juvecaserta",
@@ -72,7 +106,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-03T23:56:53.116Z"
+   "checked": "2026-11-04T12:48:11.074Z"
   },
   {
    "team": "juvecaserta",
@@ -89,7 +123,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-03T23:56:54.008Z"
+   "checked": "2026-11-04T12:48:11.774Z"
   }
  ]
 }
