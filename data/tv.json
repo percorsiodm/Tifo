@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T01:00:45.746Z",
+ "updated": "2026-11-05T07:49:35.868Z",
  "matches": [
   {
    "team": "roma",
@@ -10,7 +10,7 @@
    "channels": [
     {
      "name": "DAZN",
-     "n": 3
+     "n": 4
     },
     {
      "name": "Sky Sport",
@@ -18,7 +18,7 @@
     },
     {
      "name": "NOW",
-     "n": 2
+     "n": 3
     }
    ],
    "sources": [
@@ -33,24 +33,26 @@
      ]
     },
     {
+     "title": "Roma-Sassuolo: orario e dove vederla in TV e streaming",
+     "link": "https://www.fantacalcio.it/news/calcio-italia/05_11_2026/roma-sassuolo-orario-dove-vedere-tv-streaming-sky-dazn-data-diretta-500086",
+     "source": "Fantacalcio",
+     "channels": [
+      "DAZN",
+      "Sky Sport",
+      "NOW"
+     ]
+    },
+    {
      "title": "Serie A, Roma-Sassuolo da over 3,5 gol: miglior attacco contro peggior difesa, strada in salita per Aquilani",
      "link": "https://www.assopoker.com/scommesse/roma-sassuolo-quote-pronostici-7-novembre-2026_466708/",
      "source": "Assopoker",
      "channels": [
       "DAZN"
      ]
-    },
-    {
-     "title": "Roma-Sassuolo, pronostico 1 + Gol: neroverdi a segno in 9 su 10",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BNDNBSWd5dTRTODd1djZKU0NJZmxoekZEYmdYampWSFZZYXRLd3c1ZjRBN3FTWHg2b1JSQm5xNm5DcVlONVJtcm5HMGZCYXJyeEI2TWN6UFV3X3AtUmpjOEh4OXUxdXVuWXhzQtIBckFVX3lxTFB6SUJwNk5JN1FYbUZoX3ZrRk9yM1NpZ2ZzbndnZWlieG1wNkYtOUREVWFWZ0dUREhTc2lqUkllTzhYbGEyNmNhMXg4VWRpbDljcjRfSE9uVENrRG1wX2NTTVB6NWNxSk5ZZ1pGZXd4TUN5Zw?oc=5",
-     "source": "www.agimeg.it",
-     "channels": [
-      "Sky Sport"
-     ]
     }
    ],
    "articles": 6,
-   "checked": "2026-11-05T01:00:56.694Z"
+   "checked": "2026-11-05T07:49:42.106Z"
   },
   {
    "team": "boca",
@@ -61,7 +63,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-05T01:00:57.539Z"
+   "checked": "2026-11-05T07:49:43.340Z"
   },
   {
    "team": "boca",
@@ -72,7 +74,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-05T01:00:58.379Z"
+   "checked": "2026-11-05T07:49:44.245Z"
   },
   {
    "team": "fortitudo",
@@ -89,7 +91,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-05T01:00:59.066Z"
+   "checked": "2026-11-05T07:49:45.103Z"
   },
   {
    "team": "fortitudo",
@@ -106,7 +108,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-05T01:00:59.905Z"
+   "checked": "2026-11-05T07:49:45.880Z"
   },
   {
    "team": "juvecaserta",
@@ -123,7 +125,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-05T01:01:00.797Z"
+   "checked": "2026-11-05T07:49:46.680Z"
   },
   {
    "team": "juvecaserta",
@@ -140,7 +142,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-05T01:01:01.583Z"
+   "checked": "2026-11-05T07:49:47.377Z"
   }
  ]
 }
