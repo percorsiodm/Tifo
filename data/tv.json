@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T16:05:09.396Z",
+ "updated": "2026-11-05T22:12:48.926Z",
  "matches": [
   {
    "team": "roma",
@@ -23,6 +23,15 @@
    ],
    "sources": [
     {
+     "title": "Roma-Sassuolo: probabili formazioni, statistiche quando e dove vederla",
+     "link": "https://www.eurosport.it/calcio/serie-a/2026-2027/roma-sassuolo-probabili-formazioni-statistiche-quando-e-dove-vederla_sto23352585/story.shtml",
+     "source": "Eurosport",
+     "channels": [
+      "DAZN",
+      "Sky Sport"
+     ]
+    },
+    {
      "title": "Probabili formazioni Roma-Sassuolo: Soul&#233; dal 1′. Dubbi Mancini, Wesley, Esposito e Bakola",
      "link": "https://www.fantamaster.it/probabili-formazioni-roma-sassuolo-11-giornata-seriea-2026-2027/",
      "source": "FantaMaster",
@@ -40,20 +49,10 @@
       "Sky Sport",
       "NOW"
      ]
-    },
-    {
-     "title": "Roma-Sassuolo: orario e dove vederla in TV e streaming",
-     "link": "https://www.fantacalcio.it/news/calcio-italia/05_11_2026/roma-sassuolo-orario-dove-vedere-tv-streaming-sky-dazn-data-diretta-500086",
-     "source": "Fantacalcio",
-     "channels": [
-      "DAZN",
-      "Sky Sport",
-      "NOW"
-     ]
     }
    ],
    "articles": 8,
-   "checked": "2026-11-05T16:05:17.970Z"
+   "checked": "2026-11-05T22:12:55.499Z"
   },
   {
    "team": "boca",
@@ -64,7 +63,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-05T16:05:18.956Z"
+   "checked": "2026-11-05T22:12:56.456Z"
   },
   {
    "team": "boca",
@@ -75,7 +74,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-05T16:05:19.808Z"
+   "checked": "2026-11-05T22:12:57.504Z"
   },
   {
    "team": "fortitudo",
@@ -92,7 +91,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-05T16:05:20.622Z"
+   "checked": "2026-11-05T22:12:58.336Z"
   },
   {
    "team": "fortitudo",
@@ -109,7 +108,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-05T16:05:21.482Z"
+   "checked": "2026-11-05T22:12:59.289Z"
   },
   {
    "team": "juvecaserta",
@@ -126,7 +125,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-05T16:05:22.357Z"
+   "checked": "2026-11-05T22:13:00.398Z"
   },
   {
    "team": "juvecaserta",
@@ -143,7 +142,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-05T16:05:23.050Z"
+   "checked": "2026-11-05T22:13:01.331Z"
   }
  ]
 }
