@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T12:48:02.955Z",
+ "updated": "2026-11-05T01:00:45.746Z",
  "matches": [
   {
    "team": "roma",
@@ -10,11 +10,11 @@
    "channels": [
     {
      "name": "DAZN",
-     "n": 2
+     "n": 3
     },
     {
      "name": "Sky Sport",
-     "n": 2
+     "n": 3
     },
     {
      "name": "NOW",
@@ -33,18 +33,24 @@
      ]
     },
     {
-     "title": "Dove vedere Roma-Sassuolo in diretta TV e in streaming",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRUJnTzNtRjZ4NHdsQ1BDN2VaUlk4Smp3YndqdnFHS0FSLWFaem4wdjUwcEJvU2UwZlQyRmpkQnN4eUFFU2RSQTZOVDBTLWhlT21xUnlEaHFPMTBxOXdGcFRMSThzdGNxaXR5azhZaG1vU0gtdVo3dk9pY2tPT0pqNnIzcEpZSGRaZmJOZzIyUDlxQ0pycmc?oc=5",
-     "source": "Voce Giallorossa",
+     "title": "Serie A, Roma-Sassuolo da over 3,5 gol: miglior attacco contro peggior difesa, strada in salita per Aquilani",
+     "link": "https://www.assopoker.com/scommesse/roma-sassuolo-quote-pronostici-7-novembre-2026_466708/",
+     "source": "Assopoker",
      "channels": [
-      "DAZN",
-      "Sky Sport",
-      "NOW"
+      "DAZN"
+     ]
+    },
+    {
+     "title": "Roma-Sassuolo, pronostico 1 + Gol: neroverdi a segno in 9 su 10",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BNDNBSWd5dTRTODd1djZKU0NJZmxoekZEYmdYampWSFZZYXRLd3c1ZjRBN3FTWHg2b1JSQm5xNm5DcVlONVJtcm5HMGZCYXJyeEI2TWN6UFV3X3AtUmpjOEh4OXUxdXVuWXhzQtIBckFVX3lxTFB6SUJwNk5JN1FYbUZoX3ZrRk9yM1NpZ2ZzbndnZWlieG1wNkYtOUREVWFWZ0dUREhTc2lqUkllTzhYbGEyNmNhMXg4VWRpbDljcjRfSE9uVENrRG1wX2NTTVB6NWNxSk5ZZ1pGZXd4TUN5Zw?oc=5",
+     "source": "www.agimeg.it",
+     "channels": [
+      "Sky Sport"
      ]
     }
    ],
-   "articles": 4,
-   "checked": "2026-11-04T12:48:07.794Z"
+   "articles": 6,
+   "checked": "2026-11-05T01:00:56.694Z"
   },
   {
    "team": "boca",
@@ -55,7 +61,18 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-04T12:48:08.631Z"
+   "checked": "2026-11-05T01:00:57.539Z"
+  },
+  {
+   "team": "boca",
+   "id": "401926286",
+   "date": "2026-11-14T22:00Z",
+   "home": "Banfield",
+   "away": "Boca ",
+   "channels": [],
+   "sources": [],
+   "articles": 0,
+   "checked": "2026-11-05T01:00:58.379Z"
   },
   {
    "team": "fortitudo",
@@ -72,7 +89,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-04T12:48:09.457Z"
+   "checked": "2026-11-05T01:00:59.066Z"
   },
   {
    "team": "fortitudo",
@@ -89,7 +106,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-04T12:48:10.195Z"
+   "checked": "2026-11-05T01:00:59.905Z"
   },
   {
    "team": "juvecaserta",
@@ -106,7 +123,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-04T12:48:11.074Z"
+   "checked": "2026-11-05T01:01:00.797Z"
   },
   {
    "team": "juvecaserta",
@@ -123,7 +140,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-04T12:48:11.774Z"
+   "checked": "2026-11-05T01:01:01.583Z"
   }
  ]
 }
