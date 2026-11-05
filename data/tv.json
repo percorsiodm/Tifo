@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T07:49:35.868Z",
+ "updated": "2026-11-05T16:05:09.396Z",
  "matches": [
   {
    "team": "roma",
@@ -10,11 +10,11 @@
    "channels": [
     {
      "name": "DAZN",
-     "n": 4
+     "n": 6
     },
     {
      "name": "Sky Sport",
-     "n": 3
+     "n": 5
     },
     {
      "name": "NOW",
@@ -22,6 +22,15 @@
     }
    ],
    "sources": [
+    {
+     "title": "Probabili formazioni Roma-Sassuolo: Soul&#233; dal 1′. Dubbi Mancini, Wesley, Esposito e Bakola",
+     "link": "https://www.fantamaster.it/probabili-formazioni-roma-sassuolo-11-giornata-seriea-2026-2027/",
+     "source": "FantaMaster",
+     "channels": [
+      "DAZN",
+      "Sky Sport"
+     ]
+    },
     {
      "title": "Roma-Sassuolo: probabili formazioni, biglietti, dove vederla in tv e streaming",
      "link": "https://www.ilromanista.eu/news/as-roma/174430/roma-sassuolo-probabili-formazioni-biglietti-dove-vederla-in-tv-e-streaming",
@@ -41,18 +50,10 @@
       "Sky Sport",
       "NOW"
      ]
-    },
-    {
-     "title": "Serie A, Roma-Sassuolo da over 3,5 gol: miglior attacco contro peggior difesa, strada in salita per Aquilani",
-     "link": "https://www.assopoker.com/scommesse/roma-sassuolo-quote-pronostici-7-novembre-2026_466708/",
-     "source": "Assopoker",
-     "channels": [
-      "DAZN"
-     ]
     }
    ],
-   "articles": 6,
-   "checked": "2026-11-05T07:49:42.106Z"
+   "articles": 8,
+   "checked": "2026-11-05T16:05:17.970Z"
   },
   {
    "team": "boca",
@@ -63,7 +64,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-05T07:49:43.340Z"
+   "checked": "2026-11-05T16:05:18.956Z"
   },
   {
    "team": "boca",
@@ -74,7 +75,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-05T07:49:44.245Z"
+   "checked": "2026-11-05T16:05:19.808Z"
   },
   {
    "team": "fortitudo",
@@ -91,7 +92,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-05T07:49:45.103Z"
+   "checked": "2026-11-05T16:05:20.622Z"
   },
   {
    "team": "fortitudo",
@@ -108,7 +109,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-05T07:49:45.880Z"
+   "checked": "2026-11-05T16:05:21.482Z"
   },
   {
    "team": "juvecaserta",
@@ -125,7 +126,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-05T07:49:46.680Z"
+   "checked": "2026-11-05T16:05:22.357Z"
   },
   {
    "team": "juvecaserta",
@@ -142,7 +143,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-05T07:49:47.377Z"
+   "checked": "2026-11-05T16:05:23.050Z"
   }
  ]
 }
