@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T10:21:31.569Z",
+ "updated": "2026-11-06T17:37:53.533Z",
  "matches": [
   {
    "team": "roma",
@@ -23,6 +23,27 @@
    ],
    "sources": [
     {
+     "title": "Roma-Sassuolo, dove vederla in tv e streaming: canale, orario, formazioni",
+     "link": "https://www.calciomercato.com/liste/roma-sassuolo-dove-vederla-in-tv-e-streaming-canale-orario-formazioni/blt17dd280d97e92627",
+     "source": "Calciomercato.com",
+     "channels": [
+      "DAZN",
+      "Prime Video",
+      "Sky Sport",
+      "NOW"
+     ]
+    },
+    {
+     "title": "Roma-Sassuolo: probabili formazioni, dove e come vedere la gara in televisione e streaming",
+     "link": "https://it.blastingnews.com/calcio/2026/11/roma-sassuolo-probabili-formazioni-dove-e-come-vedere-la-gara-in-televisione-e-streaming-004201349.html",
+     "source": "Blasting News",
+     "channels": [
+      "DAZN",
+      "Sky Sport",
+      "NOW"
+     ]
+    },
+    {
      "title": "Roma-Sassuolo: probabili formazioni, statistiche quando e dove vederla",
      "link": "https://www.eurosport.it/calcio/serie-a/2026-2027/roma-sassuolo-probabili-formazioni-statistiche-quando-e-dove-vederla_sto23352585/story.shtml",
      "source": "Eurosport",
@@ -30,29 +51,10 @@
       "DAZN",
       "Sky Sport"
      ]
-    },
-    {
-     "title": "Probabili formazioni Roma-Sassuolo: Soul&#233; dal 1′. Dubbi Mancini, Wesley, Esposito e Bakola",
-     "link": "https://www.fantamaster.it/probabili-formazioni-roma-sassuolo-11-giornata-seriea-2026-2027/",
-     "source": "FantaMaster",
-     "channels": [
-      "DAZN",
-      "Sky Sport"
-     ]
-    },
-    {
-     "title": "Roma-Sassuolo: probabili formazioni, biglietti, dove vederla in tv e streaming",
-     "link": "https://www.ilromanista.eu/news/as-roma/174430/roma-sassuolo-probabili-formazioni-biglietti-dove-vederla-in-tv-e-streaming",
-     "source": "Il Romanista",
-     "channels": [
-      "DAZN",
-      "Sky Sport",
-      "NOW"
-     ]
     }
    ],
    "articles": 8,
-   "checked": "2026-11-06T10:21:38.491Z"
+   "checked": "2026-11-06T17:37:57.874Z"
   },
   {
    "team": "boca",
@@ -63,7 +65,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-06T10:21:39.468Z"
+   "checked": "2026-11-06T17:37:59.027Z"
   },
   {
    "team": "boca",
@@ -74,7 +76,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-06T10:21:40.267Z"
+   "checked": "2026-11-06T17:38:00.238Z"
   },
   {
    "team": "fortitudo",
@@ -91,7 +93,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-06T10:21:41.075Z"
+   "checked": "2026-11-06T17:38:01.107Z"
   },
   {
    "team": "fortitudo",
@@ -108,7 +110,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-06T10:21:41.941Z"
+   "checked": "2026-11-06T17:38:02.045Z"
   },
   {
    "team": "juvecaserta",
@@ -124,8 +126,8 @@
     }
    ],
    "sources": [],
-   "articles": 0,
-   "checked": "2026-11-06T10:21:42.887Z"
+   "articles": 2,
+   "checked": "2026-11-06T17:38:03.754Z"
   },
   {
    "team": "juvecaserta",
@@ -142,7 +144,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-06T10:21:43.669Z"
+   "checked": "2026-11-06T17:38:04.687Z"
   }
  ]
 }
