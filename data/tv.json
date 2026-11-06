@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T02:44:02.234Z",
+ "updated": "2026-11-06T10:21:31.569Z",
  "matches": [
   {
    "team": "roma",
@@ -10,15 +10,15 @@
    "channels": [
     {
      "name": "DAZN",
-     "n": 6
+     "n": 5
     },
     {
      "name": "Sky Sport",
-     "n": 6
+     "n": 5
     },
     {
      "name": "NOW",
-     "n": 4
+     "n": 3
     }
    ],
    "sources": [
@@ -52,7 +52,7 @@
     }
    ],
    "articles": 8,
-   "checked": "2026-11-06T02:44:12.655Z"
+   "checked": "2026-11-06T10:21:38.491Z"
   },
   {
    "team": "boca",
@@ -63,7 +63,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-06T02:44:13.779Z"
+   "checked": "2026-11-06T10:21:39.468Z"
   },
   {
    "team": "boca",
@@ -74,7 +74,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-06T02:44:14.902Z"
+   "checked": "2026-11-06T10:21:40.267Z"
   },
   {
    "team": "fortitudo",
@@ -91,7 +91,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-06T02:44:15.785Z"
+   "checked": "2026-11-06T10:21:41.075Z"
   },
   {
    "team": "fortitudo",
@@ -108,7 +108,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-06T02:44:16.772Z"
+   "checked": "2026-11-06T10:21:41.941Z"
   },
   {
    "team": "juvecaserta",
@@ -125,7 +125,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-06T02:44:17.861Z"
+   "checked": "2026-11-06T10:21:42.887Z"
   },
   {
    "team": "juvecaserta",
@@ -142,7 +142,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-06T02:44:18.767Z"
+   "checked": "2026-11-06T10:21:43.669Z"
   }
  ]
 }
