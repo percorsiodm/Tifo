@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T16:06:09.318Z",
+ "updated": "2026-11-07T20:25:59.447Z",
  "matches": [
   {
    "team": "roma",
@@ -9,51 +9,55 @@
    "away": "Sassuolo",
    "channels": [
     {
-     "name": "Sky Sport",
-     "n": 5
+     "name": "DAZN",
+     "n": 6
     },
     {
-     "name": "DAZN",
-     "n": 5
+     "name": "Sky Sport",
+     "n": 6
+    },
+    {
+     "name": "Prime Video",
+     "n": 2
     },
     {
      "name": "NOW",
-     "n": 4
+     "n": 2
     }
    ],
    "sources": [
     {
-     "title": "La Roma ospita il Sassuolo: dove vedere la sfida del 11° turno di Serie A 2026/27",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNGNWUGFMbUxHb19rWkg4ZlZZNU5tU0lQSE04dzk1c3RqZGRsb3pKTl91T1MzU09zaTBhTGxhSE9udGxDanVoa1Z3Q0pkQ2pydnVQVEwzeGUwaEJNWkN1VjB2VFU3UGZUTnladFRnRUhaTU1hR2RzTWlPaXRobW94TzhTbFRGaHBGcHI4U0NCTmJtT1hKYVRvOVhjYXpwcGlpM0RadHRkUXFQR0RJZnVtRmt4dEE1a2xGRVE?oc=5",
-     "source": "Calcio e Finanza",
-     "channels": [
-      "Sky Sport",
-      "DAZN"
-     ]
-    },
-    {
-     "title": "Stasera c’è Roma-Sassuolo, formazioni e dove vederla",
-     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1QNVNES3pRazBrQldWOTRBUnJ2YUt3WDhiRG90OG5SS3VJQnFDaVpxMjlibFlaQmxTck1aWFJLVXYwZUNTeVNiU1ljN3NtVlY3SlV5Zk9xUll0cGc2ckdrbE1OVTE?oc=5",
-     "source": "L'Identità",
+     "title": "Roma-Sassuolo, dove vederla in tv e streaming: canale, orario, formazioni",
+     "link": "https://www.calciomercato.com/liste/roma-sassuolo-dove-vederla-in-tv-e-streaming-canale-orario-formazioni/blt17dd280d97e92627",
+     "source": "Calciomercato.com",
      "channels": [
       "DAZN",
+      "Prime Video",
       "Sky Sport",
       "NOW"
      ]
     },
     {
-     "title": "Roma-Sassuolo: orario e dove vederla in TV e streaming",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNmpFRGJud1FkYS1qTXNVVFpRUy01Y1M2dHc3SktFYjdWeU9lYUdOMDFXVkxNczd5b3IyZzlYamMwbnp6OVNNdTBOTXd6OEF0eWdvMlhaT1lxTkxjQ2R0bmx2Yngtb3pDNDdHYzE5dmpZUlozVmlpZjFmVEM0SjNtU09BOU5oZENlYUVIbXlGUVBiNFpwNkE1MHZCa0VMeDZaa0RwZ0lfLXFIcmVsc0NiNGhtUjVYRGpiRDU5UUgwNmg3cHNBeU8yWmxxQdIB0AFBVV95cUxNQmtucW9GUm1FUzhNcW1Xc2Z5LVBmejZYNEFybGVQNU9rLTVIUWVOZ1d6cU9QM2dBaDVweU1oRVlSZl8tWFhFY1JWTHMycUlYNnVUUlI4azJJejM2YldobnFoQ3pGLU9vU1V0eGp1cG1IMXhWdWdqV1Y2YzE3Ym9OdmJzOXRmUjJucEh2c3JIS0RtTkRBdTNCYkJtSGhjOTNPd2lrdjhmbGNyTEYySkRqV2lZemNCcFhfVTc5Y05mbTVtSUpJaUlkMHI4ZlRoRE0z?oc=5",
-     "source": "Fantacalcio",
+     "title": "Roma-Sassuolo oggi in in TV, dove vederla: orario, formazioni e canale in diretta e streaming",
+     "link": "https://www.fanpage.it/sport/calcio/roma-sassuolo-oggi-in-in-tv-dove-vederla-orario-formazioni-e-canale-in-diretta-e-streaming/",
+     "source": "Fanpage.it",
      "channels": [
       "DAZN",
-      "Sky Sport",
-      "NOW"
+      "Sky Sport"
+     ]
+    },
+    {
+     "title": "Roma Sassuolo streaming e diretta tv: dove vedere la partita di Serie A",
+     "link": "https://www.tpi.it/sport/roma-sassuolo-streaming-diretta-tv-serie-a-2026-2027-202611071258181/",
+     "source": "TPI - The Post Internazionale",
+     "channels": [
+      "DAZN",
+      "Sky Sport"
      ]
     }
    ],
    "articles": 8,
-   "checked": "2026-11-07T16:06:29.682Z"
+   "checked": "2026-11-07T20:26:03.601Z"
   },
   {
    "team": "boca",
@@ -64,7 +68,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T16:06:30.471Z"
+   "checked": "2026-11-07T20:26:04.580Z"
   },
   {
    "team": "boca",
@@ -75,7 +79,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T16:06:31.143Z"
+   "checked": "2026-11-07T20:26:05.435Z"
   },
   {
    "team": "fortitudo",
@@ -86,13 +90,21 @@
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 0,
-     "always": true
+     "n": 1
     }
    ],
-   "sources": [],
-   "articles": 1,
-   "checked": "2026-11-07T16:06:32.278Z"
+   "sources": [
+    {
+     "title": "Fortitudo Bologna-Urania Milano: dove vedere la partita in tv e streaming | Basket Serie A2",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQU9hdW1XU3BOVm1md1o5bW5QM2x1TlYyVmpkWk1sdURRSUJka3lrMDlDMUE5YjdwOHhiRVN3N0phNGpjOFhWOU5IcXg1Qnhldk5haDZfM096RW9nLTRwczZlSEFaMFcyVG9fTjJuZG1Jcy1Wc0h5UVVQWTFzNU9WNGx5LTlTeDl2b29naEd2d01GY3NWMlEzYVcxOVJEcENnS2xHQVVHaUFHaWlZYzhmdVE0Vi1FZEtWR3o5czQxYTJGQ09CX0Z3U2I5ZU1zN1ZPdno3QjdsVHl2Y3l5eGhF?oc=5",
+     "source": "Vu Nere Bologna",
+     "channels": [
+      "LNP Pass"
+     ]
+    }
+   ],
+   "articles": 2,
+   "checked": "2026-11-07T20:26:12.713Z"
   },
   {
    "team": "fortitudo",
@@ -109,7 +121,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T16:06:33.204Z"
+   "checked": "2026-11-07T20:26:13.537Z"
   },
   {
    "team": "juvecaserta",
@@ -141,8 +153,8 @@
      ]
     }
    ],
-   "articles": 5,
-   "checked": "2026-11-07T16:06:40.112Z"
+   "articles": 6,
+   "checked": "2026-11-07T20:26:22.465Z"
   },
   {
    "team": "juvecaserta",
@@ -159,7 +171,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T16:06:40.891Z"
+   "checked": "2026-11-07T20:26:23.240Z"
   }
  ]
 }
