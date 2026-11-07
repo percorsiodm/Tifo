@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T09:36:25.196Z",
+ "updated": "2026-11-07T16:06:09.318Z",
  "matches": [
   {
    "team": "roma",
@@ -9,50 +9,51 @@
    "away": "Sassuolo",
    "channels": [
     {
-     "name": "DAZN",
-     "n": 6
-    },
-    {
      "name": "Sky Sport",
      "n": 5
     },
     {
+     "name": "DAZN",
+     "n": 5
+    },
+    {
      "name": "NOW",
-     "n": 3
+     "n": 4
     }
    ],
    "sources": [
     {
-     "title": "Roma-Sassuolo, dove vederla in tv e streaming: canale, orario, formazioni",
-     "link": "https://www.calciomercato.com/liste/roma-sassuolo-dove-vederla-in-tv-e-streaming-canale-orario-formazioni/blt17dd280d97e92627",
-     "source": "Calciomercato.com",
+     "title": "La Roma ospita il Sassuolo: dove vedere la sfida del 11° turno di Serie A 2026/27",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNGNWUGFMbUxHb19rWkg4ZlZZNU5tU0lQSE04dzk1c3RqZGRsb3pKTl91T1MzU09zaTBhTGxhSE9udGxDanVoa1Z3Q0pkQ2pydnVQVEwzeGUwaEJNWkN1VjB2VFU3UGZUTnladFRnRUhaTU1hR2RzTWlPaXRobW94TzhTbFRGaHBGcHI4U0NCTmJtT1hKYVRvOVhjYXpwcGlpM0RadHRkUXFQR0RJZnVtRmt4dEE1a2xGRVE?oc=5",
+     "source": "Calcio e Finanza",
+     "channels": [
+      "Sky Sport",
+      "DAZN"
+     ]
+    },
+    {
+     "title": "Stasera c’è Roma-Sassuolo, formazioni e dove vederla",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1QNVNES3pRazBrQldWOTRBUnJ2YUt3WDhiRG90OG5SS3VJQnFDaVpxMjlibFlaQmxTck1aWFJLVXYwZUNTeVNiU1ljN3NtVlY3SlV5Zk9xUll0cGc2ckdrbE1OVTE?oc=5",
+     "source": "L'Identità",
      "channels": [
       "DAZN",
-      "Prime Video",
       "Sky Sport",
       "NOW"
      ]
     },
     {
-     "title": "Roma-Sassuolo oggi in in TV, dove vederla: orario, formazioni e canale in diretta e streaming",
-     "link": "https://www.fanpage.it/sport/calcio/roma-sassuolo-oggi-in-in-tv-dove-vederla-orario-formazioni-e-canale-in-diretta-e-streaming/",
-     "source": "Fanpage.it",
+     "title": "Roma-Sassuolo: orario e dove vederla in TV e streaming",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNmpFRGJud1FkYS1qTXNVVFpRUy01Y1M2dHc3SktFYjdWeU9lYUdOMDFXVkxNczd5b3IyZzlYamMwbnp6OVNNdTBOTXd6OEF0eWdvMlhaT1lxTkxjQ2R0bmx2Yngtb3pDNDdHYzE5dmpZUlozVmlpZjFmVEM0SjNtU09BOU5oZENlYUVIbXlGUVBiNFpwNkE1MHZCa0VMeDZaa0RwZ0lfLXFIcmVsc0NiNGhtUjVYRGpiRDU5UUgwNmg3cHNBeU8yWmxxQdIB0AFBVV95cUxNQmtucW9GUm1FUzhNcW1Xc2Z5LVBmejZYNEFybGVQNU9rLTVIUWVOZ1d6cU9QM2dBaDVweU1oRVlSZl8tWFhFY1JWTHMycUlYNnVUUlI4azJJejM2YldobnFoQ3pGLU9vU1V0eGp1cG1IMXhWdWdqV1Y2YzE3Ym9OdmJzOXRmUjJucEh2c3JIS0RtTkRBdTNCYkJtSGhjOTNPd2lrdjhmbGNyTEYySkRqV2lZemNCcFhfVTc5Y05mbTVtSUpJaUlkMHI4ZlRoRE0z?oc=5",
+     "source": "Fantacalcio",
      "channels": [
       "DAZN",
-      "Sky Sport"
-     ]
-    },
-    {
-     "title": "Guarda Roma-Sassuolo su DAZN",
-     "link": "https://www.dazn.com/it-IT/news/calcio/roma-sassuolo-2026-dove-vedere-diretta-streaming-formazioni/10sweu055emao115sg4pi81wmt",
-     "source": "DAZN",
-     "channels": [
-      "DAZN"
+      "Sky Sport",
+      "NOW"
      ]
     }
    ],
    "articles": 8,
-   "checked": "2026-11-07T09:36:43.640Z"
+   "checked": "2026-11-07T16:06:29.682Z"
   },
   {
    "team": "boca",
@@ -63,7 +64,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T09:36:44.693Z"
+   "checked": "2026-11-07T16:06:30.471Z"
   },
   {
    "team": "boca",
@@ -74,7 +75,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T09:36:45.608Z"
+   "checked": "2026-11-07T16:06:31.143Z"
   },
   {
    "team": "fortitudo",
@@ -90,8 +91,8 @@
     }
    ],
    "sources": [],
-   "articles": 0,
-   "checked": "2026-11-07T09:36:46.449Z"
+   "articles": 1,
+   "checked": "2026-11-07T16:06:32.278Z"
   },
   {
    "team": "fortitudo",
@@ -108,7 +109,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T09:36:47.321Z"
+   "checked": "2026-11-07T16:06:33.204Z"
   },
   {
    "team": "juvecaserta",
@@ -119,21 +120,29 @@
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 1
+     "n": 2
     }
    ],
    "sources": [
     {
      "title": "Basket, serie A2: domenica derby del PalaPiccolo tra Juvecaserta ed Avellino",
-     "link": "https://www.stiletv.it/news/124550/basket-serie-a2-domenica-derby-del-palapiccolo-tra-juvecaserta-ed-avellino",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTDQ1aE40RE9FZC1CMnZDX2JwOTU3ZkNLNXNieXd2VmVXZ1VUcElYNXl2ZEVIQnQ2dmlQdzNqWjNIYkdUenF4X2pyQzJmeERVZlpnb3NWX0kyOWtMNHFrWnI0TWFON3plblVydUl1MTAtaUVNYzFWb2dXdzBNclJRNDdvMENZcFNhQ1AtNFRBUVc4YWN3OTFWX1ItYkMzNXZ3ZWQyS3VLLXllV3JZRkE?oc=5",
      "source": "StileTV",
+     "channels": [
+      "LNP Pass"
+     ]
+    },
+    {
+     "title": "Juvecaserta, il derby con Avellino vale una stagione: al PalaPiccolo arriva la vicecapolista |",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOHRPa2E2QlJrVWlrT2wtTVNUM1c1M2RnV01TdWk0ZTBzaUFFQTJBcjR1dHJxTXRQN09Ya2NSMGk5Z0dlNUw4aXBFb2QzRTkyVkJXSi13Y3dQWG1GM0d2OXJTbXlvSGRNaklnM1pqYjJwZndNY1EzdG93RUFXV3FTdmRtclNpQ3hPZFhzWmhPUDBGRFdVSGtjRUs1X1ktTWI3bXBxalY5clM5VnI3MkpSYg?oc=5",
+     "source": "Caserta Web",
      "channels": [
       "LNP Pass"
      ]
     }
    ],
-   "articles": 4,
-   "checked": "2026-11-07T09:36:51.507Z"
+   "articles": 5,
+   "checked": "2026-11-07T16:06:40.112Z"
   },
   {
    "team": "juvecaserta",
@@ -150,7 +159,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T09:36:52.410Z"
+   "checked": "2026-11-07T16:06:40.891Z"
   }
  ]
 }
