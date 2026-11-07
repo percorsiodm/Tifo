@@ -1,75 +1,6 @@
 {
- "updated": "2026-11-07T20:25:59.447Z",
+ "updated": "2026-11-07T23:49:10.455Z",
  "matches": [
-  {
-   "team": "roma",
-   "id": "401874803",
-   "date": "2026-11-07T19:45Z",
-   "home": "AS Roma",
-   "away": "Sassuolo",
-   "channels": [
-    {
-     "name": "DAZN",
-     "n": 6
-    },
-    {
-     "name": "Sky Sport",
-     "n": 6
-    },
-    {
-     "name": "Prime Video",
-     "n": 2
-    },
-    {
-     "name": "NOW",
-     "n": 2
-    }
-   ],
-   "sources": [
-    {
-     "title": "Roma-Sassuolo, dove vederla in tv e streaming: canale, orario, formazioni",
-     "link": "https://www.calciomercato.com/liste/roma-sassuolo-dove-vederla-in-tv-e-streaming-canale-orario-formazioni/blt17dd280d97e92627",
-     "source": "Calciomercato.com",
-     "channels": [
-      "DAZN",
-      "Prime Video",
-      "Sky Sport",
-      "NOW"
-     ]
-    },
-    {
-     "title": "Roma-Sassuolo oggi in in TV, dove vederla: orario, formazioni e canale in diretta e streaming",
-     "link": "https://www.fanpage.it/sport/calcio/roma-sassuolo-oggi-in-in-tv-dove-vederla-orario-formazioni-e-canale-in-diretta-e-streaming/",
-     "source": "Fanpage.it",
-     "channels": [
-      "DAZN",
-      "Sky Sport"
-     ]
-    },
-    {
-     "title": "Roma Sassuolo streaming e diretta tv: dove vedere la partita di Serie A",
-     "link": "https://www.tpi.it/sport/roma-sassuolo-streaming-diretta-tv-serie-a-2026-2027-202611071258181/",
-     "source": "TPI - The Post Internazionale",
-     "channels": [
-      "DAZN",
-      "Sky Sport"
-     ]
-    }
-   ],
-   "articles": 8,
-   "checked": "2026-11-07T20:26:03.601Z"
-  },
-  {
-   "team": "boca",
-   "id": "401841669",
-   "date": "2026-11-07T20:30Z",
-   "home": "Boca ",
-   "away": "Def. y Jus.",
-   "channels": [],
-   "sources": [],
-   "articles": 0,
-   "checked": "2026-11-07T20:26:04.580Z"
-  },
   {
    "team": "boca",
    "id": "401926286",
@@ -79,32 +10,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T20:26:05.435Z"
-  },
-  {
-   "team": "fortitudo",
-   "id": "2584876",
-   "date": "2026-11-07T19:30:00.000Z",
-   "home": "Fortitudo Pallacanestro Bologna",
-   "away": "Urania Milano",
-   "channels": [
-    {
-     "name": "LNP Pass",
-     "n": 1
-    }
-   ],
-   "sources": [
-    {
-     "title": "Fortitudo Bologna-Urania Milano: dove vedere la partita in tv e streaming | Basket Serie A2",
-     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQU9hdW1XU3BOVm1md1o5bW5QM2x1TlYyVmpkWk1sdURRSUJka3lrMDlDMUE5YjdwOHhiRVN3N0phNGpjOFhWOU5IcXg1Qnhldk5haDZfM096RW9nLTRwczZlSEFaMFcyVG9fTjJuZG1Jcy1Wc0h5UVVQWTFzNU9WNGx5LTlTeDl2b29naEd2d01GY3NWMlEzYVcxOVJEcENnS2xHQVVHaUFHaWlZYzhmdVE0Vi1FZEtWR3o5czQxYTJGQ09CX0Z3U2I5ZU1zN1ZPdno3QjdsVHl2Y3l5eGhF?oc=5",
-     "source": "Vu Nere Bologna",
-     "channels": [
-      "LNP Pass"
-     ]
-    }
-   ],
-   "articles": 2,
-   "checked": "2026-11-07T20:26:12.713Z"
+   "checked": "2026-11-07T23:49:11.920Z"
   },
   {
    "team": "fortitudo",
@@ -121,7 +27,24 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T20:26:13.537Z"
+   "checked": "2026-11-07T23:49:12.880Z"
+  },
+  {
+   "team": "fortitudo",
+   "id": "2584895",
+   "date": "2026-11-15T17:00:00.000Z",
+   "home": "Fortitudo Pallacanestro Bologna",
+   "away": "Real Sebastiani Rieti",
+   "channels": [
+    {
+     "name": "LNP Pass",
+     "n": 0,
+     "always": true
+    }
+   ],
+   "sources": [],
+   "articles": 0,
+   "checked": "2026-11-07T23:49:13.660Z"
   },
   {
    "team": "juvecaserta",
@@ -138,7 +61,7 @@
    "sources": [
     {
      "title": "Basket, serie A2: domenica derby del PalaPiccolo tra Juvecaserta ed Avellino",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTDQ1aE40RE9FZC1CMnZDX2JwOTU3ZkNLNXNieXd2VmVXZ1VUcElYNXl2ZEVIQnQ2dmlQdzNqWjNIYkdUenF4X2pyQzJmeERVZlpnb3NWX0kyOWtMNHFrWnI0TWFON3plblVydUl1MTAtaUVNYzFWb2dXdzBNclJRNDdvMENZcFNhQ1AtNFRBUVc4YWN3OTFWX1ItYkMzNXZ3ZWQyS3VLLXllV3JZRkE?oc=5",
+     "link": "https://www.stiletv.it/news/124550/basket-serie-a2-domenica-derby-del-palapiccolo-tra-juvecaserta-ed-avellino",
      "source": "StileTV",
      "channels": [
       "LNP Pass"
@@ -154,7 +77,7 @@
     }
    ],
    "articles": 6,
-   "checked": "2026-11-07T20:26:22.465Z"
+   "checked": "2026-11-07T23:49:23.066Z"
   },
   {
    "team": "juvecaserta",
@@ -171,7 +94,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T20:26:23.240Z"
+   "checked": "2026-11-07T23:49:24.052Z"
   }
  ]
 }

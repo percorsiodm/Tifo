@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T20:14:54.026Z",
+ "updated": "2026-11-07T23:46:26.283Z",
  "season": "2026-2027",
  "teams": {
   "fortitudo": {
@@ -120,15 +120,16 @@
      "date": "2026-11-07T19:30:00.000Z",
      "round": "8",
      "league": "Italian Serie A2",
-     "status": "NS",
+     "status": "FT",
      "homeId": "137319",
      "awayId": "147248",
      "home": "Fortitudo Pallacanestro Bologna",
      "away": "Urania Milano",
-     "homeScore": "",
-     "awayScore": "",
+     "homeScore": "83",
+     "awayScore": "66",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/ficlhd1677610118.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/ficlhd1677610118.png",
+     "stats": []
     },
     {
      "id": "2584887",
