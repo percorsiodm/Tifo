@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T02:33:15.301Z",
+ "updated": "2026-11-07T09:36:25.196Z",
  "matches": [
   {
    "team": "roma",
@@ -14,11 +14,11 @@
     },
     {
      "name": "Sky Sport",
-     "n": 6
+     "n": 5
     },
     {
      "name": "NOW",
-     "n": 5
+     "n": 3
     }
    ],
    "sources": [
@@ -34,28 +34,25 @@
      ]
     },
     {
-     "title": "Dove vedere Roma-Sassuolo: orario, diretta TV e probabili formazioni",
-     "link": "https://www.derbyderbyderby.it/streaming/dove-vedere-roma-sassuolo-orario-diretta-tv-e-probabili-formazioni/",
-     "source": "DerbyDerbyDerby",
+     "title": "Roma-Sassuolo oggi in in TV, dove vederla: orario, formazioni e canale in diretta e streaming",
+     "link": "https://www.fanpage.it/sport/calcio/roma-sassuolo-oggi-in-in-tv-dove-vederla-orario-formazioni-e-canale-in-diretta-e-streaming/",
+     "source": "Fanpage.it",
      "channels": [
       "DAZN",
-      "Sky Sport",
-      "NOW"
+      "Sky Sport"
      ]
     },
     {
-     "title": "Roma-Sassuolo: probabili formazioni, dove e come vedere la gara in televisione e streaming",
-     "link": "https://it.blastingnews.com/calcio/2026/11/roma-sassuolo-probabili-formazioni-dove-e-come-vedere-la-gara-in-televisione-e-streaming-004201349.html",
-     "source": "Blasting News",
+     "title": "Guarda Roma-Sassuolo su DAZN",
+     "link": "https://www.dazn.com/it-IT/news/calcio/roma-sassuolo-2026-dove-vedere-diretta-streaming-formazioni/10sweu055emao115sg4pi81wmt",
+     "source": "DAZN",
      "channels": [
-      "DAZN",
-      "Sky Sport",
-      "NOW"
+      "DAZN"
      ]
     }
    ],
    "articles": 8,
-   "checked": "2026-11-07T02:33:30.077Z"
+   "checked": "2026-11-07T09:36:43.640Z"
   },
   {
    "team": "boca",
@@ -66,7 +63,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T02:33:31.083Z"
+   "checked": "2026-11-07T09:36:44.693Z"
   },
   {
    "team": "boca",
@@ -77,7 +74,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T02:33:31.905Z"
+   "checked": "2026-11-07T09:36:45.608Z"
   },
   {
    "team": "fortitudo",
@@ -94,7 +91,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T02:33:32.965Z"
+   "checked": "2026-11-07T09:36:46.449Z"
   },
   {
    "team": "fortitudo",
@@ -111,7 +108,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T02:33:33.791Z"
+   "checked": "2026-11-07T09:36:47.321Z"
   },
   {
    "team": "juvecaserta",
@@ -122,13 +119,21 @@
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 0,
-     "always": true
+     "n": 1
     }
    ],
-   "sources": [],
-   "articles": 2,
-   "checked": "2026-11-07T02:33:37.172Z"
+   "sources": [
+    {
+     "title": "Basket, serie A2: domenica derby del PalaPiccolo tra Juvecaserta ed Avellino",
+     "link": "https://www.stiletv.it/news/124550/basket-serie-a2-domenica-derby-del-palapiccolo-tra-juvecaserta-ed-avellino",
+     "source": "StileTV",
+     "channels": [
+      "LNP Pass"
+     ]
+    }
+   ],
+   "articles": 4,
+   "checked": "2026-11-07T09:36:51.507Z"
   },
   {
    "team": "juvecaserta",
@@ -145,7 +150,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T02:33:38.029Z"
+   "checked": "2026-11-07T09:36:52.410Z"
   }
  ]
 }
