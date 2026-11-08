@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T23:46:26.283Z",
+ "updated": "2026-11-08T04:04:06.935Z",
  "season": "2026-2027",
  "teams": {
   "fortitudo": {
@@ -34,7 +34,7 @@
      "away": "Fortitudo Pallacanestro Bologna",
      "homeScore": "81",
      "awayScore": "83",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png"
     },
     {
@@ -65,7 +65,7 @@
      "homeScore": "91",
      "awayScore": "69",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/nv1h9i1792763623.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/nv1h9i1792763623.png"
     },
     {
      "id": "2584852",
@@ -80,8 +80,7 @@
      "homeScore": "85",
      "awayScore": "59",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/kz9fjq1720344886.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
-     "stats": []
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png"
     },
     {
      "id": "2584856",
@@ -278,7 +277,7 @@
      "away": "Fortitudo Pallacanestro Bologna",
      "homeScore": "",
      "awayScore": "",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/cdk0231792763546.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/cdk0231792763546.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png"
     },
     {
@@ -354,7 +353,7 @@
      "homeScore": "",
      "awayScore": "",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2585019",
@@ -444,7 +443,7 @@
      "homeScore": "",
      "awayScore": "",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/cdk0231792763546.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/cdk0231792763546.png"
     },
     {
      "id": "2585074",
@@ -533,7 +532,7 @@
      "away": "Fortitudo Pallacanestro Bologna",
      "homeScore": "",
      "awayScore": "",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/nv1h9i1792763623.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/nv1h9i1792763623.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png"
     },
     {
@@ -602,7 +601,7 @@
      "homeScore": "81",
      "awayScore": "73",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/h5ks571696585856.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2584824",
@@ -616,7 +615,7 @@
      "away": "Fortitudo Pallacanestro Bologna",
      "homeScore": "81",
      "awayScore": "83",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png"
     },
     {
@@ -632,7 +631,7 @@
      "homeScore": "83",
      "awayScore": "77",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/2kz5wc1696582653.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2584842",
@@ -646,7 +645,7 @@
      "away": "Ju-Vi Cremona",
      "homeScore": "96",
      "awayScore": "89",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/chvcl11677612541.png",
      "stats": []
     },
@@ -678,8 +677,8 @@
      "away": "JuveCaserta Basket",
      "homeScore": "95",
      "awayScore": "75",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/cdk0231792763546.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/cdk0231792763546.png",
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
      "stats": []
     },
     {
@@ -710,7 +709,7 @@
      "homeScore": "",
      "awayScore": "",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/zy7bpu1571681090.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2584896",
@@ -724,7 +723,7 @@
      "away": "Forli",
      "homeScore": "",
      "awayScore": "",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/nlshqn1713954259.png"
     },
     {
@@ -740,7 +739,7 @@
      "homeScore": "",
      "awayScore": "",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/fvsb7v1713952616.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2584851",
@@ -755,7 +754,7 @@
      "homeScore": "",
      "awayScore": "",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/i1fu6t1696586345.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2589679",
@@ -769,8 +768,8 @@
      "away": "Montecatini",
      "homeScore": "",
      "awayScore": "",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/nv1h9i1792763623.png"
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/nv1h9i1792763623.png"
     },
     {
      "id": "2584923",
@@ -785,7 +784,7 @@
      "homeScore": "",
      "awayScore": "",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/dgtrfo1713952754.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2584930",
@@ -799,7 +798,7 @@
      "away": "Urania Milano",
      "homeScore": "",
      "awayScore": "",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/ficlhd1677610118.png"
     },
     {
@@ -815,7 +814,7 @@
      "homeScore": "",
      "awayScore": "",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/t2y2wk1696608892.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2584949",
@@ -830,7 +829,7 @@
      "homeScore": "",
      "awayScore": "",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/sks94l1545864765.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2584958",
@@ -844,7 +843,7 @@
      "away": "Rimini",
      "homeScore": "",
      "awayScore": "",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/66421z1719922353.png"
     },
     {
@@ -860,7 +859,7 @@
      "homeScore": "",
      "awayScore": "",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/pa0vb61767888111.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2584976",
@@ -874,7 +873,7 @@
      "away": "Libertas Livorno",
      "homeScore": "",
      "awayScore": "",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/kz9fjq1720344886.png"
     },
     {
@@ -890,7 +889,7 @@
      "homeScore": "",
      "awayScore": "",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/nlshqn1713954259.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2584994",
@@ -904,7 +903,7 @@
      "away": "Cividale",
      "homeScore": "",
      "awayScore": "",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/fvsb7v1713952616.png"
     },
     {
@@ -919,8 +918,8 @@
      "away": "Dinamo Basket Sassari",
      "homeScore": "",
      "awayScore": "",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/cdk0231792763546.png"
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/cdk0231792763546.png"
     },
     {
      "id": "2585012",
@@ -935,7 +934,7 @@
      "homeScore": "",
      "awayScore": "",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2585021",
@@ -949,7 +948,7 @@
      "away": "New Basket Brindisi",
      "homeScore": "",
      "awayScore": "",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/sks94l1545864765.png"
     },
     {
@@ -965,7 +964,7 @@
      "homeScore": "",
      "awayScore": "",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/66421z1719922353.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2585039",
@@ -979,7 +978,7 @@
      "away": "Real Sebastiani Rieti",
      "homeScore": "",
      "awayScore": "",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/h5ks571696585856.png"
     },
     {
@@ -995,7 +994,7 @@
      "homeScore": "",
      "awayScore": "",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/chvcl11677612541.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2585059",
@@ -1009,7 +1008,7 @@
      "away": "Pallacanestro Ruvo di Puglia",
      "homeScore": "",
      "awayScore": "",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/pa0vb61767888111.png"
     },
     {
@@ -1025,7 +1024,7 @@
      "homeScore": "",
      "awayScore": "",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/tccdrc1767860205.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2585076",
@@ -1039,7 +1038,7 @@
      "away": "Basket Torino",
      "homeScore": "",
      "awayScore": "",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/i1fu6t1696586345.png"
     },
     {
@@ -1054,8 +1053,8 @@
      "away": "JuveCaserta Basket",
      "homeScore": "",
      "awayScore": "",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/nv1h9i1792763623.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/nv1h9i1792763623.png",
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2585094",
@@ -1069,7 +1068,7 @@
      "away": "Victoria Libertas",
      "homeScore": "",
      "awayScore": "",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/2kz5wc1696582653.png"
     },
     {
@@ -1085,7 +1084,7 @@
      "homeScore": "",
      "awayScore": "",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/dz22ao1757059978.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2585109",
@@ -1099,7 +1098,7 @@
      "away": "Cento",
      "homeScore": "",
      "awayScore": "",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/dgtrfo1713952754.png"
     },
     {
@@ -1115,7 +1114,7 @@
      "homeScore": "",
      "awayScore": "",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/kz9fjq1720344886.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2585129",
@@ -1129,7 +1128,7 @@
      "away": "Vigevano",
      "homeScore": "",
      "awayScore": "",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/t2y2wk1696608892.png"
     },
     {
@@ -1145,7 +1144,7 @@
      "homeScore": "",
      "awayScore": "",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/ficlhd1677610118.png",
-     "awayBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2585142",
@@ -1159,7 +1158,7 @@
      "away": "Pistoia Basket",
      "homeScore": "",
      "awayScore": "",
-     "homeBadge": "https://www.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/zy7bpu1571681090.png"
     }
    ],

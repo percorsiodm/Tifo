@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T23:49:10.455Z",
+ "updated": "2026-11-08T04:16:47.148Z",
  "matches": [
   {
    "team": "boca",
@@ -10,7 +10,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T23:49:11.920Z"
+   "checked": "2026-11-08T04:16:48.390Z"
   },
   {
    "team": "fortitudo",
@@ -27,7 +27,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T23:49:12.880Z"
+   "checked": "2026-11-08T04:16:49.283Z"
   },
   {
    "team": "fortitudo",
@@ -44,7 +44,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T23:49:13.660Z"
+   "checked": "2026-11-08T04:16:50.139Z"
   },
   {
    "team": "juvecaserta",
@@ -60,24 +60,24 @@
    ],
    "sources": [
     {
-     "title": "Basket, serie A2: domenica derby del PalaPiccolo tra Juvecaserta ed Avellino",
-     "link": "https://www.stiletv.it/news/124550/basket-serie-a2-domenica-derby-del-palapiccolo-tra-juvecaserta-ed-avellino",
-     "source": "StileTV",
-     "channels": [
-      "LNP Pass"
-     ]
-    },
-    {
      "title": "Juvecaserta, il derby con Avellino vale una stagione: al PalaPiccolo arriva la vicecapolista |",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOHRPa2E2QlJrVWlrT2wtTVNUM1c1M2RnV01TdWk0ZTBzaUFFQTJBcjR1dHJxTXRQN09Ya2NSMGk5Z0dlNUw4aXBFb2QzRTkyVkJXSi13Y3dQWG1GM0d2OXJTbXlvSGRNaklnM1pqYjJwZndNY1EzdG93RUFXV3FTdmRtclNpQ3hPZFhzWmhPUDBGRFdVSGtjRUs1X1ktTWI3bXBxalY5clM5VnI3MkpSYg?oc=5",
      "source": "Caserta Web",
      "channels": [
       "LNP Pass"
      ]
+    },
+    {
+     "title": "Basket, serie A2: domenica derby del PalaPiccolo tra Juvecaserta ed Avellino",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYml0MFVfalI5c2dSZjlMNGpPQ3d2R1NXYVZWUGZIX1lsMU9MR2k2b0lVVWRMV1BVZmhOaXNiZUFqTzhMNGJvVllMRk1Yc0hHUUNBWTJ3WVFaWkctcTctaXlqNEtRNHBZNWJXQUc5MHJYOWZzVVBvLWNUR3JNczI3eFU2eWtrQnJ4STFaRldHRzhISFlaUno2YnhBWVhGYmRfS1NndElpWUk4NVhCejIwaXFUQ25vTUk?oc=5",
+     "source": "StileTV",
+     "channels": [
+      "LNP Pass"
+     ]
     }
    ],
-   "articles": 6,
-   "checked": "2026-11-07T23:49:23.066Z"
+   "articles": 5,
+   "checked": "2026-11-08T04:16:55.890Z"
   },
   {
    "team": "juvecaserta",
@@ -94,7 +94,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-07T23:49:24.052Z"
+   "checked": "2026-11-08T04:16:56.797Z"
   }
  ]
 }
