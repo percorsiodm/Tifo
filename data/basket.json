@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T04:04:06.935Z",
+ "updated": "2026-11-08T21:16:58.000Z",
  "season": "2026-2027",
  "teams": {
   "fortitudo": {
@@ -686,15 +686,16 @@
      "date": "2026-11-08T17:00:00.000Z",
      "round": "8",
      "league": "Italian Serie A2",
-     "status": "NS",
+     "status": "FT",
      "homeId": "137311",
      "awayId": "153094",
      "home": "JuveCaserta Basket",
      "away": "Avellino Basket",
-     "homeScore": "",
-     "awayScore": "",
+     "homeScore": "76",
+     "awayScore": "82",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/dz22ao1757059978.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/dz22ao1757059978.png",
+     "stats": []
     },
     {
      "id": "2584882",

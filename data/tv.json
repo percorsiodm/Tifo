@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T17:12:47.827Z",
+ "updated": "2026-11-08T21:19:42.147Z",
  "matches": [
   {
    "team": "boca",
@@ -10,7 +10,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-08T17:12:49.296Z"
+   "checked": "2026-11-08T21:19:43.647Z"
   },
   {
    "team": "fortitudo",
@@ -27,7 +27,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-08T17:12:50.133Z"
+   "checked": "2026-11-08T21:19:44.615Z"
   },
   {
    "team": "fortitudo",
@@ -44,40 +44,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-08T17:12:51.067Z"
-  },
-  {
-   "team": "juvecaserta",
-   "id": "2584878",
-   "date": "2026-11-08T17:00:00.000Z",
-   "home": "JuveCaserta Basket",
-   "away": "Avellino Basket",
-   "channels": [
-    {
-     "name": "LNP Pass",
-     "n": 2
-    }
-   ],
-   "sources": [
-    {
-     "title": "Juvecaserta-Avellino Basket: dove vedere la partita in tv e streaming | LNP Serie A2 2026/27",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSWFPZzEyLWdhSXo2YWV4c25fcUJ6WXIyN0xYbW1wSU0zS1hyNTN0aWpnSkZWeFpENExhTC1mZXhsYy04WDF0V09zbXF6S3cxdkFPNW1lN1E2VGkzUFUyc0JoS0c4cFEzX3hobEVPeG5yZFpFRTV1Mi16TktUMnV6d2tSbUxXSF9NTzUyTVMtTmh2a2FvTWtLNVk1aVNaRU8yYl9UV05BcnNOV2cwZ0NFbHhlTXY3NUVsLXhPbHBSamtKZzNmZjR2bEVKV05QeWJVNUhtR29nSGxNdw?oc=5",
-     "source": "Vu Nere Bologna",
-     "channels": [
-      "LNP Pass"
-     ]
-    },
-    {
-     "title": "Basket, serie A2: domenica derby del PalaPiccolo tra Juvecaserta ed Avellino",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYml0MFVfalI5c2dSZjlMNGpPQ3d2R1NXYVZWUGZIX1lsMU9MR2k2b0lVVWRMV1BVZmhOaXNiZUFqTzhMNGJvVllMRk1Yc0hHUUNBWTJ3WVFaWkctcTctaXlqNEtRNHBZNWJXQUc5MHJYOWZzVVBvLWNUR3JNczI3eFU2eWtrQnJ4STFaRldHRzhISFlaUno2YnhBWVhGYmRfS1NndElpWUk4NVhCejIwaXFUQ25vTUk?oc=5",
-     "source": "StileTV",
-     "channels": [
-      "LNP Pass"
-     ]
-    }
-   ],
-   "articles": 5,
-   "checked": "2026-11-08T17:12:58.828Z"
+   "checked": "2026-11-08T21:19:45.453Z"
   },
   {
    "team": "juvecaserta",
@@ -94,7 +61,24 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-08T17:12:59.734Z"
+   "checked": "2026-11-08T21:19:46.322Z"
+  },
+  {
+   "team": "juvecaserta",
+   "id": "2584896",
+   "date": "2026-11-15T17:00:00.000Z",
+   "home": "JuveCaserta Basket",
+   "away": "Forli",
+   "channels": [
+    {
+     "name": "LNP Pass",
+     "n": 0,
+     "always": true
+    }
+   ],
+   "sources": [],
+   "articles": 0,
+   "checked": "2026-11-08T21:19:47.187Z"
   }
  ]
 }
