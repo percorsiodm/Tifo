@@ -1,14 +1,24 @@
 {
+  "id": "/Tifo/",
   "name": "Tifo — Roma, Boca, Fortitudo, Juvecaserta",
   "short_name": "Tifo",
-  "start_url": "./",
-  "scope": "./",
+  "description": "Live, risultati, calendari, classifiche, notizie e notifiche dei gol di AS Roma, Boca Juniors, Fortitudo Bologna e Juvecaserta.",
+  "start_url": "/Tifo/",
+  "scope": "/Tifo/",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
   "background_color": "#111318",
   "theme_color": "#111318",
   "lang": "it",
+  "dir": "ltr",
+  "categories": ["sports", "news"],
+  "prefer_related_applications": false,
+  "launch_handler": { "client_mode": "focus-existing" },
   "icons": [
-    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
-    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
   ]
 }
