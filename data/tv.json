@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T21:19:42.147Z",
+ "updated": "2026-11-10T17:14:17.259Z",
  "matches": [
   {
    "team": "boca",
@@ -10,7 +10,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-08T21:19:43.647Z"
+   "checked": "2026-11-10T17:14:18.540Z"
   },
   {
    "team": "fortitudo",
@@ -27,7 +27,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-08T21:19:44.615Z"
+   "checked": "2026-11-10T17:14:19.467Z"
   },
   {
    "team": "fortitudo",
@@ -44,7 +44,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-08T21:19:45.453Z"
+   "checked": "2026-11-10T17:14:20.417Z"
   },
   {
    "team": "juvecaserta",
@@ -55,13 +55,21 @@
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 0,
-     "always": true
+     "n": 1
     }
    ],
-   "sources": [],
-   "articles": 0,
-   "checked": "2026-11-08T21:19:46.322Z"
+   "sources": [
+    {
+     "title": "Basket, infrasettimanale di serie A2: Juvecaserta ospite della Lumos Pistoia",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQckpWQmxRbFJSYzhwNFlzaU52WEMzWG1Eb0JHdjIyUGpOUmcxSm84V1dFd2Z1SHNnejNSWWRubTFOS0ZZLVBGZHRvMm9TQllBSzhkYmNQTUdXdnRwNDg3ZEg3cXl2cTRYRGVNcG1obTVnWmRhOW82ZHhGTU9SWG5PMXc2MmdNUHI5VUZZNWFiaWZLOUZvNVFFYWpWY2VWcFByU1VxakF0Qlp0MUszWXc?oc=5",
+     "source": "StileTV",
+     "channels": [
+      "LNP Pass"
+     ]
+    }
+   ],
+   "articles": 1,
+   "checked": "2026-11-10T17:14:23.426Z"
   },
   {
    "team": "juvecaserta",
@@ -78,7 +86,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-08T21:19:47.187Z"
+   "checked": "2026-11-10T17:14:24.337Z"
   }
  ]
 }
