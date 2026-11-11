@@ -1,6 +1,17 @@
 {
- "updated": "2026-11-11T09:45:05.759Z",
+ "updated": "2026-11-11T17:42:41.620Z",
  "matches": [
+  {
+   "team": "roma",
+   "id": "401874967",
+   "date": "2026-11-21T17:00Z",
+   "home": "Parma",
+   "away": "AS Roma",
+   "channels": [],
+   "sources": [],
+   "articles": 0,
+   "checked": "2026-11-11T17:42:43.256Z"
+  },
   {
    "team": "boca",
    "id": "401926286",
@@ -10,7 +21,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-11T09:45:07.125Z"
+   "checked": "2026-11-11T17:42:44.348Z"
   },
   {
    "team": "fortitudo",
@@ -21,13 +32,21 @@
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 0,
-     "always": true
+     "n": 1
     }
    ],
-   "sources": [],
-   "articles": 0,
-   "checked": "2026-11-11T09:45:07.965Z"
+   "sources": [
+    {
+     "title": "Reale Mutua Torino-Fortitudo Bologna: dove vedere la partita in tv e streaming | Basket Serie A2",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOVVSQU9FdjViRWFvRF9RTFplOGtrdTB3b1hsbGFvYkRSMkhTYklON2dWSDFPbmxhZDBsSmdlZTh5Ulp6cG9rckJNc1lWM1FxR0FyaXFlanRUTlYwSk9zempkb0tOci1QNE9SSm1TZFZ3bHcxcE5jOU1HTmtYMmRfVGJmZ2tjRHJuLXpWX1Z3TVJ6cVZRSl9yeU84WWpuQ2E2Ujlzc2ZKZnVkc20xVFNmQVl5MXc3c3dqZGtLbERvMkRYR2wybUFnVGRpZlY4TUdqWVM0ZnBjd2NOWllJeFd3?oc=5",
+     "source": "Vu Nere Bologna",
+     "channels": [
+      "LNP Pass"
+     ]
+    }
+   ],
+   "articles": 2,
+   "checked": "2026-11-11T17:42:48.685Z"
   },
   {
    "team": "fortitudo",
@@ -44,7 +63,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-11T09:45:08.779Z"
+   "checked": "2026-11-11T17:42:49.624Z"
   },
   {
    "team": "juvecaserta",
@@ -55,10 +74,26 @@
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 1
+     "n": 3
     }
    ],
    "sources": [
+    {
+     "title": "Juvecaserta, trasferta a Pistoia nel turno infrasettimanale",
+     "link": "https://www.anteprima24.it/caserta/juvecaserta-trasferta-a-pistoia-nel-turno-infrasettimanale/",
+     "source": "Anteprima24",
+     "channels": [
+      "LNP Pass"
+     ]
+    },
+    {
+     "title": "Pistoia Basket-Juvecaserta: dove vedere la partita in tv e streaming | LNP Serie A2 2026/27",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeVh2bjVKbE9XdGxELXBEejBQUGV2T2JvRG5PelQyRDJ6eHdaekk5TjRmRGpBOW5ncVh4UVZpb255SV94VlFGVDJPRXhWZjhBVmdmRkE4U3h5UXJ1WHcwa0lYYVotMUw4X01hTVU0UmZPUUp2SGJlNE9iSUo0N0JlV21keFEwbmN0dTBSdzZrcHpWaHBqem1PR2E3MU9kc2d4cmVtR05UejlSS3cxX2NYcXlRNFkwMzVtTXI0UnJRTHFDV1g2ZmhTQnNuRVp3YVE1cEF6UjRvQWk?oc=5",
+     "source": "Vu Nere Bologna",
+     "channels": [
+      "LNP Pass"
+     ]
+    },
     {
      "title": "Basket, infrasettimanale di serie A2: Juvecaserta ospite della Lumos Pistoia",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQckpWQmxRbFJSYzhwNFlzaU52WEMzWG1Eb0JHdjIyUGpOUmcxSm84V1dFd2Z1SHNnejNSWWRubTFOS0ZZLVBGZHRvMm9TQllBSzhkYmNQTUdXdnRwNDg3ZEg3cXl2cTRYRGVNcG1obTVnWmRhOW82ZHhGTU9SWG5PMXc2MmdNUHI5VUZZNWFiaWZLOUZvNVFFYWpWY2VWcFByU1VxakF0Qlp0MUszWXc?oc=5",
@@ -68,8 +103,8 @@
      ]
     }
    ],
-   "articles": 1,
-   "checked": "2026-11-11T09:45:11.476Z"
+   "articles": 3,
+   "checked": "2026-11-11T17:42:55.414Z"
   },
   {
    "team": "juvecaserta",
@@ -86,7 +121,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-11T09:45:12.214Z"
+   "checked": "2026-11-11T17:42:56.318Z"
   }
  ]
 }
