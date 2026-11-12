@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T21:16:58.000Z",
+ "updated": "2026-11-11T23:58:29.531Z",
  "season": "2026-2027",
  "teams": {
   "fortitudo": {
@@ -135,15 +135,16 @@
      "date": "2026-11-11T19:30:00.000Z",
      "round": "9",
      "league": "Italian Serie A2",
-     "status": "NS",
+     "status": "FT",
      "homeId": "147792",
      "awayId": "137319",
      "home": "Basket Torino",
      "away": "Fortitudo Pallacanestro Bologna",
-     "homeScore": "",
-     "awayScore": "",
+     "homeScore": "75",
+     "awayScore": "78",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/i1fu6t1696586345.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
+     "stats": []
     },
     {
      "id": "2584895",
