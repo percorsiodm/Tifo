@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T18:01:14.343Z",
+ "updated": "2026-11-14T16:52:19.894Z",
  "matches": [
   {
    "team": "roma",
@@ -7,10 +7,29 @@
    "date": "2026-11-21T17:00Z",
    "home": "Parma",
    "away": "AS Roma",
-   "channels": [],
-   "sources": [],
-   "articles": 0,
-   "checked": "2026-11-13T18:01:15.657Z"
+   "channels": [
+    {
+     "name": "DAZN",
+     "n": 1
+    },
+    {
+     "name": "Sky Sport",
+     "n": 1
+    }
+   ],
+   "sources": [
+    {
+     "title": "Dove vedere Parma-Roma in diretta TV e in streaming",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNc1VUNmk5MU14MldJZXc3QVBhSDJTa0JvTUJqcUJiVzBsV1pYRl9JTnhKNF9LSDBnNkpZR0Q3NW9EY0lOTElPSWh4ZjB6WWRuSDBUa0dBRWFxMUtWMHpMazJfYzdocU95akp4dEYzRUhmU2x2TUFyRXRPUlMxdjRVVklDcDlDSU8tWWZSOEo5eFNiUQ?oc=5",
+     "source": "Voce Giallorossa",
+     "channels": [
+      "DAZN",
+      "Sky Sport"
+     ]
+    }
+   ],
+   "articles": 2,
+   "checked": "2026-11-14T16:52:23.949Z"
   },
   {
    "team": "boca",
@@ -21,7 +40,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-13T18:01:16.696Z"
+   "checked": "2026-11-14T16:52:24.984Z"
   },
   {
    "team": "boca",
@@ -32,7 +51,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-13T18:01:17.599Z"
+   "checked": "2026-11-14T16:52:25.838Z"
   },
   {
    "team": "fortitudo",
@@ -49,7 +68,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-13T18:01:18.467Z"
+   "checked": "2026-11-14T16:52:26.731Z"
   },
   {
    "team": "fortitudo",
@@ -66,7 +85,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-13T18:01:19.320Z"
+   "checked": "2026-11-14T16:52:27.616Z"
   },
   {
    "team": "juvecaserta",
@@ -83,7 +102,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-13T18:01:20.171Z"
+   "checked": "2026-11-14T16:52:28.520Z"
   },
   {
    "team": "juvecaserta",
@@ -100,7 +119,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-13T18:01:21.064Z"
+   "checked": "2026-11-14T16:52:29.488Z"
   }
  ]
 }
