@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T08:09:41.179Z",
+ "updated": "2026-11-15T15:48:49.851Z",
  "matches": [
   {
    "team": "roma",
@@ -29,7 +29,7 @@
     }
    ],
    "articles": 2,
-   "checked": "2026-11-15T08:09:45.711Z"
+   "checked": "2026-11-15T15:48:54.349Z"
   },
   {
    "team": "boca",
@@ -40,7 +40,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-15T08:09:46.711Z"
+   "checked": "2026-11-15T15:48:55.369Z"
   },
   {
    "team": "fortitudo",
@@ -51,13 +51,21 @@
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 0,
-     "always": true
+     "n": 1
     }
    ],
-   "sources": [],
-   "articles": 0,
-   "checked": "2026-11-15T08:09:47.609Z"
+   "sources": [
+    {
+     "title": "Fortitudo Bologna-Real Sebastiani Rieti: dove vedere la partita in tv e streaming | Basket Serie A2",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQ2dnazNvYWVxdURfUFJxWTBQenBBcDVjSFFPVGQ5ei1SeGdMT0hUVVZJb1VPN1pERHkwQXlfaW1aRUpOSU1HZEdaaTZvS0xzaFJqM2dyMTAwbGQwazJxaG5NQXNwdDlFYTN5Z000V0N5RzdodXUtOHMzaFkyakhUWlVaNmNSSWtsU3NpVkZYb0F0Ui1UUXNSQ1lqS1lYUTRoNWxUMDNHY3FNNzY5QlZwc2U3TEdtVWZsTGswb2QzUUp6QzhlaXp0Z0wtTnZMNFduZkJGTzR5T1BHMkN4bHBWZk5kbDJtRDQyZXc?oc=5",
+     "source": "Vu Nere Bologna",
+     "channels": [
+      "LNP Pass"
+     ]
+    }
+   ],
+   "articles": 1,
+   "checked": "2026-11-15T15:48:59.297Z"
   },
   {
    "team": "fortitudo",
@@ -74,7 +82,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-15T08:09:48.456Z"
+   "checked": "2026-11-15T15:49:00.158Z"
   },
   {
    "team": "juvecaserta",
@@ -85,13 +93,21 @@
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 0,
-     "always": true
+     "n": 1
     }
    ],
-   "sources": [],
+   "sources": [
+    {
+     "title": "Juvecaserta-Unieuro Forlì: dove vedere la partita in tv e streaming | Basket Serie A2",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPc29sV2pmUjVIU3N6RDkxMWRnS3Y2M3RrMWNWS25ES3VxYjItRzgycVpYcUZ3NnNTQlVldnFwaTUzYmNCUFRGTHZnSUZqOGlyU1UyamEzbXg1Mmo1bGhqY0t5Sk92UVB1dWU0dEF1dEt0VGdZRDFHUE5UanNENTQxSFlhb0dDMUVJY1Z3YTNPMTRLM1ZuTWp1RXhrZS0yTTMxQmI0SjFSbG4yeEd6ejh1UXRpNXE0dl9uaExHNUJOSW05N3pnLUJIQmRVeXNkSkhSMW5SeWNMWVJYMW5uZ1Rr?oc=5",
+     "source": "Vu Nere Bologna",
+     "channels": [
+      "LNP Pass"
+     ]
+    }
+   ],
    "articles": 1,
-   "checked": "2026-11-15T08:09:49.791Z"
+   "checked": "2026-11-15T15:49:03.762Z"
   },
   {
    "team": "juvecaserta",
@@ -108,7 +124,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-15T08:09:50.734Z"
+   "checked": "2026-11-15T15:49:04.649Z"
   }
  ]
 }
