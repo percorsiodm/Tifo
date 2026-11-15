@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T15:48:49.851Z",
+ "updated": "2026-11-15T20:46:49.718Z",
  "matches": [
   {
    "team": "roma",
@@ -29,7 +29,18 @@
     }
    ],
    "articles": 2,
-   "checked": "2026-11-15T15:48:54.349Z"
+   "checked": "2026-11-15T20:46:54.463Z"
+  },
+  {
+   "team": "roma",
+   "id": "401915374",
+   "date": "2026-11-25T20:00Z",
+   "home": "PSG",
+   "away": "AS Roma",
+   "channels": [],
+   "sources": [],
+   "articles": 0,
+   "checked": "2026-11-15T20:46:55.562Z"
   },
   {
    "team": "boca",
@@ -40,32 +51,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-15T15:48:55.369Z"
-  },
-  {
-   "team": "fortitudo",
-   "id": "2584895",
-   "date": "2026-11-15T17:00:00.000Z",
-   "home": "Fortitudo Pallacanestro Bologna",
-   "away": "Real Sebastiani Rieti",
-   "channels": [
-    {
-     "name": "LNP Pass",
-     "n": 1
-    }
-   ],
-   "sources": [
-    {
-     "title": "Fortitudo Bologna-Real Sebastiani Rieti: dove vedere la partita in tv e streaming | Basket Serie A2",
-     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQ2dnazNvYWVxdURfUFJxWTBQenBBcDVjSFFPVGQ5ei1SeGdMT0hUVVZJb1VPN1pERHkwQXlfaW1aRUpOSU1HZEdaaTZvS0xzaFJqM2dyMTAwbGQwazJxaG5NQXNwdDlFYTN5Z000V0N5RzdodXUtOHMzaFkyakhUWlVaNmNSSWtsU3NpVkZYb0F0Ui1UUXNSQ1lqS1lYUTRoNWxUMDNHY3FNNzY5QlZwc2U3TEdtVWZsTGswb2QzUUp6QzhlaXp0Z0wtTnZMNFduZkJGTzR5T1BHMkN4bHBWZk5kbDJtRDQyZXc?oc=5",
-     "source": "Vu Nere Bologna",
-     "channels": [
-      "LNP Pass"
-     ]
-    }
-   ],
-   "articles": 1,
-   "checked": "2026-11-15T15:48:59.297Z"
+   "checked": "2026-11-15T20:46:56.765Z"
   },
   {
    "team": "fortitudo",
@@ -82,32 +68,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-15T15:49:00.158Z"
-  },
-  {
-   "team": "juvecaserta",
-   "id": "2584896",
-   "date": "2026-11-15T17:00:00.000Z",
-   "home": "JuveCaserta Basket",
-   "away": "Forli",
-   "channels": [
-    {
-     "name": "LNP Pass",
-     "n": 1
-    }
-   ],
-   "sources": [
-    {
-     "title": "Juvecaserta-Unieuro Forlì: dove vedere la partita in tv e streaming | Basket Serie A2",
-     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPc29sV2pmUjVIU3N6RDkxMWRnS3Y2M3RrMWNWS25ES3VxYjItRzgycVpYcUZ3NnNTQlVldnFwaTUzYmNCUFRGTHZnSUZqOGlyU1UyamEzbXg1Mmo1bGhqY0t5Sk92UVB1dWU0dEF1dEt0VGdZRDFHUE5UanNENTQxSFlhb0dDMUVJY1Z3YTNPMTRLM1ZuTWp1RXhrZS0yTTMxQmI0SjFSbG4yeEd6ejh1UXRpNXE0dl9uaExHNUJOSW05N3pnLUJIQmRVeXNkSkhSMW5SeWNMWVJYMW5uZ1Rr?oc=5",
-     "source": "Vu Nere Bologna",
-     "channels": [
-      "LNP Pass"
-     ]
-    }
-   ],
-   "articles": 1,
-   "checked": "2026-11-15T15:49:03.762Z"
+   "checked": "2026-11-15T20:46:57.745Z"
   },
   {
    "team": "juvecaserta",
@@ -124,7 +85,24 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-15T15:49:04.649Z"
+   "checked": "2026-11-15T20:46:58.574Z"
+  },
+  {
+   "team": "juvecaserta",
+   "id": "2584851",
+   "date": "2026-11-24T19:30:00.000Z",
+   "home": "Basket Torino",
+   "away": "JuveCaserta Basket",
+   "channels": [
+    {
+     "name": "LNP Pass",
+     "n": 0,
+     "always": true
+    }
+   ],
+   "sources": [],
+   "articles": 0,
+   "checked": "2026-11-15T20:46:59.607Z"
   }
  ]
 }

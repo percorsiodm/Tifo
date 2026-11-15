@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T23:58:29.531Z",
+ "updated": "2026-11-15T20:45:08.871Z",
  "season": "2026-2027",
  "teams": {
   "fortitudo": {
@@ -151,15 +151,16 @@
      "date": "2026-11-15T17:00:00.000Z",
      "round": "10",
      "league": "Italian Serie A2",
-     "status": "NS",
+     "status": "FT",
      "homeId": "137319",
      "awayId": "147790",
      "home": "Fortitudo Pallacanestro Bologna",
      "away": "Real Sebastiani Rieti",
-     "homeScore": "",
-     "awayScore": "",
+     "homeScore": "89",
+     "awayScore": "78",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/h5ks571696585856.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/h5ks571696585856.png",
+     "stats": []
     },
     {
      "id": "2584904",
@@ -718,15 +719,16 @@
      "date": "2026-11-15T17:00:00.000Z",
      "round": "10",
      "league": "Italian Serie A2",
-     "status": "NS",
+     "status": "FT",
      "homeId": "137311",
      "awayId": "148283",
      "home": "JuveCaserta Basket",
      "away": "Forli",
-     "homeScore": "",
-     "awayScore": "",
+     "homeScore": "91",
+     "awayScore": "79",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/nlshqn1713954259.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/nlshqn1713954259.png",
+     "stats": []
     },
     {
      "id": "2584903",
