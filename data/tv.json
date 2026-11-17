@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T09:42:47.330Z",
+ "updated": "2026-11-17T18:57:51.462Z",
  "matches": [
   {
    "team": "roma",
@@ -14,7 +14,7 @@
     },
     {
      "name": "Sky Sport",
-     "n": 4
+     "n": 5
     }
    ],
    "sources": [
@@ -28,25 +28,25 @@
      ]
     },
     {
-     "title": "Parma-Roma: probabili formazioni, info biglietti e dove vederla in tv e streaming",
-     "link": "https://pagineromaniste.com/parma-roma-probabili-formazioni-info-biglietti-e-dove-vederla-in-tv-e-streaming/",
-     "source": "Pagine Romaniste",
-     "channels": [
-      "DAZN",
-      "Sky Sport"
-     ]
-    },
-    {
      "title": "Parma-Roma: probabili formazioni, biglietti, dove vederla in tv e streaming",
      "link": "https://www.ilromanista.eu/news/as-roma/174602/parma-roma-probabili-formazioni-biglietti-dove-vederla-in-tv-e-streaming",
      "source": "Il Romanista",
      "channels": [
       "DAZN"
      ]
+    },
+    {
+     "title": "Dove vedere Parma-Roma in diretta TV e in streaming",
+     "link": "https://www.vocegiallorossa.it/dove-vedere/vedere-parma-roma-diretta-tv-streaming-286647",
+     "source": "Voce Giallorossa",
+     "channels": [
+      "DAZN",
+      "Sky Sport"
+     ]
     }
    ],
-   "articles": 7,
-   "checked": "2026-11-17T09:42:54.478Z"
+   "articles": 8,
+   "checked": "2026-11-17T18:58:00.372Z"
   },
   {
    "team": "roma",
@@ -57,7 +57,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-17T09:42:55.454Z"
+   "checked": "2026-11-17T18:58:01.544Z"
   },
   {
    "team": "boca",
@@ -68,7 +68,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-17T09:42:56.358Z"
+   "checked": "2026-11-17T18:58:02.868Z"
   },
   {
    "team": "boca",
@@ -79,7 +79,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-17T09:42:57.238Z"
+   "checked": "2026-11-17T18:58:03.991Z"
   },
   {
    "team": "fortitudo",
@@ -96,7 +96,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-17T09:42:58.229Z"
+   "checked": "2026-11-17T18:58:05.044Z"
   },
   {
    "team": "juvecaserta",
@@ -113,7 +113,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-17T09:42:59.032Z"
+   "checked": "2026-11-17T18:58:06.294Z"
   },
   {
    "team": "juvecaserta",
@@ -130,7 +130,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-17T09:42:59.909Z"
+   "checked": "2026-11-17T18:58:07.656Z"
   }
  ]
 }
