@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T09:00:24.612Z",
+ "updated": "2026-11-18T17:54:58.616Z",
  "matches": [
   {
    "team": "roma",
@@ -14,7 +14,7 @@
     },
     {
      "name": "Sky Sport",
-     "n": 5
+     "n": 4
     }
    ],
    "sources": [
@@ -28,25 +28,24 @@
      ]
     },
     {
+     "title": "Parma-Roma: pronostico, quote, probabili formazioni e dove vederla in TV",
+     "link": "https://www.spaziocalcio.it/calcio-italiano/serie-a/parma-roma-pronostico-quote-probabili-formazioni-e-dove-vederla-in-tv/",
+     "source": "spaziocalcio",
+     "channels": [
+      "DAZN"
+     ]
+    },
+    {
      "title": "Parma-Roma: probabili formazioni, biglietti, dove vederla in tv e streaming",
      "link": "https://www.ilromanista.eu/news/as-roma/174602/parma-roma-probabili-formazioni-biglietti-dove-vederla-in-tv-e-streaming",
      "source": "Il Romanista",
      "channels": [
       "DAZN"
      ]
-    },
-    {
-     "title": "Parma-Roma: probabili formazioni, info biglietti e dove vederla in tv e streaming",
-     "link": "https://pagineromaniste.com/parma-roma-probabili-formazioni-info-biglietti-e-dove-vederla-in-tv-e-streaming/",
-     "source": "Pagine Romaniste",
-     "channels": [
-      "DAZN",
-      "Sky Sport"
-     ]
     }
    ],
    "articles": 8,
-   "checked": "2026-11-18T09:00:33.081Z"
+   "checked": "2026-11-18T17:55:07.811Z"
   },
   {
    "team": "roma",
@@ -57,7 +56,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-18T09:00:34.266Z"
+   "checked": "2026-11-18T17:55:08.869Z"
   },
   {
    "team": "boca",
@@ -68,7 +67,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-18T09:00:35.283Z"
+   "checked": "2026-11-18T17:55:09.803Z"
   },
   {
    "team": "boca",
@@ -79,7 +78,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-18T09:00:36.187Z"
+   "checked": "2026-11-18T17:55:10.805Z"
   },
   {
    "team": "fortitudo",
@@ -89,14 +88,27 @@
    "away": "Fortitudo Pallacanestro Bologna",
    "channels": [
     {
+     "name": "Rai Sport",
+     "n": 1
+    },
+    {
      "name": "LNP Pass",
      "n": 0,
      "always": true
     }
    ],
-   "sources": [],
-   "articles": 0,
-   "checked": "2026-11-18T09:00:37.973Z"
+   "sources": [
+    {
+     "title": "Fortitudo Bologna, derby con Cento: Cavina punta al recupero degli infortunati. Ufficiale la data con Pesaro",
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOb19yeUlTbUQzT093Zk5NVmFTSHdOblZxYTZDaU51UFdCSVhybHpISTNBTXpwSklYbnp1MVNZYlpDZmtDZE9mODlfZWY5bktuY3pkWGhyaWdURlpMS3N4QjZMRVhtWXJ2anQ4UmwzV3VqemdxTnNrZU9sV2MzRXZwVlA1MkNPREpJTmVnSmpjNzRaSVAtZkttZEVDT08zczF5UGhfajlWbmt1dnNfQm9XS0JkckV0TXVPWkJuTk9uYXFFVFRPQ0VQVU5Zc3RVRmdCczU1ZzJLalM4TnZ4TXVQNjNLQkhJUU9LSWY3bXBzNHBfNG1rX21z?oc=5",
+     "source": "Vu Nere Bologna",
+     "channels": [
+      "Rai Sport"
+     ]
+    }
+   ],
+   "articles": 1,
+   "checked": "2026-11-18T17:55:15.017Z"
   },
   {
    "team": "juvecaserta",
@@ -113,7 +125,7 @@
    ],
    "sources": [],
    "articles": 1,
-   "checked": "2026-11-18T09:00:38.978Z"
+   "checked": "2026-11-18T17:55:16.021Z"
   },
   {
    "team": "juvecaserta",
@@ -130,7 +142,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-18T09:00:40.170Z"
+   "checked": "2026-11-18T17:55:16.892Z"
   }
  ]
 }
