@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T05:43:36.910Z",
+ "updated": "2026-11-19T15:11:06.787Z",
  "matches": [
   {
    "team": "roma",
@@ -10,11 +10,11 @@
    "channels": [
     {
      "name": "DAZN",
-     "n": 7
+     "n": 5
     },
     {
      "name": "Sky Sport",
-     "n": 5
+     "n": 3
     }
    ],
    "sources": [
@@ -28,24 +28,25 @@
      ]
     },
     {
-     "title": "Parma-Roma: pronostico, quote, probabili formazioni e dove vederla in TV",
-     "link": "https://www.spaziocalcio.it/calcio-italiano/serie-a/parma-roma-pronostico-quote-probabili-formazioni-e-dove-vederla-in-tv/",
-     "source": "spaziocalcio",
-     "channels": [
-      "DAZN"
-     ]
-    },
-    {
      "title": "Parma-Roma: probabili formazioni, biglietti, dove vederla in tv e streaming",
      "link": "https://www.ilromanista.eu/news/as-roma/174602/parma-roma-probabili-formazioni-biglietti-dove-vederla-in-tv-e-streaming",
      "source": "Il Romanista",
      "channels": [
       "DAZN"
      ]
+    },
+    {
+     "title": "Parma-Roma: probabili formazioni, info biglietti e dove vederla in tv e streaming",
+     "link": "https://pagineromaniste.com/parma-roma-probabili-formazioni-info-biglietti-e-dove-vederla-in-tv-e-streaming/",
+     "source": "Pagine Romaniste",
+     "channels": [
+      "DAZN",
+      "Sky Sport"
+     ]
     }
    ],
    "articles": 8,
-   "checked": "2026-11-19T05:43:42.761Z"
+   "checked": "2026-11-19T15:11:14.790Z"
   },
   {
    "team": "roma",
@@ -56,7 +57,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-19T05:43:43.794Z"
+   "checked": "2026-11-19T15:11:15.912Z"
   },
   {
    "team": "boca",
@@ -67,7 +68,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-19T05:43:44.633Z"
+   "checked": "2026-11-19T15:11:17.066Z"
   },
   {
    "team": "boca",
@@ -78,7 +79,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-19T05:43:45.473Z"
+   "checked": "2026-11-19T15:11:18.035Z"
   },
   {
    "team": "fortitudo",
@@ -95,7 +96,7 @@
    ],
    "sources": [],
    "articles": 1,
-   "checked": "2026-11-19T05:43:58.518Z"
+   "checked": "2026-11-19T15:11:19.384Z"
   },
   {
    "team": "juvecaserta",
@@ -112,7 +113,7 @@
    ],
    "sources": [],
    "articles": 1,
-   "checked": "2026-11-19T05:43:59.504Z"
+   "checked": "2026-11-19T15:11:20.579Z"
   },
   {
    "team": "juvecaserta",
@@ -129,7 +130,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-19T05:44:00.358Z"
+   "checked": "2026-11-19T15:11:21.552Z"
   }
  ]
 }
