@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T23:52:33.119Z",
+ "updated": "2026-11-19T05:43:36.910Z",
  "matches": [
   {
    "team": "roma",
@@ -45,7 +45,7 @@
     }
    ],
    "articles": 8,
-   "checked": "2026-11-18T23:52:40.522Z"
+   "checked": "2026-11-19T05:43:42.761Z"
   },
   {
    "team": "roma",
@@ -56,7 +56,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-18T23:52:41.823Z"
+   "checked": "2026-11-19T05:43:43.794Z"
   },
   {
    "team": "boca",
@@ -67,7 +67,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-18T23:52:42.809Z"
+   "checked": "2026-11-19T05:43:44.633Z"
   },
   {
    "team": "boca",
@@ -78,7 +78,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-18T23:52:43.733Z"
+   "checked": "2026-11-19T05:43:45.473Z"
   },
   {
    "team": "fortitudo",
@@ -88,27 +88,14 @@
    "away": "Fortitudo Pallacanestro Bologna",
    "channels": [
     {
-     "name": "Rai Sport",
-     "n": 1
-    },
-    {
      "name": "LNP Pass",
      "n": 0,
      "always": true
     }
    ],
-   "sources": [
-    {
-     "title": "Fortitudo Bologna, derby con Cento: Cavina punta al recupero degli infortunati. Ufficiale la data con Pesaro",
-     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOb19yeUlTbUQzT093Zk5NVmFTSHdOblZxYTZDaU51UFdCSVhybHpISTNBTXpwSklYbnp1MVNZYlpDZmtDZE9mODlfZWY5bktuY3pkWGhyaWdURlpMS3N4QjZMRVhtWXJ2anQ4UmwzV3VqemdxTnNrZU9sV2MzRXZwVlA1MkNPREpJTmVnSmpjNzRaSVAtZkttZEVDT08zczF5UGhfajlWbmt1dnNfQm9XS0JkckV0TXVPWkJuTk9uYXFFVFRPQ0VQVU5Zc3RVRmdCczU1ZzJLalM4TnZ4TXVQNjNLQkhJUU9LSWY3bXBzNHBfNG1rX21z?oc=5",
-     "source": "Vu Nere Bologna",
-     "channels": [
-      "Rai Sport"
-     ]
-    }
-   ],
+   "sources": [],
    "articles": 1,
-   "checked": "2026-11-18T23:52:47.743Z"
+   "checked": "2026-11-19T05:43:58.518Z"
   },
   {
    "team": "juvecaserta",
@@ -125,7 +112,7 @@
    ],
    "sources": [],
    "articles": 1,
-   "checked": "2026-11-18T23:52:48.735Z"
+   "checked": "2026-11-19T05:43:59.504Z"
   },
   {
    "team": "juvecaserta",
@@ -142,7 +129,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-18T23:52:49.625Z"
+   "checked": "2026-11-19T05:44:00.358Z"
   }
  ]
 }
