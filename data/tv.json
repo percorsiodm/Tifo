@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T12:29:57.465Z",
+ "updated": "2026-11-20T20:41:41.760Z",
  "matches": [
   {
    "team": "roma",
@@ -15,33 +15,32 @@
    ],
    "sources": [
     {
-     "title": "Parma-Roma, dove vedere la partita in TV e streaming: tutte le informazioni",
-     "link": "https://pagineromaniste.com/parma-roma-dove-vedere-la-partita-in-tv-e-streaming-tutte-le-informazioni/",
-     "source": "Pagine Romaniste",
-     "channels": [
-      "DAZN",
-      "Sky Sport"
-     ]
-    },
-    {
-     "title": "Parma-Roma: probabili formazioni, biglietti, dove vederla in tv e streaming",
-     "link": "https://www.ilromanista.eu/news/as-roma/174602/parma-roma-probabili-formazioni-biglietti-dove-vederla-in-tv-e-streaming",
-     "source": "Il Romanista",
+     "title": "Formazioni Parma-Roma: le ultime sulla partita e dove vederla in tv e streaming",
+     "link": "https://www.goal.com/it/notizie/formazioni-parma-roma-le-ultime-sulla-partita-e-dove-vederla-in-tv-e-streaming/blt39cfad558baa833e",
+     "source": "GOAL",
      "channels": [
       "DAZN"
      ]
     },
     {
-     "title": "Parma-Roma: pronostico, quote, probabili formazioni e dove vederla in TV",
-     "link": "https://www.spaziocalcio.it/calcio-italiano/serie-a/parma-roma-pronostico-quote-probabili-formazioni-e-dove-vederla-in-tv/",
-     "source": "spaziocalcio",
+     "title": "Parma-Roma: probabili formazioni, dove e come vedere il match del Tardini in televisione",
+     "link": "https://it.blastingnews.com/calcio/2026/11/parma-roma-probabili-formazioni-dove-e-come-vedere-il-match-del-tardini-in-televisione-004208649.html",
+     "source": "Blasting News",
+     "channels": [
+      "DAZN"
+     ]
+    },
+    {
+     "title": "Dove vedere Parma-Roma in TV e streaming: orario e diretta della 12&#170; giornata",
+     "link": "https://pagineromaniste.com/dove-vedere-parma-roma-in-tv-e-streaming-orario-e-diretta-della-12a-giornata/",
+     "source": "Pagine Romaniste",
      "channels": [
       "DAZN"
      ]
     }
    ],
    "articles": 8,
-   "checked": "2026-11-20T12:30:02.282Z"
+   "checked": "2026-11-20T20:41:47.258Z"
   },
   {
    "team": "roma",
@@ -52,7 +51,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-20T12:30:03.317Z"
+   "checked": "2026-11-20T20:41:48.576Z"
   },
   {
    "team": "boca",
@@ -62,8 +61,8 @@
    "away": "Boca ",
    "channels": [],
    "sources": [],
-   "articles": 0,
-   "checked": "2026-11-20T12:30:04.312Z"
+   "articles": 1,
+   "checked": "2026-11-20T20:41:50.047Z"
   },
   {
    "team": "boca",
@@ -74,7 +73,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-20T12:30:05.172Z"
+   "checked": "2026-11-20T20:41:50.935Z"
   },
   {
    "team": "fortitudo",
@@ -104,7 +103,7 @@
     }
    ],
    "articles": 1,
-   "checked": "2026-11-20T12:30:17.806Z"
+   "checked": "2026-11-20T20:41:55.894Z"
   },
   {
    "team": "fortitudo",
@@ -121,7 +120,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-20T12:30:18.735Z"
+   "checked": "2026-11-20T20:41:56.776Z"
   },
   {
    "team": "juvecaserta",
@@ -145,8 +144,8 @@
      ]
     }
    ],
-   "articles": 2,
-   "checked": "2026-11-20T12:30:20.676Z"
+   "articles": 3,
+   "checked": "2026-11-20T20:41:59.751Z"
   },
   {
    "team": "juvecaserta",
@@ -163,7 +162,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-20T12:30:21.682Z"
+   "checked": "2026-11-20T20:42:00.609Z"
   }
  ]
 }
