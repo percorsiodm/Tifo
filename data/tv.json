@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T03:53:28.543Z",
+ "updated": "2026-11-20T12:29:57.465Z",
  "matches": [
   {
    "team": "roma",
@@ -10,11 +10,7 @@
    "channels": [
     {
      "name": "DAZN",
-     "n": 5
-    },
-    {
-     "name": "Sky Sport",
-     "n": 2
+     "n": 4
     }
    ],
    "sources": [
@@ -36,17 +32,16 @@
      ]
     },
     {
-     "title": "Dove vedere Parma-Roma in diretta TV e in streaming",
-     "link": "https://www.vocegiallorossa.it/dove-vedere/vedere-parma-roma-diretta-tv-streaming-286647",
-     "source": "Voce Giallorossa",
+     "title": "Parma-Roma: pronostico, quote, probabili formazioni e dove vederla in TV",
+     "link": "https://www.spaziocalcio.it/calcio-italiano/serie-a/parma-roma-pronostico-quote-probabili-formazioni-e-dove-vederla-in-tv/",
+     "source": "spaziocalcio",
      "channels": [
-      "DAZN",
-      "Sky Sport"
+      "DAZN"
      ]
     }
    ],
    "articles": 8,
-   "checked": "2026-11-20T03:53:35.956Z"
+   "checked": "2026-11-20T12:30:02.282Z"
   },
   {
    "team": "roma",
@@ -57,7 +52,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-20T03:53:36.921Z"
+   "checked": "2026-11-20T12:30:03.317Z"
   },
   {
    "team": "boca",
@@ -68,7 +63,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-20T03:53:37.774Z"
+   "checked": "2026-11-20T12:30:04.312Z"
   },
   {
    "team": "boca",
@@ -79,7 +74,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-20T03:53:38.645Z"
+   "checked": "2026-11-20T12:30:05.172Z"
   },
   {
    "team": "fortitudo",
@@ -109,7 +104,7 @@
     }
    ],
    "articles": 1,
-   "checked": "2026-11-20T03:53:42.509Z"
+   "checked": "2026-11-20T12:30:17.806Z"
   },
   {
    "team": "fortitudo",
@@ -126,7 +121,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-20T03:53:43.414Z"
+   "checked": "2026-11-20T12:30:18.735Z"
   },
   {
    "team": "juvecaserta",
@@ -137,13 +132,21 @@
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 0,
-     "always": true
+     "n": 1
     }
    ],
-   "sources": [],
-   "articles": 1,
-   "checked": "2026-11-20T03:53:44.404Z"
+   "sources": [
+    {
+     "title": "Juvecaserta, doppia trasferta al Nord: prima Cividale, poi il recupero a Torino",
+     "link": "https://www.casertanews.it/sport/basket/juvecaserta-cividale-torino-doppia-trasferta.html",
+     "source": "CasertaNews",
+     "channels": [
+      "LNP Pass"
+     ]
+    }
+   ],
+   "articles": 2,
+   "checked": "2026-11-20T12:30:20.676Z"
   },
   {
    "team": "juvecaserta",
@@ -160,7 +163,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-20T03:53:45.289Z"
+   "checked": "2026-11-20T12:30:21.682Z"
   }
  ]
 }
