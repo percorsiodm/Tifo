@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T22:45:37.590Z",
+ "updated": "2026-11-20T03:53:28.543Z",
  "matches": [
   {
    "team": "roma",
@@ -10,30 +10,35 @@
    "channels": [
     {
      "name": "DAZN",
-     "n": 4
+     "n": 5
+    },
+    {
+     "name": "Sky Sport",
+     "n": 2
     }
    ],
    "sources": [
     {
-     "title": "Serie A, Parma-Roma: dove vedere la partita, probabili formazioni e quote",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdjVHOWVOTjZPWU5PRUVvdXBEaU9fc0VISTZORUV1SU5hSFZlV2dIOHI0clZZWEhmR2NZdVNNSWRGZHBsV2tjWjBKNG5PcUZBRmJsZkZrQUFVeWF1UUpRdVFfdlBFckdZejUwZ1RrdldoQmpLeTRiX0lGUTFkYXRSdUtnUzNwS0VnOWpVc0JxQjZHZ3MwLVZBQjdYQkY3cldSU3NQR0NTOEdKQ1NkYjZVNWlvcnNRMnFpT1hYbTB5cmw?oc=5",
-     "source": "Diretta",
+     "title": "Parma-Roma, dove vedere la partita in TV e streaming: tutte le informazioni",
+     "link": "https://pagineromaniste.com/parma-roma-dove-vedere-la-partita-in-tv-e-streaming-tutte-le-informazioni/",
+     "source": "Pagine Romaniste",
+     "channels": [
+      "DAZN",
+      "Sky Sport"
+     ]
+    },
+    {
+     "title": "Parma-Roma: probabili formazioni, biglietti, dove vederla in tv e streaming",
+     "link": "https://www.ilromanista.eu/news/as-roma/174602/parma-roma-probabili-formazioni-biglietti-dove-vederla-in-tv-e-streaming",
+     "source": "Il Romanista",
      "channels": [
       "DAZN"
      ]
     },
     {
-     "title": "Parma-Roma: pronostico, quote, probabili formazioni e dove vederla in TV",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNHliT0ZuMHJJaHVQbDhmbFpobFJWRHIzajVTTHdualp4Z1MwZm5XUTJ0dVFENGlyeUZYODUtNEFUZFAtV3BiUUp0SXQ2V21BcXJBakQ3SnBpVzZvRnljR0U3NUJEVGlnVVBFblZ2c2d6VDVzRlM3MEk4YzlvMTRHVjl5NGI1SElrdmtMbTFLc0FJMUtrc0pUVS16bVJPa3hKV3lfUmVnVzNnT1VwUlFRc3hFaDRSTHRSby1sdHBRNA?oc=5",
-     "source": "SpazioCalcio.it",
-     "channels": [
-      "DAZN"
-     ]
-    },
-    {
-     "title": "Parma-Roma: orario e dove vederla in TV e streaming",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNmNMUnR0ZDRrTUVremJxLWtJdGxLS0l4NkM2QkdnNURpN1BjeVFKRTAzdWpsM2NOeW8wbnc4My0wVkswYVlCVk5kZTJlenRGVlpUVTE0NGRGOEdnM2otQ0RxNUtQaEYwMWFwUnhLSDVuRldNb3psQVNYVGdaZTdMNTVuQWlXV2g2ZkF5VURyd29SYUxXb0tEY1lrdTRZVUlWeWFCWTRhQTdlSjMxNVoxZWxpeXNOb0pyd3NHaFZyQUktSXZBNFpz0gHMAUFVX3lxTE5aUElTNDFGbUdONmdJUlNVUDhNQkVkVXgxOGl3WFNRdzZBR3gyWXpSQ1R2dkRWQ3BkOUd2V1FjTDBxNlVMSU83LU12dzFGR0xFUm5NQkRHUmJBQTZGUU9qckZtS1JLS2pQRkRib21kVktHRVVPMnl6Wml6REV3M053eU0zMHNBckQ5aXJNZjdIZk5kQWY3NWV2RkVwaW45SERfMzBjZ0VHLWltNFlzTmpzcXp4NWVnSnd0RWptRS1TOTBVMkZjOEllV2ZtcA?oc=5",
-     "source": "Fantacalcio",
+     "title": "Dove vedere Parma-Roma in diretta TV e in streaming",
+     "link": "https://www.vocegiallorossa.it/dove-vedere/vedere-parma-roma-diretta-tv-streaming-286647",
+     "source": "Voce Giallorossa",
      "channels": [
       "DAZN",
       "Sky Sport"
@@ -41,7 +46,7 @@
     }
    ],
    "articles": 8,
-   "checked": "2026-11-19T22:45:50.173Z"
+   "checked": "2026-11-20T03:53:35.956Z"
   },
   {
    "team": "roma",
@@ -52,7 +57,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-19T22:45:51.308Z"
+   "checked": "2026-11-20T03:53:36.921Z"
   },
   {
    "team": "boca",
@@ -63,7 +68,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-19T22:45:52.623Z"
+   "checked": "2026-11-20T03:53:37.774Z"
   },
   {
    "team": "boca",
@@ -74,7 +79,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-19T22:45:53.587Z"
+   "checked": "2026-11-20T03:53:38.645Z"
   },
   {
    "team": "fortitudo",
@@ -104,7 +109,7 @@
     }
    ],
    "articles": 1,
-   "checked": "2026-11-19T22:45:58.003Z"
+   "checked": "2026-11-20T03:53:42.509Z"
   },
   {
    "team": "fortitudo",
@@ -121,7 +126,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-19T22:45:59.015Z"
+   "checked": "2026-11-20T03:53:43.414Z"
   },
   {
    "team": "juvecaserta",
@@ -138,7 +143,7 @@
    ],
    "sources": [],
    "articles": 1,
-   "checked": "2026-11-19T22:46:00.344Z"
+   "checked": "2026-11-20T03:53:44.404Z"
   },
   {
    "team": "juvecaserta",
@@ -155,7 +160,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-19T22:46:01.286Z"
+   "checked": "2026-11-20T03:53:45.289Z"
   }
  ]
 }
