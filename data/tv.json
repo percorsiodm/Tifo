@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T20:41:41.760Z",
+ "updated": "2026-11-21T01:59:25.270Z",
  "matches": [
   {
    "team": "roma",
@@ -10,18 +10,10 @@
    "channels": [
     {
      "name": "DAZN",
-     "n": 4
+     "n": 6
     }
    ],
    "sources": [
-    {
-     "title": "Formazioni Parma-Roma: le ultime sulla partita e dove vederla in tv e streaming",
-     "link": "https://www.goal.com/it/notizie/formazioni-parma-roma-le-ultime-sulla-partita-e-dove-vederla-in-tv-e-streaming/blt39cfad558baa833e",
-     "source": "GOAL",
-     "channels": [
-      "DAZN"
-     ]
-    },
     {
      "title": "Parma-Roma: probabili formazioni, dove e come vedere il match del Tardini in televisione",
      "link": "https://it.blastingnews.com/calcio/2026/11/parma-roma-probabili-formazioni-dove-e-come-vedere-il-match-del-tardini-in-televisione-004208649.html",
@@ -31,16 +23,24 @@
      ]
     },
     {
-     "title": "Dove vedere Parma-Roma in TV e streaming: orario e diretta della 12&#170; giornata",
-     "link": "https://pagineromaniste.com/dove-vedere-parma-roma-in-tv-e-streaming-orario-e-diretta-della-12a-giornata/",
-     "source": "Pagine Romaniste",
+     "title": "Formazioni Parma-Roma: le ultime sulla partita e dove vederla in tv e streaming",
+     "link": "https://www.goal.com/it/notizie/formazioni-parma-roma-le-ultime-sulla-partita-e-dove-vederla-in-tv-e-streaming/blt39cfad558baa833e",
+     "source": "GOAL",
+     "channels": [
+      "DAZN"
+     ]
+    },
+    {
+     "title": "PARMA-ROMA | Le ultime sulle formazioni, il probabile risultato e dove vederla in TV",
+     "link": "https://www.giallorossi.net/parma-roma-le-ultime-sulle-formazioni-il-probabile-risultato-e-dove-vederla-in-tv-2/",
+     "source": "Giallorossi.net",
      "channels": [
       "DAZN"
      ]
     }
    ],
    "articles": 8,
-   "checked": "2026-11-20T20:41:47.258Z"
+   "checked": "2026-11-21T01:59:32.217Z"
   },
   {
    "team": "roma",
@@ -51,7 +51,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-20T20:41:48.576Z"
+   "checked": "2026-11-21T01:59:33.428Z"
   },
   {
    "team": "boca",
@@ -62,7 +62,7 @@
    "channels": [],
    "sources": [],
    "articles": 1,
-   "checked": "2026-11-20T20:41:50.047Z"
+   "checked": "2026-11-21T01:59:35.308Z"
   },
   {
    "team": "boca",
@@ -73,7 +73,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-20T20:41:50.935Z"
+   "checked": "2026-11-21T01:59:36.177Z"
   },
   {
    "team": "fortitudo",
@@ -103,7 +103,7 @@
     }
    ],
    "articles": 1,
-   "checked": "2026-11-20T20:41:55.894Z"
+   "checked": "2026-11-21T01:59:43.749Z"
   },
   {
    "team": "fortitudo",
@@ -120,7 +120,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-20T20:41:56.776Z"
+   "checked": "2026-11-21T01:59:44.665Z"
   },
   {
    "team": "juvecaserta",
@@ -145,7 +145,7 @@
     }
    ],
    "articles": 3,
-   "checked": "2026-11-20T20:41:59.751Z"
+   "checked": "2026-11-21T01:59:47.239Z"
   },
   {
    "team": "juvecaserta",
@@ -156,13 +156,21 @@
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 0,
-     "always": true
+     "n": 1
     }
    ],
-   "sources": [],
-   "articles": 0,
-   "checked": "2026-11-20T20:42:00.609Z"
+   "sources": [
+    {
+     "title": "Juvecaserta, doppia trasferta al Nord: Cividale e Torino, per il rilancio in Serie A2",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNX0E5ekhiN3FYUTI0ckVDY0xDZ0cyWVljQ0o1TzJmTGY5ekxhRHJYMlRwVVQtWVJ3TXBSZnlhQUYxS2tCYXBldkdTNmdJVTE3OFJZS2N3ZlpGY0d5T2Y3eWRPNFVjUVVhYlJ6QWVqWHhrQ3RzdlhYTFp4V29TZy1MRk1uSUlOQ3JxR0hGNGI0MFNoX3ZR?oc=5",
+     "source": "Caserta Web",
+     "channels": [
+      "LNP Pass"
+     ]
+    }
+   ],
+   "articles": 1,
+   "checked": "2026-11-21T01:59:50.404Z"
   }
  ]
 }
