@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T20:45:08.871Z",
+ "updated": "2026-11-21T21:59:51.420Z",
  "season": "2026-2027",
  "teams": {
   "fortitudo": {
@@ -735,15 +735,16 @@
      "date": "2026-11-21T19:00:00.000Z",
      "round": "11",
      "league": "Italian Serie A2",
-     "status": "NS",
+     "status": "FT",
      "homeId": "148268",
      "awayId": "137311",
      "home": "Cividale",
      "away": "JuveCaserta Basket",
-     "homeScore": "",
-     "awayScore": "",
+     "homeScore": "78",
+     "awayScore": "72",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/fvsb7v1713952616.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "stats": []
     },
     {
      "id": "2584851",
