@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T09:18:26.450Z",
+ "updated": "2026-11-21T16:56:38.162Z",
  "matches": [
   {
    "team": "roma",
@@ -14,37 +14,44 @@
     },
     {
      "name": "Sky Sport",
+     "n": 3
+    },
+    {
+     "name": "NOW",
      "n": 2
     }
    ],
    "sources": [
     {
-     "title": "Parma-Roma come e dove vederla: Sky o DAZN? Canale tv, diretta streaming e orario",
-     "link": "https://www.virgilio.it/sport/dove-vedere-parma-roma-sky-o-dazn-2638240",
-     "source": "Virgilio",
-     "channels": [
-      "DAZN"
-     ]
-    },
-    {
-     "title": "Parma-Roma: probabili formazioni, dove e come vedere il match del Tardini in televisione",
-     "link": "https://it.blastingnews.com/calcio/2026/11/parma-roma-probabili-formazioni-dove-e-come-vedere-il-match-del-tardini-in-televisione-004208649.html",
-     "source": "Blasting News",
-     "channels": [
-      "DAZN"
-     ]
-    },
-    {
-     "title": "Formazioni Parma-Roma: le ultime sulla partita e dove vederla in tv e streaming",
+     "title": "Formazioni ufficiali Parma-Roma: le ultime sulla partita e dove vederla in tv e streaming",
      "link": "https://www.goal.com/it/notizie/formazioni-parma-roma-le-ultime-sulla-partita-e-dove-vederla-in-tv-e-streaming/blt39cfad558baa833e",
      "source": "GOAL",
      "channels": [
       "DAZN"
      ]
+    },
+    {
+     "title": "Parma-Roma, dove vedere la partita in tv e diretta streaming: orario e probabili formazioni",
+     "link": "https://www.dazn.com/it-IT/news/calcio/parma-roma-2026-dove-vedere-diretta-streaming-orario-probabili-formazioni/skijnzgj279h18k3qqt6dph24",
+     "source": "DAZN",
+     "channels": [
+      "DAZN"
+     ]
+    },
+    {
+     "title": "PARMA-ROMA. Probabili formazioni, quote, statistiche e dove vederla…",
+     "link": "https://www.rivistalaroma.it/2026/11/parma-roma-probabili-formazioni-quote-statistiche-e-dove-vederla/",
+     "source": "rivistalaroma",
+     "channels": [
+      "DAZN",
+      "Eurosport",
+      "Sky Sport",
+      "NOW"
+     ]
     }
    ],
    "articles": 8,
-   "checked": "2026-11-21T09:18:32.644Z"
+   "checked": "2026-11-21T16:56:42.568Z"
   },
   {
    "team": "roma",
@@ -55,7 +62,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-21T09:18:33.935Z"
+   "checked": "2026-11-21T16:56:43.444Z"
   },
   {
    "team": "boca",
@@ -65,8 +72,8 @@
    "away": "Boca ",
    "channels": [],
    "sources": [],
-   "articles": 1,
-   "checked": "2026-11-21T09:18:35.943Z"
+   "articles": 0,
+   "checked": "2026-11-21T16:56:44.450Z"
   },
   {
    "team": "boca",
@@ -77,7 +84,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-21T09:18:36.894Z"
+   "checked": "2026-11-21T16:56:45.232Z"
   },
   {
    "team": "fortitudo",
@@ -107,7 +114,7 @@
     }
    ],
    "articles": 1,
-   "checked": "2026-11-21T09:18:41.378Z"
+   "checked": "2026-11-21T16:56:56.290Z"
   },
   {
    "team": "fortitudo",
@@ -124,7 +131,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-21T09:18:42.285Z"
+   "checked": "2026-11-21T16:56:57.165Z"
   },
   {
    "team": "juvecaserta",
@@ -135,7 +142,7 @@
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 2
+     "n": 3
     }
    ],
    "sources": [
@@ -154,10 +161,20 @@
      "channels": [
       "LNP Pass"
      ]
+    },
+    {
+     "title": "UEB Cividale-Juvecaserta: dove vedere la partita in tv e streaming | Basket Serie A2",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWDItUFdXeVhxMXRZLXN5Z18wVTdlLS1JbHNVOWhrUWp0Nk92N0JrU3VBWGU5U1k3UWtnUmwwREE1OEl3RDVPUHg4VFlNb21GQjVyUVJmVDdLbTNxampGNWZ2TW5RUUZhZy1WTEVONzBHQjY1Y0piMjdPNXl4eXVHQWEtXzFHYXJYZ0xLbklMSk9ZaW55RHN0MmJKNVl0Tk4tdFJjRVMxNVBVY0lEWGpfemNBQnZxNVp6MThWcTFLOVhLbXlLZ1BBRl9CRll2US1mQ0JYMWhR?oc=5",
+     "source": "Vu Nere Bologna",
+     "channels": [
+      "LNP Pass",
+      "Rai Sport",
+      "RaiPlay"
+     ]
     }
    ],
-   "articles": 4,
-   "checked": "2026-11-21T09:18:45.343Z"
+   "articles": 5,
+   "checked": "2026-11-21T16:57:06.344Z"
   },
   {
    "team": "juvecaserta",
@@ -174,7 +191,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-21T09:18:46.346Z"
+   "checked": "2026-11-21T16:57:07.352Z"
   }
  ]
 }
