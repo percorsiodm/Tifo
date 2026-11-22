@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T02:05:03.700Z",
+ "updated": "2026-11-22T10:05:37.840Z",
  "matches": [
   {
    "team": "roma",
@@ -10,7 +10,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-22T02:05:05.715Z"
+   "checked": "2026-11-22T10:05:39.101Z"
   },
   {
    "team": "roma",
@@ -21,7 +21,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-22T02:05:06.905Z"
+   "checked": "2026-11-22T10:05:40.254Z"
   },
   {
    "team": "boca",
@@ -32,7 +32,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-22T02:05:07.950Z"
+   "checked": "2026-11-22T10:05:41.177Z"
   },
   {
    "team": "fortitudo",
@@ -62,7 +62,7 @@
     }
    ],
    "articles": 2,
-   "checked": "2026-11-22T02:05:17.085Z"
+   "checked": "2026-11-22T10:05:45.332Z"
   },
   {
    "team": "fortitudo",
@@ -79,7 +79,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-22T02:05:18.185Z"
+   "checked": "2026-11-22T10:05:46.076Z"
   },
   {
    "team": "juvecaserta",
@@ -90,21 +90,13 @@
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 1
+     "n": 0,
+     "always": true
     }
    ],
-   "sources": [
-    {
-     "title": "Juvecaserta, doppia trasferta al Nord: Cividale e Torino, per il rilancio in Serie A2",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNX0E5ekhiN3FYUTI0ckVDY0xDZ0cyWVljQ0o1TzJmTGY5ekxhRHJYMlRwVVQtWVJ3TXBSZnlhQUYxS2tCYXBldkdTNmdJVTE3OFJZS2N3ZlpGY0d5T2Y3eWRPNFVjUVVhYlJ6QWVqWHhrQ3RzdlhYTFp4V29TZy1MRk1uSUlOQ3JxR0hGNGI0MFNoX3ZR?oc=5",
-     "source": "Caserta Web",
-     "channels": [
-      "LNP Pass"
-     ]
-    }
-   ],
-   "articles": 1,
-   "checked": "2026-11-22T02:05:21.799Z"
+   "sources": [],
+   "articles": 0,
+   "checked": "2026-11-22T10:05:46.912Z"
   },
   {
    "team": "juvecaserta",
@@ -121,7 +113,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-22T02:05:22.768Z"
+   "checked": "2026-11-22T10:05:47.791Z"
   }
  ]
 }
