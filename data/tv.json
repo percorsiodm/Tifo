@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:00:09.173Z",
+ "updated": "2026-11-22T23:23:46.819Z",
  "matches": [
   {
    "team": "roma",
@@ -10,7 +10,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-22T18:00:10.527Z"
+   "checked": "2026-11-22T23:23:48.107Z"
   },
   {
    "team": "roma",
@@ -21,7 +21,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-22T18:00:11.573Z"
+   "checked": "2026-11-22T23:23:49.187Z"
   },
   {
    "team": "boca",
@@ -32,7 +32,18 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-22T18:00:12.509Z"
+   "checked": "2026-11-22T23:23:50.290Z"
+  },
+  {
+   "team": "boca",
+   "id": "401932277",
+   "date": "2026-12-02T20:00Z",
+   "home": "Boca ",
+   "away": "Platense",
+   "channels": [],
+   "sources": [],
+   "articles": 0,
+   "checked": "2026-11-22T23:23:51.226Z"
   },
   {
    "team": "fortitudo",
@@ -49,7 +60,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-22T18:00:13.458Z"
+   "checked": "2026-11-22T23:23:52.087Z"
   },
   {
    "team": "juvecaserta",
@@ -60,13 +71,21 @@
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 0,
-     "always": true
+     "n": 1
     }
    ],
-   "sources": [],
-   "articles": 0,
-   "checked": "2026-11-22T18:00:14.337Z"
+   "sources": [
+    {
+     "title": "Juvecaserta, doppia trasferta al Nord: prima Cividale, poi il recupero a Torino",
+     "link": "https://www.casertanews.it/sport/basket/juvecaserta-cividale-torino-doppia-trasferta.html",
+     "source": "CasertaNews",
+     "channels": [
+      "LNP Pass"
+     ]
+    }
+   ],
+   "articles": 1,
+   "checked": "2026-11-22T23:23:54.867Z"
   },
   {
    "team": "juvecaserta",
@@ -83,7 +102,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-22T18:00:15.133Z"
+   "checked": "2026-11-22T23:23:55.749Z"
   }
  ]
 }
