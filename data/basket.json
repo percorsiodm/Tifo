@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T21:59:51.420Z",
+ "updated": "2026-11-22T17:57:25.096Z",
  "season": "2026-2027",
  "teams": {
   "fortitudo": {
@@ -167,15 +167,16 @@
      "date": "2026-11-22T17:00:00.000Z",
      "round": "11",
      "league": "Italian Serie A2",
-     "status": "NS",
+     "status": "Q1",
      "homeId": "148269",
      "awayId": "137319",
      "home": "Cento",
      "away": "Fortitudo Pallacanestro Bologna",
-     "homeScore": "",
-     "awayScore": "",
+     "homeScore": "24",
+     "awayScore": "13",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/dgtrfo1713952754.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
+     "stats": []
     },
     {
      "id": "2584912",
