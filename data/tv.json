@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T22:02:35.507Z",
+ "updated": "2026-11-22T02:05:03.700Z",
  "matches": [
   {
    "team": "roma",
@@ -10,7 +10,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-21T22:02:36.827Z"
+   "checked": "2026-11-22T02:05:05.715Z"
   },
   {
    "team": "roma",
@@ -21,18 +21,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-21T22:02:38.054Z"
-  },
-  {
-   "team": "boca",
-   "id": "401913961",
-   "date": "2026-11-21T22:30Z",
-   "home": "Atlético-MG",
-   "away": "Boca ",
-   "channels": [],
-   "sources": [],
-   "articles": 0,
-   "checked": "2026-11-21T22:02:39.008Z"
+   "checked": "2026-11-22T02:05:06.905Z"
   },
   {
    "team": "boca",
@@ -43,7 +32,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-21T22:02:39.882Z"
+   "checked": "2026-11-22T02:05:07.950Z"
   },
   {
    "team": "fortitudo",
@@ -73,7 +62,7 @@
     }
    ],
    "articles": 2,
-   "checked": "2026-11-21T22:02:48.886Z"
+   "checked": "2026-11-22T02:05:17.085Z"
   },
   {
    "team": "fortitudo",
@@ -90,7 +79,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-21T22:02:49.732Z"
+   "checked": "2026-11-22T02:05:18.185Z"
   },
   {
    "team": "juvecaserta",
@@ -101,13 +90,21 @@
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 0,
-     "always": true
+     "n": 1
     }
    ],
-   "sources": [],
-   "articles": 0,
-   "checked": "2026-11-21T22:02:50.787Z"
+   "sources": [
+    {
+     "title": "Juvecaserta, doppia trasferta al Nord: Cividale e Torino, per il rilancio in Serie A2",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNX0E5ekhiN3FYUTI0ckVDY0xDZ0cyWVljQ0o1TzJmTGY5ekxhRHJYMlRwVVQtWVJ3TXBSZnlhQUYxS2tCYXBldkdTNmdJVTE3OFJZS2N3ZlpGY0d5T2Y3eWRPNFVjUVVhYlJ6QWVqWHhrQ3RzdlhYTFp4V29TZy1MRk1uSUlOQ3JxR0hGNGI0MFNoX3ZR?oc=5",
+     "source": "Caserta Web",
+     "channels": [
+      "LNP Pass"
+     ]
+    }
+   ],
+   "articles": 1,
+   "checked": "2026-11-22T02:05:21.799Z"
   },
   {
    "team": "juvecaserta",
@@ -124,7 +121,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-21T22:02:51.672Z"
+   "checked": "2026-11-22T02:05:22.768Z"
   }
  ]
 }
