@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:00:52.826Z",
+ "updated": "2026-11-24T01:33:28.877Z",
  "matches": [
   {
    "team": "roma",
@@ -10,7 +10,7 @@
    "channels": [],
    "sources": [],
    "articles": 1,
-   "checked": "2026-11-23T14:00:54.351Z"
+   "checked": "2026-11-24T01:33:31.607Z"
   },
   {
    "team": "roma",
@@ -20,8 +20,8 @@
    "away": "Monza",
    "channels": [],
    "sources": [],
-   "articles": 1,
-   "checked": "2026-11-23T14:00:56.526Z"
+   "articles": 0,
+   "checked": "2026-11-24T01:33:32.864Z"
   },
   {
    "team": "boca",
@@ -32,7 +32,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-23T14:00:57.484Z"
+   "checked": "2026-11-24T01:33:34.045Z"
   },
   {
    "team": "boca",
@@ -43,7 +43,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-23T14:00:58.424Z"
+   "checked": "2026-11-24T01:33:34.899Z"
   },
   {
    "team": "fortitudo",
@@ -60,7 +60,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-23T14:00:59.355Z"
+   "checked": "2026-11-24T01:33:35.745Z"
   },
   {
    "team": "juvecaserta",
@@ -70,22 +70,40 @@
    "away": "JuveCaserta Basket",
    "channels": [
     {
-     "name": "LNP Pass",
+     "name": "Rai Sport",
+     "n": 2
+    },
+    {
+     "name": "RaiPlay",
      "n": 1
+    },
+    {
+     "name": "LNP Pass",
+     "n": 0,
+     "always": true
     }
    ],
    "sources": [
     {
-     "title": "Juvecaserta, doppia trasferta al Nord: prima Cividale, poi il recupero a Torino",
-     "link": "https://www.casertanews.it/sport/basket/juvecaserta-cividale-torino-doppia-trasferta.html",
-     "source": "CasertaNews",
+     "title": "Juvecaserta a Torino, su RaiSport l’ora del riscatto bianconero",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYzBTOXZET0JFZTZQWDZEdllsWXItUXE0cmRDNlZWU1ZNaEpxdDR0T3M2VTcxQS1tMmRleWJJNHQ0T0RBU3ZzXzZSWGFSeS16VHVBWE5ibUowVzh1LW9EYUE0NVBQbEp5Y05fUE13NkF6ZXB2bE4xMTZja3dPMmhFeXE4cjVHb0hHUEtpQXNhelE?oc=5",
+     "source": "Ondaweb TV",
      "channels": [
-      "LNP Pass"
+      "Rai Sport"
+     ]
+    },
+    {
+     "title": "Serie A2 Old Wild West: la preview del recupero tra Reale Mutua Torino e ProValue Juvecaserta 2021",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRWk1cEN3aTJuZEdoLW1ZaDRFeW9XWjlZZ3FxLXNTQTlGNlJpRGhua1RKV0ttQVVoeUo4dTdBcWtESU5IYWJpVzNoRjZRdVl4dHAzZzVFX1VQbzJCaDA3V2hrYVpMQkxVT0p5N2YwQ0otZVJhZmh0bDlPWVlySFNxS1RFRHB5ZWNwaTNXT2x2alpyWi1nYVNxdGp3VERJWUMxVV9rTXV1cjdwZWVPbl9QaXVQTnByNHZMOW9VYUtwX2FxWWZrMGc?oc=5",
+     "source": "Sportando",
+     "channels": [
+      "Rai Sport",
+      "RaiPlay"
      ]
     }
    ],
-   "articles": 1,
-   "checked": "2026-11-23T14:01:01.833Z"
+   "articles": 2,
+   "checked": "2026-11-24T01:33:37.635Z"
   },
   {
    "team": "juvecaserta",
@@ -102,7 +120,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-23T14:01:02.656Z"
+   "checked": "2026-11-24T01:33:38.510Z"
   }
  ]
 }
