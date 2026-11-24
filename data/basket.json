@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T23:21:02.733Z",
+ "updated": "2026-11-24T21:56:41.859Z",
  "season": "2026-2027",
  "teams": {
   "fortitudo": {
@@ -752,15 +752,16 @@
      "date": "2026-11-24T19:30:00.000Z",
      "round": "5",
      "league": "Italian Serie A2",
-     "status": "NS",
+     "status": "FT",
      "homeId": "147792",
      "awayId": "137311",
      "home": "Basket Torino",
      "away": "JuveCaserta Basket",
-     "homeScore": "",
-     "awayScore": "",
+     "homeScore": "72",
+     "awayScore": "66",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/i1fu6t1696586345.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
+     "stats": []
     },
     {
      "id": "2589679",

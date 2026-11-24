@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T11:59:16.449Z",
+ "updated": "2026-11-24T21:59:25.979Z",
  "matches": [
   {
    "team": "roma",
@@ -9,8 +9,8 @@
    "away": "AS Roma",
    "channels": [],
    "sources": [],
-   "articles": 1,
-   "checked": "2026-11-24T11:59:19.102Z"
+   "articles": 2,
+   "checked": "2026-11-24T21:59:27.980Z"
   },
   {
    "team": "roma",
@@ -21,7 +21,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-24T11:59:20.292Z"
+   "checked": "2026-11-24T21:59:29.491Z"
   },
   {
    "team": "boca",
@@ -32,7 +32,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-24T11:59:21.996Z"
+   "checked": "2026-11-24T21:59:30.430Z"
   },
   {
    "team": "boca",
@@ -43,7 +43,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-24T11:59:22.886Z"
+   "checked": "2026-11-24T21:59:31.263Z"
   },
   {
    "team": "fortitudo",
@@ -60,59 +60,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-24T11:59:23.926Z"
-  },
-  {
-   "team": "juvecaserta",
-   "id": "2584851",
-   "date": "2026-11-24T19:30:00.000Z",
-   "home": "Basket Torino",
-   "away": "JuveCaserta Basket",
-   "channels": [
-    {
-     "name": "Rai Sport",
-     "n": 3
-    },
-    {
-     "name": "RaiPlay",
-     "n": 2
-    },
-    {
-     "name": "LNP Pass",
-     "n": 0,
-     "always": true
-    }
-   ],
-   "sources": [
-    {
-     "title": "La Serie A2 su RaiSport HD: stasera diretta di Reale Mutua Torino-ProValue Juvecaserta. Alle 20:30. Anche su Rai Play",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZTd1bnN5OXNuVWVNM3BLMWZDU1NOVmdoNDNaeUZpRVpJR1JNU0hHSEtGcGtVbEI1NnA4RXVkYVAwS0Z1bi1rcGs1cWcyUGZsNEJIVndaNURySWl1dVBfN00wMGRBXzhfbGV4enRRQktkQUgtLW50NHg0TlRvQTZhanF5b2RuM0ZCUHlWQWs5M1JJSktFS1BuMVRhWkR3OVBjeVR4eEx2WWlsbU4yWkxRWGw4LXNBdU8tSFp1MGNzMW83V0RjbWlkdw?oc=5",
-     "source": "Lega Nazionale Pallacanestro",
-     "channels": [
-      "Rai Sport",
-      "RaiPlay"
-     ]
-    },
-    {
-     "title": "Juvecaserta a Torino, su RaiSport l’ora del riscatto bianconero",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYzBTOXZET0JFZTZQWDZEdllsWXItUXE0cmRDNlZWU1ZNaEpxdDR0T3M2VTcxQS1tMmRleWJJNHQ0T0RBU3ZzXzZSWGFSeS16VHVBWE5ibUowVzh1LW9EYUE0NVBQbEp5Y05fUE13NkF6ZXB2bE4xMTZja3dPMmhFeXE4cjVHb0hHUEtpQXNhelE?oc=5",
-     "source": "Ondaweb TV",
-     "channels": [
-      "Rai Sport"
-     ]
-    },
-    {
-     "title": "Serie A2 Old Wild West: la preview del recupero tra Reale Mutua Torino e ProValue Juvecaserta 2021",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRWk1cEN3aTJuZEdoLW1ZaDRFeW9XWjlZZ3FxLXNTQTlGNlJpRGhua1RKV0ttQVVoeUo4dTdBcWtESU5IYWJpVzNoRjZRdVl4dHAzZzVFX1VQbzJCaDA3V2hrYVpMQkxVT0p5N2YwQ0otZVJhZmh0bDlPWVlySFNxS1RFRHB5ZWNwaTNXT2x2alpyWi1nYVNxdGp3VERJWUMxVV9rTXV1cjdwZWVPbl9QaXVQTnByNHZMOW9VYUtwX2FxWWZrMGc?oc=5",
-     "source": "Sportando",
-     "channels": [
-      "Rai Sport",
-      "RaiPlay"
-     ]
-    }
-   ],
-   "articles": 3,
-   "checked": "2026-11-24T11:59:27.311Z"
+   "checked": "2026-11-24T21:59:32.086Z"
   },
   {
    "team": "juvecaserta",
@@ -129,7 +77,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-24T11:59:28.238Z"
+   "checked": "2026-11-24T21:59:32.918Z"
   }
  ]
 }
