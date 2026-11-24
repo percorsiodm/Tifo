@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T01:33:28.877Z",
+ "updated": "2026-11-24T11:59:16.449Z",
  "matches": [
   {
    "team": "roma",
@@ -10,7 +10,7 @@
    "channels": [],
    "sources": [],
    "articles": 1,
-   "checked": "2026-11-24T01:33:31.607Z"
+   "checked": "2026-11-24T11:59:19.102Z"
   },
   {
    "team": "roma",
@@ -21,7 +21,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-24T01:33:32.864Z"
+   "checked": "2026-11-24T11:59:20.292Z"
   },
   {
    "team": "boca",
@@ -32,7 +32,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-24T01:33:34.045Z"
+   "checked": "2026-11-24T11:59:21.996Z"
   },
   {
    "team": "boca",
@@ -43,7 +43,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-24T01:33:34.899Z"
+   "checked": "2026-11-24T11:59:22.886Z"
   },
   {
    "team": "fortitudo",
@@ -60,7 +60,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-24T01:33:35.745Z"
+   "checked": "2026-11-24T11:59:23.926Z"
   },
   {
    "team": "juvecaserta",
@@ -71,11 +71,11 @@
    "channels": [
     {
      "name": "Rai Sport",
-     "n": 2
+     "n": 3
     },
     {
      "name": "RaiPlay",
-     "n": 1
+     "n": 2
     },
     {
      "name": "LNP Pass",
@@ -84,6 +84,15 @@
     }
    ],
    "sources": [
+    {
+     "title": "La Serie A2 su RaiSport HD: stasera diretta di Reale Mutua Torino-ProValue Juvecaserta. Alle 20:30. Anche su Rai Play",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZTd1bnN5OXNuVWVNM3BLMWZDU1NOVmdoNDNaeUZpRVpJR1JNU0hHSEtGcGtVbEI1NnA4RXVkYVAwS0Z1bi1rcGs1cWcyUGZsNEJIVndaNURySWl1dVBfN00wMGRBXzhfbGV4enRRQktkQUgtLW50NHg0TlRvQTZhanF5b2RuM0ZCUHlWQWs5M1JJSktFS1BuMVRhWkR3OVBjeVR4eEx2WWlsbU4yWkxRWGw4LXNBdU8tSFp1MGNzMW83V0RjbWlkdw?oc=5",
+     "source": "Lega Nazionale Pallacanestro",
+     "channels": [
+      "Rai Sport",
+      "RaiPlay"
+     ]
+    },
     {
      "title": "Juvecaserta a Torino, su RaiSport l’ora del riscatto bianconero",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYzBTOXZET0JFZTZQWDZEdllsWXItUXE0cmRDNlZWU1ZNaEpxdDR0T3M2VTcxQS1tMmRleWJJNHQ0T0RBU3ZzXzZSWGFSeS16VHVBWE5ibUowVzh1LW9EYUE0NVBQbEp5Y05fUE13NkF6ZXB2bE4xMTZja3dPMmhFeXE4cjVHb0hHUEtpQXNhelE?oc=5",
@@ -102,8 +111,8 @@
      ]
     }
    ],
-   "articles": 2,
-   "checked": "2026-11-24T01:33:37.635Z"
+   "articles": 3,
+   "checked": "2026-11-24T11:59:27.311Z"
   },
   {
    "team": "juvecaserta",
@@ -120,7 +129,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-24T01:33:38.510Z"
+   "checked": "2026-11-24T11:59:28.238Z"
   }
  ]
 }
