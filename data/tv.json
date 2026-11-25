@@ -1,31 +1,6 @@
 {
- "updated": "2026-11-25T15:18:39.727Z",
+ "updated": "2026-11-25T23:45:39.367Z",
  "matches": [
-  {
-   "team": "roma",
-   "id": "401915374",
-   "date": "2026-11-25T20:00Z",
-   "home": "PSG",
-   "away": "AS Roma",
-   "channels": [
-    {
-     "name": "Prime Video",
-     "n": 1
-    }
-   ],
-   "sources": [
-    {
-     "title": "Paris Saint-Germain-Roma, dove vederla in diretta tv e streaming, probabili formazioni",
-     "link": "https://www.repubblica.it/sport/calcio/champions/2026/11/25/news/paris_saint-germain-roma_dove_vedere_tv_probabili_formazioni-425747205/",
-     "source": "la Repubblica",
-     "channels": [
-      "Prime Video"
-     ]
-    }
-   ],
-   "articles": 5,
-   "checked": "2026-11-25T15:18:45.747Z"
-  },
   {
    "team": "roma",
    "id": "401874769",
@@ -54,7 +29,18 @@
     }
    ],
    "articles": 1,
-   "checked": "2026-11-25T15:18:48.213Z"
+   "checked": "2026-11-25T23:45:41.472Z"
+  },
+  {
+   "team": "roma",
+   "id": "401874984",
+   "date": "2026-12-04T19:45Z",
+   "home": "Bologna",
+   "away": "AS Roma",
+   "channels": [],
+   "sources": [],
+   "articles": 0,
+   "checked": "2026-11-25T23:45:42.666Z"
   },
   {
    "team": "boca",
@@ -62,40 +48,21 @@
    "date": "2026-11-26T00:00Z",
    "home": "Boca ",
    "away": "Ind. Rivadavia",
-   "channels": [
-    {
-     "name": "Sportitalia",
-     "n": 1
-    },
-    {
-     "name": "ComoTV",
-     "n": 1
-    }
-   ],
-   "sources": [
-    {
-     "title": "Boca Juniors-Independiente Rivadavia in diretta oggi: dove vederla in TV e streaming",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbG8wdjdtMXJmOWV6WnhqVGgwNTNKZk1kbXdIWXhCdkFpX0k0VksxdEFoY0w0ZE5GQ3RxQzNabE4yRFpXSjlaZGVNVTBVdzNRX0Z1MTFZTXQyZVNqV1J0Ry1sbTJTYWVBb09DOHl4em1lUV9NZnd4dG93X1IwUUdJUGk5RmIwNlNiSkp1bDVKU054dnZvUlhEMVFvZThieER0cjNDd29tUUFLSWxmeWhUNE00OGVUZHI2akpYUUhnY0dxTjF4Z1prNEZ1cE9nRjVy?oc=5",
-     "source": "Goal.com",
-     "channels": [
-      "Sportitalia",
-      "ComoTV"
-     ]
-    }
-   ],
-   "articles": 1,
-   "checked": "2026-11-25T15:18:51.190Z"
+   "channels": [],
+   "sources": [],
+   "articles": 2,
+   "checked": "2026-11-25T23:45:46.567Z"
   },
   {
    "team": "boca",
    "id": "401932277",
-   "date": "2026-12-02T20:00Z",
+   "date": "2026-12-02T23:00Z",
    "home": "Boca ",
    "away": "Platense",
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-25T15:18:52.218Z"
+   "checked": "2026-11-25T23:45:47.578Z"
   },
   {
    "team": "fortitudo",
@@ -112,7 +79,24 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-25T15:18:53.273Z"
+   "checked": "2026-11-25T23:45:48.432Z"
+  },
+  {
+   "team": "fortitudo",
+   "id": "2584924",
+   "date": "2026-12-05T19:00:00.000Z",
+   "home": "Avellino Basket",
+   "away": "Fortitudo Pallacanestro Bologna",
+   "channels": [
+    {
+     "name": "LNP Pass",
+     "n": 0,
+     "always": true
+    }
+   ],
+   "sources": [],
+   "articles": 0,
+   "checked": "2026-11-25T23:45:49.329Z"
   },
   {
    "team": "juvecaserta",
@@ -129,7 +113,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-25T15:18:54.385Z"
+   "checked": "2026-11-25T23:45:50.237Z"
   }
  ]
 }
