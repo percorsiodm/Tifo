@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T21:56:41.859Z",
+ "updated": "2026-11-25T04:47:13.896Z",
  "season": "2026-2027",
  "teams": {
   "fortitudo": {
@@ -95,8 +95,7 @@
      "homeScore": "85",
      "awayScore": "93",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/t2y2wk1696608892.png",
-     "stats": []
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/t2y2wk1696608892.png"
     },
     {
      "id": "2584862",
@@ -111,8 +110,7 @@
      "homeScore": "64",
      "awayScore": "66",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/zy7bpu1571681090.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
-     "stats": []
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png"
     },
     {
      "id": "2584876",
@@ -127,8 +125,7 @@
      "homeScore": "83",
      "awayScore": "66",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/o3b8lm1677775500.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/ficlhd1677610118.png",
-     "stats": []
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/ficlhd1677610118.png"
     },
     {
      "id": "2584887",
@@ -195,7 +192,7 @@
     },
     {
      "id": "2584924",
-     "date": "2026-12-06T17:00:00.000Z",
+     "date": "2026-12-05T19:00:00.000Z",
      "round": "13",
      "league": "Italian Serie A2",
      "status": "NS",
@@ -225,7 +222,7 @@
     },
     {
      "id": "2584940",
-     "date": "2026-12-16T19:30:00.000Z",
+     "date": "2026-12-17T19:30:00.000Z",
      "round": "15",
      "league": "Italian Serie A2",
      "status": "NS",
@@ -573,7 +570,7 @@
      "date": "2027-04-25T16:00:00.000Z",
      "round": "38",
      "league": "Italian Serie A2",
-     "status": "CANC",
+     "status": "NS",
      "homeId": "147251",
      "awayId": "137319",
      "home": "Ju-Vi Cremona",
@@ -649,8 +646,7 @@
      "homeScore": "96",
      "awayScore": "89",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/chvcl11677612541.png",
-     "stats": []
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/chvcl11677612541.png"
     },
     {
      "id": "2584860",
@@ -665,8 +661,7 @@
      "homeScore": "77",
      "awayScore": "70",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/tccdrc1767860205.png",
-     "stats": []
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/tccdrc1767860205.png"
     },
     {
      "id": "2584865",
@@ -681,8 +676,7 @@
      "homeScore": "95",
      "awayScore": "75",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/cdk0231792763546.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
-     "stats": []
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
     {
      "id": "2584878",
@@ -697,21 +691,20 @@
      "homeScore": "76",
      "awayScore": "82",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png",
-     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/dz22ao1757059978.png",
-     "stats": []
+     "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/dz22ao1757059978.png"
     },
     {
      "id": "2584882",
      "date": "2026-11-11T19:30:00.000Z",
      "round": "9",
      "league": "Italian Serie A2",
-     "status": "NS",
+     "status": "FT",
      "homeId": "135385",
      "awayId": "137311",
      "home": "Pistoia Basket",
      "away": "JuveCaserta Basket",
-     "homeScore": "",
-     "awayScore": "",
+     "homeScore": "78",
+     "awayScore": "70",
      "homeBadge": "https://r2.thesportsdb.com/images/media/team/badge/zy7bpu1571681090.png",
      "awayBadge": "https://r2.thesportsdb.com/images/media/team/badge/owdu5w1792763651.png"
     },
@@ -1158,7 +1151,7 @@
      "date": "2027-04-25T16:00:00.000Z",
      "round": "38",
      "league": "Italian Serie A2",
-     "status": "CANC",
+     "status": "NS",
      "homeId": "137311",
      "awayId": "135385",
      "home": "JuveCaserta Basket",

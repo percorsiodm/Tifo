@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T21:59:25.979Z",
+ "updated": "2026-11-25T04:59:54.343Z",
  "matches": [
   {
    "team": "roma",
@@ -7,10 +7,24 @@
    "date": "2026-11-25T20:00Z",
    "home": "PSG",
    "away": "AS Roma",
-   "channels": [],
-   "sources": [],
-   "articles": 2,
-   "checked": "2026-11-24T21:59:27.980Z"
+   "channels": [
+    {
+     "name": "Prime Video",
+     "n": 1
+    }
+   ],
+   "sources": [
+    {
+     "title": "Paris Saint-Germain-Roma, dove vederla in diretta tv e streaming, probabili formazioni",
+     "link": "https://www.repubblica.it/sport/calcio/champions/2026/11/25/news/paris_saint-germain-roma_dove_vedere_tv_probabili_formazioni-425747205/",
+     "source": "la Repubblica",
+     "channels": [
+      "Prime Video"
+     ]
+    }
+   ],
+   "articles": 4,
+   "checked": "2026-11-25T04:59:58.148Z"
   },
   {
    "team": "roma",
@@ -21,7 +35,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-24T21:59:29.491Z"
+   "checked": "2026-11-25T04:59:59.105Z"
   },
   {
    "team": "boca",
@@ -32,7 +46,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-24T21:59:30.430Z"
+   "checked": "2026-11-25T05:00:00.348Z"
   },
   {
    "team": "boca",
@@ -43,7 +57,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-24T21:59:31.263Z"
+   "checked": "2026-11-25T05:00:01.193Z"
   },
   {
    "team": "fortitudo",
@@ -60,7 +74,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-24T21:59:32.086Z"
+   "checked": "2026-11-25T05:00:02.144Z"
   },
   {
    "team": "juvecaserta",
@@ -77,7 +91,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-24T21:59:32.918Z"
+   "checked": "2026-11-25T05:00:03.032Z"
   }
  ]
 }
