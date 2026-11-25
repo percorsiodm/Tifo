@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T04:59:54.343Z",
+ "updated": "2026-11-25T15:18:39.727Z",
  "matches": [
   {
    "team": "roma",
@@ -23,8 +23,8 @@
      ]
     }
    ],
-   "articles": 4,
-   "checked": "2026-11-25T04:59:58.148Z"
+   "articles": 5,
+   "checked": "2026-11-25T15:18:45.747Z"
   },
   {
    "team": "roma",
@@ -32,10 +32,29 @@
    "date": "2026-11-29T17:00Z",
    "home": "AS Roma",
    "away": "Monza",
-   "channels": [],
-   "sources": [],
-   "articles": 0,
-   "checked": "2026-11-25T04:59:59.105Z"
+   "channels": [
+    {
+     "name": "DAZN",
+     "n": 1
+    },
+    {
+     "name": "Sky Sport",
+     "n": 1
+    }
+   ],
+   "sources": [
+    {
+     "title": "Le probabili formazioni di Roma-Monza, le ultime dalle sedi",
+     "link": "https://www.monza-news.it/news/355078147590/le-probabili-formazioni-di-roma-monza-ecco-le-ultime",
+     "source": "Monza-News",
+     "channels": [
+      "DAZN",
+      "Sky Sport"
+     ]
+    }
+   ],
+   "articles": 1,
+   "checked": "2026-11-25T15:18:48.213Z"
   },
   {
    "team": "boca",
@@ -43,10 +62,29 @@
    "date": "2026-11-26T00:00Z",
    "home": "Boca ",
    "away": "Ind. Rivadavia",
-   "channels": [],
-   "sources": [],
-   "articles": 0,
-   "checked": "2026-11-25T05:00:00.348Z"
+   "channels": [
+    {
+     "name": "Sportitalia",
+     "n": 1
+    },
+    {
+     "name": "ComoTV",
+     "n": 1
+    }
+   ],
+   "sources": [
+    {
+     "title": "Boca Juniors-Independiente Rivadavia in diretta oggi: dove vederla in TV e streaming",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbG8wdjdtMXJmOWV6WnhqVGgwNTNKZk1kbXdIWXhCdkFpX0k0VksxdEFoY0w0ZE5GQ3RxQzNabE4yRFpXSjlaZGVNVTBVdzNRX0Z1MTFZTXQyZVNqV1J0Ry1sbTJTYWVBb09DOHl4em1lUV9NZnd4dG93X1IwUUdJUGk5RmIwNlNiSkp1bDVKU054dnZvUlhEMVFvZThieER0cjNDd29tUUFLSWxmeWhUNE00OGVUZHI2akpYUUhnY0dxTjF4Z1prNEZ1cE9nRjVy?oc=5",
+     "source": "Goal.com",
+     "channels": [
+      "Sportitalia",
+      "ComoTV"
+     ]
+    }
+   ],
+   "articles": 1,
+   "checked": "2026-11-25T15:18:51.190Z"
   },
   {
    "team": "boca",
@@ -57,7 +95,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-25T05:00:01.193Z"
+   "checked": "2026-11-25T15:18:52.218Z"
   },
   {
    "team": "fortitudo",
@@ -74,7 +112,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-25T05:00:02.144Z"
+   "checked": "2026-11-25T15:18:53.273Z"
   },
   {
    "team": "juvecaserta",
@@ -91,7 +129,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-25T05:00:03.032Z"
+   "checked": "2026-11-25T15:18:54.385Z"
   }
  ]
 }
