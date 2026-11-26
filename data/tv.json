@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T23:45:39.367Z",
+ "updated": "2026-11-26T06:38:04.500Z",
  "matches": [
   {
    "team": "roma",
@@ -10,7 +10,7 @@
    "channels": [
     {
      "name": "DAZN",
-     "n": 1
+     "n": 2
     },
     {
      "name": "Sky Sport",
@@ -26,10 +26,18 @@
       "DAZN",
       "Sky Sport"
      ]
+    },
+    {
+     "title": "Roma - Monza in Diretta Streaming | DAZN IT",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTXNMU090TU1kYlFqSTlXZzBYS0xiT1Byd1ByZ2ZRTVlQc0lndUJKakJFVGxiam00S1pUZUttY1JfRkxmbm1TcGZHU2Z6WS1DN09lWlAzYnVNT2tSdHJqRUh2Ymd0TUZvYWhpalN1bDZiUnRjTlVnMXZGRzFSSG5uazk3ckNlZHdaNmo2Tw?oc=5",
+     "source": "DAZN",
+     "channels": [
+      "DAZN"
+     ]
     }
    ],
-   "articles": 1,
-   "checked": "2026-11-25T23:45:41.472Z"
+   "articles": 2,
+   "checked": "2026-11-26T06:38:07.746Z"
   },
   {
    "team": "roma",
@@ -40,18 +48,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-25T23:45:42.666Z"
-  },
-  {
-   "team": "boca",
-   "id": "401933757",
-   "date": "2026-11-26T00:00Z",
-   "home": "Boca ",
-   "away": "Ind. Rivadavia",
-   "channels": [],
-   "sources": [],
-   "articles": 2,
-   "checked": "2026-11-25T23:45:46.567Z"
+   "checked": "2026-11-26T06:38:09.582Z"
   },
   {
    "team": "boca",
@@ -62,7 +59,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-25T23:45:47.578Z"
+   "checked": "2026-11-26T06:38:10.580Z"
   },
   {
    "team": "fortitudo",
@@ -79,7 +76,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-25T23:45:48.432Z"
+   "checked": "2026-11-26T06:38:11.602Z"
   },
   {
    "team": "fortitudo",
@@ -96,7 +93,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-25T23:45:49.329Z"
+   "checked": "2026-11-26T06:38:12.653Z"
   },
   {
    "team": "juvecaserta",
@@ -113,7 +110,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-25T23:45:50.237Z"
+   "checked": "2026-11-26T06:38:13.640Z"
   }
  ]
 }
