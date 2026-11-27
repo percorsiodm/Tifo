@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T17:32:21.979Z",
+ "updated": "2026-11-27T01:10:38.750Z",
  "matches": [
   {
    "team": "roma",
@@ -10,14 +10,38 @@
    "channels": [
     {
      "name": "DAZN",
-     "n": 3
+     "n": 4
     },
     {
      "name": "Sky Sport",
-     "n": 3
+     "n": 4
+    },
+    {
+     "name": "NOW",
+     "n": 2
     }
    ],
    "sources": [
+    {
+     "title": "Dove vedere Roma-Monza in diretta TV e streaming",
+     "link": "https://www.vocegiallorossa.it/dove-vedere/vedere-roma-monza-diretta-tv-streaming-287352",
+     "source": "Voce Giallorossa",
+     "channels": [
+      "DAZN",
+      "Sky Sport",
+      "NOW"
+     ]
+    },
+    {
+     "title": "Dove vedere Roma-Monza in in TV e in streaming: tutte le informazioni",
+     "link": "https://pagineromaniste.com/dove-vedere-roma-monza-in-in-tv-e-in-streaming-tutte-le-informazioni/",
+     "source": "Pagine Romaniste",
+     "channels": [
+      "DAZN",
+      "Sky Sport",
+      "NOW"
+     ]
+    },
     {
      "title": "Le probabili formazioni di Roma-Monza, le ultime dalle sedi",
      "link": "https://www.monza-news.it/news/355078147590/le-probabili-formazioni-di-roma-monza-ecco-le-ultime",
@@ -26,28 +50,10 @@
       "DAZN",
       "Sky Sport"
      ]
-    },
-    {
-     "title": "Le probabili formazioni di Roma-Monza, designato l'arbitro della sfida",
-     "link": "https://www.monza-news.it/news/247703965190/le-probabili-formazioni-di-roma-monza-ecco-le-ultime",
-     "source": "Monza-News",
-     "channels": [
-      "DAZN",
-      "Sky Sport"
-     ]
-    },
-    {
-     "title": "Probabili formazioni Roma-Monza: la Dybalen dal 1′, rischia Wesley. Novit&#224; Pessina e Robinson",
-     "link": "https://www.fantamaster.it/probabili-formazioni-roma-monza-13-giornata-serie-a-2026-2027/",
-     "source": "FantaMaster",
-     "channels": [
-      "DAZN",
-      "Sky Sport"
-     ]
     }
    ],
    "articles": 8,
-   "checked": "2026-11-26T17:32:27.507Z"
+   "checked": "2026-11-27T01:10:44.421Z"
   },
   {
    "team": "roma",
@@ -58,7 +64,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-26T17:32:28.821Z"
+   "checked": "2026-11-27T01:10:45.594Z"
   },
   {
    "team": "boca",
@@ -69,7 +75,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-26T17:32:29.843Z"
+   "checked": "2026-11-27T01:10:46.846Z"
   },
   {
    "team": "boca",
@@ -80,7 +86,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-26T17:32:30.592Z"
+   "checked": "2026-11-27T01:10:47.700Z"
   },
   {
    "team": "fortitudo",
@@ -97,7 +103,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-26T17:32:31.486Z"
+   "checked": "2026-11-27T01:10:48.538Z"
   },
   {
    "team": "fortitudo",
@@ -114,7 +120,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-26T17:32:32.386Z"
+   "checked": "2026-11-27T01:10:49.487Z"
   },
   {
    "team": "juvecaserta",
@@ -131,7 +137,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-26T17:32:33.095Z"
+   "checked": "2026-11-27T01:10:50.389Z"
   },
   {
    "team": "juvecaserta",
@@ -148,7 +154,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-26T17:32:34.145Z"
+   "checked": "2026-11-27T01:10:51.407Z"
   }
  ]
 }
