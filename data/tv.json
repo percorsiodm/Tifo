@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T01:10:38.750Z",
+ "updated": "2026-11-27T09:57:21.807Z",
  "matches": [
   {
    "team": "roma",
@@ -9,27 +9,26 @@
    "away": "Monza",
    "channels": [
     {
-     "name": "DAZN",
-     "n": 4
+     "name": "Sky Sport",
+     "n": 7
     },
     {
-     "name": "Sky Sport",
-     "n": 4
+     "name": "DAZN",
+     "n": 6
     },
     {
      "name": "NOW",
-     "n": 2
+     "n": 4
     }
    ],
    "sources": [
     {
-     "title": "Dove vedere Roma-Monza in diretta TV e streaming",
-     "link": "https://www.vocegiallorossa.it/dove-vedere/vedere-roma-monza-diretta-tv-streaming-287352",
-     "source": "Voce Giallorossa",
+     "title": "Roma-Monza: Malen contro Varela: sfida tra bomber. Probabili formazioni e dove vederla",
+     "link": "https://www.monzatoday.it/sport/calcio/roma-monza-formazioni-dove-vederla.html",
+     "source": "MonzaToday",
      "channels": [
       "DAZN",
-      "Sky Sport",
-      "NOW"
+      "Sky Sport"
      ]
     },
     {
@@ -43,17 +42,17 @@
      ]
     },
     {
-     "title": "Le probabili formazioni di Roma-Monza, le ultime dalle sedi",
-     "link": "https://www.monza-news.it/news/355078147590/le-probabili-formazioni-di-roma-monza-ecco-le-ultime",
-     "source": "Monza-News",
+     "title": "Roma-Monza, pronostico e quote: giallorossi favoriti, ecco il segno consigliato",
+     "link": "https://www.spaziocalcio.it/calcio-italiano/serie-a/roma-monza-pronostico-e-quote-giallorossi-favoriti-ecco-il-segno-consigliato/",
+     "source": "spaziocalcio",
      "channels": [
-      "DAZN",
-      "Sky Sport"
+      "Sky Sport",
+      "NOW"
      ]
     }
    ],
    "articles": 8,
-   "checked": "2026-11-27T01:10:44.421Z"
+   "checked": "2026-11-27T09:57:31.061Z"
   },
   {
    "team": "roma",
@@ -64,7 +63,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T01:10:45.594Z"
+   "checked": "2026-11-27T09:57:32.291Z"
   },
   {
    "team": "boca",
@@ -75,7 +74,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T01:10:46.846Z"
+   "checked": "2026-11-27T09:57:33.172Z"
   },
   {
    "team": "boca",
@@ -86,7 +85,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T01:10:47.700Z"
+   "checked": "2026-11-27T09:57:33.904Z"
   },
   {
    "team": "fortitudo",
@@ -103,7 +102,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T01:10:48.538Z"
+   "checked": "2026-11-27T09:57:34.736Z"
   },
   {
    "team": "fortitudo",
@@ -120,7 +119,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T01:10:49.487Z"
+   "checked": "2026-11-27T09:57:35.474Z"
   },
   {
    "team": "juvecaserta",
@@ -137,7 +136,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T01:10:50.389Z"
+   "checked": "2026-11-27T09:57:36.317Z"
   },
   {
    "team": "juvecaserta",
@@ -154,7 +153,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T01:10:51.407Z"
+   "checked": "2026-11-27T09:57:37.347Z"
   }
  ]
 }
