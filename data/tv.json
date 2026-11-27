@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T09:57:21.807Z",
+ "updated": "2026-11-27T19:21:48.588Z",
  "matches": [
   {
    "team": "roma",
@@ -10,31 +10,33 @@
    "channels": [
     {
      "name": "Sky Sport",
-     "n": 7
-    },
-    {
-     "name": "DAZN",
      "n": 6
     },
     {
+     "name": "DAZN",
+     "n": 5
+    },
+    {
      "name": "NOW",
-     "n": 4
+     "n": 5
     }
    ],
    "sources": [
     {
-     "title": "Roma-Monza: Malen contro Varela: sfida tra bomber. Probabili formazioni e dove vederla",
-     "link": "https://www.monzatoday.it/sport/calcio/roma-monza-formazioni-dove-vederla.html",
-     "source": "MonzaToday",
+     "title": "Roma-Monza, dove vederla in tv e streaming: canale, orario, formazioni",
+     "link": "https://www.calciomercato.com/notizie/roma-monza-dove-vederla-in-tv-e-streaming-canale-orario-formazioni/blte863c4b347b846f2",
+     "source": "Calciomercato.com",
      "channels": [
       "DAZN",
-      "Sky Sport"
+      "Prime Video",
+      "Sky Sport",
+      "NOW"
      ]
     },
     {
-     "title": "Dove vedere Roma-Monza in in TV e in streaming: tutte le informazioni",
-     "link": "https://pagineromaniste.com/dove-vedere-roma-monza-in-in-tv-e-in-streaming-tutte-le-informazioni/",
-     "source": "Pagine Romaniste",
+     "title": "Dove vedere Roma-Monza in diretta TV e streaming",
+     "link": "https://www.vocegiallorossa.it/dove-vedere/vedere-roma-monza-diretta-tv-streaming-287352",
+     "source": "Voce Giallorossa",
      "channels": [
       "DAZN",
       "Sky Sport",
@@ -42,17 +44,18 @@
      ]
     },
     {
-     "title": "Roma-Monza, pronostico e quote: giallorossi favoriti, ecco il segno consigliato",
-     "link": "https://www.spaziocalcio.it/calcio-italiano/serie-a/roma-monza-pronostico-e-quote-giallorossi-favoriti-ecco-il-segno-consigliato/",
-     "source": "spaziocalcio",
+     "title": "Roma-Monza: le probabili formazioni e dove vedere la partita",
+     "link": "https://www.romatoday.it/sport/calcio/roma-monza-dove-vedere-29-novembre-2026.html",
+     "source": "RomaToday",
      "channels": [
+      "DAZN",
       "Sky Sport",
       "NOW"
      ]
     }
    ],
    "articles": 8,
-   "checked": "2026-11-27T09:57:31.061Z"
+   "checked": "2026-11-27T19:21:57.124Z"
   },
   {
    "team": "roma",
@@ -63,7 +66,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T09:57:32.291Z"
+   "checked": "2026-11-27T19:21:58.370Z"
   },
   {
    "team": "boca",
@@ -74,7 +77,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T09:57:33.172Z"
+   "checked": "2026-11-27T19:21:59.366Z"
   },
   {
    "team": "boca",
@@ -85,7 +88,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T09:57:33.904Z"
+   "checked": "2026-11-27T19:22:00.372Z"
   },
   {
    "team": "fortitudo",
@@ -102,7 +105,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T09:57:34.736Z"
+   "checked": "2026-11-27T19:22:01.285Z"
   },
   {
    "team": "fortitudo",
@@ -119,7 +122,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T09:57:35.474Z"
+   "checked": "2026-11-27T19:22:02.243Z"
   },
   {
    "team": "juvecaserta",
@@ -136,7 +139,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T09:57:36.317Z"
+   "checked": "2026-11-27T19:22:03.016Z"
   },
   {
    "team": "juvecaserta",
@@ -153,7 +156,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T09:57:37.347Z"
+   "checked": "2026-11-27T19:22:03.826Z"
   }
  ]
 }
