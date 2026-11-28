@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:21:48.588Z",
+ "updated": "2026-11-28T02:08:19.159Z",
  "matches": [
   {
    "team": "roma",
@@ -34,6 +34,15 @@
      ]
     },
     {
+     "title": "Roma-Monza, probabili formazioni e dove vederla",
+     "link": "https://www.forzamonza.it/2026/11/27/roma-monza-probabili-formazioni-e-dove-vederla-3/",
+     "source": "Forza Monza",
+     "channels": [
+      "Sky Sport",
+      "NOW"
+     ]
+    },
+    {
      "title": "Dove vedere Roma-Monza in diretta TV e streaming",
      "link": "https://www.vocegiallorossa.it/dove-vedere/vedere-roma-monza-diretta-tv-streaming-287352",
      "source": "Voce Giallorossa",
@@ -42,20 +51,10 @@
       "Sky Sport",
       "NOW"
      ]
-    },
-    {
-     "title": "Roma-Monza: le probabili formazioni e dove vedere la partita",
-     "link": "https://www.romatoday.it/sport/calcio/roma-monza-dove-vedere-29-novembre-2026.html",
-     "source": "RomaToday",
-     "channels": [
-      "DAZN",
-      "Sky Sport",
-      "NOW"
-     ]
     }
    ],
    "articles": 8,
-   "checked": "2026-11-27T19:21:57.124Z"
+   "checked": "2026-11-28T02:08:24.691Z"
   },
   {
    "team": "roma",
@@ -65,8 +64,8 @@
    "away": "AS Roma",
    "channels": [],
    "sources": [],
-   "articles": 0,
-   "checked": "2026-11-27T19:21:58.370Z"
+   "articles": 1,
+   "checked": "2026-11-28T02:08:26.826Z"
   },
   {
    "team": "boca",
@@ -77,7 +76,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T19:21:59.366Z"
+   "checked": "2026-11-28T02:08:28.003Z"
   },
   {
    "team": "boca",
@@ -88,7 +87,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T19:22:00.372Z"
+   "checked": "2026-11-28T02:08:29.059Z"
   },
   {
    "team": "fortitudo",
@@ -105,7 +104,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T19:22:01.285Z"
+   "checked": "2026-11-28T02:08:30.094Z"
   },
   {
    "team": "fortitudo",
@@ -122,7 +121,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T19:22:02.243Z"
+   "checked": "2026-11-28T02:08:31.063Z"
   },
   {
    "team": "juvecaserta",
@@ -139,7 +138,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T19:22:03.016Z"
+   "checked": "2026-11-28T02:08:32.171Z"
   },
   {
    "team": "juvecaserta",
@@ -156,7 +155,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-27T19:22:03.826Z"
+   "checked": "2026-11-28T02:08:33.140Z"
   }
  ]
 }
