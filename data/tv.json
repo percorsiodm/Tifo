@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T02:08:19.159Z",
+ "updated": "2026-11-28T10:45:30.593Z",
  "matches": [
   {
    "team": "roma",
@@ -34,10 +34,11 @@
      ]
     },
     {
-     "title": "Roma-Monza, probabili formazioni e dove vederla",
-     "link": "https://www.forzamonza.it/2026/11/27/roma-monza-probabili-formazioni-e-dove-vederla-3/",
-     "source": "Forza Monza",
+     "title": "Roma-Monza: le probabili formazioni e dove vedere la partita",
+     "link": "https://www.romatoday.it/sport/calcio/roma-monza-dove-vedere-29-novembre-2026.html",
+     "source": "RomaToday",
      "channels": [
+      "DAZN",
       "Sky Sport",
       "NOW"
      ]
@@ -54,7 +55,7 @@
     }
    ],
    "articles": 8,
-   "checked": "2026-11-28T02:08:24.691Z"
+   "checked": "2026-11-28T10:45:38.548Z"
   },
   {
    "team": "roma",
@@ -64,8 +65,8 @@
    "away": "AS Roma",
    "channels": [],
    "sources": [],
-   "articles": 1,
-   "checked": "2026-11-28T02:08:26.826Z"
+   "articles": 0,
+   "checked": "2026-11-28T10:45:39.808Z"
   },
   {
    "team": "boca",
@@ -76,7 +77,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-28T02:08:28.003Z"
+   "checked": "2026-11-28T10:45:40.710Z"
   },
   {
    "team": "boca",
@@ -87,7 +88,7 @@
    "channels": [],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-28T02:08:29.059Z"
+   "checked": "2026-11-28T10:45:41.557Z"
   },
   {
    "team": "fortitudo",
@@ -104,7 +105,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-28T02:08:30.094Z"
+   "checked": "2026-11-28T10:45:42.518Z"
   },
   {
    "team": "fortitudo",
@@ -121,7 +122,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-28T02:08:31.063Z"
+   "checked": "2026-11-28T10:45:43.505Z"
   },
   {
    "team": "juvecaserta",
@@ -132,13 +133,21 @@
    "channels": [
     {
      "name": "LNP Pass",
-     "n": 0,
-     "always": true
+     "n": 1
     }
    ],
-   "sources": [],
-   "articles": 0,
-   "checked": "2026-11-28T02:08:32.171Z"
+   "sources": [
+    {
+     "title": "Juvecaserta-Montecatini: bianconeri a caccia di punti al palaPiccolo",
+     "link": "https://www.casertanews.it/sport/basket/juvecaserta-montecatini-dodicesima-giornata-presentazione-partita.html",
+     "source": "CasertaNews",
+     "channels": [
+      "LNP Pass"
+     ]
+    }
+   ],
+   "articles": 1,
+   "checked": "2026-11-28T10:45:45.583Z"
   },
   {
    "team": "juvecaserta",
@@ -155,7 +164,7 @@
    ],
    "sources": [],
    "articles": 0,
-   "checked": "2026-11-28T02:08:33.140Z"
+   "checked": "2026-11-28T10:45:46.393Z"
   }
  ]
 }
